@@ -65,7 +65,7 @@ export default {
     height calc(100% - 56px)
     width 100%
     margin-top 56px
-    padding-bottom 5em
+    padding-bottom 5rem
     overflow scroll
 
     .header
@@ -77,15 +77,15 @@ export default {
       .title
         position absolute
         float left
-        width 50px
+        width 2.5rem
         height 100%
         border-bottom 1px solid black
         border-top 1px solid black
         border-right 1px solid black
-        font-size 1.2rem
 
         .year
           position absolute
+          font-size 1.2rem
           top 50%
           transform translateY(-50%) rotate(90deg)
 </style>

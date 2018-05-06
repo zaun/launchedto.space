@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <v-toolbar>
-      <v-toolbar-title>Launched Into Space</v-toolbar-title>
+      <v-toolbar-title>Launched To Space</v-toolbar-title>
       <v-spacer></v-spacer>
       <!-- <v-menu :nudge-width="100">
         <v-toolbar-title slot="activator">
@@ -95,7 +95,7 @@ html, body
   height 100%
   margin 0
   padding 0
-  font-size 13pt
+  font-size 1vw
   overflow auto
   line-height 1.1
   overflow hidden
@@ -108,7 +108,7 @@ div
   font-family 'Avenir', Helvetica, Arial, sans-serif
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
-  min-width 1900px
+  // min-width 1900px
   height 100%
 
   > .toolbar

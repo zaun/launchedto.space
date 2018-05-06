@@ -68,15 +68,16 @@ export default {
 <style scoped lang="stylus">
 .launch
   position relative
-  margin-left 50px
-  height 11em
+  padding-left 2.5rem
+  width 100%
+  height 11rem
   top 0
 
   .detail
     position absolute
     top 0px
-    width 10em
-    height 11em
+    width 10rem
+    height 11rem
     padding 0.3em
     overflow hidden
     border-bottom 1px solid black
@@ -111,65 +112,66 @@ export default {
       padding 0
 
   .rocket
-    margin-left 10.5em
+    margin-left 10.5rem
     height 100%
     width 1100px
     background-size contain
     background-repeat no-repeat
     background-position center
 
-    // width is rocket height in meters times 10
+    // 100m = 55rem
+    // (<height> / 100) * 55
 
     &.saturn_v
-      width 1020px
+      width 56.1rem
       background-image url('../assets/vehicles/saturn-v.png')
 
     &.falcon-1_dev
-      width 213px
+      width 11.715rem
       background-image url('../assets/vehicles/falcon-1.png')
 
     &.falcon-1
-      width 213px
+      width 11.715rem
       background-image url('../assets/vehicles/falcon-1.png')
 
     &.grasshopper
-      width 123px
+      width 6.765rem
       background-image url('../assets/vehicles/grasshopper.png')
 
     &.falcon-9r-dev-1
-      width 123px
+      width 6.71rem
       background-image url('../assets/vehicles/falcon-9r-dev-1.png')
 
     &.falcon-9_v1_0
-      width 549px
+      width 30.195rem
       background-image url('../assets/vehicles/falcon-9_v1-0.png')
 
     // v1.1 w/o dragon
     &.falcon-9_v1_1
-      width 684px
+      width 37.62rem
       background-image url('../assets/vehicles/falcon-9_v1-1.png')
 
     // v1.1 w/ dragon
     &.falcon-9_v1_1a
-      width 627px
+      width 34.485rem
       background-image url('../assets/vehicles/falcon-9_v1-1-dragon.png')
 
     // v1.1 w/ dragon w/o landing legs
     &.falcon-9_v1_1b
-      width 627px
+      width 34.485rem
       background-image url('../assets/vehicles/falcon-9_v1-1-dragon-expendable.png')
 
     // v1.1 w/o landing legs
     &.falcon-9_v1_1c
-      width 684px
+      width 37.62rem
       background-image url('../assets/vehicles/falcon-9_v1-1-expendable.png')
 
   .orbital
     position absolute
     top 50%
-    right calc(100px - 2rem)
-    width 2rem
-    height 2rem
+    right calc(5rem - 2rem)
+    width 1.9rem
+    height 1.9rem
     background-position center
     transform translateY(-50%)
 
@@ -189,16 +191,16 @@ export default {
       opacity 0.3
 
     &.karmen
-      right calc(500px - 2rem)
+      right calc(25rem - 2rem)
 
     &.leo
-      right calc(400px - 2rem)
+      right calc(20rem - 2rem)
 
     &.meo
-      right calc(300px - 2rem)
+      right calc(15rem - 2rem)
 
     &.geo
-      right calc(200px - 2rem)
+      right calc(10rem - 2rem)
 
     &.cols1
       &.idx0

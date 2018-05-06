@@ -39,10 +39,11 @@ export default {
 .spacer
   display inline-block
   height 100%
-  width calc(100% - 500px)
+  width calc(100% - 25rem)
 
 .space
   display inline-block
+  width 25rem
   height 100%
   background linear-gradient(to left, rgba(175,175,175,1) 0%,rgba(255,255,255,1) 100%)
 
@@ -50,7 +51,7 @@ export default {
   position relative
   display inline-block
   height 100%
-  width 100px
+  width 5rem
   font-size 1rem
   border-left 1px solid black
 
@@ -58,7 +59,7 @@ export default {
   position absolute
   top 0px
   padding-left 20px
-  margin-left 1.1em
+  margin-left 1.1rem
   white-space pre
   transform-origin top left
   transform rotate(90deg)
@@ -67,7 +68,7 @@ export default {
   position absolute
   top 0px
   padding-left 20px
-  margin-left -0.1em
+  margin-left -0.1rem
   white-space pre
   transform-origin top left
   transform rotate(90deg)
@@ -100,7 +101,7 @@ export default {
 
 .orbit.to::before
   content "Transfer Orbit \AHeliocentric Orbit \AHighly Elliptical Orbit"
-  margin-left: 3.3em
+  margin-left: 3.3rem
 
 .cover
   .orbit.to
@@ -108,9 +109,9 @@ export default {
 
 .orbit .iss
   position absolute
-  width 2.5em
-  height 2.5em
-  margin-top 150px
+  width 2.5rem
+  height 2.5rem
+  margin-top 10rem
   left 50%
   transform translate(-50%)
   background url('../assets/noun_956251_cc.svg')
