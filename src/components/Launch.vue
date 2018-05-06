@@ -4,7 +4,9 @@
     <div class="detail">
       <h1>{{ launch.vehicle }}</h1>
       <h2>{{ launch.date }}</h2>
-      <h3 v-for="(payload, index) in launch.payloads" :key="`payload-${index}`" >{{ payload.name }}</h3>
+      <div class="payload-list">
+        <h3 v-for="(payload, index) in launch.payloads" :key="`payload-${index}`" >{{ payload.name }}</h3>
+      </div>
     </div>
     <div :class="payloadClasses(payload, index)" v-for="(payload, index) in launch.payloads" :key="`satellite-${index}`" :title="payload.name"></div>
   </div>
@@ -83,6 +85,10 @@ export default {
     border-bottom 1px solid black
     border-top 1px solid black
 
+    .payload-list
+      height 8rem
+      overflow-y scroll
+
     h1
       position relative
       font-size 1rem
@@ -104,7 +110,7 @@ export default {
 
     h3
       position relative
-      font-size 0.6rem
+      font-size 0.7rem
       font-weight 300
       line-height 1.1
       text-align center
@@ -273,6 +279,55 @@ export default {
       &.idx8
         margin-right -3rem
         margin-top 2rem
+
+    &.cols4
+      &.idx0
+        margin-right 0rem
+        margin-top -3rem
+
+      &.idx1
+        margin-right -1.5rem
+        margin-top -3rem
+
+      &.idx2
+        margin-right -3rem
+        margin-top -3rem
+
+      &.idx3
+        margin-right 0rem
+        margin-top -1rem
+
+      &.idx4
+        margin-right -1.5rem
+        margin-top -1rem
+
+      &.idx5
+        margin-right -3rem
+        margin-top -1rem
+
+      &.idx6
+        margin-right 0rem
+        margin-top 1rem
+
+      &.idx7
+        margin-right -1.5rem
+        margin-top 1rem
+
+      &.idx8
+        margin-right -3rem
+        margin-top 1rem
+
+      &.idx9
+        margin-right 0rem
+        margin-top 3rem
+
+      &.idx10
+        margin-right -1.5rem
+        margin-top 3rem
+
+      &.idx11
+        margin-right -3rem
+        margin-top 3rem
 
 .launch.partial_failure
   .detail
