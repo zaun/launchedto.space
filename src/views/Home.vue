@@ -1,18 +1,91 @@
 <template>
   <div class="home">
-    <img src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Background />
+    <div class="launches">
+      <div class="header">
+      </div>
+
+      <div class="group" v-for="(launches, year) in launchesByYear" :key="`year-${year}`">
+        <div class="title">
+          <div class="year">{{ year }}</div>
+        </div>
+        <Launch v-for="(launch, index) in launches" :key="`launch-${index}`" :launch="launch" />
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+import Background from '@/components/Background.vue';
+import Launch from '@/components/Launch.vue';
+import { filter, groupBy } from 'lodash';
 
 export default {
   name: 'home',
+
   components: {
-    HelloWorld,
+    Background,
+    Launch,
   },
+
+  data: function () {
+    return {
+      launchesByYear: { },
+    };
+  },
+
+  created () {
+    const url = '/data.json';
+    fetch(url)
+      .then((resp) => resp.json())
+      .then((data) => {
+        this.launchesByYear = _(data).filter((l) => {
+          return l.date.length > 0;
+        }).groupBy((l) => {
+          return l.date.split('-')[0];
+        }).value();
+      })
+      .catch(function(error) {
+        console.log('err', error);
+      }); 
+  }
 };
 </script>
+
+<style scoped lang="stylus">
+.home
+  position absolute
+  height 100%
+  width 100%
+  z-index 1
+
+  .launches
+    position relative
+    height calc(100% - 56px)
+    width 100%
+    margin-top 56px
+    padding-bottom 5em
+    overflow scroll
+
+    .header
+      height 13rem
+
+    .group 
+      position relative
+
+      .title
+        position absolute
+        float left
+        width 50px
+        height 100%
+        border-bottom 1px solid black
+        border-top 1px solid black
+        border-right 1px solid black
+        font-size 1.2rem
+
+        .year
+          position absolute
+          top 50%
+          transform translateY(-50%) rotate(90deg)
+</style>
