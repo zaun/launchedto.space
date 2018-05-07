@@ -82,6 +82,10 @@ export default {
     hideAbout () {
       this.about = false;
     }
+  },
+
+  created () {
+    this.$store.dispatch('updateData');
   }
 };
 </script>

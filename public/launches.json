@@ -1,0 +1,2657 @@
+[
+  {
+    "id": "76a85922-7eb8-44d6-9bba-53b49e9b508f",
+    "vehicle": "Saturn-5",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-501",
+    "date": "1967-11-09",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Apollo 4",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 28801,
+        "type": "Capsule",
+        "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth."
+      }, {
+        "name": "LTA 10R",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 12000,
+        "type": "Satellite",
+        "description": "The LTA (Lunar Module Test Article) launched as a dynamic model representing the dynamic properties of a real lunar module."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-5",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-502",
+    "date": "1968-04-04",
+    "status": "Partial Failure",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Apollo 6",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 28801,
+        "type": "Capsule",
+        "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth."
+      }, {
+        "name": "LTA 2R",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 12000,
+        "type": "Satellite",
+        "description": "The LTA (Lunar Module Test Article) launched as a dynamic model representing the dynamic properties of a real lunar module."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-5",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-503",
+    "date": "1968-12-12",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Apollo 8",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 28801,
+        "type": "Capsule",
+        "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth."
+      }, {
+        "name": "LTA B",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 12000,
+        "type": "Satellite",
+        "description": "This LTA B (Lunar Module Test Article B) was a dummy mass representing the mass of a real Lunar Module. It remained attached to the Saturn-4 B stage."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-5",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-504",
+    "date": "1969-03-03",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Apollo 9",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 28801,
+        "type": "Capsule",
+        "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth."
+      }, {
+        "name": "LM 3 (Spider)",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 12000,
+        "type": "Satellite",
+        "description": "The NASA/Grumman Apollo Lunar Module (LM) after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules (CSM)."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-5",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-505",
+    "date": "1969-05-18",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Apollo 10",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 28801,
+        "type": "Capsule",
+        "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth."
+      }, {
+        "name": "LM 4 (Snoopy)",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 12000,
+        "type": "Satellite",
+        "description": "The NASA/Grumman Apollo Lunar Module (LM) after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules (CSM)."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-5",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-506",
+    "date": "1969-07-16",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Apollo 11",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 28801,
+        "type": "Capsule",
+        "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth."
+      }, {
+        "name": "LM 5 (Eagle)",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 12000,
+        "type": "Satellite",
+        "description": "The NASA/Grumman Apollo Lunar Module (LM) after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules (CSM)."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-5",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-507",
+    "date": "1969-11-14",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Apollo 12",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 28801,
+        "type": "Capsule",
+        "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth."
+      }, {
+        "name": "LM 6 (Intrepid)",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 12000,
+        "type": "Satellite",
+        "description": "The NASA/Grumman Apollo Lunar Module (LM) after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules (CSM)."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-5",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-508",
+    "date": "1970-04-11",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Apollo 13",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "status": "Partial Failure",
+        "mass": 28801,
+        "type": "Capsule",
+        "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth."
+      }, {
+        "name": "LM 7 (Aquarius)",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "status": "Partial Failure",
+        "mass": 12000,
+        "type": "Satellite",
+        "description": "The NASA/Grumman Apollo Lunar Module (LM) after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules (CSM)."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-5",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-509",
+    "date": "1971-01-31",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Apollo 14",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 28801,
+        "type": "Capsule",
+        "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth."
+      }, {
+        "name": "LM 8 (Antares)",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 12000,
+        "type": "Satellite",
+        "description": "The NASA/Grumman Apollo Lunar Module (LM) after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules (CSM)."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-5",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-510",
+    "date": "1971-07-26",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Apollo 15",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 28801,
+        "type": "Capsule",
+        "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth."
+      }, {
+        "name": "LM 10 (Falcon)",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 12000,
+        "type": "Satellite",
+        "description": "The NASA/Grumman Apollo Lunar Module (LM) after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules (CSM)."
+      }, {
+        "name": "PFS 1",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 36,
+        "type": "Satellite",
+        "description": "PFS (Particles & Fields Subsatellite) were deployed from the Apollo service modules in lunar orbit to study the plasma, particle, and magnetic field environment of the Moon and map the lunar gravity field."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-5",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-511",
+    "date": "1972-04-16",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Apollo 16",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 28801,
+        "type": "Capsule",
+        "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth."
+      }, {
+        "name": "LM 11 (Orion)",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 12000,
+        "type": "Satellite",
+        "description": "The NASA/Grumman Apollo Lunar Module (LM) after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules (CSM)."
+      }, {
+        "name": "PFS 2",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 36,
+        "type": "Satellite",
+        "description": "PFS (Particles & Fields Subsatellite) were deployed from the Apollo service modules in lunar orbit to study the plasma, particle, and magnetic field environment of the Moon and map the lunar gravity field."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-5",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-512",
+    "date": "1972-12-07",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Apollo 17",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 28801,
+        "type": "Capsule",
+        "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth."
+      }, {
+        "name": "LM 12 (Challenger)",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": 12000,
+        "type": "Satellite",
+        "description": "The NASA/Grumman Apollo Lunar Module (LM) after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules (CSM)."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-5a",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-513",
+    "date": "1973-05-14",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Skylab 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 76295,
+        "type": "Station",
+        "description": "TThe Skylab (SL) was a manned, orbiting space station composed of five parts, the Apollo telescope mount (ATM), the multiple docking adapter (MDA), the airlock module (AM), the instrument unit (IU), and the orbital workshop (OWS)."
+      }
+    ]
+  }, {
+    "vehicle": "Falcon-1 (dev)",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2006-03-24",
+    "status": "Failure",
+    "launchSite": "Omelek Island",
+    "launchPad": "",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "FalconSat 2",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 19.5,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-1 (dev)",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2007-03-21",
+    "status": "Failure",
+    "launchSite": "Omelek Island",
+    "launchPad": "",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Demosat",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-1",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2008-08-03",
+    "status": "Failure",
+    "launchSite": "Omelek Island",
+    "launchPad": "",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Trailblazer",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 83.6,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "PreSat",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 4,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "Nanosail D",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 4,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "Celestis 07",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-1",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2009-09-29",
+    "status": "Success",
+    "launchSite": "Omelek Island",
+    "launchPad": "",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Ratsat",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 165,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-1",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "",
+    "status": "Success",
+    "launchSite": "Omelek Island",
+    "launchPad": "",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "RazakSAT",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 200,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Grasshopper",
+    "vehicleFamily": "Falcon",
+    "serial": "B0002.1",
+    "date": "2012-09-22",
+    "status": "Success",
+    "launchSite": "SpaceX McGregor Test Site",
+    "launchPad": "",
+    "orbital": "no",
+    "payloads": []
+  },
+  {
+    "vehicle": "Grasshopper",
+    "vehicleFamily": "Falcon",
+    "serial": "B0002.2",
+    "date": "2012-11-01",
+    "status": "Success",
+    "launchSite": "SpaceX McGregor Test Site",
+    "launchPad": "",
+    "orbital": "no",
+    "payloads": []
+  },
+  {
+    "vehicle": "Grasshopper",
+    "vehicleFamily": "Falcon",
+    "serial": "B0002.3",
+    "date": "2012-12-17",
+    "status": "Success",
+    "launchSite": "SpaceX McGregor Test Site",
+    "launchPad": "",
+    "orbital": "no",
+    "payloads": []
+  },
+  {
+    "vehicle": "Grasshopper",
+    "vehicleFamily": "Falcon",
+    "serial": "B0002.4",
+    "date": "2013-03-07",
+    "status": "Success",
+    "launchSite": "SpaceX McGregor Test Site",
+    "launchPad": "",
+    "orbital": "no",
+    "payloads": []
+  },
+  {
+    "vehicle": "Grasshopper",
+    "vehicleFamily": "Falcon",
+    "serial": "B0002.5",
+    "date": "2013-04-19",
+    "status": "Success",
+    "launchSite": "SpaceX McGregor Test Site",
+    "launchPad": "",
+    "orbital": "no",
+    "payloads": []
+  },
+  {
+    "vehicle": "Grasshopper",
+    "vehicleFamily": "Falcon",
+    "serial": "B0002.6",
+    "date": "2013-06-14",
+    "status": "Success",
+    "launchSite": "SpaceX McGregor Test Site",
+    "launchPad": "",
+    "orbital": "no",
+    "payloads": []
+  },
+  {
+    "vehicle": "Grasshopper",
+    "vehicleFamily": "Falcon",
+    "serial": "B0002.7",
+    "date": "2013-08-13",
+    "status": "Success",
+    "launchSite": "SpaceX McGregor Test Site",
+    "launchPad": "",
+    "orbital": "no",
+    "payloads": []
+  },
+  {
+    "vehicle": "Grasshopper",
+    "vehicleFamily": "Falcon",
+    "serial": "B0002.8",
+    "date": "2013-10-07",
+    "status": "Success",
+    "launchSite": "SpaceX McGregor Test Site",
+    "launchPad": "",
+    "orbital": "no",
+    "payloads": []
+  },
+  {
+    "vehicle": "Falcon-9R-Dev-1",
+    "vehicleFamily": "Falcon",
+    "serial": "B1002.1",
+    "date": "2014-04-17",
+    "status": "Success",
+    "launchSite": "SpaceX McGregor Test Site",
+    "launchPad": "",
+    "orbital": "no",
+    "payloads": []
+  },
+  {
+    "vehicle": "Falcon-9R-Dev-1",
+    "vehicleFamily": "Falcon",
+    "serial": "B1002.2",
+    "date": "2014-05-01",
+    "status": "Success",
+    "launchSite": "SpaceX McGregor Test Site",
+    "launchPad": "",
+    "orbital": "no",
+    "payloads": []
+  },
+  {
+    "vehicle": "Falcon-9R-Dev-1",
+    "vehicleFamily": "Falcon",
+    "serial": "B1002.3",
+    "date": "2014-06-17",
+    "status": "Success",
+    "launchSite": "SpaceX McGregor Test Site",
+    "launchPad": "",
+    "orbital": "no",
+    "payloads": []
+  },
+  {
+    "vehicle": "Falcon-9R-Dev-1",
+    "vehicleFamily": "Falcon",
+    "serial": "B1002.4",
+    "date": "2014-08-01",
+    "status": "Success",
+    "launchSite": "SpaceX McGregor Test Site",
+    "launchPad": "",
+    "orbital": "no",
+    "payloads": []
+  },
+  {
+    "vehicle": "Falcon-9R-Dev-1",
+    "vehicleFamily": "Falcon",
+    "serial": "B1002.5",
+    "date": "2014-08-22",
+    "status": "Failure",
+    "launchSite": "SpaceX McGregor Test Site",
+    "launchPad": "",
+    "orbital": "no",
+    "payloads": []
+  },
+  {
+    "vehicle": "Falcon-9 v1.0",
+    "vehicleFamily": "Falcon",
+    "serial": "B003",
+    "date": "2010-06-04",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Dragon Qualification Unit",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Capsule",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.0",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2010-12-08",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Dragon C1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Capsule",
+        "description": ""
+      },
+      {
+        "name": "SMDC-ONE 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 4,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "QbX 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 5,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "QbX 2",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 5,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "Mayflower-Caerus",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 5,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "Perseus 000",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1.5,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "Perseus 001",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1.5,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "Perseus 002",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1.5,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "Perseus 003",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1.5,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.0",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2012-05-22",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Dragon C2",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 6650,
+        "type": "Capsule",
+        "description": ""
+      },
+      {
+        "name": "Celestis 11",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.0",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2012-10-08",
+    "status": "Partial Failure",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Dragon CRS-1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Capsule",
+        "description": ""
+      },
+      {
+        "name": "Orbcomm FM101",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 172,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.0",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2013-03-01",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Dragon SRS-2",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Capsule",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.1c",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2013-03-01",
+    "status": "Success",
+    "launchSite": "Vandenberg AFB",
+    "launchPad": "SLC-4E",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "CASSIOPE 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 500,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "CUSat",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 25,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "DANDE",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 50,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "POPACS 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "POPACS 2",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1.5,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "POPACS 3",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 2,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.1c",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2013-12-03",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "SES 8",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 3170,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.1c",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2014-01-06",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Thaicom 6",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 3016,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.1a",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2014-04-18",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Dragon CRS-3",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 6650,
+        "type": "Capsule",
+        "description": ""
+      },
+      {
+        "name": "OPALS",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 159,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "HDEV",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "ALL-STAR/THEIA",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 4,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "KickSat 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 5.5,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "SporeSat 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 5,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "TSAT",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 2,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "PhoneSat 2.5",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "104 Sprites",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 0.52,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.1",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2014-07-14",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Orbcomm FM103",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 172,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "Orbcomm FM104",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 172,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "Orbcomm FM106",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 172,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "Orbcomm FM107",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 172,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "Orbcomm FM109",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 172,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "Orbcomm FM111",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 172,
+        "type": "Satellite",
+        "description": ""
+      },
+      {
+        "name": "Orbcomm-OG2 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 142,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.1c",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2014-08-05",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "AsiaSat 8",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 4535,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.1c",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2014-09-07",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "AsiaSat 6",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 3700,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.1b",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2014-09-21",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Dragon CRS-4",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 6650,
+        "type": "Capsule",
+        "description": ""
+      }, {
+        "name": "RapidScat",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "SpinSat",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 57,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.1a",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2015-01-10",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Dragon CRS-5",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 6650,
+        "type": "Capsule",
+        "description": ""
+      }, {
+        "name": "CATS",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 500,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Flock-1d' (1 & 2)",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 10,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "AESP-14",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.1",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2015-02-11",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "DSCOVR",
+        "orbital": "yes",
+        "orbit": "L1",
+        "mass": 570,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.1c",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2015-02-11",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "ABS 3A",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 1954,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Eutelsat 115 West B",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 2205,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.1",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2015-04-14",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Dragon CRS-6",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 6650,
+        "type": "Capsule",
+        "description": ""
+      }, {
+        "name": "Flock-1e (1 - 14)",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 70,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Arkyd A3R",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 4,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Centennial 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.1c",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2015-04-14",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "TürkmenÄlem 52E",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 4707,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.1a",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2015-06-28",
+    "status": "Failure",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Dragon CRS-7",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 6650,
+        "type": "Capsule",
+        "description": ""
+      }, {
+        "name": "IDA 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 526,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Flock-1f (1 - 8)",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 40,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2",
+    "vehicleFamily": "Falcon",
+    "serial": "B1019.1",
+    "date": "2015-12-22",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Orbcomm FM105",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 172,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Orbcomm FM108",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 172,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Orbcomm FM110",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 172,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Orbcomm FM112",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 172,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Orbcomm FM113",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 172,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Orbcomm FM114",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 172,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Orbcomm FM115",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 172,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Orbcomm FM116",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 172,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Orbcomm FM117",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 172,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Orbcomm FM118",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 172,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Orbcomm FM119",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 172,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Orbcomm-OG2 2",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 142,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.1",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2016-01-17",
+    "status": "Success",
+    "launchSite": "Vandenberg AFB",
+    "launchPad": "SLC-4E",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Jason 3",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 553,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2",
+    "vehicleFamily": "Falcon",
+    "serial": "B1020.1",
+    "date": "2016-03-04",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "SES 9",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 5330,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2a",
+    "vehicleFamily": "Falcon",
+    "serial": "B1021.1",
+    "date": "2016-04-08",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Dragon CRS-8",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 6650,
+        "type": "Capsule",
+        "description": ""
+      }, {
+        "name": "BEAM",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1360,
+        "type": "Station",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2",
+    "vehicleFamily": "Falcon",
+    "serial": "B1022.1",
+    "date": "2016-05-06",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "JCSat 14",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 4696,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2",
+    "vehicleFamily": "Falcon",
+    "serial": "B1023.1",
+    "date": "2016-05-27",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Thaicom 8",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 3025,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2",
+    "vehicleFamily": "Falcon",
+    "serial": "B1024.1",
+    "date": "2016-06-15",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Eutelsat 117 West B",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 1963,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "ABS 2A",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 2000,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2a",
+    "vehicleFamily": "Falcon",
+    "serial": "B1025.1",
+    "date": "2016-07-18",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Dragon CRS-9",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 6650,
+        "type": "Capsule",
+        "description": ""
+      }, {
+        "name": "IDA 2",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 526,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2",
+    "vehicleFamily": "Falcon",
+    "serial": "B1026.1",
+    "date": "2016-08-14",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "JCSat 16",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 4600,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2",
+    "vehicleFamily": "Falcon",
+    "serial": "B1028.1",
+    "date": "2016-09-01",
+    "status": "Failure",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "AMOS 6",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 5250,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2",
+    "vehicleFamily": "Falcon",
+    "serial": "B1029.1",
+    "date": "2017-01-14",
+    "status": "Success",
+    "launchSite": "Vandenberg AFB",
+    "launchPad": "SLC-4E",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Iridium-NEXT 113",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 115",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 117",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 118",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 120",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 121",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 123",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 124",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 126",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 128",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2a",
+    "vehicleFamily": "Falcon",
+    "serial": "B1029.1",
+    "date": "2017-02-19",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Dragon CRS-10",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 6650,
+        "type": "Capsule",
+        "description": ""
+      }, {
+        "name": "SAGE 3",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Station",
+        "description": "The SAGE 3 (Stratospheric Aerosol and Gas Experiment) is the third generation of solar occultation instruments operated by NASA, with additional elements added to accommodate installation and operation on the International Space Station (ISS)."
+      }, {
+        "name": "STP-H5",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Station",
+        "description": "The STP-H5 (Space Test Program - Houston 5) is a combo of experiments to be hosted on the International Space Station (ISS)."
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2c",
+    "vehicleFamily": "Falcon",
+    "serial": "B1030",
+    "date": "2017-03-16",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "EchoStar 23",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 5600,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2",
+    "vehicleFamily": "Falcon",
+    "serial": "B1021.2",
+    "date": "2017-03-30",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "SES 10",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 5300,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2",
+    "vehicleFamily": "Falcon",
+    "serial": "B1032.1",
+    "date": "2017-05-01",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "NROL 76",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2c",
+    "vehicleFamily": "Falcon",
+    "serial": "B1034",
+    "date": "2017-05-15",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Inmarsat-5 F4",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 6070,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2a",
+    "vehicleFamily": "Falcon",
+    "serial": "B1035.1",
+    "date": "2017-06-03",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Dragon CRS-11",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 6650,
+        "type": "Capsule",
+        "description": ""
+      }, {
+        "name": "NICER",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 372,
+        "type": "Station",
+        "description": ""
+      }, {
+        "name": "MUSES",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "ROSA",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 500,
+        "type": "Station",
+        "description": ""
+      }, {
+        "name": "Bird B",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Bird G",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Bird J",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Bird M",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Bird N",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2",
+    "vehicleFamily": "Falcon",
+    "serial": "B1029.2",
+    "date": "2017-06-23",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "BulgariaSat 1",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 3669,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2",
+    "vehicleFamily": "Falcon",
+    "serial": "B1036.1",
+    "date": "2017-06-25",
+    "status": "Success",
+    "launchSite": "Vandenberg AFB",
+    "launchPad": "SLC-4E",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Iridium-NEXT 113",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 115",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 117",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 118",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 120",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 121",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 123",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 124",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 126",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 128",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2c",
+    "vehicleFamily": "Falcon",
+    "serial": "B1037",
+    "date": "2017-07-05",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Intelsat 35e",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 6761,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2a",
+    "vehicleFamily": "Falcon",
+    "serial": "B1039.1",
+    "date": "2017-08-14",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Dragon CRS-12",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 6650,
+        "type": "Capsule",
+        "description": ""
+      }, {
+        "name": "CREAM",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1300,
+        "type": "Station",
+        "description": ""
+      }, {
+        "name": "Kestrel Eye 2M",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 50,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Dellingr",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "ASTERIA",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 12,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "OSIRIS-3U",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2",
+    "vehicleFamily": "Falcon",
+    "serial": "B1038.1",
+    "date": "2017-08-24",
+    "status": "Success",
+    "launchSite": "Vandenberg AFB",
+    "launchPad": "SLC-4E",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "FORMOSAT 5",
+        "orbital": "yes",
+        "orbit": "SSO",
+        "mass": 475,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2a",
+    "vehicleFamily": "Falcon",
+    "serial": "B1040.1",
+    "date": "2017-09-07",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "X-37B OTV-5",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 5400,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "CubeSats",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2",
+    "vehicleFamily": "Falcon",
+    "serial": "B1031.1",
+    "date": "2017-10-27",
+    "status": "Success",
+    "launchSite": "Vandenberg AFB",
+    "launchPad": "SLC-4E",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Iridium-NEXT 107",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 119",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 122",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 125",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 127",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 129",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 132",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 133",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 136",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 139",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2",
+    "vehicleFamily": "Falcon",
+    "serial": "B1031.2",
+    "date": "2017-10-11",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "EchoStar 105",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 5200,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2",
+    "vehicleFamily": "Falcon",
+    "serial": "B1042.1",
+    "date": "2017-10-30",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Koreasat 5A",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 3500,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2a",
+    "vehicleFamily": "Falcon",
+    "serial": "B1035.2",
+    "date": "2017-12-15",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Dragon CRS-13",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 6650,
+        "type": "Capsule",
+        "description": ""
+      }, {
+        "name": "TSIS",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Station",
+        "description": ""
+      }, {
+        "name": "SDS",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Station",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2c",
+    "vehicleFamily": "Falcon",
+    "serial": "B1036.2",
+    "date": "2017-12-23",
+    "status": "Success",
+    "launchSite": "Vandenberg AFB",
+    "launchPad": "SLC-4E",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Iridium-NEXT 116",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 130",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 131",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 134",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 135",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 137",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 138",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 141",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 151",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 153",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2",
+    "vehicleFamily": "Falcon",
+    "serial": "B1043.1",
+    "date": "2018-01-08",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Zuma",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "status": "Failure",
+        "mass": -1,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2c",
+    "vehicleFamily": "Falcon",
+    "serial": "B1032.2",
+    "date": "2018-01-31",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "SES 15",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 3202,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 Heavy",
+    "vehicleFamily": "Falcon",
+    "serial": "B1023.2 / B1033.1 / B1025.2",
+    "date": "2018-02-06",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Tesla Roadster",
+        "orbital": "yes",
+        "orbit": "TO",
+        "mass": 1250,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2c",
+    "vehicleFamily": "Falcon",
+    "serial": "B1038.2",
+    "date": "2018-02-22",
+    "status": "Success",
+    "launchSite": "Vandenberg AFB",
+    "launchPad": "SLC-4E",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Paz",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1200,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "MicroSat 2a",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 400,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "MicroSat 2b",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 400,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2c",
+    "vehicleFamily": "Falcon",
+    "serial": "B1044.1",
+    "date": "2018-03-26",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Hispasat 30W-6",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 6092,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "PODSAT 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 90,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2c",
+    "vehicleFamily": "Falcon",
+    "serial": "B1041.2",
+    "date": "2018-03-30",
+    "status": "Success",
+    "launchSite": "Vandenberg AFB",
+    "launchPad": "SLC-4E",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Iridium-NEXT 140",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 142",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 143",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 144",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 145",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 146",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 148",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 149",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 150",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Iridium-NEXT 157",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 860,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2b",
+    "vehicleFamily": "Falcon",
+    "serial": "B1039.2",
+    "date": "2018-04-02",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Dragon CRS-14",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 6650,
+        "type": "Capsule",
+        "description": ""
+      }, {
+        "name": "MISSE-FF 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 435,
+        "type": "Station",
+        "description": ""
+      }, {
+        "name": "ASIM",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 330,
+        "type": "Station",
+        "description": ""
+      }, {
+        "name": "PFCS",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Station",
+        "description": ""
+      }, {
+        "name": "RemoveDEBRIS",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 100,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "DebrisSat 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 100,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "DebrisSat 2",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 100,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "UBAKUSAT",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 4,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "1KUNS-PF",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Irazú",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "Falcon-9 v1.2",
+    "vehicleFamily": "Falcon",
+    "serial": "B1045.1",
+    "date": "2018-04-18",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "TESS",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 365,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  }
+]

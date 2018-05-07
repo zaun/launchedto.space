@@ -29,26 +29,8 @@ export default {
     Launch,
   },
 
-  data: function () {
-    return {
-      launchesByYear: { },
-    };
-  },
-
-  created () {
-    const url = '/data.json';
-    fetch(url)
-      .then((resp) => resp.json())
-      .then((data) => {
-        this.launchesByYear = _(data).filter((l) => {
-          return l.date.length > 0;
-        }).groupBy((l) => {
-          return l.date.split('-')[0];
-        }).value();
-      })
-      .catch(function(error) {
-        console.log('err', error);
-      });
+  computed:  {
+    launchesByYear () { return this.$store.state.launchesByYear; }
   },
 
   methods: {
