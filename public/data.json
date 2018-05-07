@@ -2367,7 +2367,7 @@
     ]
   },
   {
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2c",
     "vehicleFamily": "Falcon",
     "serial": "B1032.2",
     "date": "2018-01-31",
@@ -2441,7 +2441,7 @@
     ]
   },
   {
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2c",
     "vehicleFamily": "Falcon",
     "serial": "B1044.1",
     "date": "2018-03-26",
@@ -2551,7 +2551,7 @@
     ]
   },
   {
-    "vehicle": "Falcon-9 v1.2a",
+    "vehicle": "Falcon-9 v1.2b",
     "vehicleFamily": "Falcon",
     "serial": "B1039.2",
     "date": "2018-04-02",
