@@ -27,6 +27,7 @@
       }
     ]
   }, {
+    "id": "df6a3030-9bed-412d-a610-792a854d62ad",
     "vehicle": "Saturn-5",
     "vehicleFamily": "Saturn",
     "serial": "SA-502",
@@ -53,6 +54,7 @@
       }
     ]
   }, {
+    "id": "6c845dc0-4b25-4b6d-9163-d32245ce481e",
     "vehicle": "Saturn-5",
     "vehicleFamily": "Saturn",
     "serial": "SA-503",
@@ -79,6 +81,7 @@
       }
     ]
   }, {
+    "id": "06aed022-b711-4f0d-9297-dfc81bf200f8",
     "vehicle": "Saturn-5",
     "vehicleFamily": "Saturn",
     "serial": "SA-504",
@@ -105,6 +108,7 @@
       }
     ]
   }, {
+    "id": "f130e525-0ae6-4aa8-8c73-c42a0bcff51b",
     "vehicle": "Saturn-5",
     "vehicleFamily": "Saturn",
     "serial": "SA-505",
