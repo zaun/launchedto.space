@@ -58,7 +58,7 @@ export default {
 .orbit::before
   position absolute
   top 0px
-  padding-left 20px
+  padding-left 1rem
   margin-left 1.1rem
   white-space pre
   transform-origin top left
@@ -67,7 +67,7 @@ export default {
 .orbit::after
   position absolute
   top 0px
-  padding-left 20px
+  padding-left 1rem
   margin-left -0.1rem
   white-space pre
   transform-origin top left

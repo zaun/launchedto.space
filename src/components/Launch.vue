@@ -3,7 +3,7 @@
     <div :class="launchClasses"></div>
     <div class="detail">
       <h1>{{ launch.vehicle }}</h1>
-      <h2>{{ launch.date }}</h2>
+      <h2>{{ formatDate(launch.date) }}</h2>
       <div class="payload-list">
         <h3 v-for="(payload, index) in launch.payloads" :key="`payload-${index}`" >{{ payload.name }}</h3>
       </div>
@@ -13,6 +13,8 @@
 </template>
 
 <script>
+import moment from 'moment';
+
 export default {
   name: 'Launch',
   props: {
@@ -37,6 +39,10 @@ export default {
   },
 
   methods: {
+    formatDate(date) {
+      return moment(date).format('MMMM Do');
+    },
+
     payloadClasses (payload, index) {
       let classes = 'orbital';
 
@@ -128,7 +134,11 @@ export default {
     // 100m = 55rem
     // (<height> / 100) * 55
 
-    &.saturn_v
+    &.saturn-5
+      width 56.1rem
+      background-image url('../assets/vehicles/saturn-v.png')
+
+    &.saturn-5a
       width 56.1rem
       background-image url('../assets/vehicles/saturn-v.png')
 
@@ -172,6 +182,31 @@ export default {
       width 37.62rem
       background-image url('../assets/vehicles/falcon-9_v1-1-expendable.png')
 
+    // v1.2 w/o dragon
+    &.falcon-9_v1_2
+      width 37.62rem
+      background-image url('../assets/vehicles/falcon-9_v1-1.png')
+
+    // v1.2 w/ dragon
+    &.falcon-9_v1_2a
+      width 34.485rem
+      background-image url('../assets/vehicles/falcon-9_v1-1-dragon.png')
+
+    // v1.2 w/ dragon w/o landing legs
+    &.falcon-9_v1_2b
+      width 34.485rem
+      background-image url('../assets/vehicles/falcon-9_v1-1-dragon-expendable.png')
+
+    // v1.2 w/o landing legs
+    &.falcon-9_v1_2c
+      width 37.62rem
+      background-image url('../assets/vehicles/falcon-9_v1-1-expendable.png')
+
+    // v1.2 heavy
+    &.falcon-9_heavy
+      width 37.62rem
+      background-image url('../assets/vehicles/falcon-9_heavy.png')
+
   .orbital
     position absolute
     top 50%
@@ -199,6 +234,7 @@ export default {
     &.karmen
       right calc(25rem - 2rem)
 
+    &.sso,
     &.leo
       right calc(20rem - 2rem)
 
