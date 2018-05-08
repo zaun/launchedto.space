@@ -1,6 +1,5 @@
 <template>
   <div class="background" :class="mode">
-    <div class="spacer"></div>
     <div class="space">
       <div class="orbit karmen"></div>
       <div class="orbit leo">
@@ -26,14 +25,15 @@ export default {
 .background
   position absolute
   height 100%
-  width 100%
+  width 25rem
+  left calc(100% - 25rem)
   white-space nowrap
   font-size 0
   z-index -2
   margin-top 56px
 
   &.cover
-    height 13rem
+    height 14.5rem
     z-index 2
 
 .spacer

@@ -127,4 +127,14 @@ div
     .dialog-about_content
       height 230px
       overflow-y scroll
+
+    .VueCarousel-wrapper
+    .VueCarousel-inner
+    .VueCarousel-Slide
+      width 100%
+      height 100%
+      background-color black
+    .VueCarousel-pagination
+      position absolute
+      bottom 0
 </style>

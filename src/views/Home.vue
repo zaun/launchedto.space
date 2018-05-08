@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <Background />
+    <!-- <Background mode="cover" /> -->
     <div class="launches" @scroll="handleScroll">
       <div class="header">
       </div>
@@ -35,24 +36,24 @@ export default {
 
   methods: {
     handleScroll () {
-      const header = document.querySelector('.launches .header');
-      const fadeAt = header.scrollHeight * 1.4;
-      const orbitals = document.querySelectorAll('.orbital');
-      const fadeIn = 45;
+      // const header = document.querySelector('.launches .header');
+      // const fadeAt = header.scrollHeight * 1.4;
+      // const orbitals = document.querySelectorAll('.orbital');
+      // const fadeIn = 45;
       
-      _.each(orbitals, (o) => {
-        const offsets = o.getBoundingClientRect();
-        if (offsets.top < fadeAt + fadeIn) {
-          let fade = (fadeAt + fadeIn) - offsets.top
-          if (fade > fadeIn) {
-            fade = fadeIn;
-          }
-          const opacity = 1 - (fade / fadeIn);
-          o.style.opacity = opacity;
-        } else {
-          o.style.opacity = null;
-        }
-      });
+      // _.each(orbitals, (o) => {
+      //   const offsets = o.getBoundingClientRect();
+      //   if (offsets.top < fadeAt + fadeIn) {
+      //     let fade = (fadeAt + fadeIn) - offsets.top
+      //     if (fade > fadeIn) {
+      //       fade = fadeIn;
+      //     }
+      //     const opacity = 1 - (fade / fadeIn);
+      //     o.style.opacity = opacity;
+      //   } else {
+      //     o.style.opacity = null;
+      //   }
+      // });
     }
   }
 };

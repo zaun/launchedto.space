@@ -31,7 +31,7 @@ export default new Vuex.Store({
         .then(resp => resp.json())
         .then((data) => {
           const filteredData = filter(data, m => m.launchID.length > 0);
-          state.launchesByFamily = groupBy(filteredData, m => m.launchID);
+          state.mediaByLaunch = groupBy(filteredData, m => m.launchID);
         })
         .catch((error) => {
           console.log('err', error);

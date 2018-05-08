@@ -13,6 +13,7 @@
     "material-design-icons-iconfont": "^3.0.3",
     "moment": "^2.22.1",
     "vue": "^2.5.16",
+    "vue-carousel": "^0.7.3",
     "vue-router": "^3.0.1",
     "vuetify": "^1.0.17",
     "vuex": "^3.0.1"

@@ -2,6 +2,7 @@
   <div class="launch" :class="status">
     <div :class="launchClasses"></div>
     <div class="detail">
+      <div class="media" v-if="hasMedia" @click="showImages"></div>
       <h1>{{ launch.vehicle }}</h1>
       <h2>{{ formatDate(launch.date) }}</h2>
       <div class="payload-list">
@@ -9,16 +10,36 @@
       </div>
     </div>
     <div :class="payloadClasses(payload, index)" v-for="(payload, index) in launch.payloads" :key="`satellite-${index}`" :title="payload.name"></div>
+
+    <v-dialog v-model="launchImagesDisplayed" max-width="50rem">
+      <carousel v-if="launchImagesDisplayed" :autoplay="true" :autoplayTimeout="10000" :autoplayHoverPause="true" :perPage="1" :loop="true">
+        <slide v-for="(item, index) in launchImages" :key="`img-${index}`" :style="backgroundStyle(item)">
+          <div class="description">{{ item.description }}</div>
+        </slide>
+      </carousel>
+    </v-dialog>    
   </div>
 </template>
 
 <script>
 import moment from 'moment';
+import { Carousel, Slide } from 'vue-carousel';
 
 export default {
   name: 'Launch',
   props: {
     launch: Object,
+  },
+
+  components: {
+    Carousel,
+    Slide
+  },
+
+  data: function () {
+    return {
+      launchImagesDisplayed: false,
+    };
   },
 
   computed: {
@@ -35,12 +56,44 @@ export default {
                     .replace(new RegExp('\\(', 'g'), '')
                     .replace(new RegExp('\\)', 'g'), '');
       return classes;
+    },
+
+    hasMedia () {
+      return this.$store.state.mediaByLaunch[this.launch.id] && this.$store.state.mediaByLaunch[this.launch.id].length > 0;
+    },
+
+    launchImages () {
+      if (!this.$store.state.mediaByLaunch[this.launch.id]) {
+        return [];
+      }
+
+      return this.$store.state.mediaByLaunch[this.launch.id].map((i) => {
+        return {
+          src: '/img/' + i.filename,
+          description: i.description
+        };
+      });
     }
   },
 
   methods: {
+    showImages() {
+      this.launchImagesDisplayed = true;
+    },
+
+    backgroundStyle(image) {
+      let style = 'background-image: url(' + image.src + ');';
+      style += 'background-size: contain !important;';
+      style += 'background-position: center;';
+      return style;
+    },
+
     formatDate(date) {
       return moment(date).format('MMMM Do');
+    },
+
+    formatLongDate(date) {
+      return moment(date).format('MMMM Do, YYYY');
     },
 
     payloadClasses (payload, index) {
@@ -81,6 +134,21 @@ export default {
   height 11rem
   top 0
 
+  .dialog
+    .VueCarousel
+      width 50rem
+      height 50rem
+      .description
+        position absolute
+        bottom 0
+        padding 1em 1em 50px 1em
+        background-color rgba(0,0,0,0.75)
+        opacity 0.05
+      &:hover
+        .description
+          color: white;
+          opacity 1
+
   .detail
     position absolute
     top 0px
@@ -94,6 +162,15 @@ export default {
     .payload-list
       height 8rem
       overflow-y scroll
+    
+    .media
+      position absolute
+      top 0px
+      right 1px
+      width 1.9rem
+      height 1.9rem
+      background-image url('../assets/rocket.svg')
+      z-index 2
 
     h1
       position relative
