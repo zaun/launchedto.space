@@ -3154,5 +3154,481 @@
         "description": ""
       }
     ]
+  },
+  {
+    "vehicle": "Atlas-5 401",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-001",
+    "date": "2002-08-21",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Hot Bird 6",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 3905,
+        "type": "Satellite",
+        "description": "The Hot Bird 6 satellite will provide a total of 32 active transponders. 28 of these will operate in the Ku-band. The remaining 4 transponders will operate in the Ka-band. The 28 Ku-band transponders are connected to a high-power Super-Widebeam coverage to facilitate the provision of television broadcast and multimedia services over the entire European continent, North Africa and the Middle East."
+      }
+    ]
+  },
+  {
+    "vehicle": "Atlas-5 401",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-002",
+    "date": "2003-05-13",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Hellas-Sat 2",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 3250,
+        "type": "Satellite",
+        "description": "The high-power Hellas-Sat 2 spacecraft is a Eurostar-2000+ model equipped with 30 active FSS transponders operating in Ku-band, allowing the transmission of digital TV direct to home receive antennas as small as 60 cm."
+      }
+    ]
+  },
+  {
+    "vehicle": "Atlas-5 401",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-007",
+    "date": "2005-08-12",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "MRO",
+        "orbital": "yes",
+        "orbit": "TO",
+        "mass": 2180,
+        "type": "Satellite",
+        "description": "The Mars Reconnaissance Orbiter (MRO) will make high-resolution measurements of the surface from orbit. It will be equipped with a visible stereo imaging camera (HiRISE) with resolution much better than one meter and a visible/near-infrared spectrometer (CRISM) to study the surface composition."
+      }
+    ]
+  },
+  {
+    "vehicle": "Atlas-5 401",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-013",
+    "date": "2007-03-09",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "ASTRO",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 700,
+        "type": "Satellite",
+        "description": "The unique Orbital Express advanced technology demonstrator has the capability to safely and autonomously service and refuel satellites while onorbit. The Boeing team built the ASTRO (Autonomous Space Transport Robotic Operations satellite), and a surrogate next generation serviceable satellite, NEXTSat/CSC, and conducted an on orbit demonstration of autonomous satellite servicing."
+      }, {
+        "name": "NEXTSat",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 224,
+        "type": "Satellite",
+        "description": "Ball Aerospace provided the NEXTSat/CSC (Next Generation Satellite and Commodities spacecraft) and ground support, reinforce mission operations, and supply components for the Autonomous Space Transfer and Robotic Orbiter (ASTRO) spacecraft."
+      }, {
+        "name": "STPSat 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 164,
+        "type": "Satellite",
+        "description": "STPSat 1 is an experimental spacecraft for STP (Space Test Program), which hosted several experiments. The 3-axis stabilized spacecraft is built by AeroAstro."
+      }, {
+        "name": "CFESat",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 163,
+        "type": "Satellite",
+        "description": "Los Alamos is building the CFESat (Cibola Flight Experiment Satellite), a reconfigurable processor payload intended for a low-Earth orbit system. It will survey portions of the VHF and UHF radio spectra."
+      }, {
+        "name": "MidSTAR 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Satellite",
+        "description": "MidSTAR-1 is the first implementation of the MidSTAR-1 mod 1 bus design. It has been commissioned by STP to carry the Internet Communications Satellite (ICSat) Experiment for SSP and the Configurable Fault Tolerant Processor (CFTP) Experiment for Naval Postgraduate School (NPS)."
+      }, {
+        "name": "FalconSat 3",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 50,
+        "type": "Satellite",
+        "description": "FalconSAT-3, is a 50 kg microsatellite being developed by faculty and cadets, and is the Air Force Academy's first attempt at achieving three axis attitude determination and control (ADCS)."
+      }
+    ]
+  },
+  {
+    "vehicle": "Atlas-5 401",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-009",
+    "date": "2007-06-15",
+    "status": "Partial Failure",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Intruder 8A",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 3250,
+        "type": "Satellite",
+        "description": "NOSS-3 (Naval Ocean Surveillance System), which is likely not the official designation, is the third generation of NOSS satellites, which are low orbit SIGINT satellites. In 2013, the designation Intruder leaked out. These satellites carry equipment to track ships and aircraft via their radio transmissions. Positions of the origin of the transmissions are determined by triangulation. Each launch consists of two satellites of similar size in the same orbit. Both satellites maneuver to stationkeep relative to one another."
+      }, {
+        "name": "Intruder 8B",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 3250,
+        "type": "Satellite",
+        "description": "NOSS-3 (Naval Ocean Surveillance System), which is likely not the official designation, is the third generation of NOSS satellites, which are low orbit SIGINT satellites. In 2013, the designation Intruder leaked out. These satellites carry equipment to track ships and aircraft via their radio transmissions. Positions of the origin of the transmissions are determined by triangulation. Each launch consists of two satellites of similar size in the same orbit. Both satellites maneuver to stationkeep relative to one another."
+      }
+    ]
+  },
+  {
+    "vehicle": "Atlas-5 401",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-015",
+    "date": "2007-12-10",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Quasar 16",
+        "orbital": "yes",
+        "orbit": "Molniya",
+        "mass": -1,
+        "type": "Satellite",
+        "description": "Satellite Data System (SDS) spacecraft are communication relay satellites for transmitting real-time data from US reconnaissance satellites (e.g. KH-11, Onyx, Topaz) in polar areas. They are also used for communications to USAF aircraft on polar routes and connect the various ground stations of the Air Force Satellite Control Network (AFSCN)."
+      }
+    ]
+  },
+  {
+    "vehicle": "Atlas-5 401",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-020",
+    "date": "2009-06-18",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "LRO",
+        "orbital": "yes",
+        "orbit": "Lunar",
+        "mass": 1000,
+        "type": "Satellite",
+        "description": "Set for a 2008 launch, Lunar Reconnaissance Orbiter (LRO) is planned to orbit the moon for at least one year and gather detailed maps of the lunar surface, data on the moon's radiation levels and an in-depth look at its polar regions for resources."
+      }, {
+        "name": "LCROSS",
+        "orbital": "yes",
+        "orbit": "Lunar",
+        "mass": 880,
+        "type": "Satellite",
+        "description": "NASA announced in April 2006 that a small, 'secondary payload' spacecraft, to be developed by a team at NASA Ames Research Center, Moffett Field, Calif., has been selected to travel to the moon to look for precious water ice at the lunar south pole in October 2008."
+      }
+    ]
+  },
+  {
+    "vehicle": "Atlas-5 401",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-018",
+    "date": "2009-09-08",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Nemesis 1",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": -1,
+        "type": "Satellite",
+        "description": "The Nemesis series of satellites are geostationary COMINT satellites to intercept transmissions to commercial communicationss satellites. These satellites were known at launch by the names PAN and CLIO or the program designation P360."
+      }
+    ]
+  },
+  {
+    "vehicle": "Atlas-5 401",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-017",
+    "date": "2009-10-18",
+    "status": "Success",
+    "launchSite": "Vandenberg AFB",
+    "launchPad": "SLC-3E",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "DMSP-5D3 F18",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1200,
+        "type": "Satellite",
+        "description": "DMSP-5D3 (Defense Meteorological Satellite Program Block 5D3) is the eleventh and most recent version of the military meteorological satellites of the Defense Meteorological Satellite Program."
+      }
+    ]
+  },
+  {
+    "vehicle": "Atlas-5 401",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-021",
+    "date": "2010-02-11",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "SDO",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 3100,
+        "type": "Satellite",
+        "description": "The SDO (Solar Dynamics Observatory) solar observing satellite will be a follow up to SOHO."
+      }
+    ]
+  },
+  {
+    "vehicle": "Atlas-5 401",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-022",
+    "date": "2011-06-20",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "SBIRS-GEO 1",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 4500,
+        "type": "Satellite",
+        "description": "SBIRS-GEO (Space Based Infra Red Sensor - Geostationary) is the geostationary component of the SBIRS-High program, which will replace the DSP system of early warning satellites in providing early warning for Intercontinental Ballistic Missile launches."
+      }
+    ]
+  },
+  {
+    "vehicle": "Atlas-5 401",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-023",
+    "date": "2012-06-20",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Quasar 18",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": -1,
+        "type": "Satellite",
+        "description": "Satellite Data System (SDS) spacecraft are communication relay satellites for transmitting real-time data from US reconnaissance satellites (e.g. KH-11, Onyx, Topaz) in polar areas. They are also used for communications to USAF aircraft on polar routes and connect the various ground stations of the Air Force Satellite Control Network (AFSCN)."
+      }
+    ]
+  },
+  {
+    "vehicle": "Atlas-5 401",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-032",
+    "date": "2012-08-30",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "RBSP A",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 648,
+        "type": "Satellite",
+        "description": "The RBSP (Radiation Belt Storm Probes) Mission, part of NASA's Living With a Star program, will provide unprecedented insight into the physical dynamics of the radiation belts and give scientists the data they need to make predictions of changes in this critical region of space."
+      }, {
+        "name": "RBSP B",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 667,
+        "type": "Satellite",
+        "description": "The RBSP (Radiation Belt Storm Probes) Mission, part of NASA's Living With a Star program, will provide unprecedented insight into the physical dynamics of the radiation belts and give scientists the data they need to make predictions of changes in this critical region of space."
+      }
+    ]
+  },
+  {
+    "vehicle": "",
+    "vehicleFamily": "",
+    "serial": "",
+    "date": "",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "",
+        "orbital": "",
+        "orbit": "",
+        "mass": -1,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "",
+    "vehicleFamily": "",
+    "serial": "",
+    "date": "",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "",
+        "orbital": "",
+        "orbit": "",
+        "mass": -1,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "",
+    "vehicleFamily": "",
+    "serial": "",
+    "date": "",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "",
+        "orbital": "",
+        "orbit": "",
+        "mass": -1,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "",
+    "vehicleFamily": "",
+    "serial": "",
+    "date": "",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "",
+        "orbital": "",
+        "orbit": "",
+        "mass": -1,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "",
+    "vehicleFamily": "",
+    "serial": "",
+    "date": "",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "",
+        "orbital": "",
+        "orbit": "",
+        "mass": -1,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "",
+    "vehicleFamily": "",
+    "serial": "",
+    "date": "",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "",
+        "orbital": "",
+        "orbit": "",
+        "mass": -1,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "vehicle": "",
+    "vehicleFamily": "",
+    "serial": "",
+    "date": "",
+    "status": "Success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "",
+        "orbital": "",
+        "orbit": "",
+        "mass": -1,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
   }
 ]

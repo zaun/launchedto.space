@@ -1,6 +1,6 @@
 /* eslint-disable no-param-reassign */
 import Vue from 'vue';
-import { filter, groupBy } from 'lodash/';
+import { filter, sortBy, groupBy } from 'lodash/';
 import Vuex from 'vuex';
 
 Vue.use(Vuex);
@@ -17,7 +17,7 @@ export default new Vuex.Store({
       fetch('/launches.json')
         .then(resp => resp.json())
         .then((data) => {
-          const filteredData = filter(data, l => l.date.length > 0);
+          const filteredData = sortBy(filter(data, l => l.date.length > 0), 'date');
           state.launchesByYear = groupBy(filteredData, l => l.date.split('-')[0]);
           state.launchesByFamily = groupBy(filteredData, l => l.vehicleFamily);
         })

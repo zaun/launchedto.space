@@ -10,7 +10,7 @@
         <h3 v-for="(payload, index) in launch.payloads" :key="`payload-${index}`" >{{ payload.name }}</h3>
       </div>
     </div>
-    <div :class="payloadClasses(payload, index)" v-for="(payload, index) in launch.payloads" :key="`satellite-${index}`" :title="payload.name"></div>
+    <div :class="payloadClasses(payload, index)" v-for="(payload, index) in launch.payloads" :key="`satellite-${index}`" :title="payloadTooltip(payload)"></div>
 
     <v-dialog v-model="launchImagesDisplayed" max-width="50rem">
       <carousel v-if="launchImagesDisplayed" :autoplay="true" :autoplayTimeout="2000" :autoplayHoverPause="true" :perPage="1" :loop="true">
@@ -99,6 +99,18 @@ export default {
 
     formatLongDate(date) {
       return moment(date).format('MMMM Do, YYYY');
+    },
+
+    payloadTooltip(payload) {
+      let tip = 'Name: ' + payload.name;
+      if (payload.mass > 0) {
+        tip += '\nMass: ' + payload.mass.toLocaleString() + ' kg';
+      }
+      if (payload.description) {
+        tip += '\n\n' + payload.description;
+      }
+
+      return tip;
     },
 
     payloadClasses (payload, index) {
@@ -223,12 +235,14 @@ export default {
   .rocket
     margin-left 10.5rem
     height 100%
-    width 50rem
+    width 55rem
     background-size contain
     background-position center
 
     // 100m = 55rem
     // (<height> / 100) * 55
+
+    // Saturn
 
     &.saturn-1_block_1
       background-image url('../assets/vehicles/placeholder.png')
@@ -245,6 +259,8 @@ export default {
 
     &.saturn-5_2nd_stage
       background-image url('../assets/vehicles/placeholder.png')
+
+    // Falcon
 
     &.falcon-1_dev
       width 11.715rem
@@ -310,6 +326,12 @@ export default {
     &.falcon-9_heavy
       width 37.62rem
       background-image url('../assets/vehicles/falcon-9_heavy.png')
+
+    // Atlas
+
+    &.atlas-5_401
+      width 32.065rem
+      background-image url('../assets/vehicles/atlas-5_401.png')
 
   .orbital
     position absolute
