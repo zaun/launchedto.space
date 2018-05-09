@@ -13,3 +13,5 @@ The images for each vehicle is located in the `src/assets/vehicles/` directory. 
 
 ## Local Development
 This project uses Vue.js. Once you clone the repository run `npm install` followed by `npm run serve`. This will start a local development server.
+
+After adding images to `public/img/` run `npm run thumb` before commiting to create thubnails

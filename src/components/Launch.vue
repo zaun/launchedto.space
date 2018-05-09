@@ -13,7 +13,7 @@
     <div :class="payloadClasses(payload, index)" v-for="(payload, index) in launch.payloads" :key="`satellite-${index}`" :title="payload.name"></div>
 
     <v-dialog v-model="launchImagesDisplayed" max-width="50rem">
-      <carousel v-if="launchImagesDisplayed" :autoplay="true" :autoplayTimeout="10000" :autoplayHoverPause="true" :perPage="1" :loop="true">
+      <carousel v-if="launchImagesDisplayed" :autoplay="true" :autoplayTimeout="2000" :autoplayHoverPause="true" :perPage="1" :loop="true">
         <slide v-for="(item, index) in launchImages" :key="`img-${index}`" :style="backgroundStyle(item)">
           <div class="description">{{ item.description }}</div>
         </slide>
@@ -74,7 +74,7 @@ export default {
 
       return this.$store.state.mediaByLaunch[this.launch.id].map((i) => {
         return {
-          src: '/img/' + i.filename,
+          src: '/thumb/' + i.filename,
           description: i.description
         };
       });
