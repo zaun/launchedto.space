@@ -2,7 +2,8 @@
   <div class="launch" :class="status">
     <div :class="launchClasses"></div>
     <div class="detail">
-      <div class="media" v-if="hasMedia" @click="showImages"></div>
+      <div class="media" v-if="hasMedia" title="View Media" @click="showImages"></div>
+      <div class="manned" v-if="isManned" title="Manned Flight"></div>
       <h1>{{ launch.vehicle }}</h1>
       <h2>{{ formatDate(launch.date) }}</h2>
       <div class="payload-list">
@@ -60,6 +61,10 @@ export default {
 
     hasMedia () {
       return this.$store.state.mediaByLaunch[this.launch.id] && this.$store.state.mediaByLaunch[this.launch.id].length > 0;
+    },
+
+    isManned () {
+      return this.launch.manned === "yes";
     },
 
     launchImages () {
@@ -165,11 +170,26 @@ export default {
     
     .media
       position absolute
-      top 0px
-      right 1px
-      width 1.9rem
-      height 1.9rem
-      background-image url('../assets/rocket.svg')
+      top 2px
+      right 2px
+      width 1rem
+      height 1rem
+      background-image url('../assets/media.png')
+      background-repeat no-repeat
+      background-size contain
+      background-position center
+      z-index 2
+    
+    .manned
+      position absolute
+      top 2px
+      left 2px
+      width 1rem
+      height 1rem
+      background-image url('../assets/manned.png')
+      background-repeat no-repeat
+      background-size contain
+      background-position center
       z-index 2
 
     h1
@@ -205,8 +225,7 @@ export default {
     height 100%
     width 50rem
     background-size contain
-    background-repeat no-repeat
-    background-position center left
+    background-position center
 
     // 100m = 55rem
     // (<height> / 100) * 55

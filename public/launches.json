@@ -7,6 +7,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-34",
+    "manned": "no",
     "orbital": "no",
     "payloads": []
   }, {
@@ -17,6 +18,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-34",
+    "manned": "no",
     "orbital": "no",
     "payloads": [
       {
@@ -36,6 +38,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-34",
+    "manned": "no",
     "orbital": "no",
     "payloads": [
       {
@@ -55,6 +58,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-34",
+    "manned": "no",
     "orbital": "no",
     "payloads": []
   }, {
@@ -65,6 +69,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-37B",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -84,6 +89,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-37B",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -110,6 +116,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-37B",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -136,6 +143,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-37B",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -162,6 +170,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-37B",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -188,6 +197,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-37B",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -214,6 +224,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-34",
+    "manned": "no",
     "orbital": "no",
     "payloads": [
       {
@@ -233,6 +244,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-37B",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -252,6 +264,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-34",
+    "manned": "no",
     "orbital": "no",
     "payloads": [
       {
@@ -272,6 +285,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -298,6 +312,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-34",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -318,6 +333,7 @@
     "status": "Partial Failure",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -344,6 +360,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-34",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -364,6 +381,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "yes",
     "orbital": "yes",
     "payloads": [
       {
@@ -391,19 +409,20 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "yes",
     "orbital": "yes",
     "payloads": [
       {
         "name": "Apollo 9",
         "orbital": "yes",
-        "orbit": "HEO",
+        "orbit": "LEO",
         "mass": 28801,
         "type": "Capsule",
         "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth."
       }, {
         "name": "LM 3 (Spider)",
         "orbital": "yes",
-        "orbit": "HEO",
+        "orbit": "LEO",
         "mass": 12000,
         "type": "Satellite",
         "description": "The NASA/Grumman Apollo Lunar Module (LM) after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules (CSM)."
@@ -418,6 +437,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "yes",
     "orbital": "yes",
     "payloads": [
       {
@@ -444,6 +464,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "yes",
     "orbital": "yes",
     "payloads": [
       {
@@ -470,6 +491,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "yes",
     "orbital": "yes",
     "payloads": [
       {
@@ -496,6 +518,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "yes",
     "orbital": "yes",
     "payloads": [
       {
@@ -524,6 +547,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "yes",
     "orbital": "yes",
     "payloads": [
       {
@@ -550,6 +574,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "yes",
     "orbital": "yes",
     "payloads": [
       {
@@ -583,6 +608,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "yes",
     "orbital": "yes",
     "payloads": [
       {
@@ -616,6 +642,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "yes",
     "orbital": "yes",
     "payloads": [
       {
@@ -642,6 +669,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -654,6 +682,100 @@
       }
     ]
   }, {
+    "vehicle": "Saturn-1B",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-206",
+    "date": "1973-05-25",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39B",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Skylab 2 (Apollo / CSM 116)",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 28801,
+        "type": "Capsule",
+        "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-1B",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-207",
+    "date": "1973-07-28",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39B",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Skylab 3 (Apollo / CSM 117)",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 28801,
+        "type": "Capsule",
+        "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth."
+      }, {
+        "name": "S150",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 13600,
+        "type": "Satellite",
+        "description": "The objective of the S150 X-ray experiment was to extend the search for the origin of galactic x-rays beyond the sensitivity possible with short flights of small research rockets."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-1B",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-208",
+    "date": "1973-11-16",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39B",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Skylab 4 (Apollo / CSM 118)",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 28801,
+        "type": "Capsule",
+        "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-1B",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-210",
+    "date": "1975-07-15",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-39B",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "AST (Apollo-Soyuz)",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 28801,
+        "type": "Capsule",
+        "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth."
+      }, {
+        "name": "ASTP-DM",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 2012,
+        "type": "Satellite",
+        "description": "TFor the Apollo-Soyuz Test Project (ASTP), the United States used an Apollo Command and Service Module (CSM) modified to provide for experiments to be conducted during the mission, extra propellant tanks and the addition of controls and equipment related to the Docking Module."
+      }
+    ]
+  }, {
     "vehicle": "Falcon-1 (dev)",
     "vehicleFamily": "Falcon",
     "serial": "",
@@ -661,6 +783,7 @@
     "status": "Failure",
     "launchSite": "Omelek Island",
     "launchPad": "",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -681,6 +804,7 @@
     "status": "Failure",
     "launchSite": "Omelek Island",
     "launchPad": "",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -701,6 +825,7 @@
     "status": "Failure",
     "launchSite": "Omelek Island",
     "launchPad": "",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -745,6 +870,7 @@
     "status": "Success",
     "launchSite": "Omelek Island",
     "launchPad": "",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -765,6 +891,7 @@
     "status": "Success",
     "launchSite": "Omelek Island",
     "launchPad": "",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -785,6 +912,7 @@
     "status": "Success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
+    "manned": "no",
     "orbital": "no",
     "payloads": []
   },
@@ -796,6 +924,7 @@
     "status": "Success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
+    "manned": "no",
     "orbital": "no",
     "payloads": []
   },
@@ -807,6 +936,7 @@
     "status": "Success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
+    "manned": "no",
     "orbital": "no",
     "payloads": []
   },
@@ -818,6 +948,7 @@
     "status": "Success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
+    "manned": "no",
     "orbital": "no",
     "payloads": []
   },
@@ -829,6 +960,7 @@
     "status": "Success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
+    "manned": "no",
     "orbital": "no",
     "payloads": []
   },
@@ -840,6 +972,7 @@
     "status": "Success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
+    "manned": "no",
     "orbital": "no",
     "payloads": []
   },
@@ -851,6 +984,7 @@
     "status": "Success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
+    "manned": "no",
     "orbital": "no",
     "payloads": []
   },
@@ -862,6 +996,7 @@
     "status": "Success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
+    "manned": "no",
     "orbital": "no",
     "payloads": []
   },
@@ -873,6 +1008,7 @@
     "status": "Success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
+    "manned": "no",
     "orbital": "no",
     "payloads": []
   },
@@ -884,6 +1020,7 @@
     "status": "Success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
+    "manned": "no",
     "orbital": "no",
     "payloads": []
   },
@@ -895,6 +1032,7 @@
     "status": "Success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
+    "manned": "no",
     "orbital": "no",
     "payloads": []
   },
@@ -906,6 +1044,7 @@
     "status": "Success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
+    "manned": "no",
     "orbital": "no",
     "payloads": []
   },
@@ -917,6 +1056,7 @@
     "status": "Failure",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
+    "manned": "no",
     "orbital": "no",
     "payloads": []
   },
@@ -928,6 +1068,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -948,6 +1089,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1032,6 +1174,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1060,6 +1203,7 @@
     "status": "Partial Failure",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1088,6 +1232,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1108,6 +1253,7 @@
     "status": "Success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1168,6 +1314,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1188,6 +1335,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1208,6 +1356,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1292,6 +1441,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1360,6 +1510,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1380,6 +1531,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1400,6 +1552,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1434,6 +1587,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1475,6 +1629,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1495,6 +1650,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1522,6 +1678,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1570,6 +1727,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1590,6 +1748,7 @@
     "status": "Failure",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1624,6 +1783,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1721,6 +1881,7 @@
     "status": "Success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1741,6 +1902,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1761,6 +1923,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1788,6 +1951,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1808,6 +1972,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1828,6 +1993,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1855,6 +2021,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1882,6 +2049,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1902,6 +2070,7 @@
     "status": "Failure",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1922,6 +2091,7 @@
     "status": "Success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2005,6 +2175,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2039,6 +2210,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "LC-39A",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2059,6 +2231,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2079,6 +2252,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2099,6 +2273,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2119,6 +2294,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2195,6 +2371,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2215,6 +2392,7 @@
     "status": "Success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2298,6 +2476,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2318,6 +2497,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2373,6 +2553,7 @@
     "status": "Success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2393,6 +2574,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2420,6 +2602,7 @@
     "status": "Success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2503,6 +2686,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2523,6 +2707,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2543,6 +2728,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2577,6 +2763,7 @@
     "status": "Success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2660,6 +2847,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2681,6 +2869,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2701,6 +2890,7 @@
     "status": "Success",
     "launchSite": "NASA John F. Kennedy Space Center",
     "launchPad": "LC-39A",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2721,6 +2911,7 @@
     "status": "Success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2755,6 +2946,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2782,6 +2974,7 @@
     "status": "Success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2865,6 +3058,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2948,6 +3142,7 @@
     "status": "Success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
+    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {

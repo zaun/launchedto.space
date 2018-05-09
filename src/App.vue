@@ -37,6 +37,8 @@
         <div class="headline mt-3">Icons & Images</div>
         <ul class="ml-5">
           <li><a target="_blank" href="https://www.patreon.com/user?u=5775382">Spacecraft Vector Art</a> by Ezekiel</li>
+          <li><a target="_blank" href="https://www.flaticon.com/free-icon/file-sharing_287699#term=image%20video&page=2&position=7">Media</a> by Nikita Golubev</li>
+          <li><a target="_blank" href="https://www.flaticon.com/free-icon/astronaut-user_81468#term=astronaut&page=1&position=20">Astronaut</a> by Freepik</li>
           <li><a target="_blank" href="https://thenounproject.com/term/icon/724999/">Satellite</a> by Ralf Schmitzer</li>
           <li><a target="_blank" href="https://thenounproject.com/term/icon/956251/">ISS</a> by Viktor Korobkov</li>
           <li><a target="_blank" href="https://thenounproject.com/term/icon/1671108/">Capsule</a> by Brand Mania</li>
