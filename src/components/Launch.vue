@@ -245,92 +245,149 @@ export default {
     // Saturn
 
     &.saturn-1_block_1
+      // 55m
+      // 55/100*55 = 30.25
+      width 30.25rem
       background-image url('../assets/vehicles/placeholder.png')
 
     &.saturn-1_block_2
+      // 55m
+      // 55/100*55 = 30.25
+      width 30.25rem
       background-image url('../assets/vehicles/placeholder.png')
 
     &.saturn-1b
+      // 55m
+      // 55/100*55 = 30.25
+      width 30.25rem
       background-image url('../assets/vehicles/placeholder.png')
 
     &.saturn-5
-      width 56.1rem
+      // 110.6m
+      // 110.6/100*55 = 60.83
+      width 60.83rem
       background-image url('../assets/vehicles/saturn-v.png')
 
     &.saturn-5_2nd_stage
+      // 110.6m
+      // 110.6/100*55 = 60.83
+      width 60.83rem
       background-image url('../assets/vehicles/placeholder.png')
 
     // Falcon
 
     &.falcon-1_dev
+      // 21.3m
+      // 21.3/100*55 = 11.715
       width 11.715rem
       background-image url('../assets/vehicles/falcon-1.png')
 
     &.falcon-1
-      width 11.715rem
+      // 22.25m
+      // 22.25/100*55 = 12.2375
+      width 12.2375rem
       background-image url('../assets/vehicles/falcon-1.png')
 
     &.grasshopper
-      // width 6.765rem
+      // 30.48m
+      // 30.48/100*55 = 12.2375
+      width 16.764rem
       background-image url('../assets/vehicles/placeholder.png')
 
     &.falcon-9r-dev-1
-      // width 6.71rem
+      // 30.48m
+      // 30.48/100*55 = 12.2375
+      width 16.764rem
       background-image url('../assets/vehicles/placeholder.png')
 
+    // v1.0 w/ dragon
     &.falcon-9_v1_0
-      width 30.195rem
+      // 54.9m + 8.1m = 63m
+      // 63/100*55 = 34.65
+      width 34.65rem
       background-image url('../assets/vehicles/falcon-9_v1-0.png')
 
-    // v1.1 w/o dragon
+    // v1.1 w/ fairing
     &.falcon-9_v1_1
-      width 37.62rem
+      // 68.4m + 13.1m = 81.5m
+      // 81.5/100*55 = 44.825
+      width 44.825rem
       background-image url('../assets/vehicles/falcon-9_v1-1.png')
 
     // v1.1 w/ dragon
     &.falcon-9_v1_1a
-      width 34.485rem
+      // 68.4m + 8.1m = 76.5m
+      // 76.5/100*55 = 42.075
+      width 42.075rem
       background-image url('../assets/vehicles/falcon-9_v1-1-dragon.png')
 
     // v1.1 w/ dragon w/o landing legs
     &.falcon-9_v1_1b
-      width 34.485rem
+      // 68.4m + 8.1m = 76.5m
+      // 76.5/100*55 = 42.075
+      width 42.075rem
       background-image url('../assets/vehicles/falcon-9_v1-1-dragon-expendable.png')
 
-    // v1.1 w/o landing legs
+    // v1.1 w/ fairing w/o landing legs
     &.falcon-9_v1_1c
-      width 37.62rem
+      // 68.4m + 13.1m = 81.5m
+      // 81.5/100*55 = 44.825
+      width 44.825rem
       background-image url('../assets/vehicles/falcon-9_v1-1-expendable.png')
 
-    // v1.2 w/o dragon
+    // v1.2 w/ fairing
     &.falcon-9_v1_2
-      width 37.62rem
+      // 70m + 13.1m = 83.1m
+      // 83.1/100*55 = 45.705
+      width 45.705rem
       background-image url('../assets/vehicles/falcon-9_v1-1.png')
 
     // v1.2 w/ dragon
     &.falcon-9_v1_2a
-      width 34.485rem
+      // 70m + 8.1m = 78.1m
+      // 78.1/100*55 = 42.955
+      width 42.955rem
       background-image url('../assets/vehicles/falcon-9_v1-1-dragon.png')
 
     // v1.2 w/ dragon w/o landing legs
     &.falcon-9_v1_2b
-      width 34.485rem
+      // 70m + 8.1m = 78.1m
+      // 78.1/100*55 = 42.955
+      width 42.955rem
       background-image url('../assets/vehicles/falcon-9_v1-1-dragon-expendable.png')
 
-    // v1.2 w/o landing legs
+    // v1.2 w/ fairing w/o landing legs
     &.falcon-9_v1_2c
-      width 37.62rem
+      // 70m + 13.1m = 83.1m
+      // 83.1/100*55 = 45.705
+      width 45.705rem
       background-image url('../assets/vehicles/falcon-9_v1-1-expendable.png')
 
-    // v1.2 heavy
+    // v1.2 heavy w. fairing
     &.falcon-9_heavy
-      width 37.62rem
+      // 70m + 13.1m = 83.1m
+      // 83.1/100*55 = 45.705
+      width 45.705rem
       background-image url('../assets/vehicles/falcon-9_heavy.png')
 
     // Atlas
 
-    &.atlas-5_401
-      width 32.065rem
+    &.atlas-5_401_4s
+      // 58.3m + 9.4m = 67.7m
+      // 67.7/100*55 = 37.235
+      width 37.235rem
+      background-image url('../assets/vehicles/atlas-5_401.png')
+
+    &.atlas-5_401_4m
+      // 58.3m + 10.3m = 68.6m
+      // 68.6/100*55 = 37.73
+      width 37.73rem
+      background-image url('../assets/vehicles/atlas-5_401.png')
+
+    &.atlas-5_401_4l
+      // 58.3m + 11.2m = 69.5m
+      // 69.5/100*55 = 38.225
+      width 38.225rem
       background-image url('../assets/vehicles/atlas-5_401.png')
 
   .orbital
