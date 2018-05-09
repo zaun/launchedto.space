@@ -1,5 +1,269 @@
 [
   {
+    "vehicle": "Saturn-1 Block 1",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-1",
+    "date": "1961-10-27",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-34",
+    "orbital": "no",
+    "payloads": []
+  }, {
+    "vehicle": "Saturn-1 Block 1",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-2",
+    "date": "1962-04-25",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-34",
+    "orbital": "no",
+    "payloads": [
+      {
+        "name": "Highwater 1",
+        "orbital": "no",
+        "orbit": "KARMEN",
+        "mass": -1,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-1 Block 1",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-3",
+    "date": "1962-11-16",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-34",
+    "orbital": "no",
+    "payloads": [
+      {
+        "name": "Highwater 2",
+        "orbital": "no",
+        "orbit": "KARMEN",
+        "mass": -1,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-1 Block 1",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-4",
+    "date": "1963-03-28",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-34",
+    "orbital": "no",
+    "payloads": []
+  }, {
+    "vehicle": "Saturn-1 Block 2",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-5",
+    "date": "1964-01-29",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-37B",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Saturn-SA 5",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 16965,
+        "type": "Satellite",
+        "description": ""
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-1 Block 2",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-6",
+    "date": "1964-05-28",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-37B",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Saturn-SA 6",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 16965,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Apollo 101 BP 13",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 4500,
+        "type": "Satellite",
+        "description": "The Apollo BP (Boiler Plate) were structural models of the Apollo command module used in both suborbital tests of the launch escape system as well as in orbital test flights of the Saturn-1 (Block-2) booster."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-1 Block 2",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-7",
+    "date": "1964-09-18",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-37B",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Saturn-SA 7",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 16965,
+        "type": "Satellite",
+        "description": ""
+      }, {
+        "name": "Apollo 102 BP 15",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 4500,
+        "type": "Satellite",
+        "description": "The Apollo BP (Boiler Plate) were structural models of the Apollo command module used in both suborbital tests of the launch escape system as well as in orbital test flights of the Saturn-1 (Block-2) booster."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-1 Block 2",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-9",
+    "date": "1965-02-16",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-37B",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Pegasus 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 10400,
+        "type": "Satellite",
+        "description": "The mission of the Pegasus spacecraft was to measure meteoroid abundances over the mass range 10-7 to 10-4 g in the region near the earth."
+      }, {
+        "name": "Apollo 103 BP 16",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 4500,
+        "type": "Satellite",
+        "description": "The Apollo BP (Boiler Plate) were structural models of the Apollo command module used in both suborbital tests of the launch escape system as well as in orbital test flights of the Saturn-1 (Block-2) booster."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-1 Block 2",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-8",
+    "date": "1965-05-25",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-37B",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Pegasus 2",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 10464,
+        "type": "Satellite",
+        "description": "The mission of the Pegasus spacecraft was to measure meteoroid abundances over the mass range 10-7 to 10-4 g in the region near the earth."
+      }, {
+        "name": "Apollo 104 BP 26",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 4500,
+        "type": "Capsule",
+        "description": "The Apollo BP (Boiler Plate) were structural models of the Apollo command module used in both suborbital tests of the launch escape system as well as in orbital test flights of the Saturn-1 (Block-2) booster."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-1 Block 2",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-10",
+    "date": "1965-07-30",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-37B",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Pegasus 3",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 10500,
+        "type": "Satellite",
+        "description": "The mission of the Pegasus spacecraft was to measure meteoroid abundances over the mass range 10-7 to 10-4 g in the region near the earth."
+      }, {
+        "name": "Apollo 105 BP 9A",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 4500,
+        "type": "Capsule",
+        "description": "The Apollo BP (Boiler Plate) were structural models of the Apollo command module used in both suborbital tests of the launch escape system as well as in orbital test flights of the Saturn-1 (Block-2) booster."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-1B",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-201",
+    "date": "1966-02-26",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-34",
+    "orbital": "no",
+    "payloads": [
+      {
+        "name": "Apollo 201 / CSM 9",
+        "orbital": "no",
+        "orbit": "KARMEN",
+        "mass": 28801,
+        "type": "Capsule",
+        "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-1B",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-203",
+    "date": "1966-07-05",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-37B",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Apollo 203",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 28801,
+        "type": "Capsule",
+        "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-1B",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-202",
+    "date": "1966-07-05",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-34",
+    "orbital": "no",
+    "payloads": [
+      {
+        "name": "Apollo 202 / CSM 11",
+        "orbital": "no",
+        "orbit": "KARMEN",
+        "mass": 28801,
+        "type": "Capsule",
+        "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth."
+      }
+    ]
+  }, {
     "id": "76a85922-7eb8-44d6-9bba-53b49e9b508f",
     "vehicle": "Saturn-5",
     "vehicleFamily": "Saturn",
@@ -27,6 +291,25 @@
       }
     ]
   }, {
+    "vehicle": "Saturn-1B",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-204",
+    "date": "1968-01-22",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-34",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Apollo 5 / LM 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 28801,
+        "type": "Capsule",
+        "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth."
+      }
+    ]
+  }, {
     "id": "df6a3030-9bed-412d-a610-792a854d62ad",
     "vehicle": "Saturn-5",
     "vehicleFamily": "Saturn",
@@ -51,6 +334,25 @@
         "mass": 12000,
         "type": "Satellite",
         "description": "The LTA (Lunar Module Test Article) launched as a dynamic model representing the dynamic properties of a real lunar module."
+      }
+    ]
+  }, {
+    "vehicle": "Saturn-1B",
+    "vehicleFamily": "Saturn",
+    "serial": "SA-205",
+    "date": "1968-10-11",
+    "status": "Success",
+    "launchSite": "NASA John F. Kennedy Space Center",
+    "launchPad": "LC-34",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Apollo 7 / LM 101",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 28801,
+        "type": "Capsule",
+        "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth."
       }
     ]
   }, {
@@ -333,7 +635,7 @@
       }
     ]
   }, {
-    "vehicle": "Saturn-5a",
+    "vehicle": "Saturn-5 2nd Stage",
     "vehicleFamily": "Saturn",
     "serial": "SA-513",
     "date": "1973-05-14",
@@ -367,7 +669,7 @@
         "orbit": "LEO",
         "mass": 19.5,
         "type": "Satellite",
-        "description": ""
+        "description": "The mission of the FalconSat-2 will be to measure space plasma phenomena that are known to adversely affect space-based communication, such as the Global Positioning Satellite (GPS), and other civil and military communications."
       }
     ]
   },
@@ -387,7 +689,7 @@
         "orbit": "LEO",
         "mass": -1,
         "type": "Satellite",
-        "description": ""
+        "description": "Demosat was a vehicle evaluation payload, containing two small experiments for NASA. It was to remain attached to the Falcon-1 second stage."
       }
     ]
   },
@@ -407,7 +709,7 @@
         "orbit": "LEO",
         "mass": 83.6,
         "type": "Satellite",
-        "description": ""
+        "description": "The Trailblazer satellite demonstrated a flexible, modular commercial bus design using off the shelf components. Trailblazer used a satellite bus originally developed for the DSE project under a Missile Defense Agency contract."
       },
       {
         "name": "PreSat",
@@ -415,7 +717,7 @@
         "orbit": "LEO",
         "mass": 4,
         "type": "Satellite",
-        "description": ""
+        "description": "The PreSat (PharmaSat Risk Evaluation Satellite) CubeSat technology demonstration nanosatellite is a risk reduction and technology demonstration mission."
       },
       {
         "name": "Nanosail D",
@@ -423,7 +725,7 @@
         "orbit": "LEO",
         "mass": 4,
         "type": "Satellite",
-        "description": ""
+        "description": "NanoSail D is a cubesat-based solar sail demonstrator."
       },
       {
         "name": "Celestis 07",
@@ -431,7 +733,7 @@
         "orbit": "LEO",
         "mass": -1,
         "type": "Satellite",
-        "description": ""
+        "description": "Celestis, now renamed Space Services Inc. (SSI), is the first company to offer space burials."
       }
     ]
   },
@@ -451,7 +753,7 @@
         "orbit": "LEO",
         "mass": 165,
         "type": "Satellite",
-        "description": ""
+        "description": "Ratsat is a vehicle evaluation payload for the fourth flight of the Falcon-1 rocket designed and built by SpaceX specifically for this mission."
       }
     ]
   },
@@ -471,7 +773,7 @@
         "orbit": "LEO",
         "mass": 200,
         "type": "Satellite",
-        "description": ""
+        "description": "MACSAT (Medium-sized Aperture Camera Satellite) development project is a joint development program between Astronautic Technology (M) Sdn. Bhd. of Malaysia and Satrec Initiative, which started from end of 2001 and aimed to complete the development by the end of 2003. MACSAT was renamed to RazakSAT."
       }
     ]
   },

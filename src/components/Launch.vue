@@ -203,21 +203,29 @@ export default {
   .rocket
     margin-left 10.5rem
     height 100%
-    width 1100px
+    width 50rem
     background-size contain
     background-repeat no-repeat
-    background-position center
+    background-position center left
 
     // 100m = 55rem
     // (<height> / 100) * 55
+
+    &.saturn-1_block_1
+      background-image url('../assets/vehicles/placeholder.png')
+
+    &.saturn-1_block_2
+      background-image url('../assets/vehicles/placeholder.png')
+
+    &.saturn-1b
+      background-image url('../assets/vehicles/placeholder.png')
 
     &.saturn-5
       width 56.1rem
       background-image url('../assets/vehicles/saturn-v.png')
 
-    &.saturn-5a
-      width 56.1rem
-      background-image url('../assets/vehicles/saturn-v.png')
+    &.saturn-5_2nd_stage
+      background-image url('../assets/vehicles/placeholder.png')
 
     &.falcon-1_dev
       width 11.715rem
@@ -228,12 +236,12 @@ export default {
       background-image url('../assets/vehicles/falcon-1.png')
 
     &.grasshopper
-      width 6.765rem
-      background-image url('../assets/vehicles/grasshopper.png')
+      // width 6.765rem
+      background-image url('../assets/vehicles/placeholder.png')
 
     &.falcon-9r-dev-1
-      width 6.71rem
-      background-image url('../assets/vehicles/falcon-9r-dev-1.png')
+      // width 6.71rem
+      background-image url('../assets/vehicles/placeholder.png')
 
     &.falcon-9_v1_0
       width 30.195rem
