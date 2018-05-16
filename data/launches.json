@@ -3156,7 +3156,7 @@
     ]
   },
   {
-    "vehicle": "Atlas-5 401",
+    "vehicle": "Atlas-5 401 4s",
     "vehicleFamily": "Atlas",
     "serial": "AV-001",
     "date": "2002-08-21",
@@ -3177,7 +3177,7 @@
     ]
   },
   {
-    "vehicle": "Atlas-5 401",
+    "vehicle": "Atlas-5 401 4s",
     "vehicleFamily": "Atlas",
     "serial": "AV-002",
     "date": "2003-05-13",
@@ -3198,7 +3198,7 @@
     ]
   },
   {
-    "vehicle": "Atlas-5 401",
+    "vehicle": "Atlas-5 401 4s",
     "vehicleFamily": "Atlas",
     "serial": "AV-007",
     "date": "2005-08-12",
@@ -3219,7 +3219,7 @@
     ]
   },
   {
-    "vehicle": "Atlas-5 401",
+    "vehicle": "Atlas-5 401 4s",
     "vehicleFamily": "Atlas",
     "serial": "AV-013",
     "date": "2007-03-09",
@@ -3275,7 +3275,7 @@
     ]
   },
   {
-    "vehicle": "Atlas-5 401",
+    "vehicle": "Atlas-5 401 4m",
     "vehicleFamily": "Atlas",
     "serial": "AV-009",
     "date": "2007-06-15",
@@ -3303,7 +3303,7 @@
     ]
   },
   {
-    "vehicle": "Atlas-5 401",
+    "vehicle": "Atlas-5 401 4s",
     "vehicleFamily": "Atlas",
     "serial": "AV-015",
     "date": "2007-12-10",
@@ -3324,7 +3324,7 @@
     ]
   },
   {
-    "vehicle": "Atlas-5 401",
+    "vehicle": "Atlas-5 401 4s",
     "vehicleFamily": "Atlas",
     "serial": "AV-020",
     "date": "2009-06-18",
@@ -3352,7 +3352,7 @@
     ]
   },
   {
-    "vehicle": "Atlas-5 401",
+    "vehicle": "Atlas-5 401 4s",
     "vehicleFamily": "Atlas",
     "serial": "AV-018",
     "date": "2009-09-08",
@@ -3373,7 +3373,7 @@
     ]
   },
   {
-    "vehicle": "Atlas-5 401",
+    "vehicle": "Atlas-5 401 4s",
     "vehicleFamily": "Atlas",
     "serial": "AV-017",
     "date": "2009-10-18",
@@ -3394,7 +3394,7 @@
     ]
   },
   {
-    "vehicle": "Atlas-5 401",
+    "vehicle": "Atlas-5 401 4s",
     "vehicleFamily": "Atlas",
     "serial": "AV-021",
     "date": "2010-02-11",
@@ -3415,7 +3415,7 @@
     ]
   },
   {
-    "vehicle": "Atlas-5 401",
+    "vehicle": "Atlas-5 401 4s",
     "vehicleFamily": "Atlas",
     "serial": "AV-022",
     "date": "2011-06-20",
@@ -3436,7 +3436,7 @@
     ]
   },
   {
-    "vehicle": "Atlas-5 401",
+    "vehicle": "Atlas-5 401 4s",
     "vehicleFamily": "Atlas",
     "serial": "AV-023",
     "date": "2012-06-20",
@@ -3457,7 +3457,7 @@
     ]
   },
   {
-    "vehicle": "Atlas-5 401",
+    "vehicle": "Atlas-5 401 4s",
     "vehicleFamily": "Atlas",
     "serial": "AV-032",
     "date": "2012-08-30",
@@ -3485,65 +3485,149 @@
     ]
   },
   {
-    "vehicle": "",
-    "vehicleFamily": "",
-    "serial": "",
-    "date": "",
+    "vehicle": "Atlas-5 401 4m",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-033",
+    "date": "2012-09-13",
     "status": "Success",
-    "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-40",
+    "launchSite": "Vandenberg AFB",
+    "launchPad": "SLC-3E",
     "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
-        "name": "",
-        "orbital": "",
-        "orbit": "",
-        "mass": -1,
+        "name": "Intruder 10A",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 3250,
         "type": "Satellite",
-        "description": ""
+        "description": "NOSS-3 (Naval Ocean Surveillance System), which is likely not the official designation, is the third generation of NOSS satellites, which are low orbit SIGINT satellites. In 2013, the designation Intruder leaked out. These satellites carry equipment to track ships and aircraft via their radio transmissions. Positions of the origin of the transmissions are determined by triangulation. Each launch consists of two satellites of similar size in the same orbit. Both satellites maneuver to stationkeep relative to one another."
+      }, {
+        "name": "Intruder 10B",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 3250,
+        "type": "Satellite",
+        "description": "NOSS-3 (Naval Ocean Surveillance System), which is likely not the official designation, is the third generation of NOSS satellites, which are low orbit SIGINT satellites. In 2013, the designation Intruder leaked out. These satellites carry equipment to track ships and aircraft via their radio transmissions. Positions of the origin of the transmissions are determined by triangulation. Each launch consists of two satellites of similar size in the same orbit. Both satellites maneuver to stationkeep relative to one another."
+      }, {
+        "name": "Aeneas",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 4,
+        "type": "Satellite",
+        "description": "Aeneas is a nanosatellite project of the University of Southern California/Space Engineering Research Center (USC/SERC). This program modifies a 3U (30 × 10 × 10 cm) National Reconnaissance Office (NRO)-specified Colony I CubeSat (3U) bus to address a research thrust of the Department of Homeland Security (DHS)."
+      }, {
+        "name": "SMDC-ONE 2.1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 4,
+        "type": "Satellite",
+        "description": "SMDC-ONE (Space Missile Defense Command - Operational Nanosatellite Effect) is a program to develop a small experimental communications satellite constellation for the US Army Space and Missile Defense Command."
+      }, {
+        "name": "SMDC-ONE 2.2",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 4,
+        "type": "Satellite",
+        "description": "SMDC-ONE (Space Missile Defense Command - Operational Nanosatellite Effect) is a program to develop a small experimental communications satellite constellation for the US Army Space and Missile Defense Command."
+      }, {
+        "name": "STARE A",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 4,
+        "type": "Satellite",
+        "description": "STARE (Space-Based Telescopes for Actionable Refinement of Ephemeris) are a series of three-unit CubeSats (called 3U CubeSats) equipped with optical imaging payloads, that will demonstrate the main elements of a new concept for tracking orbiting space debris."
+      }, {
+        "name": "CINEMA 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 4,
+        "type": "Satellite",
+        "description": "CINEMA (Cubesat for Ion, Neutral, Electron, Magnetic fields) is an international nanosatellite science mission of cooperative university institutions with the objective to provide critical space weather measurements, including unique high sensitivity mapping of ENAs (Energetic Neutral Atoms), and high cadence movies of ring current ENAs in stereo from low Earth orbit."
+      }, {
+        "name": "CSSWE",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 4,
+        "type": "Satellite",
+        "description": "CSSWE (Colorado Student Space Weather Experiment) is a 3U-CubeSat designed and developed by students of the Laboratory for Atmospheric and Space Physics (LASP) at the University of Colorado at Boulder (CU-Boulder)."
+      }, {
+        "name": "CXBN 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 2.6,
+        "type": "Satellite",
+        "description": "CXBN (Cosmic X-Ray Background) is a nanosatellite designed to make observations of the diffuse X-ray background and publish the data. It is build on a double CubeSat form factor."
+      }, {
+        "name": "AeroCube 4A",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1,
+        "type": "Satellite",
+        "description": "AeroCube-4 was a CubeSat technology demonstration mission within the PicoSat Program of The Aerospace Corporation, El Segundo, CA, USA."
+      }, {
+        "name": "AeroCube 4B",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1,
+        "type": "Satellite",
+        "description": "AeroCube-4 was a CubeSat technology demonstration mission within the PicoSat Program of The Aerospace Corporation, El Segundo, CA, USA."
+      }, {
+        "name": "AeroCube 4C",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1,
+        "type": "Satellite",
+        "description": "AeroCube-4 was a CubeSat technology demonstration mission within the PicoSat Program of The Aerospace Corporation, El Segundo, CA, USA."
+      }, {
+        "name": "CP 5",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 1,
+        "type": "Satellite",
+        "description": "The Cal Poly Picosatellite Project (PolySat) was founded in 1999 and involves a multidisciplinary team of undergraduate and graduate engineering students working to design, construct, test, launch, and operate a CubeSat."
       }
     ]
   },
   {
-    "vehicle": "",
-    "vehicleFamily": "",
-    "serial": "",
-    "date": "",
+    "vehicle": "Atlas-5 401 4m",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-036",
+    "date": "2013-01-31",
     "status": "Success",
     "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-40",
+    "launchPad": "SLC-41",
     "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
-        "name": "",
-        "orbital": "",
-        "orbit": "",
-        "mass": -1,
+        "name": "TDRS 11",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": 3454,
         "type": "Satellite",
-        "description": ""
+        "description": "NASA selected Boeing in December 2007 to built the third generation of TDRS (Tracking & Data Relay Satellite) data relay satellites. They are the successors of the second generation TDRS satellites."
       }
     ]
   },
   {
-    "vehicle": "",
-    "vehicleFamily": "",
-    "serial": "",
-    "date": "",
+    "vehicle": "Atlas-5 401 4m",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-035",
+    "date": "2013-02-11",
     "status": "Success",
-    "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-40",
+    "launchSite": "Vandenberg AFB",
+    "launchPad": "SLC-3E",
     "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
-        "name": "",
-        "orbital": "",
-        "orbit": "",
-        "mass": -1,
+        "name": "Landsat 8",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 3085,
         "type": "Satellite",
-        "description": ""
+        "description": "On 23 December 2005, the Office of Science and Technology Policy (OSTP) issued a memorandum adjusting the LDCM (Landsat Data Continuity Mission) strategy. NASA was instructed to acquire a single Landsat data continuity mission in the form of a free-flyer spacecraft, which will receive the name Landsat 8."
       }
     ]
   },

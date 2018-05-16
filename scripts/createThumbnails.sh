@@ -2,9 +2,8 @@
 # Purpose: Create thumbnails of images if none already exists
 
 SCRIPT_DIRECTORY=$(cd `dirname $0` && pwd)
-MEDIA_DIRECTORY=$SCRIPT_DIRECTORY/../public/img
-THUMB_DIRECTORY=$SCRIPT_DIRECTORY/../public/thumb
-
+MEDIA_DIRECTORY=$SCRIPT_DIRECTORY/../media/orig
+THUMB_DIRECTORY=$SCRIPT_DIRECTORY/../media/thumb
 
 for IMG in $(find $MEDIA_DIRECTORY -type f -name '*.png' -or -name '*.jpg');
 do

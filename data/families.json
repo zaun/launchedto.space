@@ -1,0 +1,442 @@
+[
+  {
+    "name": "Saturn",
+    "description": "The Saturn family of American rocket boosters was developed by a team of mostly German rocket scientists led by Wernher von Braun to launch heavy payloads to Earth orbit and beyond. Originally proposed as a military satellite launcher, they were adopted as the launch vehicles for the Apollo moon program. Three versions were built and flown: Saturn I, Saturn IB, and Saturn V.\nThe Saturn name was proposed by von Braun in October 1958 as a logical successor to the Jupiter series as well as the Roman god's powerful position.\nIn 1963, president John F. Kennedy identified the Saturn I SA-5 launch as being the point where US lift capability would surpass the Soviets, after having been behind since Sputnik. This was last mentioned by him in a speech he gave at Brooks AFB in San Antonio on the day before he was assassinated.\nTo date, the Saturn V is the only launch vehicle to transport human beings beyond low Earth orbit. A total of 24 humans were flown to the Moon in the four years spanning December 1968 through December 1972. No Saturn rocket failed catastrophically in flight.",
+    "rockets": [
+      {
+        "name": "Saturn-1 Block 1",
+        "image": "placeholder.png",
+        "height": 55,
+        "fairingHeight": -1,
+        "fairingDiameter": -1,
+        "craftHeight": -1,
+        "craftDiameter": -1,
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Saturn_I",
+        "astronautixURL": "http://www.astronautix.com/s/saturni.html",
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/saturn-1_bl1.htm",
+        "payloads": [],
+        "stages": [
+          {
+            "name": "Saturn-1",
+            "grossMass": 432681,
+            "emptyMass": 45267,
+            "burnTime": 150,
+            "seaLevelIsp": 255,
+            "thrustVac": 7582.100,
+            "diameter": 6.52,
+            "span": 6.52,
+            "height": 24.48,
+            "propellants": "Lox/Kerosene",
+            "engines": [
+              {
+                "name": "H-1",
+                "count": 8,
+                "thrustVac": 947.7625
+              }
+            ]
+          },
+          {
+            "name": "Saturn-4 Dummy",
+            "engines": []
+          },
+          {
+            "name": "Centaur Dummy",
+            "engines": []
+          }
+        ]
+      },
+      {
+        "name": "Saturn-1 Block 2",
+        "image": "placeholder.png",
+        "height": 55,
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Saturn_I",
+        "astronautixURL": "http://www.astronautix.com/s/saturni.html",
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/saturn-1_bl2.htm",
+        "payloads": [
+          {
+            "orbit": "LEO",
+            "capacity": 9000
+          }
+        ],
+        "stages": [
+          {
+            "name": "Saturn-1",
+            "grossMass": 432681,
+            "emptyMass": 45267,
+            "burnTime": 150,
+            "seaLevelIsp": 255,
+            "thrustVac": 7582.100,
+            "diameter": 6.52,
+            "span": 6.52,
+            "height": 24.48,
+            "propellants": "Lox/Kerosene",
+            "engines": [
+              {
+                "name": "H-1",
+                "count": 8,
+                "thrustVac": 947.7625
+              }
+            ]
+          }, {
+            "name": "Saturn-4",
+            "grossMass": 50576,
+            "emptyMass": 5217,
+            "burnTime": 482,
+            "isp": 410,
+            "thrustVac": 400.346,
+            "diameter": 5.49,
+            "span": 5.49,
+            "height": 12.19,
+            "propellants": "Lox/LH2",
+            "engines": [
+              {
+                "name": "RL-10",
+                "count": 6,
+                "thrustVac": 66.7243
+              }
+            ]
+          }, {
+            "name": "Centaur C",
+            "grossMass": 15600,
+            "emptyMass": 1996,
+            "burnTime": 430,
+            "isp": 425,
+            "thrustVac": 133.448,
+            "diameter": 3.05,
+            "span": 3.05,
+            "height": 9.14,
+            "propellants": "Lox/LH2",
+            "engines": [
+              {
+                "name": "RL-10A-1",
+                "count": 2,
+                "thrustVac": 66.7240
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Saturn-1B",
+        "image": "placeholder.png",
+        "height": 43.2,
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Saturn_IB",
+        "astronautixURL": "http://www.astronautix.com/s/saturnib.html",
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/saturn-1b.htm",
+        "payloads": [
+          {
+            "orbit": "LEO",
+            "capacity": 18600
+          }
+        ],
+        "stages": [
+          {
+            "name": "Saturn-1B",
+            "grossMass": 448648,
+            "emptyMass": 41594,
+            "burnTime": 155,
+            "seaLevelIsp": 262,
+            "isp": 296,
+            "thrustVac": 8241.763,
+            "diameter": 6.52,
+            "span": 6.52,
+            "height": 24.48,
+            "propellants": "Lox/Kerosene",
+            "engines": [
+              {
+                "name": "H-1b",
+                "count": 8,
+                "thrustVac": 1030.2203
+              }
+            ]
+          },
+          {
+            "name": "Saturn-4B",
+            "grossMass": 118800,
+            "emptyMass": 12900,
+            "burnTime": 475,
+            "seaLevelIsp": 200,
+            "isp": 421,
+            "thrustVac": 1031.6000,
+            "diameter": 6.61,
+            "span": 6.61,
+            "height": 17.80,
+            "propellants": "Lox/Kerosene",
+            "engines": [
+              {
+                "name": "J-2",
+                "count": 1,
+                "thrustVac": 1031.6000
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Saturn-5",
+        "image": "saturn-v.png",
+        "height": 110.6,
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Saturn_V",
+        "astronautixURL": "http://www.astronautix.com/s/saturnv.html",
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/saturn-5.htm",
+        "payloads": [
+          {
+            "orbit": "LEO",
+            "capacity": 118000
+          }, {
+            "orbit": "TLI",
+            "capacity": 47000
+          }
+        ],
+        "stages": [
+          {
+            "name": "Saturn IC",
+            "grossMass": 2286217,
+            "emptyMass": 135218,
+            "burnTime": 161,
+            "seaLevelIsp": 265,
+            "isp": 304,
+            "thrustVac": 38703.160,
+            "diameter": 10.06,
+            "span": 19.00,
+            "height": 42.06,
+            "propellants": "Lox/Kerosene",
+            "engines": [
+              {
+                "name": "F-1",
+                "count": 5,
+                "thrustVac": 7740.632
+              }
+            ]
+          },
+          {
+            "name": "Saturn-2",
+            "grossMass": 490778,
+            "emptyMass": 39048,
+            "burnTime": 390,
+            "seaLevelIsp": 200,
+            "isp": 421,
+            "thrustVac": 5165.790,
+            "diameter": 10.06,
+            "span": 10.06,
+            "height": 24.84,
+            "propellants": "Lox/LH2",
+            "engines": [
+              {
+                "name": "J-2",
+                "count": 5,
+                "thrustVac": 1033.158
+              }
+            ]
+          },
+          {
+            "name": "Saturn-4b",
+            "grossMass": 119900,
+            "emptyMass": 13300,
+            "burnTime": 475,
+            "seaLevelIsp": 200,
+            "isp": 421,
+            "thrustVac": 1031.600,
+            "diameter": 6.61,
+            "span": 6.61,
+            "height": 17.80,
+            "propellants": "Lox/LH2",
+            "engines": [
+              {
+                "name": "J-2",
+                "count": 1,
+                "thrustVac": 1031.600
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Saturn-5 2nd Stage",
+        "image": "placeholder.png",
+        "height": 110.6,
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Saturn_V",
+        "astronautixURL": "http://www.astronautix.com/s/saturnv.html",
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/saturn-5.htm",
+        "payloads": [
+          {
+            "orbit": "LEO",
+            "capacity": 118000
+          }, {
+            "orbit": "TLI",
+            "capacity": 47000
+          }
+        ],
+        "stages": [
+          {
+            "name": "Saturn IC",
+            "grossMass": 2286217,
+            "emptyMass": 135218,
+            "burnTime": 161,
+            "seaLevelIsp": 265,
+            "isp": 304,
+            "thrustVac": 38703.160,
+            "diameter": 10.06,
+            "span": 19.00,
+            "height": 42.06,
+            "propellants": "Lox/Kerosene",
+            "engines": [
+              {
+                "name": "F-1",
+                "count": 5,
+                "thrustVac": 7740.632
+              }
+            ]
+          },
+          {
+            "name": "Saturn-2",
+            "grossMass": 490778,
+            "emptyMass": 39048,
+            "burnTime": 390,
+            "seaLevelIsp": 200,
+            "isp": 421,
+            "thrustVac": 5165.790,
+            "diameter": 10.06,
+            "span": 10.06,
+            "height": 24.84,
+            "propellants": "Lox/LH2",
+            "engines": [
+              {
+                "name": "J-2",
+                "count": 5,
+                "thrustVac": 1033.158
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }, {
+    "name": "Falcon",
+    "description": "Falcons are a family of two stage, reusable, liquid oxygen and kerosene powered launch vehicles, designed for cost-efficient and reliable transport of satellites and manned spacecraft to low Earth orbit.",
+    "rockets": [
+      {
+        "name": "Falcon-1 (dev)",
+        "image": "falcon-1.png",
+        "height": 21.3,
+        "fairingHeight": -1,
+        "fairingDiameter": -1,
+        "craftHeight": -1,
+        "craftDiameter": -1,
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_1",
+        "astronautixURL": "http://www.astronautix.com/f/falcon-1devopmentversion.html",
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau/falcon-1.htm",
+        "payloads": [
+          {
+            "orbit": "LEO",
+            "capacity": 420
+          }
+        ],
+        "stages": []
+      }, {
+        "name": "Falcon-1",
+        "image": "falcon-1.png",
+        "height": 21.3,
+        "fairingHeight": -1,
+        "fairingDiameter": -1,
+        "craftHeight": -1,
+        "craftDiameter": -1,
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_1",
+        "astronautixURL": "http://www.astronautix.com/f/falcon1.html",
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau/falcon-1.htm",
+        "payloads": [
+          {
+            "orbit": "LEO",
+            "capacity": 470
+          }, {
+            "orbit": "LPEO",
+            "capacity": 290
+          }
+        ],
+        "stages": [
+          {
+            "name": "Falcon-1",
+            "grossMass": -1,
+            "emptyMass": -1,
+            "burnTime": -1,
+            "seaLevelIsp": -1,
+            "isp": -1,
+            "thrustVac": -1,
+            "diameter": -1,
+            "span": -1,
+            "height": -1,
+            "propellants": "Lox/Kerosene",
+            "engines": [
+              {
+                "name": "Kestrel",
+                "count": 1,
+                "thrustVac": -1
+              }
+            ]
+          }
+        ]
+      } , {
+        "name": "Falcon-9 v1.0",
+        "image": "falcon-9_v1-0.png",
+        "height": 54.9,
+        "fairingHeight": -1,
+        "fairingDiameter": -1,
+        "craftHeight": 8.1,
+        "craftDiameter": 3.7,
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9",
+        "astronautixURL": "http://www.astronautix.com/f/falcon.html",
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau/falcon-9.htm",
+        "payloads": [
+          {
+            "orbit": "LEO",
+            "capacity": 9900
+          }, {
+            "orbit": "LPEO",
+            "capacity": 4050
+          }
+        ],
+        "stages": [
+          {
+            "name": "1st Stage",
+            "grossMass": -1,
+            "emptyMass": -1,
+            "burnTime": 170,
+            "seaLevelIsp": 275,
+            "isp": 304,
+            "thrustVac": 5553,
+            "diameter": 3.7,
+            "span": 3.7,
+            "height": -1,
+            "propellants": "LOX / RP-1",
+            "engines": [
+              {
+                "name": "Merlin 1C",
+                "count": 9,
+                "thrustVac": 617
+              }
+            ]
+          }, {
+            "name": "2nd Stage",
+            "grossMass": -1,
+            "emptyMass": -1,
+            "burnTime": 345,
+            "seaLevelIsp": -1,
+            "isp": 342,
+            "thrustVac": 617,
+            "diameter": 3.7,
+            "span": 3.7,
+            "height": -1,
+            "propellants": "LOX / RP-1",
+            "engines": [
+              {
+                "name": "Merlin 1C Vacuum",
+                "count": 1,
+                "thrustVac": 617
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
