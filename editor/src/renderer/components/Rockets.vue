@@ -36,7 +36,7 @@
           <v-text-field v-model="selected.name" label="Rocket Name" required :rules="requiredRule" class="pr-1"></v-text-field>
         </v-flex>
         <v-flex xs4>
-          <v-text-field v-model="selected.height" label="Rocket Height (m)" class="pr-1"></v-text-field>
+          <v-text-field v-model="selected.height" label="Rocket Height (m)" type="number" class="pr-1"></v-text-field>
         </v-flex>
       </v-layout>
       <v-layout row>
@@ -51,7 +51,7 @@
         </v-flex>
       </v-layout>
 
-      <v-layout row>
+      <v-layout row class="bottom">
         <v-flex xs3 class="pr-1">
           <v-layout row class="section">
             <v-flex xs10>
@@ -63,17 +63,17 @@
               </v-btn>
             </v-flex>
           </v-layout>
-          <div class="bottom">
+          <div class="bottomInner">
             <div row v-if="selected && selected.payloads" v-for="(payload, idx) in selected.payloads" :class="{'odd': idx % 2 !== 0}" :key="`payload-${idx}`">
               <v-layout row>
                 <v-flex xs5>
                   <v-select v-model="payload.orbit" :items="orbitOptions" label="Orbital" class="pr-1"></v-select>
                 </v-flex>
                 <v-flex xs5>
-                  <v-text-field v-model="payload.capacity" label="Capacity (kg)" required :rules="requiredRule"></v-text-field>
+                  <v-text-field v-model="payload.capacity" label="Capacity (kg)" type="number" required :rules="requiredNumberRule"></v-text-field>
                 </v-flex>
                 <v-flex xs2>
-                  <v-btn id="payloadDelete" icon outline @click="deletePayload(idx)">
+                  <v-btn id="payloadDelete" icon small outline @click="deletePayload(idx)">
                     <v-icon>delete</v-icon>
                   </v-btn>
                 </v-flex>
@@ -93,29 +93,29 @@
               </v-btn>
             </v-flex>
           </v-layout>
-          <div class="bottom">
+          <div class="bottomInner">
             <div row v-if="selected && selected.stages" v-for="(stage, idx) in selected.stages" :class="{'odd': idx % 2 !== 0}" :key="`stage-${idx}`">
               <v-layout row>
                 <v-flex xs2>
                   <v-text-field v-model="stage.name" label="Name" required :rules="requiredRule" class="pr-1"></v-text-field>
                 </v-flex>
                 <v-flex xs2>
-                  <v-text-field v-model="stage.emptyMass" label="Empty Mass (kg)" class="pr-1"></v-text-field>
+                  <v-text-field v-model="stage.emptyMass" label="Empty Mass (kg)" type="number" :rules="numberRule" class="pr-1"></v-text-field>
                 </v-flex>
                 <v-flex xs2>
-                  <v-text-field v-model="stage.grossMass" label="Gross Mass (kg)" class="pr-1"></v-text-field>
+                  <v-text-field v-model="stage.grossMass" label="Gross Mass (kg)" type="number" :rules="numberRule" class="pr-1"></v-text-field>
                 </v-flex>
                 <v-flex xs1>
-                  <v-text-field v-model="stage.height" label="Height (m)" class="pr-1"></v-text-field>
+                  <v-text-field v-model="stage.height" label="Height (m)" type="number" :rules="numberRule" class="pr-1"></v-text-field>
                 </v-flex>
                 <v-flex xs2>
-                  <v-text-field v-model="stage.diameter" label="Diameter (m)" class="pr-1"></v-text-field>
+                  <v-text-field v-model="stage.diameter" label="Diameter (m)" type="number" :rules="numberRule" class="pr-1"></v-text-field>
                 </v-flex>
                 <v-flex xs2>
-                  <v-text-field v-model="stage.span" label="Span (m)" class="pr-1"></v-text-field>
+                  <v-text-field v-model="stage.span" label="Span (m)" type="number" :rules="numberRule" class="pr-1"></v-text-field>
                 </v-flex>
                 <v-flex xs1>
-                  <v-btn id="rocketDelete" icon outline @click="deleteStage(idx)">
+                  <v-btn id="rocketDelete" icon small outline @click="deleteStage(idx)">
                     <v-icon>delete</v-icon>
                   </v-btn>
                 </v-flex>
@@ -123,16 +123,16 @@
               <v-layout row>
                 <v-flex xs2></v-flex>
                 <v-flex xs2>
-                  <v-text-field v-model="stage.burnTime" label="Burn Time (s)" class="pr-1"></v-text-field>
+                  <v-text-field v-model="stage.burnTime" label="Burn Time (s)" type="number" :rules="numberRule" class="pr-1"></v-text-field>
                 </v-flex>
                 <v-flex xs2>
-                  <v-text-field v-model="stage.seaLevelIsp" label="Sea Level ISP" class="pr-1"></v-text-field>
+                  <v-text-field v-model="stage.seaLevelIsp" label="Sea Level ISP" type="number" :rules="numberRule" class="pr-1"></v-text-field>
                 </v-flex>
                 <v-flex xs1>
-                  <v-text-field v-model="stage.isp" label="ISP" class="pr-1"></v-text-field>
+                  <v-text-field v-model="stage.isp" label="ISP" type="number" :rules="numberRule" class="pr-1"></v-text-field>
                 </v-flex>
                 <v-flex xs2>
-                  <v-text-field v-model="stage.thrustVac" label="Thrust Vac (kN)" class="pr-1"></v-text-field>
+                  <v-text-field v-model="stage.thrustVac" label="Thrust Vac (kN)" type="number" :rules="numberRule" class="pr-1"></v-text-field>
                 </v-flex>
                 <v-flex xs2>
                   <v-text-field v-model="stage.propellants" label="Propellants" class="pr-1"></v-text-field>
@@ -185,6 +185,18 @@
         rocketFormValid: true,
 
         requiredRule: [v => !!v || 'Item is required'],
+        numberRule: [
+          (v) => {
+            if (v) {
+              return /^(\s*|\d+(\.\d{1,4})?)$/.test(v) || 'Float; max precision 4';
+            }
+            return true;
+          },
+        ],
+        requiredNumberRule: [
+          v => !!v || 'Item is required',
+          v => /^\d+(\.\d{1,4})?$/.test(v) || 'Float; max precision 4',
+        ],
 
         addFamilyDialog: false,
         newFamilyName: '',
@@ -232,7 +244,10 @@
 
       saveRocket() {
         if (this.$refs.rocketForm.validate()) {
-          this.$store.dispatch('saveRocket', this.selected);
+          this.$store.dispatch('saveRocket', {
+            family: this.selectedGroup.name,
+            rocket: this.selected,
+          });
         }
       },
 
@@ -256,6 +271,15 @@
     position: relative;
     height: 100%;
     width: 100%;
+  }
+
+  #rocketFamily form {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 50px;
+    overflow: hidden;
   }
 
   #payloadAdd,
@@ -303,8 +327,16 @@
 
   .bottom {
     position: absolute;
-    top: 190px;
-    bottom: 45px;
+    top: 150px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+  }
+
+  .bottomInner {
+    position: relative;
+    top: 0;
+    height: calc(100% - 33px);
     overflow-y: auto;
   }
 

@@ -42,6 +42,22 @@ export default new Vuex.Store({
       state.launches = sortBy(state.launches, 'date');
     },
 
+    saveRocket(state, data) {
+      const family = find(state.families, { name: data.family });
+
+      if (family) {
+        const rocket = find(family.rockets, { id: data.rocket.id });
+        if (rocket) {
+          remove(family.rockets, { id: data.rocket.id });
+        }
+        family.rockets.push(data.rocket);
+        family.rockets = sortBy(family.rockets, 'name');
+      } else {
+        // eslint-disable-next-line
+        console.log('Can\'t find family ' + data.family);
+      }
+    },
+
     updateLaunchData(state) {
       readFile(path.join(__dirname, '../../../../data/launches.json'), (err, data) => {
         state.launches = map(filter(sortBy(JSON.parse(data.toString()), 'date'), 'date'), (i) => {
@@ -87,6 +103,21 @@ export default new Vuex.Store({
 
           f.rockets = map(f.rockets, (r) => {
             r.id = r.id ? r.id : uuidv4();
+
+            Object.keys(r).forEach((prop) => {
+              if (r[prop] === -1) {
+                delete r[prop];
+              }
+            });
+
+            r.stages.forEach((s) => {
+              Object.keys(s).forEach((prop) => {
+                if (s[prop] === -1) {
+                  delete s[prop];
+                }
+              });
+            });
+
             return r;
           });
 
@@ -109,6 +140,10 @@ export default new Vuex.Store({
 
     saveLaunch(context, data) {
       context.commit('saveLaunch', data);
+    },
+
+    saveRocket(context, data) {
+      context.commit('saveRocket', data);
     },
   },
 });
