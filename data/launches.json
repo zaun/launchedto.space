@@ -972,7 +972,7 @@
         "orbit": "GEO",
         "mass": 3905,
         "type": "Satellite",
-        "description": "The Hot Bird 6 satellite will provide a total of 32 active transponders. 28 of these will operate in the Ku-band. The remaining 4 transponders will operate in the Ka-band. The 28 Ku-band transponders are connected to a high-power Super-Widebeam coverage to facilitate the provision of television broadcast and multimedia services over the entire European continent, North Africa and the Middle East.",
+        "description": "The Hot Bird 6 satellite will provide 32 active transponders, 28 of these will operate in the Ku-band, he remaining 4 will operate in the Ka-band. The 28 Ku-band transponders are provisioned for television and multimedia services over the European continent, North Africa and the Middle East.",
         "id": "4fc19c8a-7fe4-45f3-97c8-631a8da55e92",
         "status": "success"
       }

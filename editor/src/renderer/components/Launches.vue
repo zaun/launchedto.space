@@ -59,31 +59,39 @@
         </v-flex>
       </v-layout>
       <div class="payloads">
-        <v-layout row v-if="selected && selected.payloads" v-for="(payload, idx) in selected.payloads" :key="`payload-${idx}`">
-          <v-flex xs3>
-            <v-text-field v-model="payload.name" label="Name" required :rules="requiredRule" class="pr-1"></v-text-field>
-          </v-flex>
-          <v-flex xs2>
-            <v-select v-model="payload.orbital" :items="orbitalOptions" label="Orbital" class="pr-1"></v-select>
-          </v-flex>
-          <v-flex xs1>
-            <v-select v-model="payload.orbit" :items="orbitOptions" label="Orbit" class="pr-1"></v-select>
-          </v-flex>
-          <v-flex xs1>
-            <v-text-field v-model="payload.mass" label="Mass (kg)" class="pr-1"></v-text-field>
-          </v-flex>
-          <v-flex xs2>
-            <v-select v-model="payload.type" :items="payloadOptions" label="Type" class="pr-1"></v-select>
-          </v-flex>
-          <v-flex xs2>
-            <v-select v-model="payload.status" :items="statusOptions" label="Status" class="pr-1"></v-select>
-          </v-flex>
-          <v-flex xs1>
-            <v-btn id="payloadDelete" icon outline @click="deletePayload(payload)">
-              <v-icon>delete</v-icon>
-            </v-btn>
-          </v-flex>
-        </v-layout>
+        <div v-if="selected && selected.payloads" v-for="(payload, idx) in selected.payloads" :key="`payload-${idx}`">
+          <v-layout row>
+            <v-flex xs3>
+              <v-text-field v-model="payload.name" label="Name" required :rules="requiredRule" class="pr-1"></v-text-field>
+            </v-flex>
+            <v-flex xs2>
+              <v-select v-model="payload.orbital" :items="orbitalOptions" label="Orbital" class="pr-1"></v-select>
+            </v-flex>
+            <v-flex xs1>
+              <v-select v-model="payload.orbit" :items="orbitOptions" label="Orbit" class="pr-1"></v-select>
+            </v-flex>
+            <v-flex xs1>
+              <v-text-field v-model="payload.mass" label="Mass (kg)" class="pr-1"></v-text-field>
+            </v-flex>
+            <v-flex xs2>
+              <v-select v-model="payload.type" :items="payloadOptions" label="Type" class="pr-1"></v-select>
+            </v-flex>
+            <v-flex xs2>
+              <v-select v-model="payload.status" :items="statusOptions" label="Status" class="pr-1"></v-select>
+            </v-flex>
+            <v-flex xs1>
+              <v-btn id="payloadDelete" icon outline @click="deletePayload(payload)">
+                <v-icon>delete</v-icon>
+              </v-btn>
+            </v-flex>
+          </v-layout>
+          <v-layout row>
+            <v-flex xs1></v-flex>
+            <v-flex xs10>
+              <v-text-field v-model="payload.description" multi-line="true" rows="2" label="Description" counter="300" :rules="descriptionRule" class="pr-1"></v-text-field>
+            </v-flex>
+          </v-layout>
+        </div>
       </div>
       <v-footer class="launchFooter" app height="43">
         <v-spacer></v-spacer>
@@ -111,6 +119,9 @@
         requiredDate: [
           v => !!v || 'Item is required',
           v => /^([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))$/.test(v) || 'Date must be valid YYYY-MM-DD',
+        ],
+        descriptionRule: [
+          v => v.length < 300 || 'Item is to long',
         ],
 
         launchSiteOptions: [
@@ -287,5 +298,9 @@
     transform: translate(-50%, -50%);
     padding: 0px;
     margin: 0px;
+  }
+
+  .input-group--multi-line textarea {
+    font-size: small;
   }
 </style>
