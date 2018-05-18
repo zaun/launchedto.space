@@ -259,7 +259,7 @@
           }
         ],
         "id": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
-        "payloadType": "Fairing",
+        "payloadType": "Capsule",
         "expendable": "yes"
       },
       {
@@ -445,7 +445,7 @@
             "propellants": "LOX / RP-1",
             "engines": [
               {
-                "name": "Merlin-11C",
+                "name": "Merlin-1C",
                 "count": 9,
                 "thrustVac": 617
               }
@@ -469,10 +469,12 @@
           }
         ],
         "id": "c455825f-c71d-4dd2-ba46-de1a2fab9c25",
-        "payloadType": "Fairing",
+        "payloadType": "Capsule",
         "expendable": "yes",
         "fairingHeight": "13.1",
-        "fairingDiameter": "5.2"
+        "fairingDiameter": "5.2",
+        "capsuleHeight": "8.1",
+        "capsuleDiameter": "3.7"
       },
       {
         "id": "ae35985d-33db-43d1-b003-66c25514e38a",
@@ -485,7 +487,8 @@
             "engines": [
               {
                 "name": "Merlin-1D",
-                "count": "9"
+                "count": "9",
+                "thrustVac": "720"
               }
             ],
             "name": "Stage-1"
@@ -494,7 +497,8 @@
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
-                "count": "1"
+                "count": "1",
+                "thrustVac": "617"
               }
             ],
             "name": "Stage-2"
@@ -505,7 +509,8 @@
         "fairingHeight": "13.1",
         "fairingDiameter": "5.2",
         "expendable": "no",
-        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.1"
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.1",
+        "height": "81.5"
       },
       {
         "id": "678fac31-5bae-4695-9614-0c06387dd2af",
@@ -518,7 +523,8 @@
             "engines": [
               {
                 "name": "Merlin-1D",
-                "count": "9"
+                "count": "9",
+                "thrustVac": "720"
               }
             ],
             "name": "Stage-1"
@@ -527,7 +533,8 @@
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
-                "count": "1"
+                "count": "1",
+                "thrustVac": "617"
               }
             ],
             "name": "Stage-2"
@@ -538,7 +545,8 @@
         "capsuleHeight": "8.1",
         "capsuleDiameter": "3.7",
         "expendable": "no",
-        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.1"
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.1",
+        "height": "76.5"
       },
       {
         "id": "bb1aafe1-f1a3-490a-a48a-3abcef960159",
@@ -551,16 +559,19 @@
             "engines": [
               {
                 "name": "Merlin-1D",
-                "count": "9"
+                "count": "9",
+                "thrustVac": "720"
               }
             ],
-            "name": "Stage-1"
+            "name": "Stage-1",
+            "burnTime": ""
           },
           {
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
-                "count": "1"
+                "count": "1",
+                "thrustVac": "617"
               }
             ],
             "name": "Stage-2"
@@ -571,7 +582,8 @@
         "capsuleHeight": "8.1",
         "capsuleDiameter": "3.7",
         "expendable": "yes",
-        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.1"
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.1",
+        "height": "76.5"
       },
       {
         "id": "9edf93cc-b356-4528-9733-37ab5188c761",
@@ -584,7 +596,8 @@
             "engines": [
               {
                 "name": "Merlin-1D",
-                "count": "9"
+                "count": "9",
+                "thrustVac": "720"
               }
             ],
             "name": "Stage-1"
@@ -593,7 +606,8 @@
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
-                "count": "1"
+                "count": "1",
+                "thrustVac": "617"
               }
             ],
             "name": "Stage-2"
@@ -604,7 +618,8 @@
         "fairingHeight": "13.1",
         "fairingDiameter": "5.2",
         "expendable": "yes",
-        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.1"
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.1",
+        "height": "81.5"
       },
       {
         "id": "2ae0880f-39c8-4549-af75-c4c9a5fed92a",
@@ -628,7 +643,8 @@
             "engines": [
               {
                 "name": "Merlin-1D",
-                "count": "9"
+                "count": "9",
+                "thrustVac": "720"
               }
             ],
             "name": "Stage-1"
@@ -637,7 +653,8 @@
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
-                "count": "1"
+                "count": "1",
+                "thrustVac": "617"
               }
             ],
             "name": "Stage-2"
@@ -648,7 +665,8 @@
         "fairingHeight": "13.1",
         "fairingDiameter": "5.2",
         "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm",
-        "expendable": "no"
+        "expendable": "no",
+        "height": "83.1"
       },
       {
         "id": "16919357-6b13-472a-b176-58978644f2e6",
@@ -664,7 +682,8 @@
             "engines": [
               {
                 "name": "Merlin-1D",
-                "count": "27"
+                "count": "27",
+                "thrustVac": "720"
               }
             ],
             "name": "Stage-1"
@@ -673,7 +692,8 @@
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
-                "count": "1"
+                "count": "1",
+                "thrustVac": "617"
               }
             ],
             "name": "Stage-2"
@@ -684,7 +704,8 @@
         "payloadType": "Fairing",
         "fairingHeight": "13.1",
         "fairingDiameter": "5.2",
-        "expendable": "yes"
+        "expendable": "yes",
+        "height": "83.1"
       },
       {
         "id": "465a00d9-a60e-4910-9e5a-b8dea565cf37",
@@ -708,7 +729,8 @@
             "engines": [
               {
                 "name": "Merlin-1D",
-                "count": "9"
+                "count": "9",
+                "thrustVac": "720"
               }
             ],
             "name": "Stage-1"
@@ -717,7 +739,8 @@
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
-                "count": "1"
+                "count": "1",
+                "thrustVac": "617"
               }
             ],
             "name": "Stage-2",
@@ -729,7 +752,8 @@
         "capsuleHeight": "8.1",
         "capsuleDiameter": "3.7",
         "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm",
-        "expendable": "no"
+        "expendable": "no",
+        "height": "78.1"
       },
       {
         "id": "c7f5240c-23cf-498b-bd39-6be018d0c0ff",
@@ -753,7 +777,8 @@
             "engines": [
               {
                 "name": "Merlin-1D",
-                "count": "9"
+                "count": "9",
+                "thrustVac": "720"
               }
             ],
             "name": "Stage-1"
@@ -762,7 +787,8 @@
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
-                "count": "1"
+                "count": "1",
+                "thrustVac": "617"
               }
             ],
             "name": "Stage-2"
@@ -773,7 +799,8 @@
         "capsuleHeight": "8.2",
         "capsuleDiameter": "3.7",
         "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm",
-        "expendable": "yes"
+        "expendable": "yes",
+        "height": "78.1"
       },
       {
         "id": "14cc7e30-cc07-470a-85e8-0b2c91a4fe9c",
@@ -797,7 +824,8 @@
             "engines": [
               {
                 "name": "Merlin-1D",
-                "count": "9"
+                "count": "9",
+                "thrustVac": "720"
               }
             ],
             "name": "Stage-1"
@@ -806,7 +834,8 @@
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
-                "count": "1"
+                "count": "1",
+                "thrustVac": "617"
               }
             ],
             "name": "Stage-2"
@@ -817,7 +846,8 @@
         "fairingHeight": "13.1",
         "fairingDiameter": "5.2",
         "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm",
-        "expendable": "yes"
+        "expendable": "yes",
+        "height": "83.1"
       },
       {
         "id": "d5b30df1-33e0-4321-8c96-8b19280783b0",
@@ -828,7 +858,8 @@
         "payloadType": "None",
         "expendable": "no",
         "wikipediaURL": "https://en.wikipedia.org/wiki/Grasshopper_(rocket)#F9R_Dev1_flight_tests",
-        "astronautixURL": "http://www.astronautix.com/f/falcon9r.html"
+        "astronautixURL": "http://www.astronautix.com/f/falcon9r.html",
+        "height": "30.48"
       },
       {
         "id": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
@@ -839,7 +870,8 @@
         "astronautixURL": "http://www.astronautix.com/g/grasshopper.html",
         "expendable": "no",
         "payloadType": "None",
-        "wikipediaURL": "https://en.wikipedia.org/wiki/Grasshopper_(rocket)"
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Grasshopper_(rocket)",
+        "height": "30.48"
       }
     ],
     "id": "83f8614b-cb40-4c92-bf1f-6100bd16ab29"
