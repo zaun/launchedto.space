@@ -5,7 +5,7 @@
         <v-list-group v-for="(family, idx) in items" :key="`family-${idx}`">
           <v-list-tile slot="activator">
             <v-list-tile-avatar>
-              <v-btn block fab outline color="pink" @click="showAddFamily">
+              <v-btn block fab outline color="pink" @click="addRocket(family)">
                 <v-icon>add</v-icon>
               </v-btn>
             </v-list-tile-avatar>
@@ -21,7 +21,7 @@
         </v-list-group>
       </v-list>
       <v-footer app fixed height="50">
-        <v-btn block round outline small color="pink" @click="showAddFamily">
+        <v-btn block round outline small color="pink" @click.prevent="showAddFamily">
           <v-icon>add</v-icon>
         </v-btn>
       </v-footer>
@@ -29,14 +29,32 @@
 
     <v-form ref="rocketForm" v-model="rocketFormValid" lazy-validation>
       <v-layout row>
-        <v-flex xs4>
+        <v-flex xs2>
           <v-text-field disabled v-model="selectedGroup.name" label="Rocket Family" class="pr-1"></v-text-field>
         </v-flex>
-        <v-flex xs4>
+        <v-flex xs2>
           <v-text-field v-model="selected.name" label="Rocket Name" required :rules="requiredRule" class="pr-1"></v-text-field>
         </v-flex>
-        <v-flex xs4>
+        <v-flex xs2>
           <v-text-field v-model="selected.height" label="Rocket Height (m)" type="number" class="pr-1"></v-text-field>
+        </v-flex>
+        <v-flex xs2>
+          <v-select v-model="selected.expendable" :items="expendableOptions" label="Expendable" class="pr-1"></v-select>
+        </v-flex>
+        <v-flex xs2>
+          <v-select v-model="selected.payloadType" :items="payloadTypeOptions" label="Payload Type" class="pr-1"></v-select>
+        </v-flex>
+        <v-flex v-if="selected.payloadType == 'Fairing'" xs2>
+          <v-text-field v-model="selected.fairingHeight" label="Fairing Height (m)" type="number" class="pr-1"></v-text-field>
+        </v-flex>
+        <v-flex v-if="selected.payloadType == 'Fairing'" xs2>
+          <v-text-field v-model="selected.fairingDiameter" label="Fairing Diameter (m)" type="number" class="pr-1"></v-text-field>
+        </v-flex>
+        <v-flex v-if="selected.payloadType == 'Capsule'" xs2>
+          <v-text-field v-model="selected.capsuleHeight" label="Capsule Height (m)" type="number" class="pr-1"></v-text-field>
+        </v-flex>
+        <v-flex v-if="selected.payloadType == 'Capsule'" xs2>
+          <v-text-field v-model="selected.capsuleDiameter" label="Capsule Diameter (m)" type="number" class="pr-1"></v-text-field>
         </v-flex>
       </v-layout>
       <v-layout row>
@@ -121,7 +139,12 @@
                 </v-flex>
               </v-layout>
               <v-layout row>
-                <v-flex xs2></v-flex>
+                <v-flex v-if="!stage.engines || (stage.engines && stage.engines.length == 0)" xs2>
+                  <v-btn id="engineAdd" fab outline small color="pink" @click="addEngine(stage)">
+                    <v-icon>add</v-icon>
+                  </v-btn>
+                </v-flex>
+                <v-flex v-if="stage.engines && stage.engines.length != 0" xs2></v-flex>
                 <v-flex xs2>
                   <v-text-field v-model="stage.burnTime" label="Burn Time (s)" type="number" :rules="numberRule" class="pr-1"></v-text-field>
                 </v-flex>
@@ -136,6 +159,33 @@
                 </v-flex>
                 <v-flex xs2>
                   <v-text-field v-model="stage.propellants" label="Propellants" class="pr-1"></v-text-field>
+                </v-flex>
+              </v-layout>
+              <v-layout v-for="(engine, eidx) in stage.engines" :key="`engine-${eidx}`" row>
+                <v-flex v-if="eidx == 0" xs2>
+                  <v-btn id="engineAdd" fab outline small color="pink" @click="addEngine(stage)">
+                    <v-icon>add</v-icon>
+                  </v-btn>
+                  <v-btn id="engineAdd" fab outline small color="pink" @click="deleteEngine(stage, eidx)">
+                    <v-icon>delete</v-icon>
+                  </v-btn>
+                </v-flex>
+                <v-flex v-if="eidx != 0" xs2>
+                  <v-btn id="engineDelete" fab outline small color="pink" @click="deleteEngine(stage, eidx)">
+                    <v-icon>delete</v-icon>
+                  </v-btn>
+                </v-flex>
+                <v-flex xs2>
+                  <v-text-field v-model="engine.name" label="Engine" required :rules="requiredRule" class="pr-1"></v-text-field>
+                </v-flex>
+                <v-flex xs1>
+                  <v-text-field v-model="engine.count" label="Count" class="pr-1"></v-text-field>
+                </v-flex>
+                <v-flex xs3>
+                  <v-text-field v-model="engine.thrustVac" label="Thrust Vac (kN)" class="pr-1"></v-text-field>
+                </v-flex>
+                <v-flex xs3>
+                  <v-text-field :value="engine.count * engine.thrustVac" label="Total Thrust Vac (kN)" class="pr-1" disabled></v-text-field>
                 </v-flex>
               </v-layout>
             </div>
@@ -201,6 +251,17 @@
         addFamilyDialog: false,
         newFamilyName: '',
 
+        payloadTypeOptions: [
+          'Capsule',
+          'Fairing',
+          'None',
+        ],
+        expendableOptions: [
+          { value: 'yes', text: 'Yes' },
+          { value: 'no', text: 'No' },
+          { value: '', text: 'Unknown' },
+        ],
+
         selectedGroup: {},
         selected: {},
       };
@@ -216,12 +277,37 @@
     },
 
     methods: {
+      addEngine(stage) {
+        stage.engines.push({});
+        this.$set(stage.engines, stage.engines);
+        // eslint-disable-next-line
+        console.log(stage);
+      },
+
       addPayload() {
         this.selected.payloads.push({});
+        this.$set(this.selected.payloads, this.selected.payloads);
+      },
+
+      addRocket(group) {
+        this.selectedGroup = group;
+        this.selected = {
+          id: uuidv4(),
+          engines: [],
+          payloads: [],
+          stages: [],
+        };
       },
 
       addStage() {
-        this.selected.stages.push({});
+        this.selected.stages.push({
+          engines: [],
+        });
+        this.$set(this.selected.stages, this.selected.stages);
+      },
+
+      deleteEngine(stage, idx) {
+        this.$delete(stage.engines, idx);
       },
 
       deletePayload(idx) {
@@ -283,7 +369,9 @@
   }
 
   #payloadAdd,
-  #stageAdd {
+  #stageAdd,
+  #engineAdd,
+  #engineDelete {
     width: 20px;
     height: 20px;
     margin-top: 6px;

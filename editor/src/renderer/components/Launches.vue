@@ -87,7 +87,7 @@
       </div>
       <v-footer class="launchFooter" app height="43">
         <v-spacer></v-spacer>
-        <v-btn :disabled="!rocektFormValid" round outline small color="pink" @click="saveLaunch">
+        <v-btn :disabled="!launchFormValid" round outline small color="pink" @click="saveLaunch">
           Save Launch
         </v-btn>
       </v-footer>

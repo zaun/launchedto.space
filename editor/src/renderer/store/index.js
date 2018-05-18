@@ -1,7 +1,7 @@
 /* eslint-disable no-param-reassign */
 import Vue from 'vue';
 import Vuex from 'vuex';
-import { readFile } from 'fs';
+import { readFile, writeFile } from 'fs';
 import { filter, find, map, remove, sortBy } from 'lodash';
 import path from 'path';
 import uuidv4 from 'uuid/v4';
@@ -19,7 +19,9 @@ export default new Vuex.Store({
       'LPEO',
       'MEO',
       'GEO',
+      'GTO',
       'TLI',
+      'IP',
     ],
   },
 
@@ -40,6 +42,7 @@ export default new Vuex.Store({
       }
       state.launches.push(data);
       state.launches = sortBy(state.launches, 'date');
+      writeFile(path.join(__dirname, '../../../../data/launches.json'), JSON.stringify(state.launches, null, 2));
     },
 
     saveRocket(state, data) {
@@ -52,6 +55,8 @@ export default new Vuex.Store({
         }
         family.rockets.push(data.rocket);
         family.rockets = sortBy(family.rockets, 'name');
+
+        writeFile(path.join(__dirname, '../../../../data/families.json'), JSON.stringify(state.families, null, 2));
       } else {
         // eslint-disable-next-line
         console.log('Can\'t find family ' + data.family);
@@ -104,12 +109,25 @@ export default new Vuex.Store({
           f.rockets = map(f.rockets, (r) => {
             r.id = r.id ? r.id : uuidv4();
 
+            if (!r.payloadType) {
+              if (r.fairingHeight || r.fairingDiameter) {
+                r.payloadType = 'Fairing';
+              } else if (r.capsuleHeight || r.capsuleDiameter) {
+                r.payloadType = 'Capsule';
+              } else {
+                r.payloadType = 'Fairing';
+              }
+            }
+
+            r.expendable = r.expendable ? r.expendable : 'yes';
+
             Object.keys(r).forEach((prop) => {
               if (r[prop] === -1) {
                 delete r[prop];
               }
             });
 
+            r.stages = r.stages ? r.stages : [];
             r.stages.forEach((s) => {
               Object.keys(s).forEach((prop) => {
                 if (s[prop] === -1) {
@@ -124,6 +142,14 @@ export default new Vuex.Store({
           return f;
         });
       });
+    },
+
+    writeLaunchData(state) {
+      writeFile(path.join(__dirname, '../../../../data/launches.json'), JSON.stringify(state.launches, null, 2));
+    },
+
+    writeFamiliesData(state) {
+      writeFile(path.join(__dirname, '../../../../data/families.json'), JSON.stringify(state.families, null, 2));
     },
   },
 

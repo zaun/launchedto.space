@@ -7,10 +7,6 @@
         "name": "Saturn-1 Block 1",
         "image": "placeholder.png",
         "height": 55,
-        "fairingHeight": -1,
-        "fairingDiameter": -1,
-        "craftHeight": -1,
-        "craftDiameter": -1,
         "wikipediaURL": "https://en.wikipedia.org/wiki/Saturn_I",
         "astronautixURL": "http://www.astronautix.com/s/saturni.html",
         "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/saturn-1_bl1.htm",
@@ -22,7 +18,7 @@
             "emptyMass": 45267,
             "burnTime": 150,
             "seaLevelIsp": 255,
-            "thrustVac": 7582.100,
+            "thrustVac": 7582.1,
             "diameter": 6.52,
             "span": 6.52,
             "height": 24.48,
@@ -43,7 +39,10 @@
             "name": "Centaur Dummy",
             "engines": []
           }
-        ]
+        ],
+        "id": "187cd80a-90a8-408c-bc42-0db024edf023",
+        "payloadType": "Fairing",
+        "expendable": "yes"
       },
       {
         "name": "Saturn-1 Block 2",
@@ -65,7 +64,7 @@
             "emptyMass": 45267,
             "burnTime": 150,
             "seaLevelIsp": 255,
-            "thrustVac": 7582.100,
+            "thrustVac": 7582.1,
             "diameter": 6.52,
             "span": 6.52,
             "height": 24.48,
@@ -77,7 +76,8 @@
                 "thrustVac": 947.7625
               }
             ]
-          }, {
+          },
+          {
             "name": "Saturn-4",
             "grossMass": 50576,
             "emptyMass": 5217,
@@ -95,7 +95,8 @@
                 "thrustVac": 66.7243
               }
             ]
-          }, {
+          },
+          {
             "name": "Centaur C",
             "grossMass": 15600,
             "emptyMass": 1996,
@@ -110,11 +111,14 @@
               {
                 "name": "RL-10A-1",
                 "count": 2,
-                "thrustVac": 66.7240
+                "thrustVac": 66.724
               }
             ]
           }
-        ]
+        ],
+        "id": "ad651b83-9c15-400b-ba33-dc8c68a9b75e",
+        "payloadType": "Fairing",
+        "expendable": "yes"
       },
       {
         "name": "Saturn-1B",
@@ -157,20 +161,23 @@
             "burnTime": 475,
             "seaLevelIsp": 200,
             "isp": 421,
-            "thrustVac": 1031.6000,
+            "thrustVac": 1031.6,
             "diameter": 6.61,
             "span": 6.61,
-            "height": 17.80,
+            "height": 17.8,
             "propellants": "Lox/Kerosene",
             "engines": [
               {
                 "name": "J-2",
                 "count": 1,
-                "thrustVac": 1031.6000
+                "thrustVac": 1031.6
               }
             ]
           }
-        ]
+        ],
+        "id": "a1c50ce1-1b2e-4128-ad76-98bcf4c92dc8",
+        "payloadType": "Fairing",
+        "expendable": "yes"
       },
       {
         "name": "Saturn-5",
@@ -183,7 +190,8 @@
           {
             "orbit": "LEO",
             "capacity": 118000
-          }, {
+          },
+          {
             "orbit": "TLI",
             "capacity": 47000
           }
@@ -196,9 +204,9 @@
             "burnTime": 161,
             "seaLevelIsp": 265,
             "isp": 304,
-            "thrustVac": 38703.160,
+            "thrustVac": 38703.16,
             "diameter": 10.06,
-            "span": 19.00,
+            "span": 19,
             "height": 42.06,
             "propellants": "Lox/Kerosene",
             "engines": [
@@ -216,7 +224,7 @@
             "burnTime": 390,
             "seaLevelIsp": 200,
             "isp": 421,
-            "thrustVac": 5165.790,
+            "thrustVac": 5165.79,
             "diameter": 10.06,
             "span": 10.06,
             "height": 24.84,
@@ -236,20 +244,23 @@
             "burnTime": 475,
             "seaLevelIsp": 200,
             "isp": 421,
-            "thrustVac": 1031.600,
+            "thrustVac": 1031.6,
             "diameter": 6.61,
             "span": 6.61,
-            "height": 17.80,
+            "height": 17.8,
             "propellants": "Lox/LH2",
             "engines": [
               {
                 "name": "J-2",
                 "count": 1,
-                "thrustVac": 1031.600
+                "thrustVac": 1031.6
               }
             ]
           }
-        ]
+        ],
+        "id": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
+        "payloadType": "Fairing",
+        "expendable": "yes"
       },
       {
         "name": "Saturn-5 2nd Stage",
@@ -262,7 +273,8 @@
           {
             "orbit": "LEO",
             "capacity": 118000
-          }, {
+          },
+          {
             "orbit": "TLI",
             "capacity": 47000
           }
@@ -275,9 +287,9 @@
             "burnTime": 161,
             "seaLevelIsp": 265,
             "isp": 304,
-            "thrustVac": 38703.160,
+            "thrustVac": 38703.16,
             "diameter": 10.06,
-            "span": 19.00,
+            "span": 19,
             "height": 42.06,
             "propellants": "Lox/Kerosene",
             "engines": [
@@ -295,7 +307,7 @@
             "burnTime": 390,
             "seaLevelIsp": 200,
             "isp": 421,
-            "thrustVac": 5165.790,
+            "thrustVac": 5165.79,
             "diameter": 10.06,
             "span": 10.06,
             "height": 24.84,
@@ -308,21 +320,66 @@
               }
             ]
           }
-        ]
+        ],
+        "id": "c50a3cd4-d6a2-4807-9cad-6445a1e03520",
+        "payloadType": "Fairing",
+        "expendable": "yes"
       }
-    ]
-  }, {
+    ],
+    "id": "e0dd9673-3c46-48cb-9561-b802a33ad6e6"
+  },
+  {
     "name": "Falcon",
     "description": "Falcons are a family of two stage, reusable, liquid oxygen and kerosene powered launch vehicles, designed for cost-efficient and reliable transport of satellites and manned spacecraft to low Earth orbit.",
     "rockets": [
       {
+        "name": "Falcon-1",
+        "image": "falcon-1.png",
+        "height": 21.3,
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_1",
+        "astronautixURL": "http://www.astronautix.com/f/falcon1.html",
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau/falcon-1.htm",
+        "payloads": [
+          {
+            "orbit": "LEO",
+            "capacity": 470
+          },
+          {
+            "orbit": "LPEO",
+            "capacity": 290
+          }
+        ],
+        "stages": [
+          {
+            "name": "Stage-1",
+            "propellants": "Lox/Kerosene",
+            "engines": [
+              {
+                "name": "Merlin-1C",
+                "count": 1,
+                "thrustVac": ""
+              }
+            ]
+          },
+          {
+            "engines": [
+              {
+                "name": "Kestrel-2",
+                "count": "1"
+              }
+            ],
+            "name": "Stage-2",
+            "propellants": "Lox/Kerosene"
+          }
+        ],
+        "id": "26edb74e-6435-4af7-9961-09a9e1754561",
+        "payloadType": "Fairing",
+        "expendable": "yes"
+      },
+      {
         "name": "Falcon-1 (dev)",
         "image": "falcon-1.png",
         "height": 21.3,
-        "fairingHeight": -1,
-        "fairingDiameter": -1,
-        "craftHeight": -1,
-        "craftDiameter": -1,
         "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_1",
         "astronautixURL": "http://www.astronautix.com/f/falcon-1devopmentversion.html",
         "skyrocketURL": "http://space.skyrocket.de/doc_lau/falcon-1.htm",
@@ -332,65 +389,46 @@
             "capacity": 420
           }
         ],
-        "stages": []
-      }, {
-        "name": "Falcon-1",
-        "image": "falcon-1.png",
-        "height": 21.3,
-        "fairingHeight": -1,
-        "fairingDiameter": -1,
-        "craftHeight": -1,
-        "craftDiameter": -1,
-        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_1",
-        "astronautixURL": "http://www.astronautix.com/f/falcon1.html",
-        "skyrocketURL": "http://space.skyrocket.de/doc_lau/falcon-1.htm",
-        "payloads": [
-          {
-            "orbit": "LEO",
-            "capacity": 470
-          }, {
-            "orbit": "LPEO",
-            "capacity": 290
-          }
-        ],
         "stages": [
           {
-            "name": "Falcon-1",
-            "grossMass": -1,
-            "emptyMass": -1,
-            "burnTime": -1,
-            "seaLevelIsp": -1,
-            "isp": -1,
-            "thrustVac": -1,
-            "diameter": -1,
-            "span": -1,
-            "height": -1,
-            "propellants": "Lox/Kerosene",
             "engines": [
               {
-                "name": "Kestrel",
-                "count": 1,
-                "thrustVac": -1
+                "name": "Merlin-1A"
               }
-            ]
+            ],
+            "name": "Stage-1",
+            "propellants": "Lox/Kerosene"
+          },
+          {
+            "engines": [
+              {
+                "name": "Kestrel-1"
+              }
+            ],
+            "name": "Stage-2",
+            "burnTime": "",
+            "propellants": "Lox/Kerosene"
           }
-        ]
-      } , {
+        ],
+        "id": "c6485a5d-deac-4644-a9aa-4767d235a3a2",
+        "payloadType": "Fairing",
+        "expendable": "yes"
+      },
+      {
         "name": "Falcon-9 v1.0",
         "image": "falcon-9_v1-0.png",
         "height": 54.9,
-        "fairingHeight": -1,
-        "fairingDiameter": -1,
         "craftHeight": 8.1,
         "craftDiameter": 3.7,
-        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.0",
         "astronautixURL": "http://www.astronautix.com/f/falcon.html",
         "skyrocketURL": "http://space.skyrocket.de/doc_lau/falcon-9.htm",
         "payloads": [
           {
             "orbit": "LEO",
             "capacity": 9900
-          }, {
+          },
+          {
             "orbit": "LPEO",
             "capacity": 4050
           }
@@ -398,45 +436,412 @@
         "stages": [
           {
             "name": "1st Stage",
-            "grossMass": -1,
-            "emptyMass": -1,
             "burnTime": 170,
             "seaLevelIsp": 275,
             "isp": 304,
             "thrustVac": 5553,
             "diameter": 3.7,
             "span": 3.7,
-            "height": -1,
             "propellants": "LOX / RP-1",
             "engines": [
               {
-                "name": "Merlin 1C",
+                "name": "Merlin-11C",
                 "count": 9,
                 "thrustVac": 617
               }
             ]
-          }, {
+          },
+          {
             "name": "2nd Stage",
-            "grossMass": -1,
-            "emptyMass": -1,
             "burnTime": 345,
-            "seaLevelIsp": -1,
             "isp": 342,
             "thrustVac": 617,
             "diameter": 3.7,
             "span": 3.7,
-            "height": -1,
             "propellants": "LOX / RP-1",
             "engines": [
               {
-                "name": "Merlin 1C Vacuum",
+                "name": "Merlin-1C Vacuum",
                 "count": 1,
                 "thrustVac": 617
               }
             ]
           }
-        ]
+        ],
+        "id": "c455825f-c71d-4dd2-ba46-de1a2fab9c25",
+        "payloadType": "Fairing",
+        "expendable": "yes",
+        "fairingHeight": "13.1",
+        "fairingDiameter": "5.2"
+      },
+      {
+        "id": "ae35985d-33db-43d1-b003-66c25514e38a",
+        "engines": [],
+        "payloads": [],
+        "name": "Falcon-9 v1.1",
+        "payloadType": "Fairing",
+        "stages": [
+          {
+            "engines": [
+              {
+                "name": "Merlin-1D",
+                "count": "9"
+              }
+            ],
+            "name": "Stage-1"
+          },
+          {
+            "engines": [
+              {
+                "name": "Merlin-1D Vacuum",
+                "count": "1"
+              }
+            ],
+            "name": "Stage-2"
+          }
+        ],
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-1-r.htm",
+        "astronautixURL": "http://www.astronautix.com/f/falcon9.html",
+        "fairingHeight": "13.1",
+        "fairingDiameter": "5.2",
+        "expendable": "no",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.1"
+      },
+      {
+        "id": "678fac31-5bae-4695-9614-0c06387dd2af",
+        "engines": [],
+        "payloads": [],
+        "name": "Falcon-9 v1.1a",
+        "payloadType": "Capsule",
+        "stages": [
+          {
+            "engines": [
+              {
+                "name": "Merlin-1D",
+                "count": "9"
+              }
+            ],
+            "name": "Stage-1"
+          },
+          {
+            "engines": [
+              {
+                "name": "Merlin-1D Vacuum",
+                "count": "1"
+              }
+            ],
+            "name": "Stage-2"
+          }
+        ],
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-1-r.htm",
+        "astronautixURL": "http://www.astronautix.com/f/falcon9.html",
+        "capsuleHeight": "8.1",
+        "capsuleDiameter": "3.7",
+        "expendable": "no",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.1"
+      },
+      {
+        "id": "bb1aafe1-f1a3-490a-a48a-3abcef960159",
+        "engines": [],
+        "payloads": [],
+        "name": "Falcon-9 v1.1b",
+        "payloadType": "Capsule",
+        "stages": [
+          {
+            "engines": [
+              {
+                "name": "Merlin-1D",
+                "count": "9"
+              }
+            ],
+            "name": "Stage-1"
+          },
+          {
+            "engines": [
+              {
+                "name": "Merlin-1D Vacuum",
+                "count": "1"
+              }
+            ],
+            "name": "Stage-2"
+          }
+        ],
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-1-r.htm",
+        "astronautixURL": "http://www.astronautix.com/f/falcon9.html",
+        "capsuleHeight": "8.1",
+        "capsuleDiameter": "3.7",
+        "expendable": "yes",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.1"
+      },
+      {
+        "id": "9edf93cc-b356-4528-9733-37ab5188c761",
+        "engines": [],
+        "payloads": [],
+        "name": "Falcon-9 v1.1c",
+        "payloadType": "Fairing",
+        "stages": [
+          {
+            "engines": [
+              {
+                "name": "Merlin-1D",
+                "count": "9"
+              }
+            ],
+            "name": "Stage-1"
+          },
+          {
+            "engines": [
+              {
+                "name": "Merlin-1D Vacuum",
+                "count": "1"
+              }
+            ],
+            "name": "Stage-2"
+          }
+        ],
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-1-r.htm",
+        "astronautixURL": "http://www.astronautix.com/f/falcon9.html",
+        "fairingHeight": "13.1",
+        "fairingDiameter": "5.2",
+        "expendable": "yes",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.1"
+      },
+      {
+        "id": "2ae0880f-39c8-4549-af75-c4c9a5fed92a",
+        "engines": [],
+        "payloads": [
+          {
+            "orbit": "LEO",
+            "capacity": "22800"
+          },
+          {
+            "orbit": "GTO",
+            "capacity": "5300"
+          },
+          {
+            "orbit": "IP",
+            "capacity": "4020"
+          }
+        ],
+        "stages": [
+          {
+            "engines": [
+              {
+                "name": "Merlin-1D",
+                "count": "9"
+              }
+            ],
+            "name": "Stage-1"
+          },
+          {
+            "engines": [
+              {
+                "name": "Merlin-1D Vacuum",
+                "count": "1"
+              }
+            ],
+            "name": "Stage-2"
+          }
+        ],
+        "name": "Falcon-9 v1.2",
+        "payloadType": "Fairing",
+        "fairingHeight": "13.1",
+        "fairingDiameter": "5.2",
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm",
+        "expendable": "no"
+      },
+      {
+        "id": "16919357-6b13-472a-b176-58978644f2e6",
+        "engines": [],
+        "payloads": [
+          {
+            "orbit": "GTO",
+            "capacity": "8000"
+          }
+        ],
+        "stages": [
+          {
+            "engines": [
+              {
+                "name": "Merlin-1D",
+                "count": "27"
+              }
+            ],
+            "name": "Stage-1"
+          },
+          {
+            "engines": [
+              {
+                "name": "Merlin-1D Vacuum",
+                "count": "1"
+              }
+            ],
+            "name": "Stage-2"
+          }
+        ],
+        "name": "Falcon-9 v1.2 Heavy",
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9-heavy.htm",
+        "payloadType": "Fairing",
+        "fairingHeight": "13.1",
+        "fairingDiameter": "5.2",
+        "expendable": "yes"
+      },
+      {
+        "id": "465a00d9-a60e-4910-9e5a-b8dea565cf37",
+        "engines": [],
+        "payloads": [
+          {
+            "orbit": "LEO",
+            "capacity": "22800"
+          },
+          {
+            "orbit": "GTO",
+            "capacity": "5300"
+          },
+          {
+            "orbit": "IP",
+            "capacity": "4020"
+          }
+        ],
+        "stages": [
+          {
+            "engines": [
+              {
+                "name": "Merlin-1D",
+                "count": "9"
+              }
+            ],
+            "name": "Stage-1"
+          },
+          {
+            "engines": [
+              {
+                "name": "Merlin-1D Vacuum",
+                "count": "1"
+              }
+            ],
+            "name": "Stage-2",
+            "burnTime": ""
+          }
+        ],
+        "name": "Falcon-9 v1.2a",
+        "payloadType": "Capsule",
+        "capsuleHeight": "8.1",
+        "capsuleDiameter": "3.7",
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm",
+        "expendable": "no"
+      },
+      {
+        "id": "c7f5240c-23cf-498b-bd39-6be018d0c0ff",
+        "engines": [],
+        "payloads": [
+          {
+            "orbit": "LEO",
+            "capacity": "22800"
+          },
+          {
+            "orbit": "GTO",
+            "capacity": "5300"
+          },
+          {
+            "orbit": "IP",
+            "capacity": "4020"
+          }
+        ],
+        "stages": [
+          {
+            "engines": [
+              {
+                "name": "Merlin-1D",
+                "count": "9"
+              }
+            ],
+            "name": "Stage-1"
+          },
+          {
+            "engines": [
+              {
+                "name": "Merlin-1D Vacuum",
+                "count": "1"
+              }
+            ],
+            "name": "Stage-2"
+          }
+        ],
+        "name": "Falcon-9 v1.2b",
+        "payloadType": "Capsule",
+        "capsuleHeight": "8.2",
+        "capsuleDiameter": "3.7",
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm",
+        "expendable": "yes"
+      },
+      {
+        "id": "14cc7e30-cc07-470a-85e8-0b2c91a4fe9c",
+        "engines": [],
+        "payloads": [
+          {
+            "orbit": "LEO",
+            "capacity": "22800"
+          },
+          {
+            "orbit": "GTO",
+            "capacity": "5300"
+          },
+          {
+            "orbit": "IP",
+            "capacity": "4020"
+          }
+        ],
+        "stages": [
+          {
+            "engines": [
+              {
+                "name": "Merlin-1D",
+                "count": "9"
+              }
+            ],
+            "name": "Stage-1"
+          },
+          {
+            "engines": [
+              {
+                "name": "Merlin-1D Vacuum",
+                "count": "1"
+              }
+            ],
+            "name": "Stage-2"
+          }
+        ],
+        "name": "Falcon-9 v1.2c",
+        "payloadType": "Fairing",
+        "fairingHeight": "13.1",
+        "fairingDiameter": "5.2",
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm",
+        "expendable": "yes"
+      },
+      {
+        "id": "d5b30df1-33e0-4321-8c96-8b19280783b0",
+        "engines": [],
+        "payloads": [],
+        "stages": [],
+        "name": "Falcon-9R-Dev-1",
+        "payloadType": "None",
+        "expendable": "no",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Grasshopper_(rocket)#F9R_Dev1_flight_tests",
+        "astronautixURL": "http://www.astronautix.com/f/falcon9r.html"
+      },
+      {
+        "id": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
+        "engines": [],
+        "payloads": [],
+        "stages": [],
+        "name": "Grasshopper",
+        "astronautixURL": "http://www.astronautix.com/g/grasshopper.html",
+        "expendable": "no",
+        "payloadType": "None",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Grasshopper_(rocket)"
       }
-    ]
+    ],
+    "id": "83f8614b-cb40-4c92-bf1f-6100bd16ab29"
   }
 ]
