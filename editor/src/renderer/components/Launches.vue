@@ -88,7 +88,7 @@
           <v-layout row>
             <v-flex xs1></v-flex>
             <v-flex xs10>
-              <v-text-field v-model="payload.description" multi-line="true" rows="2" label="Description" counter="300" :rules="descriptionRule" class="pr-1"></v-text-field>
+              <v-text-field v-model="payload.description" :multi-line="true" rows="2" row-height="10" label="Description" counter="300" :rules="descriptionRule" class="description pr-1"></v-text-field>
             </v-flex>
           </v-layout>
         </div>
@@ -298,9 +298,5 @@
     transform: translate(-50%, -50%);
     padding: 0px;
     margin: 0px;
-  }
-
-  .input-group--multi-line textarea {
-    font-size: small;
   }
 </style>

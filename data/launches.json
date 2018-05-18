@@ -26,7 +26,7 @@
       {
         "name": "Highwater 1",
         "orbital": "no",
-        "orbit": "KARMEN",
+        "orbit": "Karmen",
         "mass": "",
         "type": "Satellite",
         "description": "",
@@ -50,7 +50,7 @@
       {
         "name": "Highwater 2",
         "orbital": "no",
-        "orbit": "KARMEN",
+        "orbit": "Karmen",
         "mass": "",
         "type": "Satellite",
         "description": "",
@@ -281,7 +281,7 @@
       {
         "name": "Apollo 201 / CSM 9",
         "orbital": "no",
-        "orbit": "KARMEN",
+        "orbit": "Karmen",
         "mass": 28801,
         "type": "Capsule",
         "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth.",
@@ -329,7 +329,7 @@
       {
         "name": "Apollo 202 / CSM 11",
         "orbital": "no",
-        "orbit": "KARMEN",
+        "orbit": "Karmen",
         "mass": 28801,
         "type": "Capsule",
         "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth.",
@@ -1017,7 +1017,7 @@
       {
         "name": "MRO",
         "orbital": "yes",
-        "orbit": "TO",
+        "orbit": "IP",
         "mass": 2180,
         "type": "Satellite",
         "description": "The Mars Reconnaissance Orbiter (MRO) will make high-resolution measurements of the surface from orbit. It will be equipped with a visible stereo imaging camera (HiRISE) with resolution much better than one meter and a visible/near-infrared spectrometer (CRISM) to study the surface composition.",

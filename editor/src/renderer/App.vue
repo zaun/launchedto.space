@@ -42,4 +42,7 @@
     padding-bottom: 0px !important;
   }
   
+  .description > .input-group__input > textarea {
+    font-size: 14px !important;
+  }
   </style>

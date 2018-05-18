@@ -18,6 +18,8 @@ export default new Vuex.Store({
       'LEO',
       'LPEO',
       'MEO',
+      'Molniya',
+      'HEO',
       'GEO',
       'GTO',
       'SSO',
