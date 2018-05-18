@@ -323,6 +323,7 @@
           this.$store.dispatch('addRocketFamily', {
             id: uuidv4(),
             name: this.newFamilyName,
+            rockets: [],
           });
           this.addFamilyDialog = false;
         }

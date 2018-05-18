@@ -875,5 +875,150 @@
       }
     ],
     "id": "83f8614b-cb40-4c92-bf1f-6100bd16ab29"
+  },
+  {
+    "id": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
+    "name": "Atlas",
+    "rockets": [
+      {
+        "id": "b5739ce4-47b6-4792-85ce-849c5435b96d",
+        "engines": [],
+        "payloads": [
+          {
+            "orbit": "LEO",
+            "capacity": "9050"
+          },
+          {
+            "orbit": "LPEO",
+            "capacity": "7335"
+          },
+          {
+            "orbit": "SSO",
+            "capacity": "6670"
+          },
+          {
+            "orbit": "GTO",
+            "capacity": "4950"
+          }
+        ],
+        "stages": [
+          {
+            "engines": [
+              {
+                "name": "RD-180"
+              }
+            ],
+            "name": "CCB",
+            "burnTime": ""
+          },
+          {
+            "engines": [
+              {
+                "name": "RL10A-4-2"
+              }
+            ],
+            "name": "Centaur-5-SEC"
+          }
+        ],
+        "name": "Atlas-5 401l",
+        "expendable": "yes",
+        "payloadType": "Fairing",
+        "fairingHeight": "11.2",
+        "fairingDiameter": "4",
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/atlas-5-401.htm"
+      },
+      {
+        "id": "a07661db-3029-4a64-a944-4ad91f265b22",
+        "engines": [],
+        "payloads": [
+          {
+            "orbit": "LEO",
+            "capacity": "9050"
+          },
+          {
+            "orbit": "LPEO",
+            "capacity": "7335"
+          },
+          {
+            "orbit": "SSO",
+            "capacity": "6670"
+          },
+          {
+            "orbit": "GTO",
+            "capacity": "4950"
+          }
+        ],
+        "stages": [
+          {
+            "engines": [
+              {
+                "name": "RD-180"
+              }
+            ],
+            "name": "CCB"
+          },
+          {
+            "engines": [
+              {
+                "name": "RL10A-4-2"
+              }
+            ],
+            "name": "Centaur-5-SEC"
+          }
+        ],
+        "name": "Atlas-5 401m",
+        "expendable": "yes",
+        "payloadType": "Fairing",
+        "fairingHeight": "10.3",
+        "fairingDiameter": "4",
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/atlas-5-401.htm"
+      },
+      {
+        "id": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+        "engines": [],
+        "payloads": [
+          {
+            "orbit": "LEO",
+            "capacity": "9050"
+          },
+          {
+            "orbit": "LPEO",
+            "capacity": "7335"
+          },
+          {
+            "orbit": "SSO",
+            "capacity": "6670"
+          },
+          {
+            "orbit": "GTO",
+            "capacity": "4950"
+          }
+        ],
+        "stages": [
+          {
+            "engines": [
+              {
+                "name": "RD-180"
+              }
+            ],
+            "name": "CCB"
+          },
+          {
+            "engines": [
+              {
+                "name": "RL10A-4-2"
+              }
+            ],
+            "name": "Centaur-5-SEC"
+          }
+        ],
+        "name": "Atlas-5 401s",
+        "payloadType": "Fairing",
+        "expendable": "yes",
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/atlas-5-401.htm",
+        "fairingHeight": "9.4",
+        "fairingDiameter": "4"
+      }
+    ]
   }
 ]

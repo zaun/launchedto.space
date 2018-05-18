@@ -27,7 +27,7 @@
         "name": "Highwater 1",
         "orbital": "no",
         "orbit": "KARMEN",
-        "mass": -1,
+        "mass": "",
         "type": "Satellite",
         "description": "",
         "id": "c280336e-d393-4525-a44b-1ea2f00f81a8",
@@ -51,7 +51,7 @@
         "name": "Highwater 2",
         "orbital": "no",
         "orbit": "KARMEN",
-        "mass": -1,
+        "mass": "",
         "type": "Satellite",
         "description": "",
         "id": "d6664bc5-fb72-427e-8f13-036e19e44b0e",
@@ -956,7 +956,7 @@
     "id": "51cef3de-eb2d-433e-bad9-928085e0a5de"
   },
   {
-    "vehicle": "Atlas-5 401 4s",
+    "vehicle": "Atlas-5 401s",
     "vehicleFamily": "Atlas",
     "serial": "AV-001",
     "date": "2002-08-21",
@@ -980,7 +980,7 @@
     "id": "b915216a-2fcc-40b3-80d3-211d79ab3119"
   },
   {
-    "vehicle": "Atlas-5 401 4s",
+    "vehicle": "Atlas-5 401s",
     "vehicleFamily": "Atlas",
     "serial": "AV-002",
     "date": "2003-05-13",
@@ -1004,7 +1004,7 @@
     "id": "2d73fcc5-39d1-4afb-86fa-cb8e50271456"
   },
   {
-    "vehicle": "Atlas-5 401 4s",
+    "vehicle": "Atlas-5 401s",
     "vehicleFamily": "Atlas",
     "serial": "AV-007",
     "date": "2005-08-12",
@@ -1052,7 +1052,7 @@
     "id": "be3abaef-ad0a-418e-b214-88f38de93412"
   },
   {
-    "vehicle": "Atlas-5 401 4s",
+    "vehicle": "Atlas-5 401s",
     "vehicleFamily": "Atlas",
     "serial": "AV-013",
     "date": "2007-03-09",
@@ -1106,7 +1106,7 @@
         "name": "MidSTAR 1",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": -1,
+        "mass": "",
         "type": "Satellite",
         "description": "MidSTAR-1 is the first implementation of the MidSTAR-1 mod 1 bus design. It has been commissioned by STP to carry the Internet Communications Satellite (ICSat) Experiment for SSP and the Configurable Fault Tolerant Processor (CFTP) Experiment for Naval Postgraduate School (NPS).",
         "id": "a77b2969-f3aa-4900-80fe-e3d248a42c59",
@@ -1140,7 +1140,7 @@
         "name": "Demosat",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": -1,
+        "mass": "",
         "type": "Satellite",
         "description": "Demosat was a vehicle evaluation payload, containing two small experiments for NASA. It was to remain attached to the Falcon-1 second stage.",
         "id": "acec33bd-138d-43a8-a672-ca8e7c01619f",
@@ -1150,7 +1150,7 @@
     "id": "b26f10ee-41e4-4941-ba59-8c214711abc4"
   },
   {
-    "vehicle": "Atlas-5 401 4m",
+    "vehicle": "Atlas-5 401m",
     "vehicleFamily": "Atlas",
     "serial": "AV-009",
     "date": "2007-06-15",
@@ -1184,7 +1184,7 @@
     "id": "eb112b16-789c-4c7e-9d65-668f0892dc30"
   },
   {
-    "vehicle": "Atlas-5 401 4s",
+    "vehicle": "Atlas-5 401s",
     "vehicleFamily": "Atlas",
     "serial": "AV-015",
     "date": "2007-12-10",
@@ -1198,7 +1198,7 @@
         "name": "Quasar 16",
         "orbital": "yes",
         "orbit": "Molniya",
-        "mass": -1,
+        "mass": "",
         "type": "Satellite",
         "description": "Satellite Data System (SDS) spacecraft are communication relay satellites for transmitting real-time data from US reconnaissance satellites (e.g. KH-11, Onyx, Topaz) in polar areas. They are also used for communications to USAF aircraft on polar routes and connect the various ground stations of the Air Force Satellite Control Network (AFSCN).",
         "id": "d79f7c4c-b560-4ab7-b024-3348d1a0c875",
@@ -1252,7 +1252,7 @@
         "name": "Celestis 07",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": -1,
+        "mass": "",
         "type": "Satellite",
         "description": "Celestis, now renamed Space Services Inc. (SSI), is the first company to offer space burials.",
         "id": "a53a7480-f21a-42e4-b086-8217d4d7383e",
@@ -1262,7 +1262,7 @@
     "id": "4ab98917-f111-4c9e-8632-8307a2e33dba"
   },
   {
-    "vehicle": "Atlas-5 401 4s",
+    "vehicle": "Atlas-5 401s",
     "vehicleFamily": "Atlas",
     "serial": "AV-020",
     "date": "2009-06-18",
@@ -1296,7 +1296,7 @@
     "id": "7dcb52d8-6885-4b18-805f-61f94a3f44da"
   },
   {
-    "vehicle": "Atlas-5 401 4s",
+    "vehicle": "Atlas-5 401s",
     "vehicleFamily": "Atlas",
     "serial": "AV-018",
     "date": "2009-09-08",
@@ -1310,7 +1310,7 @@
         "name": "Nemesis 1",
         "orbital": "yes",
         "orbit": "GEO",
-        "mass": -1,
+        "mass": "",
         "type": "Satellite",
         "description": "The Nemesis series of satellites are geostationary COMINT satellites to intercept transmissions to commercial communicationss satellites. These satellites were known at launch by the names PAN and CLIO or the program designation P360.",
         "id": "20c27e2a-22f5-4e4f-ac4a-b2b90046cd11",
@@ -1344,7 +1344,7 @@
     "id": "8b7ae082-92b2-4ef2-9e94-03ca3be740ca"
   },
   {
-    "vehicle": "Atlas-5 401 4s",
+    "vehicle": "Atlas-5 401s",
     "vehicleFamily": "Atlas",
     "serial": "AV-017",
     "date": "2009-10-18",
@@ -1368,7 +1368,7 @@
     "id": "24da5eca-6723-495d-80a5-ae5812eb6b98"
   },
   {
-    "vehicle": "Atlas-5 401 4s",
+    "vehicle": "Atlas-5 401s",
     "vehicleFamily": "Atlas",
     "serial": "AV-021",
     "date": "2010-02-11",
@@ -1406,7 +1406,7 @@
         "name": "Dragon Qualification Unit",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": -1,
+        "mass": "",
         "type": "Capsule",
         "description": "",
         "id": "d8340ad5-d81e-409a-820c-8aae2fd8119b",
@@ -1430,7 +1430,7 @@
         "name": "Dragon C1",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": -1,
+        "mass": "",
         "type": "Capsule",
         "description": "",
         "id": "b91685ed-ebe6-4c72-a7de-48048e8e599b",
@@ -1520,7 +1520,7 @@
     "id": "40b12a37-b76d-46b1-a762-5c5a3fe96ef4"
   },
   {
-    "vehicle": "Atlas-5 401 4s",
+    "vehicle": "Atlas-5 401s",
     "vehicleFamily": "Atlas",
     "serial": "AV-022",
     "date": "2011-06-20",
@@ -1568,7 +1568,7 @@
         "name": "Celestis 11",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": -1,
+        "mass": "",
         "type": "Satellite",
         "description": "",
         "id": "1c4582f8-01eb-4eff-9e6c-cc0d481a6bd9",
@@ -1578,7 +1578,7 @@
     "id": "1b4a8777-0813-433c-9f61-ea5aeafb061f"
   },
   {
-    "vehicle": "Atlas-5 401 4s",
+    "vehicle": "Atlas-5 401s",
     "vehicleFamily": "Atlas",
     "serial": "AV-023",
     "date": "2012-06-20",
@@ -1592,7 +1592,7 @@
         "name": "Quasar 18",
         "orbital": "yes",
         "orbit": "GEO",
-        "mass": -1,
+        "mass": "",
         "type": "Satellite",
         "description": "Satellite Data System (SDS) spacecraft are communication relay satellites for transmitting real-time data from US reconnaissance satellites (e.g. KH-11, Onyx, Topaz) in polar areas. They are also used for communications to USAF aircraft on polar routes and connect the various ground stations of the Air Force Satellite Control Network (AFSCN).",
         "id": "d9db7c56-a905-468a-87e6-13d18c8d8645",
@@ -1602,7 +1602,7 @@
     "id": "6df23d13-8501-430c-bef0-cdce3a826005"
   },
   {
-    "vehicle": "Atlas-5 401 4s",
+    "vehicle": "Atlas-5 401s",
     "vehicleFamily": "Atlas",
     "serial": "AV-032",
     "date": "2012-08-30",
@@ -1636,7 +1636,7 @@
     "id": "99ccf748-de19-4455-8cdc-8f35b38157ac"
   },
   {
-    "vehicle": "Atlas-5 401 4m",
+    "vehicle": "Atlas-5 401m",
     "vehicleFamily": "Atlas",
     "serial": "AV-033",
     "date": "2012-09-13",
@@ -1807,7 +1807,7 @@
         "name": "Dragon CRS-1",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": -1,
+        "mass": "",
         "type": "Capsule",
         "description": "",
         "id": "ef17da30-99d8-48ec-9f5b-a53970661845",
@@ -1853,7 +1853,7 @@
     "id": "b7c8583b-bd5e-4f71-b2ba-009245e58813"
   },
   {
-    "vehicle": "Atlas-5 401 4m",
+    "vehicle": "Atlas-5 401m",
     "vehicleFamily": "Atlas",
     "serial": "AV-036",
     "date": "2013-01-31",
@@ -1877,7 +1877,7 @@
     "id": "639bd69e-0093-4408-9bef-2bf708a0e3a5"
   },
   {
-    "vehicle": "Atlas-5 401 4m",
+    "vehicle": "Atlas-5 401m",
     "vehicleFamily": "Atlas",
     "serial": "AV-035",
     "date": "2013-02-11",
@@ -1899,30 +1899,6 @@
       }
     ],
     "id": "51f5972f-565b-457b-a332-14dcb424b4ab"
-  },
-  {
-    "vehicle": "Falcon-9 v1.0",
-    "vehicleFamily": "Falcon",
-    "serial": "",
-    "date": "2013-03-01",
-    "status": "success",
-    "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-40",
-    "manned": "no",
-    "orbital": "yes",
-    "payloads": [
-      {
-        "name": "Dragon SRS-2",
-        "orbital": "yes",
-        "orbit": "LEO",
-        "mass": -1,
-        "type": "Capsule",
-        "description": "",
-        "id": "c7b90373-5f5c-4dae-8440-0120c091807a",
-        "status": "success"
-      }
-    ],
-    "id": "2e057a04-566d-4452-add6-f0d089693cad"
   },
   {
     "vehicle": "Falcon-9 v1.1c",
@@ -1997,6 +1973,30 @@
       }
     ],
     "id": "963623de-2e24-4d12-92b8-1258945e96e7"
+  },
+  {
+    "vehicle": "Falcon-9 v1.0",
+    "vehicleFamily": "Falcon",
+    "serial": "",
+    "date": "2013-03-01",
+    "status": "success",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "manned": "no",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Dragon SRS-2",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "",
+        "type": "Capsule",
+        "description": "",
+        "id": "c7b90373-5f5c-4dae-8440-0120c091807a",
+        "status": "success"
+      }
+    ],
+    "id": "2e057a04-566d-4452-add6-f0d089693cad"
   },
   {
     "vehicle": "Grasshopper",
@@ -2159,7 +2159,7 @@
         "name": "HDEV",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": -1,
+        "mass": "",
         "type": "Satellite",
         "description": "",
         "id": "7ebfe273-a975-4693-a27e-2e6e022ed18a",
@@ -2437,7 +2437,7 @@
         "name": "RapidScat",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": -1,
+        "mass": "",
         "type": "Satellite",
         "description": "",
         "id": "713354b6-9a8c-40cc-972e-4e6df335d2d1",
@@ -2618,16 +2618,6 @@
         "description": "",
         "id": "892a03e0-d1ec-403e-82d5-2ce56bffae55",
         "status": "success"
-      },
-      {
-        "name": "",
-        "orbital": "yes",
-        "orbit": "LEO",
-        "mass": -1,
-        "type": "Satellite",
-        "description": "",
-        "id": "def24026-42ae-44b7-a533-21de68435297",
-        "status": "success"
       }
     ],
     "id": "2db2680a-92f4-4064-8a18-2d1cad68eb30"
@@ -2636,7 +2626,7 @@
     "vehicle": "Falcon-9 v1.1c",
     "vehicleFamily": "Falcon",
     "serial": "",
-    "date": "2015-04-14",
+    "date": "2015-04-27",
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
@@ -3219,7 +3209,7 @@
         "name": "SAGE 3",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": -1,
+        "mass": "",
         "type": "Station",
         "description": "The SAGE 3 (Stratospheric Aerosol and Gas Experiment) is the third generation of solar occultation instruments operated by NASA, with additional elements added to accommodate installation and operation on the International Space Station (ISS).",
         "id": "c68e40fb-31d2-4ae3-afff-ec6283f3527e",
@@ -3229,7 +3219,7 @@
         "name": "STP-H5",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": -1,
+        "mass": "",
         "type": "Station",
         "description": "The STP-H5 (Space Test Program - Houston 5) is a combo of experiments to be hosted on the International Space Station (ISS).",
         "id": "705bb9a4-7902-4466-9404-6bec6e1eb819",
@@ -3301,7 +3291,7 @@
         "name": "NROL 76",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": -1,
+        "mass": "",
         "type": "Satellite",
         "description": "",
         "id": "085fcbf3-fa90-4cec-a439-d13ffb2ebf1c",
@@ -3369,7 +3359,7 @@
         "name": "MUSES",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": -1,
+        "mass": "",
         "type": "Satellite",
         "description": "",
         "id": "e5aa1887-469c-48e3-adb4-2e95411ce1dd",
@@ -3645,7 +3635,7 @@
         "name": "Dellingr",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": -1,
+        "mass": "",
         "type": "Satellite",
         "description": "",
         "id": "28685136-4236-46cc-b5e8-2120a37bcb8a",
@@ -3665,7 +3655,7 @@
         "name": "OSIRIS-3U",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": -1,
+        "mass": "",
         "type": "Satellite",
         "description": "",
         "id": "dd311682-b471-41f9-b3f7-b82c9cf1f0ad",
@@ -3723,7 +3713,7 @@
         "name": "CubeSats",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": -1,
+        "mass": "",
         "type": "Satellite",
         "description": "",
         "id": "d4011fb1-2a66-45b3-9d35-16403d5ebaf0",
@@ -3919,7 +3909,7 @@
         "name": "TSIS",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": -1,
+        "mass": "",
         "type": "Station",
         "description": "",
         "id": "194cf553-b66b-49c4-baf3-768d395a5bcd",
@@ -3929,7 +3919,7 @@
         "name": "SDS",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": -1,
+        "mass": "",
         "type": "Station",
         "description": "",
         "id": "33801978-2827-472f-8a6c-f7e812402633",
@@ -4067,8 +4057,8 @@
         "name": "Zuma",
         "orbital": "yes",
         "orbit": "LEO",
-        "status": "Failure",
-        "mass": -1,
+        "status": "failure",
+        "mass": "",
         "type": "Satellite",
         "description": "",
         "id": "ef40a96d-0b94-4bcb-b757-f35c03ca8535"
@@ -4361,7 +4351,7 @@
         "name": "PFCS",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": -1,
+        "mass": "",
         "type": "Station",
         "description": "",
         "id": "00a56838-b63c-46cf-a839-faef0572ae15",

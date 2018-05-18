@@ -20,6 +20,7 @@ export default new Vuex.Store({
       'MEO',
       'GEO',
       'GTO',
+      'SSO',
       'TLI',
       'IP',
     ],
