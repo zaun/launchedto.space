@@ -2,6 +2,7 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 import { readFile, writeFile } from 'fs';
+import { encodeFromFile } from 'image-data-uri';
 import { filter, find, map, remove, sortBy } from 'lodash';
 import path from 'path';
 import uuidv4 from 'uuid/v4';
@@ -13,6 +14,7 @@ export default new Vuex.Store({
     launches: [],
     families: [],
     media: [],
+    imageData: {},
     orbitOptions: [
       'Karmen',
       'LEO',
@@ -35,6 +37,14 @@ export default new Vuex.Store({
       if (!found) {
         state.families.push(data);
       }
+    },
+
+    addRocketImage(state, data) {
+      encodeFromFile(path.join(__dirname, '../../../../media/vehicles/', data.name)).then((uri) => {
+        // eslint-disable-next-line
+        console.log('Loaded: ' + data.name);
+        state.imageData[data.id] = uri;
+      });
     },
 
     saveLaunch(state, data) {
@@ -101,6 +111,14 @@ export default new Vuex.Store({
     updateMediaData(state) {
       readFile(path.join(__dirname, '../../../../data/media.json'), (err, data) => {
         state.media = JSON.parse(data.toString());
+
+        state.media.forEach((m) => {
+          encodeFromFile(path.join(__dirname, '../../../../media/thumb/', m.filename)).then((uri) => {
+            // eslint-disable-next-line
+            console.log('Loaded: ' + m.filename);
+            state.imageData[m.id] = uri;
+          });
+        });
       });
     },
 
@@ -123,6 +141,14 @@ export default new Vuex.Store({
             }
 
             r.expendable = r.expendable ? r.expendable : 'yes';
+
+            if (r.rocketImage) {
+              encodeFromFile(path.join(__dirname, '../../../../media/vehicles/', r.rocketImage)).then((uri) => {
+                // eslint-disable-next-line
+                console.log('Loaded: ' + r.rocketImage);
+                state.imageData[r.id] = uri;
+              });
+            }
 
             Object.keys(r).forEach((prop) => {
               if (r[prop] === -1) {
@@ -159,6 +185,10 @@ export default new Vuex.Store({
   actions: {
     addRocketFamily(context, data) {
       context.commit('addRocketFamily', data);
+    },
+
+    addRocketImage(context, data) {
+      context.commit('addRocketImage', data);
     },
 
     updateData(context) {

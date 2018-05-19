@@ -43,6 +43,6 @@
   }
   
   .description > .input-group__input > textarea {
-    font-size: 14px !important;
+    font-size: 13px !important;
   }
   </style>

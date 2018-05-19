@@ -48,51 +48,90 @@
           <v-text-field v-model="selected.launchPad" label="Launch Pad"></v-text-field>
         </v-flex>
       </v-layout>
-      <v-layout class="section" row>
-        <v-flex xs11>
-          <h3 class="headline">Payloads ({{selected.payloads ? selected.payloads.length : 0 }})</h3>
-        </v-flex>
-        <v-flex xs1>
-          <v-btn id="payloadAdd" fixed right fab outline small color="pink" @click="addPayload">
-            <v-icon>add</v-icon>
-          </v-btn>
-        </v-flex>
-      </v-layout>
-      <div class="payloads">
-        <div v-if="selected && selected.payloads" v-for="(payload, idx) in selected.payloads" :key="`payload-${idx}`">
-          <v-layout row>
-            <v-flex xs3>
-              <v-text-field v-model="payload.name" label="Name" required :rules="requiredRule" class="pr-1"></v-text-field>
+
+
+      <v-layout row class="bottom">
+        <v-flex xs2 class="pr-1">
+          <v-layout row class="section">
+            <v-flex xs10>
+              <h3 class="headline">Media ({{media ? media.length : 0 }})</h3>
             </v-flex>
             <v-flex xs2>
-              <v-select v-model="payload.orbital" :items="orbitalOptions" label="Orbital" class="pr-1"></v-select>
-            </v-flex>
-            <v-flex xs1>
-              <v-select v-model="payload.orbit" :items="orbitOptions" label="Orbit" class="pr-1"></v-select>
-            </v-flex>
-            <v-flex xs1>
-              <v-text-field v-model="payload.mass" label="Mass (kg)" class="pr-1"></v-text-field>
-            </v-flex>
-            <v-flex xs2>
-              <v-select v-model="payload.type" :items="payloadOptions" label="Type" class="pr-1"></v-select>
-            </v-flex>
-            <v-flex xs2>
-              <v-select v-model="payload.status" :items="statusOptions" label="Status" class="pr-1"></v-select>
-            </v-flex>
-            <v-flex xs1>
-              <v-btn id="payloadDelete" icon outline @click="deletePayload(payload)">
-                <v-icon>delete</v-icon>
+              <v-btn id="mediaAdd" fab outline small color="pink" @click="addMedia">
+                <v-icon>add</v-icon>
               </v-btn>
             </v-flex>
           </v-layout>
-          <v-layout row>
-            <v-flex xs1></v-flex>
-            <v-flex xs10>
-              <v-text-field v-model="payload.description" :multi-line="true" rows="2" row-height="10" label="Description" counter="300" :rules="descriptionRule" class="description pr-1"></v-text-field>
-            </v-flex>
+          <div class="bottomInner">
+            <div row v-if="media" v-for="(mediaItem, idx) in media" :class="{'odd': idx % 2 !== 0}" :key="`media-${idx}`">
+              <v-layout row>
+                <v-flex xs10>
+                  <img :src="mediaItem.uri" />
+                </v-flex>
+                <v-flex xs2>
+                  <v-btn id="mediaDelete" icon small outline @click="deleteMedia(idx)">
+                    <v-icon>delete</v-icon>
+                  </v-btn>
+                </v-flex>
+              </v-layout>
+              <v-layout row>
+                <v-flex xs12>
+                  <v-text-field v-model="mediaItem.description" :multi-line="true" auto-grow rows="5" row-height="10" label="Description" counter="800" class="description"></v-text-field>
+                </v-flex>
+              </v-layout>
+            </div>
+          </div>
+        </v-flex><!-- Media -->
+
+        <v-flex xs10>
+          <v-layout row class="section">
+          <v-flex xs11>
+            <h3 class="headline">Payloads ({{selected.payloads ? selected.payloads.length : 0 }})</h3>
+          </v-flex>
+          <v-flex xs1>
+            <v-btn id="payloadAdd" fab outline small color="pink" @click="addPayload">
+              <v-icon>add</v-icon>
+            </v-btn>
+          </v-flex>
           </v-layout>
-        </div>
-      </div>
+          <div class="bottomInner">
+            <div v-if="selected && selected.payloads" v-for="(payload, idx) in selected.payloads" :key="`payload-${idx}`">
+              <v-layout row>
+                <v-flex xs3>
+                  <v-text-field v-model="payload.name" label="Name" required :rules="requiredRule" class="pr-1"></v-text-field>
+                </v-flex>
+                <v-flex xs2>
+                  <v-select v-model="payload.orbital" :items="orbitalOptions" label="Orbital" class="pr-1"></v-select>
+                </v-flex>
+                <v-flex xs1>
+                  <v-select v-model="payload.orbit" :items="orbitOptions" label="Orbit" class="pr-1"></v-select>
+                </v-flex>
+                <v-flex xs1>
+                  <v-text-field v-model="payload.mass" label="Mass (kg)" class="pr-1"></v-text-field>
+                </v-flex>
+                <v-flex xs2>
+                  <v-select v-model="payload.type" :items="payloadOptions" label="Type" class="pr-1"></v-select>
+                </v-flex>
+                <v-flex xs2>
+                  <v-select v-model="payload.status" :items="statusOptions" label="Status" class="pr-1"></v-select>
+                </v-flex>
+                <v-flex xs1>
+                  <v-btn id="payloadDelete" icon outline @click="deletePayload(payload)">
+                    <v-icon>delete</v-icon>
+                  </v-btn>
+                </v-flex>
+              </v-layout>
+              <v-layout row>
+                <v-flex xs1></v-flex>
+                <v-flex xs10>
+                  <v-text-field v-model="payload.description" :multi-line="true" rows="2" row-height="10" label="Description" counter="300" :rules="descriptionRule" class="description pr-1"></v-text-field>
+                </v-flex>
+              </v-layout>
+            </div>
+          </div>
+        </v-flex><!-- Payloads -->
+      </v-layout>
+
       <v-footer class="launchFooter" app height="43">
         <v-spacer></v-spacer>
         <v-btn :disabled="!launchFormValid" round outline small color="pink" @click="saveLaunch">
@@ -104,7 +143,7 @@
 </template>
 
 <script>
-  import { cloneDeep, find, findIndex, map, sortBy } from 'lodash';
+  import { cloneDeep, filter, find, findIndex, map, sortBy } from 'lodash';
   import uuidv4 from 'uuid/v4';
 
   export default {
@@ -153,6 +192,7 @@
           'Satellite',
           'Station',
         ],
+        media: [],
         selected: {},
       };
     },
@@ -221,6 +261,7 @@
 
       select(item) {
         this.selected = cloneDeep(item);
+        this.media = filter(this.$store.state.media, { launchID: this.selected.id });
       },
     },
 
@@ -241,6 +282,7 @@
     width: 100%;
   }
 
+  #mediaAdd,
   #payloadAdd {
     width: 20px;
     height: 20px;
@@ -257,12 +299,19 @@
     background-color: #eee;
   }
 
-  .payloads {
+
+  .bottom {
     position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 190px;
-    bottom: 56px;
+    top: 150px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+  }
+
+  .bottomInner {
+    position: relative;
+    top: 0;
+    height: calc(100% - 73px);
     overflow-y: auto;
   }
 
@@ -298,5 +347,9 @@
     transform: translate(-50%, -50%);
     padding: 0px;
     margin: 0px;
+  }
+
+  img {
+    width: 100%;
   }
 </style>

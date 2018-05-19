@@ -181,7 +181,6 @@
       },
       {
         "name": "Saturn-5",
-        "image": "saturn-v.png",
         "height": 110.6,
         "wikipediaURL": "https://en.wikipedia.org/wiki/Saturn_V",
         "astronautixURL": "http://www.astronautix.com/s/saturnv.html",
@@ -260,7 +259,12 @@
         ],
         "id": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
         "payloadType": "Capsule",
-        "expendable": "yes"
+        "expendable": "yes",
+        "rocketImage": "saturn-v.png",
+        "span": "19.3",
+        "diameter": "10.1",
+        "capsuleHeight": "3.23",
+        "capsuleDiameter": "3.91"
       },
       {
         "name": "Saturn-5 2nd Stage",
@@ -374,7 +378,10 @@
         ],
         "id": "26edb74e-6435-4af7-9961-09a9e1754561",
         "payloadType": "Fairing",
-        "expendable": "yes"
+        "expendable": "yes",
+        "rocketImage": "falcon-1.png",
+        "diameter": "1.7",
+        "span": "1.7"
       },
       {
         "name": "Falcon-1 (dev)",
@@ -412,7 +419,10 @@
         ],
         "id": "c6485a5d-deac-4644-a9aa-4767d235a3a2",
         "payloadType": "Fairing",
-        "expendable": "yes"
+        "expendable": "yes",
+        "diameter": "1.7",
+        "span": "1.7",
+        "rocketImage": "falcon-1.png"
       },
       {
         "name": "Falcon-9 v1.0",
@@ -474,7 +484,10 @@
         "fairingHeight": "13.1",
         "fairingDiameter": "5.2",
         "capsuleHeight": "8.1",
-        "capsuleDiameter": "3.7"
+        "capsuleDiameter": "3.7",
+        "rocketImage": "falcon-9_v1-0.png",
+        "diameter": "3.66",
+        "span": ""
       },
       {
         "id": "ae35985d-33db-43d1-b003-66c25514e38a",
@@ -510,7 +523,9 @@
         "fairingDiameter": "5.2",
         "expendable": "no",
         "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.1",
-        "height": "81.5"
+        "height": "81.5",
+        "diameter": "3.66",
+        "rocketImage": "falcon-9_v1-1.png"
       },
       {
         "id": "678fac31-5bae-4695-9614-0c06387dd2af",
@@ -546,7 +561,9 @@
         "capsuleDiameter": "3.7",
         "expendable": "no",
         "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.1",
-        "height": "76.5"
+        "height": "76.5",
+        "diameter": "3.66",
+        "rocketImage": "falcon-9_v1-1-dragon.png"
       },
       {
         "id": "bb1aafe1-f1a3-490a-a48a-3abcef960159",
@@ -583,7 +600,9 @@
         "capsuleDiameter": "3.7",
         "expendable": "yes",
         "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.1",
-        "height": "76.5"
+        "height": "76.5",
+        "diameter": "3.66",
+        "rocketImage": "falcon-9_v1-1-dragon-expendable.png"
       },
       {
         "id": "9edf93cc-b356-4528-9733-37ab5188c761",
@@ -619,7 +638,9 @@
         "fairingDiameter": "5.2",
         "expendable": "yes",
         "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.1",
-        "height": "81.5"
+        "height": "81.5",
+        "diameter": "3.66",
+        "rocketImage": "falcon-9_v1-1-expendable.png"
       },
       {
         "id": "2ae0880f-39c8-4549-af75-c4c9a5fed92a",
@@ -666,7 +687,9 @@
         "fairingDiameter": "5.2",
         "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm",
         "expendable": "no",
-        "height": "83.1"
+        "height": "83.1",
+        "diameter": "3.66",
+        "rocketImage": "falcon-9_v1-2.png"
       },
       {
         "id": "16919357-6b13-472a-b176-58978644f2e6",
@@ -705,7 +728,10 @@
         "fairingHeight": "13.1",
         "fairingDiameter": "5.2",
         "expendable": "yes",
-        "height": "83.1"
+        "height": "83.1",
+        "diameter": "3.66",
+        "rocketImage": "falcon-9_heavy.png",
+        "span": "10.98"
       },
       {
         "id": "465a00d9-a60e-4910-9e5a-b8dea565cf37",
@@ -753,7 +779,8 @@
         "capsuleDiameter": "3.7",
         "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm",
         "expendable": "no",
-        "height": "78.1"
+        "height": "78.1",
+        "diameter": "3.66"
       },
       {
         "id": "c7f5240c-23cf-498b-bd39-6be018d0c0ff",
@@ -800,7 +827,8 @@
         "capsuleDiameter": "3.7",
         "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm",
         "expendable": "yes",
-        "height": "78.1"
+        "height": "78.1",
+        "diameter": "3.66"
       },
       {
         "id": "14cc7e30-cc07-470a-85e8-0b2c91a4fe9c",
@@ -847,7 +875,8 @@
         "fairingDiameter": "5.2",
         "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm",
         "expendable": "yes",
-        "height": "83.1"
+        "height": "83.1",
+        "diameter": "3.66"
       },
       {
         "id": "d5b30df1-33e0-4321-8c96-8b19280783b0",

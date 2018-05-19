@@ -53,6 +53,8 @@
     }
   },
   "dependencies": {
+    "fs-extra": "^6.0.1",
+    "image-data-uri": "^1.1.0",
     "lodash": "^4.17.10",
     "material-design-icons-iconfont": "^3.0.3",
     "uuid": "^3.2.1",

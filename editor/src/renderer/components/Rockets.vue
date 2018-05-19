@@ -35,10 +35,16 @@
         <v-flex xs2>
           <v-text-field v-model="selected.name" label="Rocket Name" required :rules="requiredRule" class="pr-1"></v-text-field>
         </v-flex>
-        <v-flex xs2>
-          <v-text-field v-model="selected.height" label="Rocket Height (m)" type="number" class="pr-1"></v-text-field>
+        <v-flex xs1>
+          <v-text-field v-model="selected.height" label="Height (m)" type="number" class="pr-1"></v-text-field>
         </v-flex>
-        <v-flex xs2>
+        <v-flex xs1>
+          <v-text-field v-model="selected.diameter" label="Diameter (m)" type="number" class="pr-1"></v-text-field>
+        </v-flex>
+        <v-flex xs1>
+          <v-text-field v-model="selected.span" label="Span (m)" type="number" class="pr-1"></v-text-field>
+        </v-flex>
+        <v-flex xs1>
           <v-select v-model="selected.expendable" :items="expendableOptions" label="Expendable" class="pr-1"></v-select>
         </v-flex>
         <v-flex xs2>
@@ -68,8 +74,21 @@
           <v-text-field v-model="selected.skyrocketURL" label="Skyrocket URL" class="pr-1"></v-text-field>
         </v-flex>
       </v-layout>
+      <v-layout row>
+        <v-flex xs1>
+          <v-btn outline color="pink" @click="showAddRocketImage()">
+            Set<br />Image
+          </v-btn>
+        </v-flex>
+        <v-flex xs11>
+          <div class="rocket-image" :style="{ 'height': getRocketImageHeight() }">
+            <div class="image" :style="{ 'background-image': 'url(' + imageData[selected.id] + ')', 'width': getRocketImageWidth() }"></div>
+            <div class="scale m100">100 (m)</div>
+          </div>
+        </v-flex>
+      </v-layout>
 
-      <v-layout row class="bottom">
+      <v-layout row class="bottom" :style="{ top: getBottomHeight() }">
         <v-flex xs3 class="pr-1">
           <v-layout row class="section">
             <v-flex xs10>
@@ -203,36 +222,60 @@
 
     <v-dialog v-model="addFamilyDialog" max-width="500px">
       <v-form ref="familyForm" v-model="familyFormValid" lazy-validation>
-          <v-card>
-            <v-card-title>
-              <span>New Rocket Family</span>
-            </v-card-title>
-            <v-card-text>
-              <v-text-field v-model="newFamilyName" label="Rocket Family Name" required :rules="requiredRule" class="pr-1"></v-text-field>
-            </v-card-text>
-            <v-card-actions>
-              <v-spacer></v-spacer>
-              <v-btn :disabled="!familyFormValid" color="primary" flat @click.stop="doAddFamily">OK</v-btn>
-            </v-card-actions>
-          </v-card>
-        </v-form>
-      </v-dialog>
+        <v-card>
+          <v-card-title>
+            <span>New Rocket Family</span>
+          </v-card-title>
+          <v-card-text>
+            <v-text-field v-model="newFamilyName" label="Rocket Family Name" required :rules="requiredRule" class="pr-1"></v-text-field>
+          </v-card-text>
+          <v-card-actions>
+            <v-spacer></v-spacer>
+            <v-btn :disabled="!familyFormValid" color="primary" flat @click.stop="doAddFamily">OK</v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-form>
+    </v-dialog>
+
+    <v-dialog v-model="rocketImageDialog" max-width="500px">
+      <v-form ref="imageForm" v-model="imageFormValid" lazy-validation>
+        <v-card>
+          <v-card-title>
+            <span>Select Rocket Image</span>
+          </v-card-title>
+          <v-card-text>
+            <file-input v-model="rocketImageFilename" label="Select Rocket Image..." />
+          </v-card-text>
+          <v-card-actions>
+            <v-spacer></v-spacer>
+            <v-btn :disabled="!imageFormValid" color="primary" flat @click.stop="doAddRocketImage">OK</v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-form>
+    </v-dialog>
   </div>
 </template>
 
 <script>
+  import { copySync } from 'fs-extra';
   import { cloneDeep } from 'lodash';
+  import path from 'path';
   import uuidv4 from 'uuid/v4';
+
+  import fileInput from './file-input.vue';
 
   export default {
     name: 'rockets',
 
-    components: { },
+    components: {
+      fileInput,
+    },
 
     data() {
       return {
         familyFormValid: true,
         rocketFormValid: true,
+        imageFormValid: true,
 
         requiredRule: [v => !!v || 'Item is required'],
         numberRule: [
@@ -250,6 +293,8 @@
 
         addFamilyDialog: false,
         newFamilyName: '',
+        rocketImageDialog: false,
+        rocketImageFilename: '',
 
         payloadTypeOptions: [
           'Capsule',
@@ -273,6 +318,9 @@
       },
       orbitOptions() {
         return this.$store.state.orbitOptions;
+      },
+      imageData() {
+        return this.$store.state.imageData;
       },
     },
 
@@ -329,6 +377,53 @@
         }
       },
 
+      doAddRocketImage() {
+        if (this.rocketImageFilename) {
+          const name = path.basename(this.rocketImageFilename);
+          copySync(this.rocketImageFilename, path.join(__dirname, '../../../../media/vehicles/', name));
+          this.selected.rocketImage = name;
+          this.$store.dispatch('addRocketImage', {
+            id: this.selected.id,
+            name,
+          });
+        }
+
+        this.rocketImageDialog = false;
+      },
+
+      getRocketImageWidth() {
+        let width = 100;
+        if (this.selected.height) {
+          width = ((this.selected.height / 100) * 800);
+        }
+        return `${width}px`;
+      },
+
+      getRocketImageHeight() {
+        let height = 40;
+        if (this.selected.span) {
+          height = ((this.selected.span / 100) * 800);
+        } else if (this.selected.diameter) {
+          height = ((this.selected.diameter / 100) * 800);
+        }
+        return `${height}px`;
+      },
+
+      getBottomHeight() {
+        let height = 0;
+        if (this.selected.span) {
+          height = ((this.selected.span / 100) * 800);
+        } else if (this.selected.diameter) {
+          height = ((this.selected.diameter / 100) * 800);
+        }
+        height += 163;
+
+        if (height < 200) {
+          height = 200;
+        }
+        return `${height}px`;
+      },
+
       saveRocket() {
         if (this.$refs.rocketForm.validate()) {
           this.$store.dispatch('saveRocket', {
@@ -348,6 +443,11 @@
         this.$refs.familyForm.reset();
         this.newFamilyName = '';
         this.addFamilyDialog = true;
+      },
+
+      showAddRocketImage() {
+        this.rocketImageFilename = '';
+        this.rocketImageDialog = true;
       },
     },
   };
@@ -388,6 +488,30 @@
     background-color: #eee;
   }
 
+  .rocket-image {
+    position: relative;
+    width: 900px;
+  }
+
+  .rocket-image .image {
+    background-size: contain;
+    background-position: 50%;
+    height: 100%;
+    background-color: #eee;
+  }
+
+  .rocket-image .scale {
+    position: absolute;
+    top: -3px;
+    height: 0px;
+    border-bottom: 1px solid Black;
+  }
+
+  .rocket-image .scale.m100 {
+    position: absolute;
+    width: 800px;
+  }
+
   .payloads {
     position: relative;
     float: left;
@@ -416,7 +540,6 @@
 
   .bottom {
     position: absolute;
-    top: 150px;
     bottom: 0px;
     left: 0;
     right: 0;
