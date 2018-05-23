@@ -29,14 +29,14 @@
 
     <v-form ref="rocketForm" v-model="rocketFormValid" lazy-validation>
       <v-layout row>
-        <v-flex xs2>
+        <v-flex xs1>
           <v-text-field disabled v-model="selectedGroup.name" label="Rocket Family" class="pr-1"></v-text-field>
         </v-flex>
         <v-flex xs2>
           <v-text-field v-model="selected.name" label="Rocket Name" required :rules="requiredRule" class="pr-1"></v-text-field>
         </v-flex>
-        <v-flex xs1>
-          <v-text-field v-model="selected.height" label="Height (m)" type="number" class="pr-1"></v-text-field>
+        <v-flex xs2>
+          <v-text-field v-model="selected.height" label="Total Height (m)" type="number" class="pr-1"></v-text-field>
         </v-flex>
         <v-flex xs1>
           <v-text-field v-model="selected.diameter" label="Diameter (m)" type="number" class="pr-1"></v-text-field>
@@ -83,7 +83,7 @@
         <v-flex xs11>
           <div class="rocket-image" :style="{ 'height': getRocketImageHeight() }">
             <div class="image" :style="{ 'background-image': 'url(' + imageData[selected.id] + ')', 'width': getRocketImageWidth() }"></div>
-            <div class="scale m100">100 (m)</div>
+            <div class="scale" :style="{ width: `${metersToPixels(100)}px` }">100 (m)</div>
           </div>
         </v-flex>
       </v-layout>
@@ -264,6 +264,8 @@
 
   import fileInput from './file-input.vue';
 
+  const PIXELS_PER_METER = 10;
+
   export default {
     name: 'rockets',
 
@@ -394,7 +396,7 @@
       getRocketImageWidth() {
         let width = 100;
         if (this.selected.height) {
-          width = ((this.selected.height / 100) * 800);
+          width = ((this.selected.height / 100) * (PIXELS_PER_METER * 100));
         }
         return `${width}px`;
       },
@@ -402,9 +404,9 @@
       getRocketImageHeight() {
         let height = 40;
         if (this.selected.span) {
-          height = ((this.selected.span / 100) * 800);
+          height = ((this.selected.span / 100) * (PIXELS_PER_METER * 100));
         } else if (this.selected.diameter) {
-          height = ((this.selected.diameter / 100) * 800);
+          height = ((this.selected.diameter / 100) * (PIXELS_PER_METER * 100));
         }
         return `${height}px`;
       },
@@ -412,9 +414,9 @@
       getBottomHeight() {
         let height = 0;
         if (this.selected.span) {
-          height = ((this.selected.span / 100) * 800);
+          height = ((this.selected.span / 100) * (PIXELS_PER_METER * 100));
         } else if (this.selected.diameter) {
-          height = ((this.selected.diameter / 100) * 800);
+          height = ((this.selected.diameter / 100) * (PIXELS_PER_METER * 100));
         }
         height += 163;
 
@@ -422,6 +424,10 @@
           height = 200;
         }
         return `${height}px`;
+      },
+
+      metersToPixels(meters) {
+        return (PIXELS_PER_METER * meters);
       },
 
       saveRocket() {
@@ -505,11 +511,6 @@
     top: -3px;
     height: 0px;
     border-bottom: 1px solid Black;
-  }
-
-  .rocket-image .scale.m100 {
-    position: absolute;
-    width: 800px;
   }
 
   .payloads {

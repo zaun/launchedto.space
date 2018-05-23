@@ -227,6 +227,10 @@
         };
       },
 
+      addMedia() {
+
+      },
+
       addPayload() {
         if (!this.selected) {
           return;
@@ -242,6 +246,10 @@
           status: this.selected.status,
           description: '',
         });
+      },
+
+      deleteMedia() {
+
       },
 
       deletePayload(item) {

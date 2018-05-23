@@ -487,7 +487,7 @@
         "capsuleDiameter": "3.7",
         "rocketImage": "falcon-9_v1-0.png",
         "diameter": "3.66",
-        "span": ""
+        "span": "3.7"
       },
       {
         "id": "ae35985d-33db-43d1-b003-66c25514e38a",
@@ -525,7 +525,8 @@
         "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.1",
         "height": "81.5",
         "diameter": "3.66",
-        "rocketImage": "falcon-9_v1-1.png"
+        "rocketImage": "falcon-9_v1-1.png",
+        "span": "5.2"
       },
       {
         "id": "678fac31-5bae-4695-9614-0c06387dd2af",
@@ -563,7 +564,8 @@
         "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.1",
         "height": "76.5",
         "diameter": "3.66",
-        "rocketImage": "falcon-9_v1-1-dragon.png"
+        "rocketImage": "falcon-9_v1-1-dragon.png",
+        "span": "3.7"
       },
       {
         "id": "bb1aafe1-f1a3-490a-a48a-3abcef960159",
@@ -602,7 +604,8 @@
         "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.1",
         "height": "76.5",
         "diameter": "3.66",
-        "rocketImage": "falcon-9_v1-1-dragon-expendable.png"
+        "rocketImage": "falcon-9_v1-1-dragon-expendable.png",
+        "span": "3.7"
       },
       {
         "id": "9edf93cc-b356-4528-9733-37ab5188c761",
@@ -640,7 +643,8 @@
         "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.1",
         "height": "81.5",
         "diameter": "3.66",
-        "rocketImage": "falcon-9_v1-1-expendable.png"
+        "rocketImage": "falcon-9_v1-1-expendable.png",
+        "span": "5.2"
       },
       {
         "id": "2ae0880f-39c8-4549-af75-c4c9a5fed92a",
@@ -689,7 +693,8 @@
         "expendable": "no",
         "height": "83.1",
         "diameter": "3.66",
-        "rocketImage": "falcon-9_v1-2.png"
+        "rocketImage": "falcon-9_v1-2.png",
+        "span": "5.2"
       },
       {
         "id": "16919357-6b13-472a-b176-58978644f2e6",
@@ -954,7 +959,12 @@
         "payloadType": "Fairing",
         "fairingHeight": "11.2",
         "fairingDiameter": "4",
-        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/atlas-5-401.htm"
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/atlas-5-401.htm",
+        "astronautixURL": "http://www.astronautix.com/a/atlasv.html",
+        "diameter": "3.81",
+        "span": "5.40",
+        "height": "58.30",
+        "rocketImage": "atlas-5_401.png"
       },
       {
         "id": "a07661db-3029-4a64-a944-4ad91f265b22",
@@ -1000,7 +1010,12 @@
         "payloadType": "Fairing",
         "fairingHeight": "10.3",
         "fairingDiameter": "4",
-        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/atlas-5-401.htm"
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/atlas-5-401.htm",
+        "diameter": "3.81",
+        "span": "5.40",
+        "height": "57.4",
+        "astronautixURL": "http://www.astronautix.com/a/atlasv.html",
+        "rocketImage": "atlas-5_401.png"
       },
       {
         "id": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
@@ -1046,7 +1061,12 @@
         "expendable": "yes",
         "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/atlas-5-401.htm",
         "fairingHeight": "9.4",
-        "fairingDiameter": "4"
+        "fairingDiameter": "4",
+        "diameter": "3.81",
+        "span": "5.40",
+        "height": "56.5",
+        "astronautixURL": "http://www.astronautix.com/a/atlasv.html",
+        "rocketImage": "atlas-5_401.png"
       }
     ]
   }
