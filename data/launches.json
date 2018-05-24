@@ -1166,7 +1166,7 @@
         "orbit": "LEO",
         "mass": 3250,
         "type": "Satellite",
-        "description": "NOSS-3 (Naval Ocean Surveillance System), which is likely not the official designation, is the third generation of NOSS satellites, which are low orbit SIGINT satellites. In 2013, the designation Intruder leaked out. These satellites carry equipment to track ships and aircraft via their radio transmissions. Positions of the origin of the transmissions are determined by triangulation. Each launch consists of two satellites of similar size in the same orbit. Both satellites maneuver to stationkeep relative to one another.",
+        "description": "Intruder 8A is the third generation of NOSS satellites, which are low orbit SIGINT satellites. In 2013 the designation Intruder leaked out. These satellites carry equipment to track ships and aircraft via their radio transmissions. Positions of the transmissions are determined by triangulation.",
         "id": "7267e2a4-ec9f-430c-8f07-c4b27ddd2328",
         "status": "partial failure"
       },
@@ -1176,7 +1176,7 @@
         "orbit": "LEO",
         "mass": 3250,
         "type": "Satellite",
-        "description": "NOSS-3 (Naval Ocean Surveillance System), which is likely not the official designation, is the third generation of NOSS satellites, which are low orbit SIGINT satellites. In 2013, the designation Intruder leaked out. These satellites carry equipment to track ships and aircraft via their radio transmissions. Positions of the origin of the transmissions are determined by triangulation. Each launch consists of two satellites of similar size in the same orbit. Both satellites maneuver to stationkeep relative to one another.",
+        "description": "Intruder 8B is the third generation of NOSS satellites, which are low orbit SIGINT satellites. In 2013 the designation Intruder leaked out. These satellites carry equipment to track ships and aircraft via their radio transmissions. Positions of the transmissions are determined by triangulation.",
         "id": "09588438-6905-4143-b5f5-4994dacccc0c",
         "status": "partial failure"
       }

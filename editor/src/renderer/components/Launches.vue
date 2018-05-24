@@ -225,6 +225,7 @@
         mediaOptions: [
           { value: '', text: 'Random Image' },
           { value: 'nasa', text: 'Nasa' },
+          { value: 'spacex', text: 'SpaceX' },
         ],
         media: [],
         selected: {},
