@@ -1068,7 +1068,7 @@
         "orbit": "LEO",
         "mass": 700,
         "type": "Satellite",
-        "description": "The unique Orbital Express advanced technology demonstrator has the capability to safely and autonomously service and refuel satellites while onorbit. The Boeing team built the ASTRO (Autonomous Space Transport Robotic Operations satellite), and a surrogate next generation serviceable satellite, NEXTSat/CSC, and conducted an on orbit demonstration of autonomous satellite servicing.",
+        "description": "The Orbital Express advanced technology demonstrator has the capability to autonomously service and refuel satellites while onorbit. The Boeing team built the Autonomous Space Transport Robotic Operations satellite, and the NEXTSat/CSC, and conducted an on orbit demonstration.",
         "id": "cf6dc88d-df59-4313-a2f1-a1d40bb52cf7",
         "status": "success"
       },

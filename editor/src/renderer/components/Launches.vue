@@ -66,10 +66,10 @@
             <div row v-if="media" v-for="(mediaItem, idx) in media" :class="{'odd': idx % 2 !== 0}" :key="`media-${idx}`">
               <v-layout row>
                 <v-flex xs10>
-                  <img :src="mediaItem.uri" />
+                  <img :src="imageData[mediaItem.id]" />
                 </v-flex>
                 <v-flex xs2>
-                  <v-btn id="mediaDelete" icon small outline @click="deleteMedia(idx)">
+                  <v-btn id="mediaDelete" icon small outline @click="deleteMedia(mediaItem)">
                     <v-icon>delete</v-icon>
                   </v-btn>
                 </v-flex>
@@ -139,20 +139,46 @@
         </v-btn>
       </v-footer>
     </v-form>
+
+    <v-dialog v-model="launchMediaDialog" max-width="500px">
+      <v-form ref="imageForm" v-model="imageFormValid" lazy-validation>
+        <v-card>
+          <v-card-title>
+            <span>Select Launch Image</span>
+          </v-card-title>
+          <v-card-text>
+            <v-select v-model="launchMediaType" :items="mediaOptions" label="Image From"></v-select>
+            <file-input v-model="launchMediaFilename" label="Select Image..." />
+          </v-card-text>
+          <v-card-actions>
+            <v-spacer></v-spacer>
+            <v-btn :disabled="!imageFormValid" color="primary" flat @click.stop="doAddMedia">OK</v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-form>
+    </v-dialog>
   </div>
 </template>
 
 <script>
+  import { copySync } from 'fs-extra';
   import { cloneDeep, filter, find, findIndex, map, sortBy } from 'lodash';
+  import path from 'path';
+  import sharp from 'sharp';
   import uuidv4 from 'uuid/v4';
+
+  import fileInput from './file-input.vue';
 
   export default {
     name: 'launches',
 
-    components: { },
+    components: {
+      fileInput,
+    },
 
     data() {
       return {
+        imageFormValid: true,
         launchFormValid: true,
         requiredRule: [v => !!v || 'Item is required'],
         requiredDate: [
@@ -162,6 +188,10 @@
         descriptionRule: [
           v => v.length < 300 || 'Item is to long',
         ],
+
+        launchMediaDialog: false,
+        launchMediaType: '',
+        launchMediaFilename: '',
 
         launchSiteOptions: [
           'Cape Canaveral',
@@ -192,6 +222,10 @@
           'Satellite',
           'Station',
         ],
+        mediaOptions: [
+          { value: '', text: 'Random Image' },
+          { value: 'nasa', text: 'Nasa' },
+        ],
         media: [],
         selected: {},
       };
@@ -214,6 +248,9 @@
       orbitOptions() {
         return this.$store.state.orbitOptions;
       },
+      imageData() {
+        return this.$store.state.imageData;
+      },
     },
 
     methods: {
@@ -228,7 +265,7 @@
       },
 
       addMedia() {
-
+        this.launchMediaDialog = true;
       },
 
       addPayload() {
@@ -248,8 +285,15 @@
         });
       },
 
-      deleteMedia() {
+      deleteMedia(item) {
+        if (!this.selected) {
+          return;
+        }
 
+        const idx = findIndex(this.media, item);
+        this.$delete(this.media, idx);
+
+        this.$store.dispatch('deleteLaunchMedia', item);
       },
 
       deletePayload(item) {
@@ -261,15 +305,47 @@
         this.$delete(this.selected.payloads, idx);
       },
 
+      doAddMedia() {
+        if (this.launchMediaFilename) {
+          const mediaID = uuidv4();
+          let name = path.basename(this.launchMediaFilename);
+          if (this.launchMediaType) {
+            name = path.join(this.launchMediaType, name);
+          }
+          const origFile = path.join(__dirname, '../../../../media/orig/', name);
+          const thumbFile = path.join(__dirname, '../../../../media/thumb/', name);
+          copySync(this.launchMediaFilename, origFile);
+          sharp(origFile).resize(500).toFile(thumbFile).then(() => {
+            this.$store.dispatch('addLaunchMedia', {
+              id: mediaID,
+              launchID: this.selected.id,
+              description: '',
+              filename: name,
+            });
+
+            this.media.push({
+              id: mediaID,
+              launchID: this.selected.id,
+              description: '',
+              filename: name,
+            });
+          });
+        }
+
+        this.launchMediaType = '';
+        this.launchMediaDialog = false;
+      },
+
       saveLaunch() {
         if (this.$refs.launchForm.validate()) {
           this.$store.dispatch('saveLaunch', this.selected);
+          this.$store.dispatch('saveMedia', this.media);
         }
       },
 
       select(item) {
         this.selected = cloneDeep(item);
-        this.media = filter(this.$store.state.media, { launchID: this.selected.id });
+        this.media = cloneDeep(filter(this.$store.state.media, { launchID: this.selected.id }));
       },
     },
 

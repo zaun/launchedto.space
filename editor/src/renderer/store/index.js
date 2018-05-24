@@ -3,7 +3,7 @@ import Vue from 'vue';
 import Vuex from 'vuex';
 import { readFile, writeFile } from 'fs';
 import { encodeFromFile } from 'image-data-uri';
-import { filter, find, map, remove, sortBy } from 'lodash';
+import { filter, find, findIndex, map, remove, sortBy } from 'lodash';
 import path from 'path';
 import uuidv4 from 'uuid/v4';
 
@@ -31,6 +31,14 @@ export default new Vuex.Store({
   },
 
   mutations: {
+    addLaunchMedia(state, data) {
+      encodeFromFile(path.join(__dirname, '../../../../media/thumb/', data.filename)).then((uri) => {
+        // eslint-disable-next-line
+        console.log('Loaded: ' + data.filename);
+        state.imageData[data.id] = uri;
+      });
+    },
+
     addRocketFamily(state, data) {
       const found = find(state.families, { id: data.id });
 
@@ -45,6 +53,29 @@ export default new Vuex.Store({
         console.log('Loaded: ' + data.name);
         state.imageData[data.id] = uri;
       });
+    },
+
+    deleteLaunchMedia(state, data) {
+      const idx = findIndex(state.media, data);
+      Vue.delete(state.media, idx);
+    },
+
+    saveMedia(state, data) {
+      data.forEach((i) => {
+        const m = find(state.media, { id: i.id });
+        if (m) {
+          m.description = i.description;
+        } else {
+          state.media.push({
+            id: i.id,
+            launchID: i.launchID,
+            filename: i.filename,
+            description: i.description,
+          });
+        }
+      });
+      state.media = sortBy(state.media, 'id');
+      writeFile(path.join(__dirname, '../../../../data/media.json'), JSON.stringify(state.media, null, 2));
     },
 
     saveLaunch(state, data) {
@@ -113,10 +144,11 @@ export default new Vuex.Store({
         state.media = JSON.parse(data.toString());
 
         state.media.forEach((m) => {
+          m.id = m.id ? m.id : uuidv4();
           encodeFromFile(path.join(__dirname, '../../../../media/thumb/', m.filename)).then((uri) => {
             // eslint-disable-next-line
             console.log('Loaded: ' + m.filename);
-            state.imageData[m.id] = uri;
+            Vue.set(state.imageData, m.id, uri);
           });
         });
       });
@@ -183,12 +215,20 @@ export default new Vuex.Store({
   },
 
   actions: {
+    addLaunchMedia(context, data) {
+      context.commit('addLaunchMedia', data);
+    },
+
     addRocketFamily(context, data) {
       context.commit('addRocketFamily', data);
     },
 
     addRocketImage(context, data) {
       context.commit('addRocketImage', data);
+    },
+
+    deleteLaunchMedia(context, data) {
+      context.commit('deleteLaunchMedia', data);
     },
 
     updateData(context) {
@@ -199,6 +239,10 @@ export default new Vuex.Store({
 
     saveLaunch(context, data) {
       context.commit('saveLaunch', data);
+    },
+
+    saveMedia(context, data) {
+      context.commit('saveMedia', data);
     },
 
     saveRocket(context, data) {
