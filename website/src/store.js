@@ -1,6 +1,6 @@
 /* eslint-disable no-param-reassign */
 import Vue from 'vue';
-import { filter, sortBy, groupBy, map } from 'lodash/';
+import { filter, sortBy, groupBy, map, reverse } from 'lodash/';
 import Vuex from 'vuex';
 
 Vue.use(Vuex);
@@ -9,6 +9,7 @@ export default new Vuex.Store({
   state: {
     launchesByYear: [],
     launchesByFamily: [],
+    launches: [],
     mediaByLaunch: [],
     families: [],
   },
@@ -27,6 +28,7 @@ export default new Vuex.Store({
 
             return l;
           });
+          state.launches = filteredData;
           state.launchesByYear = groupBy(filteredData, l => l.date.split('-')[0]);
           state.launchesByFamily = groupBy(filteredData, l => l.vehicleFamily);
         })

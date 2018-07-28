@@ -42,7 +42,8 @@
         ],
         "id": "187cd80a-90a8-408c-bc42-0db024edf023",
         "payloadType": "Fairing",
-        "expendable": "yes"
+        "expendable": "yes",
+        "diameter": "6.52"
       },
       {
         "name": "Saturn-1 Block 2",
@@ -118,7 +119,8 @@
         ],
         "id": "ad651b83-9c15-400b-ba33-dc8c68a9b75e",
         "payloadType": "Fairing",
-        "expendable": "yes"
+        "expendable": "yes",
+        "diameter": "6.52"
       },
       {
         "name": "Saturn-1B",
@@ -177,7 +179,8 @@
         ],
         "id": "a1c50ce1-1b2e-4128-ad76-98bcf4c92dc8",
         "payloadType": "Fairing",
-        "expendable": "yes"
+        "expendable": "yes",
+        "diameter": "6.61"
       },
       {
         "name": "Saturn-5",
@@ -327,7 +330,9 @@
         ],
         "id": "c50a3cd4-d6a2-4807-9cad-6445a1e03520",
         "payloadType": "Fairing",
-        "expendable": "yes"
+        "expendable": "yes",
+        "diameter": "10.1",
+        "span": "19.3"
       }
     ],
     "id": "e0dd9673-3c46-48cb-9561-b802a33ad6e6"
@@ -893,7 +898,8 @@
         "expendable": "no",
         "wikipediaURL": "https://en.wikipedia.org/wiki/Grasshopper_(rocket)#F9R_Dev1_flight_tests",
         "astronautixURL": "http://www.astronautix.com/f/falcon9r.html",
-        "height": "30.48"
+        "height": "30.48",
+        "diameter": "1.7"
       },
       {
         "id": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
@@ -905,7 +911,8 @@
         "expendable": "no",
         "payloadType": "None",
         "wikipediaURL": "https://en.wikipedia.org/wiki/Grasshopper_(rocket)",
-        "height": "30.48"
+        "height": "30.48",
+        "diameter": "1.7"
       }
     ],
     "id": "83f8614b-cb40-4c92-bf1f-6100bd16ab29"

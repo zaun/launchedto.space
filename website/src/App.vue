@@ -1,15 +1,16 @@
 <template>
   <div id="app">
-    <v-toolbar>
-      <v-toolbar-title>Launched To Space</v-toolbar-title>
-      <v-spacer></v-spacer>
-      <!-- <v-menu :nudge-width="100">
+    <v-toolbar dense>
+      <v-toolbar-title class="hidden-xs-only">Launched To Space</v-toolbar-title>
+      <v-toolbar-title class="hidden-sm-and-up">L2S</v-toolbar-title>
+      <!-- <v-spacer></v-spacer>
+      <v-menu>
         <v-toolbar-title slot="activator">
-          <span>Vehicles</span>
+          <span>{{ selectedVehicle }}</span>
           <v-icon dark>arrow_drop_down</v-icon>
         </v-toolbar-title>
         <v-list>
-          <v-list-tile v-for="(vehicle, index) in vehicles" :key="`v-${index}`" @click="">
+          <v-list-tile v-for="(vehicle, index) in vehicles" :key="`v-${index}`" @click="selectVehicle(vehicle)">
             <v-list-tile-title v-text="vehicle"></v-list-tile-title>
           </v-list-tile>
         </v-list>
@@ -61,6 +62,7 @@
 
 <script>
 // @ is an alias to /src
+import { keys } from 'lodash';
 import Background from '@/components/Background.vue';
 
 export default {
@@ -72,11 +74,23 @@ export default {
   data () {
     return {
       about: false,
-      vehicles: ['Saturn V', 'Falcon 9']
+      selectedVehicle: 'All'
     };
   },
 
+  computed: {
+    vehicles() {
+      const families = keys(this.$store.state.launchesByFamily).sort();
+      families.unshift('All');
+      return families;
+    }
+  },
+
   methods: {
+    selectVehicle(v) {
+      this.selectedVehicle = v;
+    },
+
     showAbout () {
       this.about = true;
     },
@@ -102,7 +116,8 @@ html, body
   height 100%
   margin 0
   padding 0
-  font-size 1vw
+  font-size 14pt
+  font-weight 300
   overflow auto
   line-height 1.1
   overflow hidden
@@ -118,10 +133,17 @@ div
   // min-width 1900px
   height 100%
 
+  .menuable__content__active
+    background-color white
+
   > .toolbar
+    height 2.25em
     position fixed
     background-color white
     z-index 99
+
+  .toolbar-spacer
+    padding-top 2.25em
 
   .dialog
     background-color: white
@@ -139,4 +161,15 @@ div
     .VueCarousel-pagination
       position absolute
       bottom 0
+  
+  .small
+    font-size 0.75rem
+
+@media screen and (max-width: 480px)
+  html, body
+    font-size 14pt
+
+@media screen and (min-width: 480px)
+  html, body
+    font-size 14pt
 </style>

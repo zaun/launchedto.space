@@ -87,6 +87,18 @@
           </div>
         </v-flex>
       </v-layout>
+      <v-layout row>
+        <v-flex xs1>
+          <v-btn outline color="pink" @click="showAddRocketIcon()">
+            Set<br />Icon
+          </v-btn>
+        </v-flex>
+        <v-flex xs11>
+          <div class="rocket-icon">
+            <div class="image" :style="{ 'background-image': 'url(' + imageData[`${selected.id}-icon`] + ')' }"></div>
+          </div>
+        </v-flex>
+      </v-layout>
 
       <v-layout row class="bottom" :style="{ top: getBottomHeight() }">
         <v-flex xs3 class="pr-1">
@@ -241,7 +253,7 @@
       <v-form ref="imageForm" v-model="imageFormValid" lazy-validation>
         <v-card>
           <v-card-title>
-            <span>Select Rocket Image</span>
+            <span>{{ rocketImageDialogTitle }}</span>
           </v-card-title>
           <v-card-text>
             <file-input v-model="rocketImageFilename" label="Select Rocket Image..." />
@@ -295,6 +307,9 @@
 
         addFamilyDialog: false,
         newFamilyName: '',
+
+        rocketImageDialogMode: 0,
+        rocketImageDialogTitle: '',
         rocketImageDialog: false,
         rocketImageFilename: '',
 
@@ -382,12 +397,21 @@
       doAddRocketImage() {
         if (this.rocketImageFilename) {
           const name = path.basename(this.rocketImageFilename);
-          copySync(this.rocketImageFilename, path.join(__dirname, '../../../../media/vehicles/', name));
-          this.selected.rocketImage = name;
-          this.$store.dispatch('addRocketImage', {
-            id: this.selected.id,
-            name,
-          });
+          if (this.rocketImageDialogMode === 0) {
+            copySync(this.rocketImageFilename, path.join(__dirname, '../../../../media/vehicles/', name));
+            this.selected.rocketImage = name;
+            this.$store.dispatch('addRocketImage', {
+              id: this.selected.id,
+              name,
+            });
+          } else {
+            copySync(this.rocketImageFilename, path.join(__dirname, '../../../../media/vehicles_icon/', name));
+            this.selected.rocketIcon = name;
+            this.$store.dispatch('addRocketIcon', {
+              id: this.selected.id,
+              name,
+            });
+          }
         }
 
         this.rocketImageDialog = false;
@@ -419,6 +443,8 @@
           height = ((this.selected.diameter / 100) * (PIXELS_PER_METER * 100));
         }
         height += 163;
+        height += 75; // Icon image
+        height += 5; // Padding
 
         if (height < 200) {
           height = 200;
@@ -452,6 +478,15 @@
       },
 
       showAddRocketImage() {
+        this.rocketImageDialogMode = 0;
+        this.rocketImageDialogTitle = 'Select Rocket Image';
+        this.rocketImageFilename = '';
+        this.rocketImageDialog = true;
+      },
+
+      showAddRocketIcon() {
+        this.rocketImageDialogMode = 1;
+        this.rocketImageDialogTitle = 'Select Rocket Icon';
         this.rocketImageFilename = '';
         this.rocketImageDialog = true;
       },
@@ -511,6 +546,21 @@
     top: -3px;
     height: 0px;
     border-bottom: 1px solid Black;
+  }
+
+  .rocket-icon {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    border: 1px solid #ccc;
+  }
+
+  .rocket-icon .image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-position: 50%;
   }
 
   .payloads {

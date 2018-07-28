@@ -2488,7 +2488,7 @@
         "status": "success"
       },
       {
-        "name": "Flock-1d' (1 & 2)",
+        "name": "Flock-1d' 1",
         "orbital": "yes",
         "orbit": "LEO",
         "mass": 10,
@@ -2498,14 +2498,24 @@
         "status": "success"
       },
       {
-        "name": "AESP-14",
+        "name": "Flock-1d' 2",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": 1,
+        "mass": "10",
         "type": "Satellite",
         "description": "",
         "id": "729a6ba7-2c08-4ce6-bcc6-2f009b97a03a",
         "status": "success"
+      },
+      {
+        "id": "319ec55e-d81c-4319-a205-5ce168805ae4",
+        "name": "AESP-14",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "1",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
       }
     ],
     "id": "1236bda7-91b4-4178-8e24-b7f624132bec"
@@ -2590,34 +2600,164 @@
         "status": "success"
       },
       {
-        "name": "Flock-1e (1 - 14)",
+        "name": "Flock-1e 1",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": 70,
+        "mass": "5",
         "type": "Satellite",
         "description": "",
         "id": "4bb77366-6900-4ada-a1ff-968501e640ac",
         "status": "success"
       },
       {
-        "name": "Arkyd A3R",
+        "name": "Flock-1e 2",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": 4,
+        "mass": "5",
         "type": "Satellite",
         "description": "",
         "id": "44a8d656-0dbb-44e9-bd74-b35cfda8f838",
         "status": "success"
       },
       {
-        "name": "Centennial 1",
+        "name": "Flock-1e 3",
         "orbital": "yes",
         "orbit": "LEO",
-        "mass": 1,
+        "mass": "5",
         "type": "Satellite",
         "description": "",
         "id": "892a03e0-d1ec-403e-82d5-2ce56bffae55",
         "status": "success"
+      },
+      {
+        "id": "f5c2bb7f-67d0-4fe2-8f2b-82e01ec34a82",
+        "name": "Flock-1e 4",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "c2ce7025-ebae-4e08-ae74-62ab03f38419",
+        "name": "Flock-1e 5",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "714b1690-0b1f-42f1-8768-53e7a8305019",
+        "name": "Flock-1e 6",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "f91eb6fe-b852-478e-a208-6be04cbc60e1",
+        "name": "Flock-1e 7",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "e71570eb-8dee-47e9-9788-631dd8192d0d",
+        "name": "Flock-1e 8",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "50d01d06-1aad-41cb-b3c6-3acd0b5d9cbf",
+        "name": "Flock-1e 9",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "630be35e-8098-4723-adb1-baa6a228294a",
+        "name": "Flock-1e 10",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "566f301e-00b2-4282-aa4b-54981808d9d2",
+        "name": "Flock-1e 11",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "d6097f3e-d272-4463-88ed-48e7c2f4321d",
+        "name": "Flock-1e 12",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "0347e8f0-46f0-4283-9fd9-cdd512b9e217",
+        "name": "Flock-1e 13",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "23dce0ec-f1e1-4550-b694-21c3b2cb962b",
+        "name": "Flock-1e 14",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "0d0215a0-2634-4139-b683-1f669a0e1a64",
+        "name": "Arkyd A3R",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "4",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "77e440c5-cff8-4f34-a4ac-40525770333a",
+        "name": "Centennial 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "1",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
       }
     ],
     "id": "2db2680a-92f4-4064-8a18-2d1cad68eb30"
@@ -4443,5 +4583,113 @@
       }
     ],
     "id": "63d64482-dbe4-41b1-9c44-3bbf951097aa"
+  },
+  {
+    "id": "1c8ae0f1-956f-4abf-80f7-687955a994dc",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "83255850-ace4-4bb4-92c7-aae53e3969c6",
+        "name": "Bangabandu 1",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": "3700",
+        "type": "Satellite",
+        "status": "success",
+        "description": "Bangabandhu 1 is the first Bangladeshian geostationary communications satellite. The satellite was ordered in November 2015 from Thales Alenia Space, who will build, launch and operate the satellite for the Bangladesh Telecommunication Regulatory Commission."
+      }
+    ],
+    "vehicle": "Falcon-9 v1.2",
+    "vehicleFamily": "Falcon",
+    "serial": "B1046.1",
+    "date": "2018-05-11",
+    "launchSite": "Kennedy Space Center",
+    "launchPad": "LC-39A"
+  },
+  {
+    "id": "21adb8c5-44ab-42ee-9549-6f5fd481a710",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "3a9c9b6f-af9e-4481-9e03-26163d8cca8d",
+        "name": "Iridium-NEXT 110",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "a86c3dd6-314b-449b-8cd4-9e304725bbc1",
+        "name": "Iridium-NEXT 147",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "632b7354-c0eb-4a24-8eae-9ed1752d15eb",
+        "name": "Iridium-NEXT 152",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "04da0f1c-6b93-4dbd-b0d4-68951df27865",
+        "name": "Iridium-NEXT 161",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "915ae87d-1076-4001-a05e-a33a4fdab293",
+        "name": "Iridium-NEXT 162",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "ce52953a-e0ba-4d19-bddb-39b883828c57",
+        "name": "GRACE-FO 1",
+        "orbital": "yes",
+        "orbit": "SSO",
+        "mass": "580",
+        "type": "Satellite",
+        "status": "success",
+        "description": "GRACE-FO (Gravity Recovery And Climate Experiment - Follow On) mission is the successor to the GRACE mission. For a minimum of five years from August 2017, the GRACE-FO mission will continue the extremely accurate measurement data collection of the first twin GRACE satellites."
+      },
+      {
+        "id": "81d8c439-ba1e-461b-9198-493c31fe294e",
+        "name": "GRACE-FO 2",
+        "orbital": "yes",
+        "orbit": "SSO",
+        "mass": "580",
+        "type": "Satellite",
+        "status": "success",
+        "description": "GRACE-FO (Gravity Recovery And Climate Experiment - Follow On) mission is the successor to the GRACE mission. For a minimum of five years from August 2017, the GRACE-FO mission will continue the extremely accurate measurement data collection of the first twin GRACE satellites."
+      }
+    ],
+    "vehicle": "Falcon-9 v1.2c",
+    "vehicleFamily": "Falcon",
+    "serial": "B1043.2",
+    "date": "2018-05-22",
+    "launchSite": "Vandenberg AFB",
+    "launchPad": "SLC-4E"
   }
 ]

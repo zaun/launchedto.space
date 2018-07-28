@@ -48,10 +48,18 @@ export default new Vuex.Store({
     },
 
     addRocketImage(state, data) {
+      encodeFromFile(path.join(__dirname, '../../../../media/vehicles_icon/', data.name)).then((uri) => {
+        // eslint-disable-next-line
+        console.log('Loaded: ' + data.name);
+        Vue.set(state.imageData, data.id, uri);
+      });
+    },
+
+    addRocketIcon(state, data) {
       encodeFromFile(path.join(__dirname, '../../../../media/vehicles/', data.name)).then((uri) => {
         // eslint-disable-next-line
         console.log('Loaded: ' + data.name);
-        state.imageData[data.id] = uri;
+        Vue.set(state.imageData, `${data.id}-icon`, uri);
       });
     },
 
@@ -182,6 +190,14 @@ export default new Vuex.Store({
               });
             }
 
+            if (r.rocketIcon) {
+              encodeFromFile(path.join(__dirname, '../../../../media/vehicles_icon/', r.rocketIcon)).then((uri) => {
+                // eslint-disable-next-line
+                console.log('Loaded: ' + r.rocketIcon);
+                state.imageData[`${r.id}-icon`] = uri;
+              });
+            }
+
             Object.keys(r).forEach((prop) => {
               if (r[prop] === -1) {
                 delete r[prop];
@@ -225,6 +241,10 @@ export default new Vuex.Store({
 
     addRocketImage(context, data) {
       context.commit('addRocketImage', data);
+    },
+
+    addRocketIcon(context, data) {
+      context.commit('addRocketIcon', data);
     },
 
     deleteLaunchMedia(context, data) {
