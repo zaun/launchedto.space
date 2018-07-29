@@ -2,7 +2,7 @@
     <section class="launch" :class="launch.status">
       <v-card>
         <v-card-media v-if="hasMedia">
-          <img :src="`/media${launchImages[0].src}`" />
+          <img :src="defaultMedia" />
         </v-card-media>
 
         <v-card-title>
@@ -113,10 +113,19 @@ export default {
       return this.$store.state.mediaByLaunch[this.launch.id].map((i) => {
         return {
           src: '/thumb/' + i.filename,
-          description: i.description
+          description: i.description,
+          default: i.default,
         };
       });
-    }
+    },
+
+    defaultMedia () {
+      let img = find(this.launchImages, { default: true });
+      if (!img) {
+        img = this.launchImages[0];
+      }
+      return `/media${img.src}`;
+    },
   },
 
   methods: {
