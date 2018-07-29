@@ -68,6 +68,15 @@ export default new Vuex.Store({
       Vue.delete(state.media, idx);
     },
 
+    defaultLaunchMedia(state, data) {
+      const m = find(state.media, { id: data.id });
+      if (data.default === true) {
+        m.default = true;
+      } else {
+        delete m.default;
+      }
+    },
+
     saveMedia(state, data) {
       data.forEach((i) => {
         const m = find(state.media, { id: i.id });
@@ -249,6 +258,10 @@ export default new Vuex.Store({
 
     deleteLaunchMedia(context, data) {
       context.commit('deleteLaunchMedia', data);
+    },
+
+    defaultLaunchMedia(context, data) {
+      context.commit('defaultLaunchMedia', data);
     },
 
     updateData(context) {

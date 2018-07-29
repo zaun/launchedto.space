@@ -51,7 +51,7 @@
 
 
       <v-layout row class="bottom">
-        <v-flex xs2 class="pr-1">
+        <v-flex xs2 class="pr-1 mediaSection">
           <v-layout row class="section">
             <v-flex xs10>
               <h3 class="headline">Media ({{media ? media.length : 0 }})</h3>
@@ -71,6 +71,9 @@
                 <v-flex xs2>
                   <v-btn id="mediaDelete" icon small outline @click="deleteMedia(mediaItem)">
                     <v-icon>delete</v-icon>
+                  </v-btn>
+                  <v-btn id="mediaDefault" icon small outline @click="defaultMedia(mediaItem)" :style="defaultMediaStyle(mediaItem)">
+                    <v-icon>check</v-icon>
                   </v-btn>
                 </v-flex>
               </v-layout>
@@ -286,6 +289,30 @@
         });
       },
 
+      defaultMediaStyle(item) {
+        return {
+          opacity: item.default === true ? 1 : 0.25,
+        };
+      },
+
+      defaultMedia(item) {
+        if (!this.selected) {
+          return;
+        }
+
+        this.media.forEach((m, idx) => {
+          if (m.id === item.id) {
+            m.default = true;
+            this.$set(this.media, idx, m);
+            this.$store.dispatch('defaultLaunchMedia', m);
+          } else if (m.default === true) {
+            m.default = false;
+            this.$set(this.media, idx, m);
+            this.$store.dispatch('defaultLaunchMedia', m);
+          }
+        });
+      },
+
       deleteMedia(item) {
         if (!this.selected) {
           return;
@@ -396,6 +423,7 @@
   .bottomInner {
     position: relative;
     top: 0;
+    padding-right: 8px;
     height: calc(100% - 73px);
     overflow-y: auto;
   }
@@ -436,5 +464,9 @@
 
   img {
     width: 100%;
+  }
+
+  .mediaSection {
+    min-width: 20em;
   }
 </style>

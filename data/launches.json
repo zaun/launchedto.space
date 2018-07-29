@@ -551,7 +551,7 @@
         "orbit": "HEO",
         "mass": 12000,
         "type": "Satellite",
-        "description": "The NASA/Grumman Apollo Lunar Module (LM) after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules (CSM).",
+        "description": "The NASA/Grumman Apollo Lunar Module (LM) after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules.",
         "id": "e6a08f54-d2f2-45dd-887b-ce7bcf6c6932",
         "status": "success"
       }
@@ -3863,6 +3863,120 @@
     "id": "6e86ea9f-a7df-4fc8-b535-dd221b4db551"
   },
   {
+    "id": "84e69931-c2a7-4d29-b6d9-029c72e1fb2f",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "9cb7dd0a-d42c-4ae9-abfd-5beea385ff5e",
+        "name": "Iridium-NEXT 107",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "34e55b2b-1b93-4d50-acc8-7156ffeb4662",
+        "name": "Iridium-NEXT 119",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "4d779fbe-ab40-4816-81f6-2e430e142c61",
+        "name": "Iridium-NEXT 122",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "50fa05ee-192a-4ee5-8adb-12ebaa7ecbb8",
+        "name": "Iridium-NEXT 125",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "4936165c-8ea9-4dcf-a951-0fefe476c1e7",
+        "name": "Iridium-NEXT 127",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "b3fcebab-8b04-4f3e-b094-a5903ece3663",
+        "name": "Iridium-NEXT 129",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "52d0004e-4696-4825-ba0f-d3dbaed354e5",
+        "name": "Iridium-NEXT 132",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "b4caae3b-5570-472b-87d9-54d099d00a65",
+        "name": "Iridium-NEXT 133",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "8f71ce25-97bb-422a-a3ad-eb2d5eaf4c39",
+        "name": "Iridium-NEXT 136",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "6d18a399-5f78-45f7-9fd2-f4b8cd22a8df",
+        "name": "Iridium-NEXT 139",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      }
+    ],
+    "vehicle": "Falcon-9 v1.2",
+    "vehicleFamily": "Falcon",
+    "serial": "B1041.1",
+    "launchSite": "Vandenberg AFB",
+    "launchPad": "SLC-4E",
+    "date": "2017-10-09"
+  },
+  {
     "vehicle": "Falcon-9 v1.2",
     "vehicleFamily": "Falcon",
     "serial": "B1031.2",
@@ -4689,6 +4803,262 @@
     "vehicleFamily": "Falcon",
     "serial": "B1043.2",
     "date": "2018-05-22",
+    "launchSite": "Vandenberg AFB",
+    "launchPad": "SLC-4E"
+  },
+  {
+    "id": "98c64a85-0fed-46a8-84c7-340f3bf9b592",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "47dec054-1e27-4bb8-97de-79e76ac71d42",
+        "name": "SEC 12",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": "5300",
+        "type": "Satellite",
+        "status": "success",
+        "description": "SES 12 is a powerful geostationary communications satellite operating in Ku- and Ka-bands, which uses electric propulsion for initial orbit raising and all on-orbit manoeuvres."
+      }
+    ],
+    "vehicle": "Falcon-9 v1.2c",
+    "vehicleFamily": "Falcon",
+    "serial": "B1040.2",
+    "date": "2018-06-04",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40"
+  },
+  {
+    "id": "1873ba3d-6b87-40c1-886e-05ad528224c7",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "a2f97edd-ae6c-4a8e-b05b-9c01edc024eb",
+        "name": "Dragon CRS-15",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "6650",
+        "type": "Capsule",
+        "status": "success",
+        "description": "Dragon is a space capsule designed by SpaceX to provide supplies to the International space station."
+      },
+      {
+        "id": "c21965e2-9d69-4de1-8876-768d108a048f",
+        "name": "ECOSTRESS",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Satellite",
+        "status": "success",
+        "description": "The ECOSTRESS (Ecosystem Spaceborne Thermal Radiometer Experiment on Space Station) will measure the temperature of plants and use that information to better understand how much water plants need and how they respond to stress."
+      },
+      {
+        "id": "4e084b3d-6372-4f74-bc2c-e3a9e8e8c5e3",
+        "name": "Biarri-Squad 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "4",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Biarri project is a four nation defence related project involving Australia, the US, the UK and Canada to build three 3U CubeSats for precision flying experiments and a risk mitigation satellite."
+      },
+      {
+        "id": "e6fb8a8c-6a9f-4d96-acea-0d5830a439cf",
+        "name": "Biarri-Squad 2",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "4",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Biarri project is a four nation defence related project involving Australia, the US, the UK and Canada to build three 3U CubeSats for precision flying experiments and a risk mitigation satellite."
+      },
+      {
+        "id": "f5082c3c-ae38-452c-a005-133fac8b2069",
+        "name": "Biarri-Squad 3",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "4",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Biarri project is a four nation defence related project involving Australia, the US, the UK and Canada to build three 3U CubeSats for precision flying experiments and a risk mitigation satellite."
+      },
+      {
+        "id": "9d868697-40f3-4256-8205-f5b96d8858a2",
+        "name": "Bird BTN",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "1",
+        "type": "Satellite",
+        "status": "success",
+        "description": "Bird are a small technological CubeSat (1U) built by Kyushu Institute of Technology (Kyutech) as the Joint Global Multi-Nation Birds Satellite project, which is a cross-border interdisciplinary satellite project for non-space faring countries supported by Japan."
+      },
+      {
+        "id": "8bee7aca-87e4-47ce-a276-14a295c6df0d",
+        "name": "Bird MYS",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "1",
+        "type": "Satellite",
+        "status": "success",
+        "description": "Bird are a small technological CubeSat (1U) built by Kyushu Institute of Technology (Kyutech) as the Joint Global Multi-Nation Birds Satellite project, which is a cross-border interdisciplinary satellite project for non-space faring countries supported by Japan."
+      },
+      {
+        "id": "4e791f2f-ceb4-484a-8db1-7ba239e54ab2",
+        "name": "Bird PHL",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "1",
+        "type": "Satellite",
+        "status": "success",
+        "description": "Bird are a small technological CubeSat (1U) built by Kyushu Institute of Technology (Kyutech) as the Joint Global Multi-Nation Birds Satellite project, which is a cross-border interdisciplinary satellite project for non-space faring countries supported by Japan."
+      }
+    ],
+    "vehicle": "Falcon-9 v1.2b",
+    "vehicleFamily": "Falcon",
+    "serial": "B1045.2",
+    "date": "2018-06-29",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40"
+  },
+  {
+    "id": "36971d9f-4ece-444d-afc9-f1cfce5268ec",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "437f0e67-0993-404f-9c10-b48ff461a4a8",
+        "name": "Telstar 19V",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": "7075",
+        "type": "Satellite",
+        "status": "success",
+        "description": "Telstar 19 VANTAGE or Telstar 19V is a communications satellite with two high throughput payloads, one in Ku-band and the other in Ka-band."
+      }
+    ],
+    "vehicle": "Falcon-9 v1.2",
+    "vehicleFamily": "Falcon",
+    "serial": "B1047.1",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-40",
+    "date": "2018-07-22"
+  },
+  {
+    "id": "9213877f-4739-4eb4-9214-0b3a711c8cff",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "12b0f362-9bfb-4acc-81c1-f21e3ac97d13",
+        "name": "Iridium-NEXT 154",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "1ff0a2bc-4290-451b-8c51-a06d3ec604cb",
+        "name": "Iridium-NEXT 155",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "d290e382-1b1b-4414-9971-bff682a4f434",
+        "name": "Iridium-NEXT 156",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "52bc51ce-8893-47b7-91ee-752a32febe48",
+        "name": "Iridium-NEXT 158",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "94b56de2-ce7d-4913-a327-f07c6e984c32",
+        "name": "Iridium-NEXT 159",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "47d4f78e-4b9c-4545-9c11-4400eab8d4b8",
+        "name": "Iridium-NEXT 160",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "e0dd323d-f1bb-420a-826c-e57a7bbaa14e",
+        "name": "Iridium-NEXT 163",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "37648b75-e9c5-4f85-84d4-c6805096d788",
+        "name": "Iridium-NEXT 164",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "141a2542-e321-4d4e-8ee6-ee7d0cda0680",
+        "name": "Iridium-NEXT 165",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "4dd65ae2-2abf-4e0c-838d-2050134db9f4",
+        "name": "Iridium-NEXT 166",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "860",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      }
+    ],
+    "vehicle": "Falcon-9 v1.2",
+    "vehicleFamily": "Falcon",
+    "serial": "B1048.1",
+    "date": "2018-07-25",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E"
   }
