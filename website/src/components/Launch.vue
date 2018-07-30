@@ -1,9 +1,9 @@
 <template>
-    <section class="launch" :class="launch.status">
+    <section class="launch" :class="`status_${launch.status.replace(' ', '_')}`">
       <v-card>
-        <v-card-media v-if="hasMedia">
+        <v-card-text v-if="hasMedia" class="hero">
           <img :src="defaultMedia" />
-        </v-card-media>
+        </v-card-text>
 
         <v-card-title>
           <div>
@@ -88,7 +88,6 @@ export default {
       maxHeight: 0,
 
       launchImagesDisplayed: false,
-      family: {}
     };
   },
 
@@ -125,6 +124,14 @@ export default {
         img = this.launchImages[0];
       }
       return `/media${img.src}`;
+    },
+
+    family () {
+      return _.find(this.$store.state.families, { name: this.launch.vehicleFamily });
+    },
+
+    rocket () {
+      return _.find(this.family.rockets, { name: this.launch.vehicle });
     },
   },
 
@@ -169,14 +176,12 @@ export default {
   },
 
   created() {
-    this.family = _.find(this.$store.state.families, { name: this.launch.vehicleFamily });
-    this.rocket = _.find(this.family.rockets, { name: this.launch.vehicle });
   }
 };
 </script>
 
 <style scoped lang="stylus">
-left-padding = 4.5em
+left-padding = 4.5rem
 dot-size = 0.75
 line-width = 4
 
@@ -186,13 +191,14 @@ half-line-width = line-width / 2
 .launch
   position relative
   padding 0 0 1.5rem left-padding
+  margin-top 1rem
 
   &:after
     content ''
     width line-width px
     position absolute
-    top 0rem
-    bottom -1.8rem
+    top -1rem
+    bottom 0rem
     left "calc(%s - 1rem + %sem - %spx)" % (left-padding half-dot-size half-line-width)
     z-index 1
     background #C5C5C5
@@ -204,41 +210,30 @@ half-line-width = line-width / 2
     background #C5C5C5
     border 2px solid #FFFFFF
     position absolute
-    left "calc(%s - 1em)" % left-padding
-    top calc(0.5em + 8px)
+    left "calc(%s - 1rem)" % left-padding
+    top calc(0.5rem + 8px)
     z-index 2
     border-radius 100%
   
-  &.success:before
+  &.status_success:before
     background green
   
-  &.failure:before
+  &.status_failure:before
     background #FF0000
   
-  &.partial.failure:before
+  &.status_partial_failure:before
     background #FFA500
-
-  h4
-    position absolute
-    bottom 0
-    font-size .9rem
-    font-weight 400
-    line-height 1.2rem
-    margin 0
-    padding 0 0 0 89px
-    color #C5C5C5
 
   .manned
     float right
-    width 2rem
-    height 2rem
-    margin-right 0.5rem
+    width 1.5rem
+    height 1.5rem
     background-image url('../assets/manned.png')
     background-repeat no-repeat
     background-size contain
     background-position center
 
-  .card
+  .v-card
     max-width 32rem
     font-size 1rem
     
@@ -251,15 +246,17 @@ half-line-width = line-width / 2
       margin-bottom 0
       padding-bottom 0
 
-    .card__title > div
+    .v-card__title > div
       width 100%
     
-    .card__text
+    .v-card__text
       padding 8px 16px 8px 16px
 
-    .card__media__content
-      background-position center
-      
+      &.hero
+        padding 0
+
+        > img
+          width 100%
 
     h5, th
       text-align left
@@ -267,11 +264,11 @@ half-line-width = line-width / 2
       font-weight 500
       padding-right 1rem
 
-    .media
-      float left
-      width 100px
-      height 100px
-      margin 0.5em
+//     .media
+//       float left
+//       width 100px
+//       height 100px
+//       margin 0.5em
 
     .payload
       list-style-type none   

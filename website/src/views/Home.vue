@@ -1,6 +1,6 @@
 <template>
   <div id="home">
-    <Background />
+    <!-- <Background /> -->
     <div ref="launches" id="launches">
       <section class="year" v-for="(year) in years" :key="`year-${year}`">
         <h3>{{year}}</h3>
@@ -47,14 +47,13 @@ export default {
 <style scoped lang="stylus">
 #home
   width 100%
-  height calc(100% - 2.25em)
-  overflow-y scroll
 
   #launches
 
     .year
       position relative
       max-width 600px
+      padding 0 6px
       margin-left auto 
       margin-right auto
 
@@ -62,13 +61,8 @@ export default {
         position sticky
         float left
         top 0rem
-        padding 0.5em 0 0 0 
         font-size 1.5em
         font-weight 400
         height 0px
-      
-      .timeline-item
-        margin-top -0.7em
-        padding-top 0.7em
-        border 1px solid black
+
 </style>

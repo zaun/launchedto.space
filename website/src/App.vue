@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
-    <v-toolbar dense>
+  <v-app>
+    <v-toolbar dense fixed app>
       <v-toolbar-title class="hidden-xs-only">Launched To Space</v-toolbar-title>
       <v-toolbar-title class="hidden-sm-and-up">L2S</v-toolbar-title>
       <!-- <v-spacer></v-spacer>
@@ -16,13 +16,13 @@
         </v-list>
       </v-menu> -->
       <v-spacer></v-spacer>
-      <v-btn icon @click="showAbout">
+      <!-- <v-btn icon @click="showAbout">
         <v-icon>info</v-icon>
-      </v-btn>
+      </v-btn> -->
     </v-toolbar>
     <div class="toolbar-spacer"></div>
 
-    <v-dialog v-model="about" max-width="500px">
+    <!-- <v-dialog v-model="about" max-width="500px">
       <v-toolbar color="indigo" dense>
         <v-toolbar-title class="white--text">About</v-toolbar-title>
       </v-toolbar>
@@ -54,10 +54,10 @@
         <v-spacer></v-spacer>
         <v-btn @click="hideAbout">Close</v-btn>
       </v-footer>
-    </v-dialog>
+    </v-dialog> -->
     
     <router-view/>
-  </div>
+  </v-app>
 </template>
 
 <script>
@@ -112,62 +112,54 @@ export default {
   cursor default
   
 html, body
-  width 100%
-  height 100%
   margin 0
   padding 0
   font-size 14pt
   font-weight 300
   overflow auto
   line-height 1.1
-  overflow hidden
 
 div
   position relative
   display block
 
-#app
-  font-family 'Avenir', Helvetica, Arial, sans-serif
-  -webkit-font-smoothing antialiased
-  -moz-osx-font-smoothing grayscale
-  // min-width 1900px
-  height 100%
+// #app
+//   font-family 'Avenir', Helvetica, Arial, sans-serif
+//   -webkit-font-smoothing antialiased
+//   -moz-osx-font-smoothing grayscale
 
-  .menuable__content__active
-    background-color white
+  // .menuable__content__active
+  //   background-color white
 
-  > .toolbar
-    height 2.25em
-    position fixed
-    background-color white
-    z-index 99
+.v-toolbar
+  z-index 99
 
-  .toolbar-spacer
-    padding-top 2.25em
+.toolbar-spacer
+  padding-top 48px
 
-  .dialog
-    background-color: white
+//   .dialog
+//     background-color: white
 
-    .dialog-about_content
-      height 230px
-      overflow-y scroll
+//     .dialog-about_content
+//       height 230px
+//       overflow-y scroll
 
-    .VueCarousel-wrapper
-    .VueCarousel-inner
-    .VueCarousel-Slide
-      width 100%
-      height 100%
-      background-color black
-    .VueCarousel-pagination
-      position absolute
-      bottom 0
+//     .VueCarousel-wrapper
+//     .VueCarousel-inner
+//     .VueCarousel-Slide
+//       width 100%
+//       height 100%
+//       background-color black
+//     .VueCarousel-pagination
+//       position absolute
+//       bottom 0
   
-  .small
-    font-size 0.75rem
+//   .small
+//     font-size 0.75rem
 
 @media screen and (max-width: 480px)
   html, body
-    font-size 14pt
+    font-size 12pt
 
 @media screen and (min-width: 480px)
   html, body
