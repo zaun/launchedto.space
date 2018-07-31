@@ -4003,120 +4003,6 @@
   {
     "vehicle": "Falcon-9 v1.2",
     "vehicleFamily": "Falcon",
-    "serial": "B1031.1",
-    "date": "2017-10-27",
-    "status": "success",
-    "launchSite": "Vandenberg AFB",
-    "launchPad": "SLC-4E",
-    "manned": "no",
-    "orbital": "yes",
-    "payloads": [
-      {
-        "name": "Iridium-NEXT 107",
-        "orbital": "yes",
-        "orbit": "LEO",
-        "mass": 860,
-        "type": "Satellite",
-        "description": "",
-        "id": "99e25e08-48ab-4f13-be0e-355ef3437868",
-        "status": "success"
-      },
-      {
-        "name": "Iridium-NEXT 119",
-        "orbital": "yes",
-        "orbit": "LEO",
-        "mass": 860,
-        "type": "Satellite",
-        "description": "",
-        "id": "c3b6bcfb-9435-4f67-8af1-b76b2c57a5b7",
-        "status": "success"
-      },
-      {
-        "name": "Iridium-NEXT 122",
-        "orbital": "yes",
-        "orbit": "LEO",
-        "mass": 860,
-        "type": "Satellite",
-        "description": "",
-        "id": "6328b358-3a96-4d56-9858-eb5777e0f3d6",
-        "status": "success"
-      },
-      {
-        "name": "Iridium-NEXT 125",
-        "orbital": "yes",
-        "orbit": "LEO",
-        "mass": 860,
-        "type": "Satellite",
-        "description": "",
-        "id": "20dab97d-52a6-47c4-bc61-d54853c847e7",
-        "status": "success"
-      },
-      {
-        "name": "Iridium-NEXT 127",
-        "orbital": "yes",
-        "orbit": "LEO",
-        "mass": 860,
-        "type": "Satellite",
-        "description": "",
-        "id": "cfa16977-16d8-4593-9f58-5cbb688a70ce",
-        "status": "success"
-      },
-      {
-        "name": "Iridium-NEXT 129",
-        "orbital": "yes",
-        "orbit": "LEO",
-        "mass": 860,
-        "type": "Satellite",
-        "description": "",
-        "id": "b56ebea4-432f-4f1e-99b8-32f073888e20",
-        "status": "success"
-      },
-      {
-        "name": "Iridium-NEXT 132",
-        "orbital": "yes",
-        "orbit": "LEO",
-        "mass": 860,
-        "type": "Satellite",
-        "description": "",
-        "id": "28a60477-2174-48f8-937c-abfa05687573",
-        "status": "success"
-      },
-      {
-        "name": "Iridium-NEXT 133",
-        "orbital": "yes",
-        "orbit": "LEO",
-        "mass": 860,
-        "type": "Satellite",
-        "description": "",
-        "id": "1292f8fb-ea67-4467-9db8-715142033570",
-        "status": "success"
-      },
-      {
-        "name": "Iridium-NEXT 136",
-        "orbital": "yes",
-        "orbit": "LEO",
-        "mass": 860,
-        "type": "Satellite",
-        "description": "",
-        "id": "dbd5fb49-58cb-4c42-8a4a-404bd92e7219",
-        "status": "success"
-      },
-      {
-        "name": "Iridium-NEXT 139",
-        "orbital": "yes",
-        "orbit": "LEO",
-        "mass": 860,
-        "type": "Satellite",
-        "description": "",
-        "id": "2602f32c-8c0a-4db2-9518-82ef56d36b45",
-        "status": "success"
-      }
-    ],
-    "id": "d62469be-c98d-4937-88bf-e898f6ad1578"
-  },
-  {
-    "vehicle": "Falcon-9 v1.2",
-    "vehicleFamily": "Falcon",
     "serial": "B1042.1",
     "date": "2017-10-30",
     "status": "success",
@@ -4332,7 +4218,7 @@
     "orbital": "yes",
     "payloads": [
       {
-        "name": "SES 15",
+        "name": "GovSat 1 (SES 16)",
         "orbital": "yes",
         "orbit": "GEO",
         "mass": 3202,
