@@ -1,8 +1,25 @@
 <template>
-    <section class="launch" :class="`status_${launch.status.replace(' ', '_')}`">
+    <section class="launch" :id="`l-${launch.id}`" :class="`status_${launch.status.replace(' ', '_')}`">
       <v-card>
         <v-card-text v-if="hasMedia" class="hero">
           <img :src="defaultMedia" />
+        </v-card-text>
+
+        <v-card-text v-if="1==0">
+          <goodshare-facebook
+            :page_url="shareURL"
+            :page_title="shareTitle"
+            has_counter
+            has_icon
+          >
+          </goodshare-facebook>
+          <goodshare-reddit
+            :page_url="shareURL"
+            :page_title="shareTitle"
+            has_counter
+            has_icon
+          >
+          </goodshare-reddit>
         </v-card-text>
 
         <v-card-title>
@@ -27,6 +44,10 @@
         <v-card-text>
           <div>
             <table>
+              <tr>
+                <th>Status:</th>
+                <td>{{ status }}</td>
+              </tr>
               <tr>
                 <th>Rocket:</th>
                 <td>{{ rocket.name }}</td>
@@ -70,6 +91,8 @@
 import moment from 'moment';
 import { find, sortBy } from 'lodash';
 import { Carousel, Slide } from 'vue-carousel';
+import GoodshareFacebook from 'vue-goodshare/src/providers/Facebook.vue'
+import GoodshareReddit from 'vue-goodshare/src/providers/Reddit.vue'
 
 export default {
   name: 'Launch',
@@ -79,7 +102,9 @@ export default {
 
   components: {
     Carousel,
-    Slide
+    Slide,
+    GoodshareFacebook,
+    GoodshareReddit,
   },
 
   data: function () {
@@ -132,6 +157,20 @@ export default {
 
     rocket () {
       return _.find(this.family.rockets, { name: this.launch.vehicle });
+    },
+
+    status () {
+      return this.launch.status.replace(/\w\S*/g, function(txt){
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+      });
+    },
+
+    shareTitle () {
+      return `${this.family.name} launch at ${this.launch.launchSite} on ${this.formatDate(this.launch.date)}`;
+    },
+
+    shareURL () {
+      return `${location.origin}/#/#l-${this.launch.id}`;
     },
   },
 

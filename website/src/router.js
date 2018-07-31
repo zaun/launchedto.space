@@ -6,16 +6,23 @@ import About from './views/About.vue';
 Vue.use(Router);
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'home',
-      component: Home,
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: About,
-    },
-  ],
+  scrollBehavior: (to) => {
+    if (to.hash) {
+      return {
+        selector: to.hash,
+        offset: { x: 0, y: 60 },
+      };
+    }
+    return { x: 0, y: 0 };
+  },
+
+  routes: [{
+    path: '/',
+    name: 'home',
+    component: Home,
+  }, {
+    path: '/about',
+    name: 'about',
+    component: About,
+  }],
 });
