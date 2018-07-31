@@ -3,6 +3,7 @@ import Vue from 'vue';
 import Vuetify from 'vuetify';
 
 import 'material-design-icons-iconfont/dist/material-design-icons.css';
+import 'vueperslides/dist/vueperslides.min.css';
 
 import App from './App.vue';
 import router from './router';

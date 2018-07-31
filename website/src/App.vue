@@ -137,6 +137,15 @@ div
 .toolbar-spacer
   padding-top 48px
 
+.vueperslides__inner
+  background-color black
+
+.vueperslides__slide
+  background-size contain !important
+
+.vueperslides__bullets
+  z-index 20 !important
+
 //   .dialog
 //     background-color: white
 

@@ -1,96 +1,116 @@
 <template>
-    <section class="launch" :id="`l-${launch.id}`" :class="`status_${launch.status.replace(' ', '_')}`">
-      <v-card>
-        <v-card-text v-if="hasMedia" class="hero">
-          <img :src="defaultMedia" />
-        </v-card-text>
+  <section class="launch" :id="`l-${launch.id}`" :class="`status_${launch.status.replace(' ', '_')}`">
+    <v-card>
+      <v-card-text v-if="hasMedia" class="hero" @click="launchImagesDisplayed = true">
+        <img :src="defaultMedia" />
+      </v-card-text>
 
-        <v-card-text v-if="1==0">
-          <goodshare-facebook
-            :page_url="shareURL"
-            :page_title="shareTitle"
-            has_counter
-            has_icon
-          >
-          </goodshare-facebook>
-          <goodshare-reddit
-            :page_url="shareURL"
-            :page_title="shareTitle"
-            has_counter
-            has_icon
-          >
-          </goodshare-reddit>
-        </v-card-text>
+      <v-card-text v-if="1==0">
+        <goodshare-facebook
+          :page_url="shareURL"
+          :page_title="shareTitle"
+          has_counter
+          has_icon
+        >
+        </goodshare-facebook>
+        <goodshare-reddit
+          :page_url="shareURL"
+          :page_title="shareTitle"
+          has_counter
+          has_icon
+        >
+        </goodshare-reddit>
+      </v-card-text>
 
-        <v-card-title>
-          <div>
-            <span class="manned" v-if="isManned"></span>
-            <h3 class="headline mb-0">{{ formatDate(launch.date) }}</h3>
-            <div>{{ launch.launchSite }}<span v-if="launch.launchPad"> at {{ launch.launchPad  }}</span></div>
-          </div>
-        </v-card-title>
+      <v-card-title>
+        <div>
+          <span class="manned" v-if="isManned"></span>
+          <h3 class="headline mb-0">{{ formatDate(launch.date) }}</h3>
+          <div>{{ launch.launchSite }}<span v-if="launch.launchPad"> at {{ launch.launchPad  }}</span></div>
+        </div>
+      </v-card-title>
 
-        <v-card-text>
-          <div v-if="launch.payloads.length > 0">
-            <h5>Payload:</h5>
-            <ul class="payload small">
-              <li v-for="(payload, index) in sortedPayload" :key="`payload-${index}`" :class="payload.type">
-                {{ payload.name }}
-              </li>
-            </ul>
-          </div>
-        </v-card-text>
+      <v-card-text>
+        <div v-if="launch.payloads.length > 0">
+          <h5>Payload:</h5>
+          <ul class="payload small">
+            <li v-for="(payload, index) in sortedPayload" :key="`payload-${index}`" :class="payload.type">
+              {{ payload.name }}
+            </li>
+          </ul>
+        </div>
+      </v-card-text>
 
-        <v-card-text>
-          <div>
-            <table>
-              <tr>
-                <th>Status:</th>
-                <td>{{ status }}</td>
-              </tr>
-              <tr>
-                <th>Rocket:</th>
-                <td>{{ rocket.name }}</td>
-              </tr>
-              <tr v-if="launch.serial">
-                <th>Serial:</th>
-                <td>{{ launch.serial }}</td>
-              </tr>
-              <tr>
-                <th>Expendable:</th>
-                <td>{{ rocket.expendable === 'yes' ? 'Yes' : 'No' }}</td>
-              </tr>
-              <tr>
-                <th>Payload Type:</th>
-                <td>{{ rocket.payloadType }}</td>
-              </tr>
-              <tr>
-                <th>Height:</th>
-                <td>{{ rocket.height }}<span class="small">m</span></td>
-              </tr>
-              <tr v-if="rocket.diameter">
-                <th>Diameter:</th>
-                <td>{{ rocket.diameter }}<span class="small">m</span></td>
-              </tr>
-              <tr class="item" v-if="rocket.span">
-                <th>Span:</th>
-                <td>{{ rocket.span }}<span class="small">m</span></td>
-              </tr>
-            </table>
-          </div>
-        </v-card-text>
-        <!-- <div v-if="hasMedia">
-          <div v-for="(img, index) in launchImages" :key="`img-${index}`" :style="backgroundStyle(img)" class="media">
-          </div>
-        </div> -->
-      </v-card>
+      <v-card-text>
+        <div>
+          <table>
+            <tr>
+              <th>Status:</th>
+              <td>{{ status }}</td>
+            </tr>
+            <tr>
+              <th>Rocket:</th>
+              <td>{{ rocket.name }}</td>
+            </tr>
+            <tr v-if="launch.serial">
+              <th>Serial:</th>
+              <td>{{ launch.serial }}</td>
+            </tr>
+            <tr>
+              <th>Expendable:</th>
+              <td>{{ rocket.expendable === 'yes' ? 'Yes' : 'No' }}</td>
+            </tr>
+            <tr>
+              <th>Payload Type:</th>
+              <td>{{ rocket.payloadType }}</td>
+            </tr>
+            <tr>
+              <th>Height:</th>
+              <td>{{ rocket.height }}<span class="small">m</span></td>
+            </tr>
+            <tr v-if="rocket.diameter">
+              <th>Diameter:</th>
+              <td>{{ rocket.diameter }}<span class="small">m</span></td>
+            </tr>
+            <tr class="item" v-if="rocket.span">
+              <th>Span:</th>
+              <td>{{ rocket.span }}<span class="small">m</span></td>
+            </tr>
+          </table>
+        </div>
+      </v-card-text>
+      <!-- <div v-if="hasMedia">
+        <div v-for="(img, index) in launchImages" :key="`img-${index}`" :style="backgroundStyle(img)" class="media">
+        </div>
+      </div> -->
+    </v-card>
+
+    <v-dialog v-model="launchImagesDisplayed" max-width="50rem" :scrollable="false">
+      <div class="close" @click="closeSlideshow()"></div>
+      <vueper-slides
+        v-if="launchImagesDisplayed"
+        fade
+        slide-content-outside="top"
+        slide-content-outside-class="max-widthed"
+        :autoplay="true"
+        :speed="3000"
+        :pauseOnHover="false"
+        :arrows="false"
+        :touchable="false"
+        :slide-ratio="0.8"
+      >
+        <vueper-slide v-for="(item, index) in launchImages" :key="`img-${index}`" :image="slideSrc(item)">
+        </vueper-slide>
+      </vueper-slides>
+      </div>
+    </v-dialog>
   </section>
 </template>
 
 <script>
 import moment from 'moment';
 import { find, sortBy } from 'lodash';
-import { Carousel, Slide } from 'vue-carousel';
+import { VueperSlides, VueperSlide } from 'vueperslides';
 import GoodshareFacebook from 'vue-goodshare/src/providers/Facebook.vue'
 import GoodshareReddit from 'vue-goodshare/src/providers/Reddit.vue'
 
@@ -101,8 +121,8 @@ export default {
   },
 
   components: {
-    Carousel,
-    Slide,
+    VueperSlides,
+    VueperSlide,
     GoodshareFacebook,
     GoodshareReddit,
   },
@@ -137,6 +157,7 @@ export default {
       return this.$store.state.mediaByLaunch[this.launch.id].map((i) => {
         return {
           src: '/thumb/' + i.filename,
+          full: '/orig/' + i.filename,
           description: i.description,
           default: i.default,
         };
@@ -180,14 +201,16 @@ export default {
     //   this.launchImagesDisplayed = true;
     // },
 
-    backgroundStyle(image) {
-      let style = 'background-image: url(/media' + image.src + ');';
-      style += 'background-size: cover;';
-      return style;
+    slideSrc(image) {
+      return `/media${image.full}`;
     },
 
     formatDate(date) {
       return moment(date).format('MMMM Do, YYYY');
+    },
+
+    closeSlideshow() {
+      this.launchImagesDisplayed = false;
     },
 
     // formatLongDate(date) {
@@ -226,6 +249,15 @@ line-width = 4
 
 half-dot-size = dot-size / 2
 half-line-width = line-width / 2
+
+.close
+  position absolute
+  top 0
+  bottom 0
+  left 0
+  right 0
+  z-index 10
+  color white
 
 .launch
   position relative
@@ -296,6 +328,7 @@ half-line-width = line-width / 2
 
         > img
           width 100%
+          cursor pointer
 
     h5, th
       text-align left

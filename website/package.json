@@ -16,6 +16,7 @@
     "vue-carousel": "^0.7.3",
     "vue-goodshare": "^0.9.3",
     "vue-router": "^3.0.1",
+    "vueperslides": "^1.9.3",
     "vuetify": "^1.1.8",
     "vuex": "^3.0.1"
   },
