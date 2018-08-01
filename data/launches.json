@@ -1783,7 +1783,7 @@
     "vehicle": "Grasshopper",
     "vehicleFamily": "Falcon",
     "serial": "B0002.1",
-    "date": "2012-09-22",
+    "date": "2012-09-21",
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
@@ -2015,7 +2015,7 @@
     "vehicle": "Grasshopper",
     "vehicleFamily": "Falcon",
     "serial": "B0002.5",
-    "date": "2013-04-19",
+    "date": "2013-04-17",
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
@@ -2831,7 +2831,7 @@
     "id": "49323df7-d39d-4234-9fbf-2f1428e64b1a"
   },
   {
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2 B1 F",
     "vehicleFamily": "Falcon",
     "serial": "B1019.1",
     "date": "2015-12-22",
@@ -2989,7 +2989,7 @@
     "id": "25ec9d82-b928-41a6-9f20-071de2c4086d"
   },
   {
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2 B1 F",
     "vehicleFamily": "Falcon",
     "serial": "B1020.1",
     "date": "2016-03-04",
@@ -3013,7 +3013,7 @@
     "id": "da2a5edd-5a8b-44b2-960b-a62ee11c07ce"
   },
   {
-    "vehicle": "Falcon-9 v1.2a",
+    "vehicle": "Falcon-9 v1.2 B2 C",
     "vehicleFamily": "Falcon",
     "serial": "B1021.1",
     "date": "2016-04-08",
@@ -3047,7 +3047,7 @@
     "id": "876d3ed9-d537-4aae-b201-278394602d34"
   },
   {
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2 B2 F",
     "vehicleFamily": "Falcon",
     "serial": "B1022.1",
     "date": "2016-05-06",
@@ -3071,7 +3071,7 @@
     "id": "5946130c-356c-44fc-bbc7-45266d603478"
   },
   {
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2 B2 F",
     "vehicleFamily": "Falcon",
     "serial": "B1023.1",
     "date": "2016-05-27",
@@ -3095,7 +3095,7 @@
     "id": "259d39ca-a505-4cb9-b63f-e521d715c141"
   },
   {
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2 B2 F",
     "vehicleFamily": "Falcon",
     "serial": "B1024.1",
     "date": "2016-06-15",
@@ -3129,7 +3129,7 @@
     "id": "1369d88d-fa12-495d-9817-553e388c2ef6"
   },
   {
-    "vehicle": "Falcon-9 v1.2a",
+    "vehicle": "Falcon-9 v1.2 B2 C",
     "vehicleFamily": "Falcon",
     "serial": "B1025.1",
     "date": "2016-07-18",
@@ -3163,7 +3163,7 @@
     "id": "64323077-e8c0-4b53-83fc-880f0171b0f6"
   },
   {
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2 B2 F",
     "vehicleFamily": "Falcon",
     "serial": "B1026.1",
     "date": "2016-08-14",
@@ -3187,7 +3187,7 @@
     "id": "42bb677d-cfbe-45ce-9a3a-10494e57a09d"
   },
   {
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2 B3 F",
     "vehicleFamily": "Falcon",
     "serial": "B1028.1",
     "date": "2016-09-01",
@@ -3211,7 +3211,7 @@
     "id": "94683d1b-f74c-43b3-8ff2-bd8af292293b"
   },
   {
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2 B3 F",
     "vehicleFamily": "Falcon",
     "serial": "B1029.1",
     "date": "2017-01-14",
@@ -3325,7 +3325,7 @@
     "id": "e1c954e5-4366-475c-9e1d-7ae324f922d5"
   },
   {
-    "vehicle": "Falcon-9 v1.2a",
+    "vehicle": "Falcon-9 v1.2 B3 C",
     "vehicleFamily": "Falcon",
     "serial": "B1029.1",
     "date": "2017-02-19",
@@ -3369,7 +3369,7 @@
     "id": "2db3805c-2465-497a-a73b-06aad40b6d8c"
   },
   {
-    "vehicle": "Falcon-9 v1.2c",
+    "vehicle": "Falcon-9 v1.2 B3 Fx",
     "vehicleFamily": "Falcon",
     "serial": "B1030",
     "date": "2017-03-16",
@@ -3393,7 +3393,7 @@
     "id": "f32a7cba-4ae4-46bc-9f6a-0925d4d9edd3"
   },
   {
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2 B2 F",
     "vehicleFamily": "Falcon",
     "serial": "B1021.2",
     "date": "2017-03-30",
@@ -3417,7 +3417,7 @@
     "id": "de0b89f9-cfdc-405f-a420-e599dd924319"
   },
   {
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2 B3 F",
     "vehicleFamily": "Falcon",
     "serial": "B1032.1",
     "date": "2017-05-01",
@@ -3441,7 +3441,7 @@
     "id": "c409b5d2-124b-4326-b4bf-a0498d0e34c0"
   },
   {
-    "vehicle": "Falcon-9 v1.2c",
+    "vehicle": "Falcon-9 v1.2 B3 Fx",
     "vehicleFamily": "Falcon",
     "serial": "B1034",
     "date": "2017-05-15",
@@ -3465,7 +3465,7 @@
     "id": "6aaf7c06-3eae-4f80-acbc-440398589a1d"
   },
   {
-    "vehicle": "Falcon-9 v1.2a",
+    "vehicle": "Falcon-9 v1.2 B3 C",
     "vehicleFamily": "Falcon",
     "serial": "B1035.1",
     "date": "2017-06-03",
@@ -3569,7 +3569,7 @@
     "id": "9320b599-3538-4415-977c-259c60b4645a"
   },
   {
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2 B3 F",
     "vehicleFamily": "Falcon",
     "serial": "B1029.2",
     "date": "2017-06-23",
@@ -3593,7 +3593,7 @@
     "id": "24c41276-6dec-4431-acd1-4ce041716338"
   },
   {
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2 B3 F",
     "vehicleFamily": "Falcon",
     "serial": "B1036.1",
     "date": "2017-06-25",
@@ -3707,7 +3707,7 @@
     "id": "27c9e733-a5f8-433f-9087-2366ddd7a29e"
   },
   {
-    "vehicle": "Falcon-9 v1.2c",
+    "vehicle": "Falcon-9 v1.2 B3 Fx",
     "vehicleFamily": "Falcon",
     "serial": "B1037",
     "date": "2017-07-05",
@@ -3731,7 +3731,7 @@
     "id": "b51e5528-7a0d-4552-a992-1caf559e8c5f"
   },
   {
-    "vehicle": "Falcon-9 v1.2a",
+    "vehicle": "Falcon-9 v1.2 B4 C",
     "vehicleFamily": "Falcon",
     "serial": "B1039.1",
     "date": "2017-08-14",
@@ -3805,7 +3805,7 @@
     "id": "1f747df9-1354-4249-a30b-346b0086b139"
   },
   {
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2 B3 F",
     "vehicleFamily": "Falcon",
     "serial": "B1038.1",
     "date": "2017-08-24",
@@ -3829,7 +3829,7 @@
     "id": "3f074854-c14e-47f4-8a7c-2e9dbfbf92c4"
   },
   {
-    "vehicle": "Falcon-9 v1.2a",
+    "vehicle": "Falcon-9 v1.2 B4 C",
     "vehicleFamily": "Falcon",
     "serial": "B1040.1",
     "date": "2017-09-07",
@@ -3969,7 +3969,7 @@
         "description": ""
       }
     ],
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2 B4 F",
     "vehicleFamily": "Falcon",
     "serial": "B1041.1",
     "launchSite": "Vandenberg AFB",
@@ -3977,7 +3977,7 @@
     "date": "2017-10-09"
   },
   {
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2 B3 F",
     "vehicleFamily": "Falcon",
     "serial": "B1031.2",
     "date": "2017-10-11",
@@ -4001,7 +4001,7 @@
     "id": "f1ead91f-9e4e-42b2-bcc0-a41ea27973e2"
   },
   {
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2 B4 F",
     "vehicleFamily": "Falcon",
     "serial": "B1042.1",
     "date": "2017-10-30",
@@ -4025,7 +4025,7 @@
     "id": "dc4e6095-059e-4ade-8bd7-0b29b3503231"
   },
   {
-    "vehicle": "Falcon-9 v1.2a",
+    "vehicle": "Falcon-9 v1.2 B4 C",
     "vehicleFamily": "Falcon",
     "serial": "B1035.2",
     "date": "2017-12-15",
@@ -4069,7 +4069,7 @@
     "id": "1b84c7e1-9228-46f4-9a3d-3e4d17e5d7d0"
   },
   {
-    "vehicle": "Falcon-9 v1.2c",
+    "vehicle": "Falcon-9 v1.2 B3 Fx",
     "vehicleFamily": "Falcon",
     "serial": "B1036.2",
     "date": "2017-12-23",
@@ -4183,7 +4183,7 @@
     "id": "9966c24d-ea67-45a8-9c11-78ef696de359"
   },
   {
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2 B4 F",
     "vehicleFamily": "Falcon",
     "serial": "B1043.1",
     "date": "2018-01-08",
@@ -4207,7 +4207,7 @@
     "id": "e88a4cb5-0d54-4e34-bdb8-504f1ab7b49c"
   },
   {
-    "vehicle": "Falcon-9 v1.2c",
+    "vehicle": "Falcon-9 v1.2 B3 Fx",
     "vehicleFamily": "Falcon",
     "serial": "B1032.2",
     "date": "2018-01-31",
@@ -4255,7 +4255,7 @@
     "id": "db7ab512-b98a-48da-868a-401c5abf9491"
   },
   {
-    "vehicle": "Falcon-9 v1.2c",
+    "vehicle": "Falcon-9 v1.2 B3 Fx",
     "vehicleFamily": "Falcon",
     "serial": "B1038.2",
     "date": "2018-02-22",
@@ -4299,7 +4299,7 @@
     "id": "961e9908-1759-4e6b-afd2-008909a3d7bb"
   },
   {
-    "vehicle": "Falcon-9 v1.2c",
+    "vehicle": "Falcon-9 v1.2 B4 Fx",
     "vehicleFamily": "Falcon",
     "serial": "B1044.1",
     "date": "2018-03-26",
@@ -4333,7 +4333,7 @@
     "id": "fc6f1bf2-bf8c-4a50-9581-1e1404431f85"
   },
   {
-    "vehicle": "Falcon-9 v1.2c",
+    "vehicle": "Falcon-9 v1.2 B4 Fx",
     "vehicleFamily": "Falcon",
     "serial": "B1041.2",
     "date": "2018-03-30",
@@ -4447,7 +4447,7 @@
     "id": "4f74a304-6095-4bce-b2e9-9a92af46d72a"
   },
   {
-    "vehicle": "Falcon-9 v1.2b",
+    "vehicle": "Falcon-9 v1.2 B4 Cx",
     "vehicleFamily": "Falcon",
     "serial": "B1039.2",
     "date": "2018-04-02",
@@ -4561,7 +4561,7 @@
     "id": "a6604799-0394-4609-bae2-1f4ac72942ef"
   },
   {
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2 B4 F",
     "vehicleFamily": "Falcon",
     "serial": "B1045.1",
     "date": "2018-04-18",
@@ -4601,7 +4601,7 @@
         "description": "Bangabandhu 1 is the first Bangladeshian geostationary communications satellite. The satellite was ordered in November 2015 from Thales Alenia Space, who will build, launch and operate the satellite for the Bangladesh Telecommunication Regulatory Commission."
       }
     ],
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2 B5 F",
     "vehicleFamily": "Falcon",
     "serial": "B1046.1",
     "date": "2018-05-11",
@@ -4685,7 +4685,7 @@
         "description": "GRACE-FO (Gravity Recovery And Climate Experiment - Follow On) mission is the successor to the GRACE mission. For a minimum of five years from August 2017, the GRACE-FO mission will continue the extremely accurate measurement data collection of the first twin GRACE satellites."
       }
     ],
-    "vehicle": "Falcon-9 v1.2c",
+    "vehicle": "Falcon-9 v1.2 B4 Fx",
     "vehicleFamily": "Falcon",
     "serial": "B1043.2",
     "date": "2018-05-22",
@@ -4709,7 +4709,7 @@
         "description": "SES 12 is a powerful geostationary communications satellite operating in Ku- and Ka-bands, which uses electric propulsion for initial orbit raising and all on-orbit manoeuvres."
       }
     ],
-    "vehicle": "Falcon-9 v1.2c",
+    "vehicle": "Falcon-9 v1.2 B4 Fx",
     "vehicleFamily": "Falcon",
     "serial": "B1040.2",
     "date": "2018-06-04",
@@ -4803,7 +4803,7 @@
         "description": "Bird are a small technological CubeSat (1U) built by Kyushu Institute of Technology (Kyutech) as the Joint Global Multi-Nation Birds Satellite project, which is a cross-border interdisciplinary satellite project for non-space faring countries supported by Japan."
       }
     ],
-    "vehicle": "Falcon-9 v1.2b",
+    "vehicle": "Falcon-9 v1.2 B4 Cx",
     "vehicleFamily": "Falcon",
     "serial": "B1045.2",
     "date": "2018-06-29",
@@ -4827,7 +4827,7 @@
         "description": "Telstar 19 VANTAGE or Telstar 19V is a communications satellite with two high throughput payloads, one in Ku-band and the other in Ka-band."
       }
     ],
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2 B5 F",
     "vehicleFamily": "Falcon",
     "serial": "B1047.1",
     "launchSite": "Cape Canaveral",
@@ -4941,7 +4941,7 @@
         "description": ""
       }
     ],
-    "vehicle": "Falcon-9 v1.2",
+    "vehicle": "Falcon-9 v1.2 B5 F",
     "vehicleFamily": "Falcon",
     "serial": "B1048.1",
     "date": "2018-07-25",

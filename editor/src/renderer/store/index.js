@@ -35,7 +35,7 @@ export default new Vuex.Store({
       encodeFromFile(path.join(__dirname, '../../../../media/thumb/', data.filename)).then((uri) => {
         // eslint-disable-next-line
         console.log('Loaded: ' + data.filename);
-        state.imageData[data.id] = uri;
+        Vue.set(state.imageData, data.id, uri);
       });
     },
 

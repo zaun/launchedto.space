@@ -30,15 +30,13 @@
         </div>
       </v-card-title>
 
-      <v-card-text>
-        <div v-if="launch.payloads.length > 0">
-          <h5>Payload:</h5>
-          <ul class="payload small">
-            <li v-for="(payload, index) in sortedPayload" :key="`payload-${index}`" :class="payload.type">
-              {{ payload.name }}
-            </li>
-          </ul>
-        </div>
+      <v-card-text v-if="launch.payloads.length > 0">
+        <h5>Payload:</h5>
+        <ul class="payload small">
+          <li v-for="(payload, index) in sortedPayload" :key="`payload-${index}`" :class="payload.type">
+            {{ payload.name }}
+          </li>
+        </ul>
       </v-card-text>
 
       <v-card-text>

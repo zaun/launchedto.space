@@ -16,6 +16,7 @@
           <v-list-tile v-for="(rocket, idx) in family.rockets" :class="{ blue: rocket.id === selected.id }" :key="`rocket-${idx}`" @click="select(family, rocket)">
             <v-list-tile-content class="pl-4">
               <v-list-tile-title>{{ rocket.name }}</v-list-tile-title>
+              <v-list-tile-sub-title>Launches: {{ getLaunchCount(rocket) }}</v-list-tile-sub-title>
             </v-list-tile-content>
           </v-list-tile>
         </v-list-group>
@@ -270,7 +271,7 @@
 
 <script>
   import { copySync } from 'fs-extra';
-  import { cloneDeep } from 'lodash';
+  import { cloneDeep, filter } from 'lodash';
   import path from 'path';
   import uuidv4 from 'uuid/v4';
 
@@ -450,6 +451,10 @@
           height = 200;
         }
         return `${height}px`;
+      },
+
+      getLaunchCount(rocket) {
+        return filter(this.$store.state.launches, { vehicle: rocket.name }).length;
       },
 
       metersToPixels(meters) {
