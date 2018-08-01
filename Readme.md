@@ -2,16 +2,13 @@
 This project was designed a nice easy way to see information about rocket launches and their payloads.
 
 ## Data 
-The main data for the site is located in the `data/data.json` file. When adding data please be spcific and consistent. For example is the launch vehicle was a _Falcon-9 v1.1_ do not list it as a _Falcon-9_.
+The data for the website is split in across the json files in the data directory. Try not to edit these files by hand, there is an editor that can be run from `npm run editor`
 
-## Vehicle Images
-The images for each vehicle is located in the `media/vehicles/` directory. Image are the vehicle on its side, with width of the image is equal to the height of the rocket in meters times 10.
+## Rockets
+Each rocket listed should be a specific launch configuration. For example a "Falcon-9 v1.2 B5 F" and a "Falcon-9 v1.2 B5 Fx" are basicaly the same, one is just expendable.
 
-> A vehicle that is 55.3m high 3.6m wide would have an image with the dimenstions 36 by 553 pixels when displayed on the site.
-
-> Images need to be the correct aspect ratio but not the exact size.
+## Media
+Add as much media as you like through the editor `npm run editor`, it'll automatically create the thumbnail and update the data files.
 
 ## Local Development
 This project uses Vue.js. Once you clone the repository run `npm install` followed by `npm run serve`. This will start a local development server.
-
-After adding images to `media/orig/` run `npm run thumb` before commiting to create thubnails
