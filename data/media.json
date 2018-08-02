@@ -117,6 +117,12 @@
     "description": ""
   },
   {
+    "id": "0dceddb3-eabb-4660-a28f-c7597b9ade38",
+    "launchID": "6aca8324-3dec-40fb-873b-d94438384a59",
+    "filename": "nasa/AS13-59-8500.jpg",
+    "description": "This view of the damaged Apollo 13 Service Module (SM) was photographed from the Lunar Module/Command Module following SM jettisoning. As seen here, an entire panel on the SM was blown away by the apparent explosion of oxygen tank number two located in Sector 4 of the SM. Two of the three fuel cells are visible just forward (above) the heavily damaged area. Three fuel cells, two oxygen tanks, and two hydrogen tanks are locate in Sector 4. The damaged area is located above the S-band high gain antenna. Nearest the camera is the Service Propulsion System (SPS) engine and nozzle. The damage to the SM caused the Apollo 13 crewmen to use the Lunar Module (LM) as a \"lifeboat\". The LM was jettisoned just prior to Earth reentry by the Command Module."
+  },
+  {
     "id": "0f5024b5-32c8-4742-8f1d-b81069db0013",
     "launchID": "9320b599-3538-4415-977c-259c60b4645a",
     "filename": "spacex/35078830875_afbd41c675_o.jpg",
@@ -229,6 +235,13 @@
     "launchID": "729329e6-de40-4ee6-9d01-31689de74de1",
     "filename": "spacex/16787904241_c0b45850e4_o.jpg",
     "description": "SpaceX's Falcon 9 rocket launched the AsiaSat 8 satellite to a geosynchronous transfer orbit at 4am EDT on August 5, 2014.",
+    "default": true
+  },
+  {
+    "id": "1843329e-5970-4041-b09a-10bfbddf4739",
+    "launchID": "6aca8324-3dec-40fb-873b-d94438384a59",
+    "filename": "nasa/0101247.jpg",
+    "description": "The third marned lunar landing mission, Apollo 13 (SA-508), with three astronauts: Mission commander James A. Lovell Jr., Lunar Module pilot Fred W. Haise Jr., and Command Module pilot John L. Swigert Jr., lifted off from the Kennedy Space Center launch complex 39A on April 11, 1970. The mission was aborted after 56 hours of flight, 205,000 miles from Earth, when an oxygen tank in the service module exploded. The Command Module, Odyssey, carrying the three astronauts, safely splashed down in the Pacific Ocean at 1:08 p.m. EST, April 17, 1970.",
     "default": true
   },
   {
@@ -542,7 +555,8 @@
     "launchID": "f130e525-0ae6-4aa8-8c73-c42a0bcff51b",
     "description": "The Apollo 10 (Spacecraft 106/Lunar Module 4/Saturn 505) space vehicle is launched from Pad B, Launch Complex 39, Kennedy Space Center at 12:49 p.m. (EDT), May 18, 1969. Aboard the spacecraft are astronauts Thomas P. Stafford, commander; John W. Young, command module pilot; and Eugene A. Cernan, lunar module pilot. The eight-day, lunar orbit mission will mark the first time the complete Apollo spacecraft has operated around the moon and the second manned flight for the Lunar Module (LM). Two Apollo 10 astronauts, Stafford and Cernan, are scheduled to descend to within eight nautical miles of the moon's surface in the LM.",
     "filename": "nasa/S69-34145.jpg",
-    "id": "30b39c3d-8ce0-4ed9-b290-27374701150d"
+    "id": "30b39c3d-8ce0-4ed9-b290-27374701150d",
+    "default": true
   },
   {
     "id": "3113fb60-2672-4e1a-91c4-3f8ee907afb4",
@@ -596,8 +610,13 @@
     "launchID": "f130e525-0ae6-4aa8-8c73-c42a0bcff51b",
     "description": "The Apollo 10 (Spacecraft 106/Lunar Module 4/Saturn 505) space vehicle is launched from Pad B, Launch Complex 39, Kennedy Space Center, Florida at 12:49 p.m., May 18, 1969. Aboard the spacecraft are astronauts Thomas P. Stafford, commander; John W. Young, command module pilot; and Eugene A. Cernan, lunar module pilot. The eight-day, lunar orbit mission will mark the first time the complete Apollo spacecraft has operated around the moon and the second manned flight for the Lunar Module (LM). Two Apollo 10 astronauts, Stafford and Cernan, are scheduled to descend to within eight nautical miles of the moon's surface in the LM.",
     "filename": "nasa/s69-34144.jpg",
-    "id": "380e7cd3-e1d2-4b6b-8379-8e177dcf8f45",
-    "default": true
+    "id": "380e7cd3-e1d2-4b6b-8379-8e177dcf8f45"
+  },
+  {
+    "id": "383e8e35-5260-4cbd-a751-4c3bf0286075",
+    "launchID": "4dd99210-610a-42b5-87e6-8dc3c80dea6c",
+    "filename": "nasa/7120040.jpg",
+    "description": "The moon bound Apollo 14, carrying a crew of three astronauts: Mission commander Alan B. Shepard Jr., Command Module pilot Stuart A. Roosa, and Lunar Module pilot Edgar D. Mitchell, lifted off from launch complex 39A at the Kennedy Space Center on January 31, 1971, and safely returned to Earth on February 9, 1971. It was the third manned lunar landing, the first manned landing in exploration of the lunar highlands, and it demonstrated pinpoint landing capability. The major goal of Apollo 14 was the scientific exploration of the Moon in the foothills of the rugged Fra Mauro region. The extravehicular activity (EVA) of astronauts Shepard and Mitchell included setting up an automated scientific laboratory called Apollo Lunar Scientific Experiments Package (ALSEP), shown here fully deployed. In addition, they collected a total of about 95 pounds (43 kilograms) of Moon rock and soil for a geological investigation back on the Earth."
   },
   {
     "id": "388482e8-2596-4ac2-9bbd-22d1bb720cbf",
@@ -659,7 +678,8 @@
     "launchID": "76a85922-7eb8-44d6-9bba-53b49e9b508f",
     "description": "The Apollo 4 (Spacecraft 017/Saturn 501) space mission was launched from Pad A, Launch Complex 39, Kennedy Space Center, Florida. The liftoff of the huge 363-feet tall Apollo/Saturn V space vehicle was at 7:00:01 a.m. (EST), Nov. 9, 1967. The successful objectives of the Apollo 4 Earth-orbital unmanned space mission obtained included (1) flight information on launch vehicle and spacecraft structural integrity and compatibility, flight loads, stage separation, subsystem operation, emergency detection subsystem operation, and (2) evaluation of the Apollo Command Module heat shield under conditions encountered on return from a moon mission.",
     "filename": "nasa/S67-49969.jpg",
-    "id": "3d4461fb-48e6-43dc-bf09-b0fd4da3a69e"
+    "id": "3d4461fb-48e6-43dc-bf09-b0fd4da3a69e",
+    "default": true
   },
   {
     "id": "3d6986ac-c950-472b-a7f3-d4700e891007",
@@ -724,6 +744,12 @@
     "default": true
   },
   {
+    "id": "443b88ea-7b39-487f-9270-31d11f5a5f6a",
+    "launchID": "b5de85b5-4926-4251-a57b-40a7a7fffba8",
+    "filename": "nasa/GPN-2000-000959.jpg",
+    "description": ""
+  },
+  {
     "id": "44b77870-4237-4dfd-85d4-17a4b194e951",
     "launchID": "729329e6-de40-4ee6-9d01-31689de74de1",
     "filename": "spacex/16668638138_7acf13cfb5_o.jpg",
@@ -771,7 +797,8 @@
     "launchID": "df6a3030-9bed-412d-a610-792a854d62ad",
     "description": "The Apollo 6 (Spacecraft 020/Saturn 502) unmanned space mission was launched from Pad A, Launch Complex 39, Kennedy Space Center (KSC), Florida. The liftoff of the huge Apollo/Saturn V space vehicle occurred at 7:00:01.5 a.m. (EST), April 4, 1968.",
     "filename": "nasa/S68-27364.jpg",
-    "id": "47469724-8fcc-4b38-a02b-b81ea7133763"
+    "id": "47469724-8fcc-4b38-a02b-b81ea7133763",
+    "default": true
   },
   {
     "id": "47d31de9-bdc6-4f73-9720-9512d215a430",
@@ -797,6 +824,12 @@
     "launchID": "9213877f-4739-4eb4-9214-0b3a711c8cff",
     "filename": "spacex/41868222930_0a850d30dc_o.jpg",
     "description": ""
+  },
+  {
+    "id": "4ba26a6d-74c4-41f1-bce6-1db0aacd29b8",
+    "launchID": "4dd99210-610a-42b5-87e6-8dc3c80dea6c",
+    "filename": "nasa/AS14-66-09277.jpg",
+    "description": "View of the Lunar Module to the north. Images were taken during EVA 1 of the Apollo 14 mission. Original film magazine was labeled II, film type was S0168 High Speed Color Reversal, Interior/Surface, 60mm lens with a sun elevation of 12 degrees."
   },
   {
     "id": "4d8d5541-785f-47f0-9c36-51c62f4b6b4c",
@@ -859,6 +892,12 @@
     "description": "Aerial view at Launch Complex 39, Kennedy Space Center, showing the Apollo 10 (Spacecraft 106/Lunar Module-4/Saturn 505) space vehicle on its way to Pad B. The Saturn V stack and its mobile launch tower are atop a huge crawler-transporter. The Apollo 10 flight is scheduled as a lunar orbit mission. The Apollo 10 crew will be astronauts Thomas P. Stafford, commander; John W. Young, command module pilot; and Eugene A. Cernan, lunar module pilot.",
     "filename": "nasa/S69-27916.jpg",
     "id": "53c07518-45c1-49be-811a-ea64f921a618"
+  },
+  {
+    "id": "53cdf1c8-5e58-48f6-92d7-691aa6d97258",
+    "launchID": "b5de85b5-4926-4251-a57b-40a7a7fffba8",
+    "filename": "nasa/6901001.jpg",
+    "description": ""
   },
   {
     "id": "54050266-ae16-43d1-b384-6115b9dbe2bd",
@@ -1201,6 +1240,12 @@
     "description": ""
   },
   {
+    "id": "72a565ff-05c0-4cdc-b654-8c769e645cff",
+    "launchID": "b5de85b5-4926-4251-a57b-40a7a7fffba8",
+    "filename": "nasa/6900937.jpg",
+    "description": ""
+  },
+  {
     "launchID": "6c845dc0-4b25-4b6d-9163-d32245ce481e",
     "description": "The Apollo 8 (Spacecraft 103/Saturn 503) space vehicle is launched from Pad A, Launch Complex 39, Kennedy Space Center, at 7:51 a.m. (EST), Dec. 21, 1968. The crew of the Apollo 8 lunar orbit mission is astronauts Frank Borman, commander; James A. Lovell Jr., command module pilot; and William A. Anders, lunar module pilot. Apollo 8 was the first manned Saturn V launch. (Just after ignition)",
     "filename": "nasa/S68-56001.jpg",
@@ -1280,7 +1325,8 @@
     "launchID": "06aed022-b711-4f0d-9297-dfc81bf200f8",
     "description": "The Apollo 9 (Spacecraft 104/Lunar Module 3/ Saturn 504) space vehicle is launched from Pad A, Launch Complex 39, Kennedy Space Center (KSC) at 11 a.m. (EST), March 3, 1969. Aboard the spacecraft are astronauts James A. McDivitt, commander; David R. Scott, command module pilot; and Russell L. Schweickart, lunar module pilot. The Apollo 9 mission will evaluate spacecraft lunar module systems performance during manned Earth-orbital flight. Apollo 9 is the second manned Saturn V mission.",
     "filename": "nasa/S69-25861.jpg",
-    "id": "7ae7a339-6208-4db5-b63e-0d45040a8082"
+    "id": "7ae7a339-6208-4db5-b63e-0d45040a8082",
+    "default": true
   },
   {
     "launchID": "f130e525-0ae6-4aa8-8c73-c42a0bcff51b",
@@ -1332,6 +1378,12 @@
     "description": ""
   },
   {
+    "id": "7ef8a182-ca5c-4aa6-a3e8-635773f31278",
+    "launchID": "b5de85b5-4926-4251-a57b-40a7a7fffba8",
+    "filename": "nasa/GPN-2000-001852.jpg",
+    "description": ""
+  },
+  {
     "id": "7f318a68-6026-4270-baa8-3ef56bfff757",
     "launchID": "21adb8c5-44ab-42ee-9549-6f5fd481a710",
     "filename": "spacex/42290930181_0117ab0dfb_o.jpg",
@@ -1354,6 +1406,12 @@
     "launchID": "42bb677d-cfbe-45ce-9a3a-10494e57a09d",
     "filename": "spacex/28353012603_ab83b6f5aa_o.jpg",
     "description": ""
+  },
+  {
+    "id": "8157df98-b4d8-4c1d-9be0-f465af4c5bd9",
+    "launchID": "4dd99210-610a-42b5-87e6-8dc3c80dea6c",
+    "filename": "nasa/GPN-2000-000633.jpg",
+    "description": "The Apollo 14 Saturn V Space Vehicle, carrying Astronauts Alan B. Shepard, Jr., Stuart A. Roosa, and Edgar D. Mitchell, lifted off at 4:03 p.m. EST on January 31, 1971, from the Kennedy Space Center Launch Complex 39A, to begin the fourth manned lunar landing mission."
   },
   {
     "id": "81a90733-41d2-4628-a767-c1cb92849ccb",
@@ -1716,6 +1774,12 @@
     "description": ""
   },
   {
+    "id": "97df3ddc-c9f8-41ef-9edb-0e38460c0fd8",
+    "launchID": "b5de85b5-4926-4251-a57b-40a7a7fffba8",
+    "filename": "nasa/94-202-8.jpg",
+    "description": ""
+  },
+  {
     "id": "990204e3-4750-47c7-891e-02582d92d424",
     "launchID": "1369d88d-fa12-495d-9817-553e388c2ef6",
     "filename": "spacex/27661322976_073466e80c_o.jpg",
@@ -1824,6 +1888,12 @@
     "launchID": "6e86ea9f-a7df-4fc8-b535-dd221b4db551",
     "filename": "spacex/36251814644_1a469f63ee_o.jpg",
     "description": ""
+  },
+  {
+    "id": "a4380a8b-eb38-467f-86ad-6fe0ab8fad91",
+    "launchID": "4dd99210-610a-42b5-87e6-8dc3c80dea6c",
+    "filename": "nasa/7120033.jpg",
+    "description": "The moon bound Apollo 14, carrying a crew of three astronauts: Mission commander Alan B. Shepard Jr., Command Module pilot Stuart A. Roosa, and Lunar Module pilot Edgar D. Mitchell, lifted off from launch complex 39A at the Kennedy Space Center on January 31, 1971. It was the third manned lunar landing, the first manned landing in exploration of the lunar highlands, and it demonstrated pinpoint landing capability. The major goal of Apollo 14 was the scientific exploration of the Moon in the foothills of the rugged Fra Mauro region. The lunar surface extravehicular activity (EVA) of astronauts Shepard and Mitchell included setting up an automated scientific laboratory called Apollo Lunar Scientific Experiments Package (ALSEP), and collecting a total of about 95 pounds (43 kilograms) of Moon rock and soil for a geological investigation back on the Earth. The mission safely returned to Earth on February 9, 1971."
   },
   {
     "id": "a4a31b6e-d389-4252-858b-bd8bc74bcba4",
@@ -2052,6 +2122,12 @@
     "description": ""
   },
   {
+    "id": "b5dd0842-d084-4a59-959b-07107e276d69",
+    "launchID": "b5de85b5-4926-4251-a57b-40a7a7fffba8",
+    "filename": "nasa/s69-39528.jpg",
+    "description": ""
+  },
+  {
     "id": "b5fd60f9-304f-4978-9711-482573364773",
     "launchID": "da2a5edd-5a8b-44b2-960b-a62ee11c07ce",
     "filename": "spacex/25217365820_e840c417c5_o.jpg",
@@ -2141,6 +2217,12 @@
     "id": "be13bf70-ad33-4415-add1-07cc4efea2f0",
     "launchID": "63d64482-dbe4-41b1-9c44-3bbf951097aa",
     "filename": "spacex/27684194678_c1ccd0680b_o.jpg",
+    "description": ""
+  },
+  {
+    "id": "beca82ee-ba06-4ce8-ba63-5a971b9a0fa6",
+    "launchID": "b5de85b5-4926-4251-a57b-40a7a7fffba8",
+    "filename": "nasa/S69-39875.jpg",
     "description": ""
   },
   {
@@ -2400,7 +2482,7 @@
   {
     "id": "dac04c73-356f-4e08-9387-bd07471e6219",
     "launchID": "cc1d33ec-9f86-4fe7-9e70-1f3095b9104c",
-    "filename": "spacex/16704192574_e3a0a6fac2_o.jpg",
+    "filename": "nasa/16704192574_e3a0a6fac2_o.jpg",
     "description": ""
   },
   {
@@ -2444,6 +2526,13 @@
     "launchID": "b51e5528-7a0d-4552-a992-1caf559e8c5f",
     "filename": "spacex/34868729603_c75aa126b5_o.jpg",
     "description": ""
+  },
+  {
+    "id": "e0b3b213-d5aa-4ba7-bb1d-5129be4f92b1",
+    "launchID": "b5de85b5-4926-4251-a57b-40a7a7fffba8",
+    "filename": "nasa/GPN-2000-000630.jpg",
+    "description": "",
+    "default": true
   },
   {
     "id": "e1ac7b5f-9aa6-420a-af2b-bbf163ebb482",
@@ -2534,6 +2623,12 @@
     "id": "ec301570-a116-47eb-a410-4244b46f2099",
     "launchID": "1c8ae0f1-956f-4abf-80f7-687955a994dc",
     "filename": "spacex/42025498442_0b7b91d561_o.jpg",
+    "description": ""
+  },
+  {
+    "id": "ec305175-ad57-4a20-badd-8149caa37024",
+    "launchID": "b5de85b5-4926-4251-a57b-40a7a7fffba8",
+    "filename": "nasa/GPN-2000-000627.jpg",
     "description": ""
   },
   {
@@ -2672,6 +2767,13 @@
     "description": ""
   },
   {
+    "id": "f65394ff-62d1-4a11-bc4a-bd16f55d3bf1",
+    "launchID": "4dd99210-610a-42b5-87e6-8dc3c80dea6c",
+    "filename": "nasa/9309378.jpg",
+    "description": "This is a view from sequential photographs of the Apollo 14 liftoff taken by a remote camera atop the 360-foot gantry level of Launch Complex 39A. The Apollo 14, carrying a crew of three astronauts: Mission commander Alan B. Shepard Jr., Command Module pilot Stuart A. Roosa, and Lunar Module pilot Edgar D. Mitchell, lifted off from launch complex 39A at the Kennedy Space Center on January 31, 1971. It was the third manned lunar landing, the first manned landing in exploration of the lunar highlands, and it demonstrated pinpoint landing capability. The major goal of Apollo 14 was the scientific exploration of the Moon in the foothills of the rugged Fra Mauro region. Activities of astronauts Shepard and Mitchell, during extravehicular activity (EVA) on the lunar surface, included setting up an automated scientific laboratory called Apollo Lunar Scientific Experiments Package (ALSEP), and collecting a total of about 95 pounds (43 kilograms) of Moon rock and soil for a geological investigation back on the Earth.",
+    "default": true
+  },
+  {
     "launchID": "f130e525-0ae6-4aa8-8c73-c42a0bcff51b",
     "description": "Ground-level view of the Apollo 10 (Spacecraft 106/Lunar Module 4/Saturn 505) space vehicle on Pad B, Launch Complex 39, Kennedy Space Center, Florida. This photograph of the 363-feet tall Apollo/Saturn V stack was taken during Countdown Demonstration Test (CDDT) activity. The Apollo 10 crew will be astronauts Thomas P. Stafford, commander; John W. Young, command module pilot; and Eugene A. Cernan, lunar module pilot.",
     "filename": "nasa/S69-33853.jpg",
@@ -2731,6 +2833,13 @@
     "launchID": "961e9908-1759-4e6b-afd2-008909a3d7bb",
     "filename": "spacex/25557986627_f3cc243afb_o.jpg",
     "description": ""
+  },
+  {
+    "id": "fd329d1f-6a9f-4655-9514-00234a5e4666",
+    "launchID": "489d2566-7dfd-4134-8f4c-692cd26491ec",
+    "filename": "nasa/6903391.jpg",
+    "description": "This image depicts the liftoff of the Apollo 12 on November 14, 1969. The second mission of the marned lunar landing and return to Earth, Apollo 12, carried a crew of three astronauts: Alan L. Bean, pilot of the Lunar Module, Intrepid; Richard Gordon, pilot of the Command Module, Yankee Clipper; and Spacecraft Commander Charles Conrad. Activities of astronauts Conrad and Bean on the lunar soil included setting out experiments, finding the unmanned Surveyor 3 that landed on the Moon on April 19, 1967, and collecting 75 pounds (34 kilograms) of rock samples.",
+    "default": true
   },
   {
     "launchID": "06aed022-b711-4f0d-9297-dfc81bf200f8",

@@ -517,7 +517,7 @@
         "orbit": "LEO",
         "mass": 12000,
         "type": "Satellite",
-        "description": "The NASA/Grumman Apollo Lunar Module (LM) after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules (CSM).",
+        "description": "The NASA/Grumman Apollo Lunar Module after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules.",
         "id": "0b734d6d-c7c9-4b2d-850b-f58c1a80a237",
         "status": "success"
       }
@@ -584,7 +584,7 @@
         "orbit": "HEO",
         "mass": 12000,
         "type": "Satellite",
-        "description": "The NASA/Grumman Apollo Lunar Module (LM) after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules (CSM).",
+        "description": "The NASA/Grumman Apollo Lunar Module after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules.",
         "id": "3eff73ea-6918-4b21-8515-c86f42bf29f4",
         "status": "success"
       }
@@ -618,7 +618,7 @@
         "orbit": "HEO",
         "mass": 12000,
         "type": "Satellite",
-        "description": "The NASA/Grumman Apollo Lunar Module (LM) after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules (CSM).",
+        "description": "The NASA/Grumman Apollo Lunar Module after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules.",
         "id": "398404fe-1e51-4406-abea-e3132e3ea0c2",
         "status": "success"
       }
@@ -653,7 +653,7 @@
         "status": "Partial Failure",
         "mass": 12000,
         "type": "Satellite",
-        "description": "The NASA/Grumman Apollo Lunar Module (LM) after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules (CSM).",
+        "description": "The NASA/Grumman Apollo Lunar Module after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules.",
         "id": "d12f987e-501b-44d1-9058-4bfcb8cfd0b4"
       }
     ],
@@ -686,7 +686,7 @@
         "orbit": "HEO",
         "mass": 12000,
         "type": "Satellite",
-        "description": "The NASA/Grumman Apollo Lunar Module (LM) after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules (CSM).",
+        "description": "The NASA/Grumman Apollo Lunar Module after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules.",
         "id": "ef794758-546d-441b-b9cb-1590d1c63e21",
         "status": "success"
       }
@@ -2012,6 +2012,30 @@
     "id": "8ca6eaed-9a24-44e9-8f9b-f72ed6e4e0d0"
   },
   {
+    "id": "90b80fcd-4410-4d5b-909e-e90580a0766b",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "4b5fabbb-7f8a-4534-9f21-44a1a00c7df9",
+        "name": "SBIRS-GEO 2",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": "4500",
+        "type": "Satellite",
+        "status": "success",
+        "description": "\nSBIRS-GEO 1 [USAF]\n\nSBIRS-GEO (Space Based Infra Red Sensor - Geostationary) is the geostationary component of the SBIRS-High program, which will replace the DSP system of early warning satellites in providing early warning for Intercontinental Ballistic Missile launches."
+      }
+    ],
+    "vehicle": "Atlas-5 401m",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-037",
+    "date": "2013-03-19",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41"
+  },
+  {
     "vehicle": "Grasshopper",
     "vehicleFamily": "Falcon",
     "serial": "B0002.5",
@@ -2023,6 +2047,30 @@
     "orbital": "no",
     "payloads": [],
     "id": "5cb139f6-1754-4a97-aa2e-dbeb4fb7022a"
+  },
+  {
+    "id": "e10de016-bf4c-45f3-91db-c5a44734073b",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "9defbc74-09ea-4223-abcc-9a555d1554ca",
+        "name": "GPS-2F 4",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": "1630",
+        "type": "Satellite",
+        "status": "success",
+        "description": "GPS-2F or Navstar-2F satellites are the fourth evolution stage of the second generation of the GPS satellites. Improvements included an extended design life of 12 years, faster processors, more memory, and a new civil signal on a third frequency."
+      }
+    ],
+    "vehicle": "Atlas-5 401s",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-039",
+    "date": "2013-05-15",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41"
   },
   {
     "vehicle": "Grasshopper",
@@ -2062,6 +2110,30 @@
     "orbital": "no",
     "payloads": [],
     "id": "8b817237-c252-46b5-acf5-a3811fec7b32"
+  },
+  {
+    "id": "012c8128-77d4-49a5-b30d-0a3eb25f4456",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "ec3f940f-8634-4802-ada9-e33597823a8c",
+        "name": "MAVEN",
+        "orbital": "yes",
+        "orbit": "IP",
+        "mass": "2454",
+        "type": "Satellite",
+        "status": "success",
+        "description": "MAVEN (Mars Atmosphere and Volatile EvolutioN) ia a $485 million mission launched late 2013. The selection was evaluated to have the best science value and lowest implementation risk from 20 mission investigation proposals submitted in response to a NASA Announcement of Opportunity in August 2006."
+      }
+    ],
+    "vehicle": "Atlas-5 401s",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-038",
+    "date": "2013-11-18",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41"
   },
   {
     "vehicle": "Falcon-9 v1.1c",
@@ -2110,6 +2182,54 @@
       }
     ],
     "id": "0ca73a82-e41d-4f8b-a670-587fcd8ba9f5"
+  },
+  {
+    "id": "374c0569-2c04-45ac-a201-225928245a87",
+    "manned": "no",
+    "orbital": "no",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "c26df081-d1b2-4a5d-b56c-8d1db86225a1",
+        "name": "TDRS 12 (L)",
+        "orbital": "no",
+        "orbit": "GEO",
+        "mass": "3454",
+        "type": "Satellite",
+        "status": "success",
+        "description": "NASA selected Boeing in December 2007 to built the third generation of TDRS (Tracking & Data Relay Satellite) data relay satellites. They are the successors of the second generation TDRS satellites."
+      }
+    ],
+    "vehicle": "Atlas-5 401m",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-043",
+    "date": "2014-02-24",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41"
+  },
+  {
+    "id": "d45bb35b-8ec6-4fe4-b93c-2611414c9cb2",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "a5ed87bb-d24e-48c1-be5f-8865f4f0b0a7",
+        "name": "DMSP-5D3 F19",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "1200",
+        "type": "Satellite",
+        "status": "success",
+        "description": "DMSP-5D3 (Defense Meteorological Satellite Program Block 5D3) is the eleventh and most recent version of the military meteorological satellites of the Defense Meteorological Satellite Program."
+      }
+    ],
+    "vehicle": "Atlas-5 401s",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-044",
+    "date": "2014-04-03",
+    "launchSite": "Vandenberg AFB",
+    "launchPad": "SLC-3E"
   },
   {
     "vehicle": "Falcon-9R-Dev-1",
@@ -2242,6 +2362,30 @@
     "id": "d5986f98-cc81-4415-a24a-b34988363bc3"
   },
   {
+    "id": "9107f3fc-dd6d-4cf7-848e-3cba6029a933",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "deaca832-e75a-457f-b438-48348eb55977",
+        "name": "Quasar 19",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Satellite",
+        "status": "success",
+        "description": "Satellite Data System spacecraft are communication relay satellites for transmitting data from US reconnaissance satellites in polar areas. They are also used for communications to USAF aircraft on polar routes and connect the various ground stations of the Air Force Satellite Control Network."
+      }
+    ],
+    "vehicle": "Atlas-5 401s",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-46",
+    "date": "2014-05-22",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41"
+  },
+  {
     "vehicle": "Falcon-9R-Dev-1",
     "vehicleFamily": "Falcon",
     "serial": "B1002.3",
@@ -2352,6 +2496,30 @@
     "id": "7613233a-dcbf-4b64-82b3-759bebd318ef"
   },
   {
+    "id": "1f911eba-ec23-4dbf-8a73-35a7f498710a",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "078a8165-1ec1-401a-b824-ee1e94f58294",
+        "name": "GPS-2F 7",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": "1630",
+        "type": "Satellite",
+        "status": "success",
+        "description": "GPS-2F or Navstar-2F satellites are the fourth evolution stage of the second generation of the GPS satellites. Improvements included an extended design life of 12 years, faster processors, more memory, and a new civil signal on a third frequency."
+      }
+    ],
+    "vehicle": "Atlas-5 401s",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-048",
+    "date": "2014-08-02",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41"
+  },
+  {
     "vehicle": "Falcon-9 v1.1c",
     "vehicleFamily": "Falcon",
     "serial": "",
@@ -2374,6 +2542,30 @@
       }
     ],
     "id": "729329e6-de40-4ee6-9d01-31689de74de1"
+  },
+  {
+    "id": "f5948c6f-80c5-4bfd-9009-40055074bfbb",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "442c6edc-709d-4970-b051-cb8507639df2",
+        "name": "WorldView 3",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "2800",
+        "type": "Satellite",
+        "status": "success",
+        "description": "WorldView 2 enables DigitalGlobe to offer half-meter panchromatic resolution and 1.8 meter multispectral resolution. The WorldView 2 system allows DigitalGlobe to substantially expand its imagery product offerings to both commercial and international customers."
+      }
+    ],
+    "vehicle": "Atlas-5 401s",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-047",
+    "date": "2014-08-13",
+    "launchSite": "Vandenberg AFB",
+    "launchPad": "SLC-3E"
   },
   {
     "vehicle": "Falcon-9R-Dev-1",
@@ -2411,6 +2603,30 @@
       }
     ],
     "id": "cedf60e3-120f-4111-93a8-f7966e505e77"
+  },
+  {
+    "id": "d9fe86bd-b582-437e-a995-f654b53415ea",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "93402a7d-a9c5-46e8-ab2b-15165949e863",
+        "name": "Nemesis 2",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": -1,
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Nemesis series of satellites are geostationary COMINT satellites to intercept transmissions to commercial communicationss satellites. These satellites were known at launch by the names PAN and CLIO or the program designation P360."
+      }
+    ],
+    "vehicle": "Atlas-5 401s",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-049",
+    "date": "2014-09-17",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41"
   },
   {
     "vehicle": "Falcon-9 v1.1b",
@@ -2455,6 +2671,30 @@
       }
     ],
     "id": "809a0abe-7b20-4748-bd0a-19d189aa9f02"
+  },
+  {
+    "id": "2847ca03-46a2-4724-9e09-2c2edda90f1d",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "5b676597-3ee1-44fa-be48-3823528b11c1",
+        "name": "GPS-2F 8",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": "1630",
+        "type": "Satellite",
+        "status": "success",
+        "description": "GPS-2F or Navstar-2F satellites are the fourth evolution stage of the second generation of the GPS satellites. Improvements included an extended design life of 12 years, faster processors, more memory, and a new civil signal on a third frequency."
+      }
+    ],
+    "vehicle": "Atlas-5 401s",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-050",
+    "date": "2014-10-29",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41"
   },
   {
     "vehicle": "Falcon-9 v1.1a",
