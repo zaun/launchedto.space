@@ -1,12 +1,13 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Home from './views/Home.vue';
-import About from './views/About.vue';
+import Launches from './views/Launches.vue';
+import Rockets from './views/Rockets.vue';
 
 Vue.use(Router);
 
 export default new Router({
   scrollBehavior: (to) => {
+    console.log(to);
     if (to.hash) {
       return {
         selector: to.hash,
@@ -17,12 +18,19 @@ export default new Router({
   },
 
   routes: [{
-    path: '/',
-    name: 'home',
-    component: Home,
+    path: '/launches',
+    name: 'launches',
+    component: Launches,
   }, {
-    path: '/about',
-    name: 'about',
-    component: About,
+    path: '/launches/:id',
+    name: 'launch',
+    component: Launches,
+  }, {
+    path: '/rockets',
+    name: 'rockets',
+    component: Rockets,
+  }, {
+    path: '/',
+    redirect: '/launches',
   }],
 });

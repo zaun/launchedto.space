@@ -1,12 +1,10 @@
 <template>
-  <div id="home">
+  <div ref="launches" id="launches">
     <!-- <Background /> -->
-    <div ref="launches" id="launches">
-      <section class="year" v-for="(year) in years" :key="`year-${year}`">
-        <h3>{{year}}</h3>
-        <Launch v-for="(launch, index) in sortedLaunches(year)" :key="`launch-${index}`" :launch="launch" />
-      </section>
-    </div>
+    <section class="year" v-for="(year) in years" :key="`year-${year}`">
+      <h3>{{year}}</h3>
+      <launch v-for="(launch, index) in sortedLaunches(year)" :key="`launch-${index}`" :launch="launch" />
+    </section>
   </div>
 </template>
 
@@ -17,7 +15,7 @@ import Launch from '@/components/Launch.vue';
 import { filter, groupBy, keys, sortBy, reverse } from 'lodash';
 
 export default {
-  name: 'home',
+  name: 'launches',
 
   components: {
     Background,
@@ -45,10 +43,8 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-#home
-  width 100%
-
   #launches
+    width 100%
 
     .year
       position relative
@@ -60,7 +56,7 @@ export default {
       h3
         position sticky
         float left
-        top 0rem
+        top 64px
         font-size 1.5em
         font-weight 400
         height 0px

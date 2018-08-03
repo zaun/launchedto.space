@@ -3,6 +3,11 @@
     <v-toolbar dense fixed app>
       <v-toolbar-title class="hidden-xs-only">Launched To Space</v-toolbar-title>
       <v-toolbar-title class="hidden-sm-and-up">L2S</v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-toolbar-items class="hidden-sm-and-down">
+        <v-btn flat to="launches">Launches</v-btn>
+        <v-btn flat to="rockets">Rockets</v-btn>
+      </v-toolbar-items>
       <!-- <v-spacer></v-spacer>
       <v-menu>
         <v-toolbar-title slot="activator">
@@ -15,7 +20,7 @@
           </v-list-tile>
         </v-list>
       </v-menu> -->
-      <v-spacer></v-spacer>
+      <!-- <v-spacer></v-spacer> -->
       <!-- <v-btn icon @click="showAbout">
         <v-icon>info</v-icon>
       </v-btn> -->
@@ -116,20 +121,17 @@ html, body
   padding 0
   font-size 14pt
   font-weight 300
-  overflow auto
   line-height 1.1
 
 div
   position relative
   display block
 
-// #app
-//   font-family 'Avenir', Helvetica, Arial, sans-serif
-//   -webkit-font-smoothing antialiased
-//   -moz-osx-font-smoothing grayscale
+.center
+  text-align center !important
 
-  // .menuable__content__active
-  //   background-color white
+.title
+  font-size 1.2rem !important
 
 .v-toolbar
   z-index 99

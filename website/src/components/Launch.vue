@@ -113,7 +113,8 @@ import GoodshareFacebook from 'vue-goodshare/src/providers/Facebook.vue'
 import GoodshareReddit from 'vue-goodshare/src/providers/Reddit.vue'
 
 export default {
-  name: 'Launch',
+  name: 'launch',
+
   props: {
     launch: Object,
   },
@@ -194,11 +195,6 @@ export default {
   },
 
   methods: {
-
-    // showImages() {
-    //   this.launchImagesDisplayed = true;
-    // },
-
     slideSrc(image) {
       return `/media${image.full}`;
     },
@@ -210,33 +206,11 @@ export default {
     closeSlideshow() {
       this.launchImagesDisplayed = false;
     },
-
-    // formatLongDate(date) {
-    //   return moment(date).format('MMMM Do, YYYY');
-    // },
-
-    // payloadTooltip(payload) {
-    //   let tip = 'Name: ' + payload.name;
-    //   if (payload.mass > 0) {
-    //     tip += '\nMass: ' + payload.mass.toLocaleString() + ' kg';
-    //   }
-    //   if (payload.description) {
-    //     tip += '\n\n' + payload.description;
-    //   }
-
-    //   return tip;
-    // },
   },
 
   mounted() {
     this.isMounted = true;
   },
-
-  beforeDestroy: function () {
-  },
-
-  created() {
-  }
 };
 </script>
 
@@ -334,11 +308,8 @@ half-line-width = line-width / 2
       font-weight 500
       padding-right 1rem
 
-//     .media
-//       float left
-//       width 100px
-//       height 100px
-//       margin 0.5em
+    td
+      font-size 0.8rem
 
     .payload
       list-style-type none   
@@ -349,6 +320,7 @@ half-line-width = line-width / 2
       li
         margin 0
         padding 0
+        font-size 0.8rem
         white-space nowrap
         list-style: none;
       
