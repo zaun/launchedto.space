@@ -1285,7 +1285,12 @@
         "id": "d5b30df1-33e0-4321-8c96-8b19280783b0",
         "engines": [],
         "payloads": [],
-        "stages": [],
+        "stages": [
+          {
+            "engines": [],
+            "name": "Stage-1"
+          }
+        ],
         "name": "Falcon-9R-Dev-1",
         "payloadType": "None",
         "expendable": "no",
@@ -1298,7 +1303,12 @@
         "id": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
         "engines": [],
         "payloads": [],
-        "stages": [],
+        "stages": [
+          {
+            "engines": [],
+            "name": "Stage-1"
+          }
+        ],
         "name": "Grasshopper",
         "astronautixURL": "http://www.astronautix.com/g/grasshopper.html",
         "expendable": "no",

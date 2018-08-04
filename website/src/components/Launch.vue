@@ -4,6 +4,15 @@
       <v-card-text v-if="hasMedia" class="hero" @click="launchImagesDisplayed = true">
         <img :src="defaultMedia" />
       </v-card-text>
+      
+      <v-toolbar flat dark color="teal">
+        <v-toolbar-title class="white--text">
+          {{ formatDate(launch.date) }}
+          <div class="subheading">{{ launch.launchSite }}<span v-if="launch.launchPad"> at {{ launch.launchPad  }}</span></div>
+        </v-toolbar-title>
+        <v-spacer></v-spacer>
+        <div v-if="isManned" class="manned"></div>
+      </v-toolbar>
 
       <v-card-text v-if="1==0">
         <goodshare-facebook
@@ -20,23 +29,6 @@
           has_icon
         >
         </goodshare-reddit>
-      </v-card-text>
-
-      <v-card-title>
-        <div>
-          <span class="manned" v-if="isManned"></span>
-          <h3 class="headline mb-0">{{ formatDate(launch.date) }}</h3>
-          <div>{{ launch.launchSite }}<span v-if="launch.launchPad"> at {{ launch.launchPad  }}</span></div>
-        </div>
-      </v-card-title>
-
-      <v-card-text v-if="launch.payloads.length > 0">
-        <h5>Payload:</h5>
-        <ul class="payload small">
-          <li v-for="(payload, index) in sortedPayload" :key="`payload-${index}`" :class="payload.type">
-            {{ payload.name }}
-          </li>
-        </ul>
       </v-card-text>
 
       <v-card-text>
@@ -77,6 +69,19 @@
           </table>
         </div>
       </v-card-text>
+
+      <v-toolbar dense flat color="teal lighten-5" v-if="launch.payloads.length > 0">
+        <v-toolbar-title>Payload</v-toolbar-title>
+      </v-toolbar>
+
+      <v-card-text v-if="launch.payloads.length > 0">
+        <ul class="payload small">
+          <li v-for="(payload, index) in sortedPayload" :key="`payload-${index}`" :class="payload.type">
+            {{ payload.name }}
+          </li>
+        </ul>
+      </v-card-text>
+
       <!-- <div v-if="hasMedia">
         <div v-for="(img, index) in launchImages" :key="`img-${index}`" :style="backgroundStyle(img)" class="media">
         </div>
@@ -276,67 +281,33 @@ half-line-width = line-width / 2
     background-size contain
     background-position center
 
-  .v-card
-    max-width 32rem
-    font-size 1rem
-    
-    &:after
-      content ''
-      display table
-      clear both
 
-    &:last-child
-      margin-bottom 0
-      padding-bottom 0
+  .payload
+    list-style-type none   
+    column-width 8rem
+    column-gap 0.2rem
+    list-style-position inside
 
-    .v-card__title > div
-      width 100%
-    
-    .v-card__text
-      padding 8px 16px 8px 16px
-
-      &.hero
-        padding 0
-
-        > img
-          width 100%
-          cursor pointer
-
-    h5, th
-      text-align left
-      font-size 0.9rem
-      font-weight 500
-      padding-right 1rem
-
-    td
+    li
+      margin 0
+      padding 0
       font-size 0.8rem
-
-    .payload
-      list-style-type none   
-      column-width 8rem
-      column-gap 0.2rem
-      list-style-position inside
-
-      li
-        margin 0
-        padding 0
-        font-size 0.8rem
-        white-space nowrap
-        list-style: none;
+      white-space nowrap
+      list-style: none;
+    
+      &:before
+        content ''
+        display inline-block
+        padding: 0 0 1rem 1rem;
+        vertical-align: middle;
+        background-image: url('../assets/noun_724999_cc.svg')
+        background-repeat no-repeat
+        background-size contain
+        background-position center
       
-        &:before
-          content ''
-          display inline-block
-          padding: 0 0 1rem 1rem;
-          vertical-align: middle;
-          background-image: url('../assets/noun_724999_cc.svg')
-          background-repeat no-repeat
-          background-size contain
-          background-position center
-        
-        &.Capsule:before
-          background-image: url('../assets/noun_1671108_cc.svg')
-        
-        &.Station:before
-          background-image: url('../assets/noun_744249_cc.svg')
+      &.Capsule:before
+        background-image: url('../assets/noun_1671108_cc.svg')
+      
+      &.Station:before
+        background-image: url('../assets/noun_744249_cc.svg')
 </style>
