@@ -11,44 +11,51 @@
         </v-toolbar>
 
         <v-card-text>
-          <table>
-            <tr>
-              <th>Expendable:</th>
-              <td>{{ rocket.expendable === 'yes' ? 'Yes' : 'No' }}</td>
-            </tr>
-            <tr>
-              <th>Payload Type:</th>
-              <td>{{ rocket.payloadType }}</td>
-            </tr>
-            <tr>
-              <th>Height:</th>
-              <td>{{ rocket.height }}<span class="small">m</span></td>
-            </tr>
-            <tr v-if="rocket.diameter">
-              <th>Diameter:</th>
-              <td>{{ rocket.diameter }}<span class="small">m</span></td>
-            </tr>
-            <tr class="item" v-if="rocket.span">
-              <th>Span:</th>
-              <td>{{ rocket.span }}<span class="small">m</span></td>
-            </tr>
-            <tr v-if="rocket.payloadType === 'Capsule'">
-              <th>Capsule Height:</th>
-              <td>{{ rocket.capsuleHeight || '-- ' }}<span class="small">m</span></td>
-            </tr>
-            <tr v-if="rocket.payloadType === 'Capsule'">
-              <th>Capsule Diameter:</th>
-              <td>{{ rocket.capsuleDiameter || '-- ' }}<span class="small">m</span></td>
-            </tr>
-            <tr v-if="rocket.payloadType === 'Fairing'">
-              <th>Fairing Height:</th>
-              <td>{{ rocket.fairingHeight || '-- ' }}<span class="small">m</span></td>
-            </tr>
-            <tr v-if="rocket.payloadType === 'Fairing'">
-              <th>Fairing Diameter:</th>
-              <td>{{ rocket.fairingDiameter || '-- ' }}<span class="small">m</span></td>
-            </tr>
-          </table>
+          <v-layout row wrap>
+            <v-flex xs6>
+              <table>
+                <tr>
+                  <th>Expendable:</th>
+                  <td>{{ rocket.expendable === 'yes' ? 'Yes' : 'No' }}</td>
+                </tr>
+                <tr>
+                  <th>Payload Type:</th>
+                  <td>{{ rocket.payloadType }}</td>
+                </tr>
+                <tr>
+                  <th>Height:</th>
+                  <td>{{ rocket.height }}<span class="small">m</span></td>
+                </tr>
+                <tr v-if="rocket.diameter">
+                  <th>Diameter:</th>
+                  <td>{{ rocket.diameter }}<span class="small">m</span></td>
+                </tr>
+                <tr class="item" v-if="rocket.span">
+                  <th>Span:</th>
+                  <td>{{ rocket.span }}<span class="small">m</span></td>
+                </tr>
+                <tr v-if="rocket.payloadType === 'Capsule'">
+                  <th>Capsule Height:</th>
+                  <td>{{ rocket.capsuleHeight || '-- ' }}<span class="small">m</span></td>
+                </tr>
+                <tr v-if="rocket.payloadType === 'Capsule'">
+                  <th>Capsule Diameter:</th>
+                  <td>{{ rocket.capsuleDiameter || '-- ' }}<span class="small">m</span></td>
+                </tr>
+                <tr v-if="rocket.payloadType === 'Fairing'">
+                  <th>Fairing Height:</th>
+                  <td>{{ rocket.fairingHeight || '-- ' }}<span class="small">m</span></td>
+                </tr>
+                <tr v-if="rocket.payloadType === 'Fairing'">
+                  <th>Fairing Diameter:</th>
+                  <td>{{ rocket.fairingDiameter || '-- ' }}<span class="small">m</span></td>
+                </tr>
+              </table>
+            </v-flex>
+            <v-flex xs6>
+              <img :src="defaultMedia" class="default-image" />
+            </v-flex>
+          </v-layout>
         </v-card-text>
 
         <v-toolbar dense flat color="teal lighten-5">
@@ -120,7 +127,7 @@
                     </tr>
                   </table>
                 </v-flex>
-            </v-layout>
+              </v-layout>
             </v-tab-item>
           </v-tabs>
         </v-card-text>
@@ -136,7 +143,27 @@
         </v-toolbar>
 
         <v-card-text>
-          <h5>Launches:</h5>
+          <table>
+            <tr>
+              <th>success</th>
+              <td> {{ launchByStatus.success || 0 }} </td>
+            </tr>
+            <tr>
+              <th>partial failure</th>
+              <td> {{ launchByStatus['partial failure'] || 0 }} </td>
+            </tr>
+            <tr>
+              <th>failure</th>
+              <td> {{ launchByStatus.failure || 0 }} </td>
+            </tr>
+          </table>
+        </v-card-text>
+
+        <v-toolbar dense flat color="teal lighten-5">
+          <v-toolbar-title>Launches</v-toolbar-title>
+        </v-toolbar>
+
+        <v-card-text>
           <div class="launches">
             <table>
               <tr>
@@ -161,7 +188,7 @@
 
 <script>
 import moment from 'moment';
-import { filter } from 'lodash';
+import { countBy, filter } from 'lodash';
 
 export default {
   name: 'rocket',
@@ -177,7 +204,28 @@ export default {
   },
 
   computed:  {
-    launches () { return filter(this.$store.state.launches, { vehicle: this.rocket.name }); }
+    launches () {
+      return filter(this.$store.state.launches, { vehicle: this.rocket.name });
+    },
+    
+    launchByStatus () {
+      return countBy(this.launches, 'status'); 
+    },
+
+    defaultMedia () {
+      const launchId = this.launches[this.launches.length - 1].id;
+
+      if (!this.$store.state.mediaByLaunch[launchId]) {
+        return '';
+      }
+
+      let img = find(this.$store.state.mediaByLaunch[launchId], { default: true });
+      if (!img) {
+        img = this.$store.state.mediaByLaunch[launchId][0];
+      }
+
+      return '/media/thumb/' + img.filename;
+    },
   },
 
   methods: {
@@ -231,8 +279,12 @@ left-padding = 6rem
 
     .launches 
       margin-left 0.5rem
-      height 500px
+      height 420px
       overflow-y auto
 
-
+    .default-image
+      width 100%
+      max-height 191px
+      object-fit scale-down
+      object-position 100% 0%
 </style>

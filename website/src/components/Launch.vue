@@ -88,7 +88,7 @@
       </div> -->
     </v-card>
 
-    <v-dialog v-model="launchImagesDisplayed" max-width="50rem" :scrollable="false">
+    <v-dialog v-model="launchImagesDisplayed" lazy :scrollable="false">
       <div class="close" @click="closeSlideshow()"></div>
       <vueper-slides
         v-if="launchImagesDisplayed"
@@ -105,7 +105,6 @@
         <vueper-slide v-for="(item, index) in launchImages" :key="`img-${index}`" :image="slideSrc(item)">
         </vueper-slide>
       </vueper-slides>
-      </div>
     </v-dialog>
   </section>
 </template>
