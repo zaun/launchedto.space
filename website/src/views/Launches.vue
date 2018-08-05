@@ -1,10 +1,18 @@
 <template>
   <div ref="launches" id="launches">
     <!-- <Background /> -->
-    <section class="year" v-for="(year) in years" :key="`year-${year}`">
+    <section class="year" v-for="(year) in years" :key="`year-${year}`" v-if="isReady">
       <h3>{{year}}</h3>
       <launch v-for="(launch, index) in sortedLaunches(year)" :key="`launch-${index}`" :launch="launch" />
     </section>
+    <div class="text-xs-center" v-if="!isReady">
+      <v-progress-circular
+        :size="70"
+        :width="7"
+        color="teal"
+        indeterminate
+      ></v-progress-circular>
+    </div>
   </div>
 </template>
 
@@ -31,7 +39,8 @@ export default {
 
   computed:  {
     launchesByYear () { return this.$store.state.launchesByYear; },
-    years () { return reverse(keys(this.$store.state.launchesByYear)); }
+    years () { return reverse(keys(this.$store.state.launchesByYear)); },
+    isReady () { return this.$store.state.isReady; },
   },
 
   methods: {

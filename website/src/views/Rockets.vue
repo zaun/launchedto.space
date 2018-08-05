@@ -1,9 +1,17 @@
 <template>
   <div id="rockets">
-    <section class="family" v-for="(family) in families" :key="`family-${family.name}`">
+    <section class="family" v-for="(family) in families" :key="`family-${family.name}`" v-if="isReady">
       <h3>{{family.name}}</h3>
       <rocket v-for="(rocket, index) in family.rockets" v-if="getLaunchCount(rocket) > 0" :key="`rockets-${index}`" :rocket="rocket" />
     </section>
+    <div class="text-xs-center" v-if="!isReady">
+      <v-progress-circular
+        :size="70"
+        :width="7"
+        color="teal"
+        indeterminate
+      ></v-progress-circular>
+    </div>
   </div>
 </template>
 
@@ -25,7 +33,8 @@ export default {
 
   computed:  {
     families () { return sortBy(this.$store.state.families, 'name'); },
-    launches () { return this.$store.state.launches; }
+    launches () { return this.$store.state.launches; },
+    isReady () { return this.$store.state.isReady; },
   },
 
   methods: {

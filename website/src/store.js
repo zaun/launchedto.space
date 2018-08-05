@@ -1,9 +1,16 @@
 /* eslint-disable no-param-reassign */
 import Vue from 'vue';
-import { filter, sortBy, groupBy, map, reverse } from 'lodash/';
+import { filter, sortBy, groupBy, map } from 'lodash/';
 import Vuex from 'vuex';
 
 Vue.use(Vuex);
+
+const incLoaded = (state) => {
+  state.loaded += 1;
+  if (state.loaded === 3) {
+    state.isReady = true;
+  }
+};
 
 export default new Vuex.Store({
   state: {
@@ -12,6 +19,8 @@ export default new Vuex.Store({
     launches: [],
     mediaByLaunch: [],
     families: [],
+    loaded: 0,
+    isReady: false,
   },
 
   mutations: {
@@ -31,6 +40,7 @@ export default new Vuex.Store({
           state.launches = filteredData;
           state.launchesByYear = groupBy(filteredData, l => l.date.split('-')[0]);
           state.launchesByFamily = groupBy(filteredData, l => l.vehicleFamily);
+          incLoaded(state);
         })
         .catch((error) => {
           console.log('err', error);
@@ -43,6 +53,7 @@ export default new Vuex.Store({
         .then((data) => {
           const filteredData = filter(data, m => m.launchID.length > 0);
           state.mediaByLaunch = groupBy(filteredData, m => m.launchID);
+          incLoaded(state);
         })
         .catch((error) => {
           console.log('err', error);
@@ -54,6 +65,7 @@ export default new Vuex.Store({
         .then(resp => resp.json())
         .then((data) => {
           state.families = data;
+          incLoaded(state);
         })
         .catch((error) => {
           console.log('err', error);
