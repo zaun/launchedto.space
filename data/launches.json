@@ -3512,7 +3512,9 @@
     "vehicle": "Atlas-5 401l",
     "vehicleFamily": "Atlas",
     "serial": "AV-061",
-    "date": "2015-12-06"
+    "date": "2015-12-06",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41"
   },
   {
     "vehicle": "Falcon-9 v1.2 B1 F",
@@ -3673,6 +3675,30 @@
     "id": "25ec9d82-b928-41a6-9f20-071de2c4086d"
   },
   {
+    "id": "b63882e9-c151-4c93-b3af-de9ab93ccd68",
+    "manned": "no",
+    "orbital": "no",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "35332cab-40b5-484a-a8a8-7e1fcaa5f77e",
+        "name": "GPS-2F 12",
+        "orbital": "no",
+        "orbit": "GEO",
+        "mass": "1630",
+        "type": "Satellite",
+        "status": "success",
+        "description": "GPS-2F or Navstar-2F satellites are the fourth evolution stage of the second generation of the GPS satellites. Improvements included an extended design life of 12 years, faster processors, more memory, and a new civil signal on a third frequency."
+      }
+    ],
+    "vehicle": "Atlas-5 401s",
+    "vehicleFamily": "Atlas",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41",
+    "date": "2016-02-05",
+    "serial": "AV-057"
+  },
+  {
     "vehicle": "Falcon-9 v1.2 B1 F",
     "vehicleFamily": "Falcon",
     "serial": "B1020.1",
@@ -3695,6 +3721,330 @@
       }
     ],
     "id": "da2a5edd-5a8b-44b2-960b-a62ee11c07ce"
+  },
+  {
+    "id": "c1495f62-e3a7-4717-8830-1b16cecab616",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "795ce61a-e783-4e9a-b298-f44cea6182ed",
+        "name": "Cygnus CSR-6",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "7492",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "06d91933-53c0-4bc1-9b2c-e11eb15fa16e",
+        "name": "Diwata 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "50",
+        "type": "Satellite",
+        "status": "success",
+        "description": "Diwata 1 is the Philipines' first microsatellite by Filipino researchers and engineers under the guidance of Japanese experts from Hokkaido University and Tohoku University. The satellite is designed to provide real-time images for disaster risk management and other applications."
+      },
+      {
+        "id": "0f386f4c-062f-4870-ba76-03dd26f83fe5",
+        "name": "Flock-2e' 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Flock earth observing constellation built and operated by Planet Labs (formerly Cosmogia Inc.) consists of numerous triple CubeSats."
+      },
+      {
+        "id": "dd7d3fcf-fb2b-4e70-a15f-40a916433fae",
+        "name": "Flock-2e' 2",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Flock earth observing constellation built and operated by Planet Labs (formerly Cosmogia Inc.) consists of numerous triple CubeSats."
+      },
+      {
+        "id": "226e69fb-f551-4516-9a71-db18aef419bd",
+        "name": "Flock-2e' 3",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Flock earth observing constellation built and operated by Planet Labs (formerly Cosmogia Inc.) consists of numerous triple CubeSats."
+      },
+      {
+        "id": "8f07aabb-3010-43a2-a758-3a82eeb1dbfd",
+        "name": "Flock-2e' 4",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Flock earth observing constellation built and operated by Planet Labs (formerly Cosmogia Inc.) consists of numerous triple CubeSats."
+      },
+      {
+        "id": "6c201302-0035-4c34-b855-2b344606e4b3",
+        "name": "Flock-2e' 5",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Flock earth observing constellation built and operated by Planet Labs (formerly Cosmogia Inc.) consists of numerous triple CubeSats."
+      },
+      {
+        "id": "945c480c-cfe0-4d70-a8f5-8acb2ac9b921",
+        "name": "Flock-2e' 6",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Flock earth observing constellation built and operated by Planet Labs (formerly Cosmogia Inc.) consists of numerous triple CubeSats."
+      },
+      {
+        "id": "8a3191a4-70d5-4540-a143-b8933dfa3217",
+        "name": "Flock-2e' 7",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Flock earth observing constellation built and operated by Planet Labs (formerly Cosmogia Inc.) consists of numerous triple CubeSats."
+      },
+      {
+        "id": "7a56008d-fd26-41ae-a285-62ffc3ffd26f",
+        "name": "Flock-2e' 8",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Flock earth observing constellation built and operated by Planet Labs (formerly Cosmogia Inc.) consists of numerous triple CubeSats."
+      },
+      {
+        "id": "facc6eef-5c16-437e-81ed-baeb68f1c210",
+        "name": "Flock-2e' 9",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Flock earth observing constellation built and operated by Planet Labs (formerly Cosmogia Inc.) consists of numerous triple CubeSats."
+      },
+      {
+        "id": "012f92fd-7bb4-4a18-b39b-0bc252eacb5a",
+        "name": "Flock-2e' 10",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Flock earth observing constellation built and operated by Planet Labs (formerly Cosmogia Inc.) consists of numerous triple CubeSats."
+      },
+      {
+        "id": "9613f39e-ac22-47fe-9a00-99d5963c31b4",
+        "name": "Flock-2e' 11",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Flock earth observing constellation built and operated by Planet Labs (formerly Cosmogia Inc.) consists of numerous triple CubeSats."
+      },
+      {
+        "id": "86e64b75-d031-494b-983f-b46a55a95ea2",
+        "name": "Flock-2e' 12",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Flock earth observing constellation built and operated by Planet Labs (formerly Cosmogia Inc.) consists of numerous triple CubeSats."
+      },
+      {
+        "id": "ede4b34d-8af3-4381-b3c5-f3463e13e87a",
+        "name": "Flock-2e' 13",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Flock earth observing constellation built and operated by Planet Labs (formerly Cosmogia Inc.) consists of numerous triple CubeSats."
+      },
+      {
+        "id": "f89f975a-b65b-4657-9e8d-b7c43fde56ef",
+        "name": "Flock-2e' 14",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Flock earth observing constellation built and operated by Planet Labs (formerly Cosmogia Inc.) consists of numerous triple CubeSats."
+      },
+      {
+        "id": "56ec218a-7e58-4749-b12c-5decbd645aab",
+        "name": "Flock-2e' 15",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Flock earth observing constellation built and operated by Planet Labs (formerly Cosmogia Inc.) consists of numerous triple CubeSats."
+      },
+      {
+        "id": "4152d06b-84b3-427a-a756-a32f5fa0747b",
+        "name": "Flock-2e' 16",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Flock earth observing constellation built and operated by Planet Labs (formerly Cosmogia Inc.) consists of numerous triple CubeSats."
+      },
+      {
+        "id": "3e5a12ef-8d5d-4138-a49d-e0979efc73fd",
+        "name": "Flock-2e' 17",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Flock earth observing constellation built and operated by Planet Labs (formerly Cosmogia Inc.) consists of numerous triple CubeSats."
+      },
+      {
+        "id": "a4c57e39-67b1-4929-97db-d065834ed96b",
+        "name": "Flock-2e' 18",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Flock earth observing constellation built and operated by Planet Labs (formerly Cosmogia Inc.) consists of numerous triple CubeSats."
+      },
+      {
+        "id": "c2345d7a-8bb8-4ead-952a-70480c854a04",
+        "name": "Flock-2e' 19",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Flock earth observing constellation built and operated by Planet Labs (formerly Cosmogia Inc.) consists of numerous triple CubeSats."
+      },
+      {
+        "id": "1d37f722-ab13-46ab-81ee-934738281392",
+        "name": "Flock-2e' 20",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The Flock earth observing constellation built and operated by Planet Labs (formerly Cosmogia Inc.) consists of numerous triple CubeSats."
+      },
+      {
+        "id": "cda9822a-0aca-486c-9022-af7728522f3d",
+        "name": "Lemur-2 5",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "4",
+        "type": "Satellite",
+        "status": "success",
+        "description": "\nLemur 2 [Spire]\n\nLemur-2 is the initial constellation of low-Earth orbiting satellites built by Spire. These satellites carry two payloads for meteorology and ship traffic tracking."
+      },
+      {
+        "id": "32d8b27c-e9ba-40f8-955d-9a3396454028",
+        "name": "Lemur-2 6",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "4",
+        "type": "Satellite",
+        "status": "success",
+        "description": "\nLemur 2 [Spire]\n\nLemur-2 is the initial constellation of low-Earth orbiting satellites built by Spire. These satellites carry two payloads for meteorology and ship traffic tracking."
+      },
+      {
+        "id": "e806e721-f871-4e73-9023-602605193fb6",
+        "name": "Lemur-2 7",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "4",
+        "type": "Satellite",
+        "status": "success",
+        "description": "\nLemur 2 [Spire]\n\nLemur-2 is the initial constellation of low-Earth orbiting satellites built by Spire. These satellites carry two payloads for meteorology and ship traffic tracking."
+      },
+      {
+        "id": "32b8f0af-26dd-46cf-9e50-0c6612d27ae4",
+        "name": "Lemur-2 8",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "4",
+        "type": "Satellite",
+        "status": "success",
+        "description": "\nLemur 2 [Spire]\n\nLemur-2 is the initial constellation of low-Earth orbiting satellites built by Spire. These satellites carry two payloads for meteorology and ship traffic tracking."
+      },
+      {
+        "id": "b1733c64-bc2d-4d3b-9e14-b47a66c09dcb",
+        "name": "Lemur-2 9",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "4",
+        "type": "Satellite",
+        "status": "success",
+        "description": "\nLemur 2 [Spire]\n\nLemur-2 is the initial constellation of low-Earth orbiting satellites built by Spire. These satellites carry two payloads for meteorology and ship traffic tracking."
+      },
+      {
+        "id": "4f36d528-748f-4572-9d2a-f00889aa1349",
+        "name": "Lemur-2 10",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "4",
+        "type": "Satellite",
+        "status": "success",
+        "description": "\nLemur 2 [Spire]\n\nLemur-2 is the initial constellation of low-Earth orbiting satellites built by Spire. These satellites carry two payloads for meteorology and ship traffic tracking."
+      },
+      {
+        "id": "82262b66-30b6-4b5d-9789-477585bc9862",
+        "name": "Lemur-2 11",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "4",
+        "type": "Satellite",
+        "status": "success",
+        "description": "\nLemur 2 [Spire]\n\nLemur-2 is the initial constellation of low-Earth orbiting satellites built by Spire. These satellites carry two payloads for meteorology and ship traffic tracking."
+      },
+      {
+        "id": "fc71df64-219e-415c-83b4-58d60ec6bc17",
+        "name": "Lemur-2 12",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "4",
+        "type": "Satellite",
+        "status": "success",
+        "description": "\nLemur 2 [Spire]\n\nLemur-2 is the initial constellation of low-Earth orbiting satellites built by Spire. These satellites carry two payloads for meteorology and ship traffic tracking."
+      },
+      {
+        "id": "ce24acc8-416e-4e19-8291-86e36754a8e5",
+        "name": "Lemur-2 13",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "4",
+        "type": "Satellite",
+        "status": "success",
+        "description": "\nLemur 2 [Spire]\n\nLemur-2 is the initial constellation of low-Earth orbiting satellites built by Spire. These satellites carry two payloads for meteorology and ship traffic tracking."
+      }
+    ],
+    "vehicle": "Atlas-5 401l",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-064",
+    "date": "2016-03-23",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41"
   },
   {
     "vehicle": "Falcon-9 v1.2 B2 C",
@@ -3893,6 +4243,100 @@
       }
     ],
     "id": "94683d1b-f74c-43b3-8ff2-bd8af292293b"
+  },
+  {
+    "id": "12ddb0c9-a403-4508-a3e1-1ff046eeb7cd",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "5a3fd7d9-0a6b-461b-b78d-20666f121090",
+        "name": "WorldView 4",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "2600",
+        "type": "Satellite",
+        "status": "success",
+        "description": "WorldView 4, formerly known as GeoEye 2, is a commercial high-rsolution earth observation satellite operated by DigitalGlobe. WorldView-4 provides 31 cm panchromatic resolution, and 1.24 m multispectral resolution."
+      },
+      {
+        "id": "b6249e9e-4c25-487c-93e1-5c181613df84",
+        "name": "RAVAN",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "5",
+        "type": "Satellite",
+        "status": "success",
+        "description": "RAVAN (Radiometer Assessment using Vertically Aligned Nanotubes) is low-cost cubesat mission led by the Johns Hopkins Applied Physics Laboratory in Laurel, Md., to demonstrate technology needed to measure the absolute imbalance in the Earth's radiation budget (ERI)."
+      },
+      {
+        "id": "d66ad9f2-31bd-47ae-8480-cf4eebde3871",
+        "name": "OptiCube 4",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": -1,
+        "type": "Satellite",
+        "status": "success",
+        "description": "The OptiCube 4 (O/C 4 or Optical Cube) satellite, developed by Cal Poly, is a 2U CubeSats to provide on-orbit targets for ground assets to calibrate sensors for orbital debris studies and small-object tracking improvements."
+      },
+      {
+        "id": "dc6c84f7-8c28-4e87-852a-67b079dedc30",
+        "name": "AeroCube 8C",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "3",
+        "type": "Satellite",
+        "status": "success",
+        "description": "Aerocube 8 (AC8) or IMPACT (), is a two satellite cubesat mission by the Aerospace Corporation of El Segundo to demonstrate a new electric propulsion, nanotechnologies (CNT) and solar cell technologies."
+      },
+      {
+        "id": "23a80aaa-8c8c-4211-aa71-fcc33d1c2b85",
+        "name": "AeroCube 8D",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "3",
+        "type": "Satellite",
+        "status": "success",
+        "description": "Aerocube 8 (AC8) or IMPACT (), is a two satellite cubesat mission by the Aerospace Corporation of El Segundo to demonstrate a new electric propulsion, nanotechnologies (CNT) and solar cell technologies."
+      },
+      {
+        "id": "51807bc8-8089-4cc7-81f9-380ec363b7c0",
+        "name": "Prometheus-2.1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "2",
+        "type": "Satellite",
+        "status": "success",
+        "description": "Prometheus is series of 1.5U CubeSats for technology development and demonstration. Developed by the Los Alamos National Laboratory with the objectives of evaluating low-cost development and operations methodologies while also assessing the operational utility that can be provided by a CubeSat. "
+      },
+      {
+        "id": "2268c946-e4b2-4344-882b-eb993707c1bf",
+        "name": "Prometheus-2.3",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "2",
+        "type": "Satellite",
+        "status": "success",
+        "description": "Prometheus is series of 1.5U CubeSats for technology development and demonstration. Developed by the Los Alamos National Laboratory with the objectives of evaluating low-cost development and operations methodologies while also assessing the operational utility that can be provided by a CubeSat. "
+      },
+      {
+        "id": "149af4b3-4605-470c-abee-ff3941d91cce",
+        "name": "CELTEE 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "1.44",
+        "type": "Satellite",
+        "status": "success",
+        "description": "CELTEE 1 (CubeSat Enhanced Locator Transponder Evaluation Experiment 1) is picosatellite built by M42 Technologies (Seattle,WA) for the Air Force Research Laboratory (AFRL). It is built to the 1U CubeSat form factor."
+      }
+    ],
+    "vehicle": "Atlas-5 401s",
+    "vehicleFamily": "Atlas",
+    "date": "2016-11-11",
+    "serial": "AV-062",
+    "launchSite": "Vandenberg AFB",
+    "launchPad": "SLC-3E"
   },
   {
     "vehicle": "Falcon-9 v1.2 B3 F",

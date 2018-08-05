@@ -366,19 +366,30 @@
               {
                 "name": "Merlin-1C",
                 "count": 1,
-                "thrustVac": ""
+                "thrustVac": "480"
               }
-            ]
+            ],
+            "diameter": "1.7",
+            "span": "1.7",
+            "isp": "304.8",
+            "seaLevelIsp": "275",
+            "thrustVac": "480"
           },
           {
             "engines": [
               {
                 "name": "Kestrel-2",
-                "count": "1"
+                "count": "1",
+                "thrustVac": "31"
               }
             ],
             "name": "Stage-2",
-            "propellants": "Lox/Kerosene"
+            "propellants": "Lox/Kerosene",
+            "isp": "327",
+            "burnTime": "378",
+            "diameter": "1.7",
+            "span": "1.7",
+            "thrustVac": "31"
           }
         ],
         "id": "26edb74e-6435-4af7-9961-09a9e1754561",
@@ -386,7 +397,8 @@
         "expendable": "yes",
         "rocketImage": "falcon-1.png",
         "diameter": "1.7",
-        "span": "1.7"
+        "span": "1.7",
+        "fairingDiameter": "1.5"
       },
       {
         "name": "Falcon-1 (dev)",
@@ -405,21 +417,34 @@
           {
             "engines": [
               {
-                "name": "Merlin-1A"
+                "name": "Merlin-1A",
+                "count": "1",
+                "thrustVac": "340"
               }
             ],
             "name": "Stage-1",
-            "propellants": "Lox/Kerosene"
+            "propellants": "Lox/Kerosene",
+            "span": "1.7",
+            "diameter": "1.7",
+            "isp": "",
+            "seaLevelIsp": "",
+            "thrustVac": "340"
           },
           {
             "engines": [
               {
-                "name": "Kestrel-1"
+                "name": "Kestrel-1",
+                "thrustVac": "31",
+                "count": "1"
               }
             ],
             "name": "Stage-2",
-            "burnTime": "",
-            "propellants": "Lox/Kerosene"
+            "burnTime": "378",
+            "propellants": "Lox/Kerosene",
+            "isp": "327",
+            "diameter": "1.7",
+            "span": "1.7",
+            "thrustVac": "31"
           }
         ],
         "id": "c6485a5d-deac-4644-a9aa-4767d235a3a2",
@@ -427,7 +452,8 @@
         "expendable": "yes",
         "diameter": "1.7",
         "span": "1.7",
-        "rocketImage": "falcon-1.png"
+        "rocketImage": "falcon-1.png",
+        "fairingDiameter": "1.5"
       },
       {
         "name": "Falcon-9 v1.0",
@@ -1544,19 +1570,40 @@
           {
             "engines": [
               {
-                "name": "RD-180"
+                "name": "RD-180",
+                "thrustVac": "2176",
+                "count": "2"
               }
             ],
             "name": "CCB",
-            "burnTime": ""
+            "burnTime": "253",
+            "emptyMass": "21054",
+            "diameter": "3.81",
+            "span": "3.81",
+            "height": "32.46",
+            "propellants": "Lox/Kerosene",
+            "grossMass": "284089",
+            "seaLevelIsp": "311",
+            "isp": "338",
+            "thrustVac": "4152"
           },
           {
             "engines": [
               {
-                "name": "RL10A-4-2"
+                "name": "RL10A-4-2",
+                "thrustVac": "99.2",
+                "count": "1"
               }
             ],
-            "name": "Centaur-5-SEC"
+            "name": "Centaur-5-SEC",
+            "diameter": "3.05",
+            "span": "3.05",
+            "height": "12.68",
+            "emptyMass": "2243",
+            "grossMass": "20830",
+            "thrustVac": "99.2",
+            "isp": "451",
+            "propellants": "Hydrazine"
           }
         ],
         "name": "Atlas-5 401l",
@@ -1596,18 +1643,40 @@
           {
             "engines": [
               {
-                "name": "RD-180"
+                "name": "RD-180",
+                "thrustVac": "2176",
+                "count": "2"
               }
             ],
-            "name": "CCB"
+            "name": "CCB",
+            "propellants": "Lox/Kerosene",
+            "thrustVac": "4152",
+            "isp": "338",
+            "seaLevelIsp": "311",
+            "burnTime": "253",
+            "span": "3.81",
+            "diameter": "3.81",
+            "height": "32.46",
+            "grossMass": "284089",
+            "emptyMass": "21054"
           },
           {
             "engines": [
               {
-                "name": "RL10A-4-2"
+                "name": "RL10A-4-2",
+                "thrustVac": "99.2",
+                "count": "1"
               }
             ],
-            "name": "Centaur-5-SEC"
+            "name": "Centaur-5-SEC",
+            "propellants": "Hydrazine",
+            "thrustVac": "99.2",
+            "isp": "451",
+            "span": "3.05",
+            "diameter": "3.05",
+            "height": "12.68",
+            "grossMass": "20830",
+            "emptyMass": "2243"
           }
         ],
         "name": "Atlas-5 401m",
@@ -1647,18 +1716,40 @@
           {
             "engines": [
               {
-                "name": "RD-180"
+                "name": "RD-180",
+                "thrustVac": "2176",
+                "count": "2"
               }
             ],
-            "name": "CCB"
+            "name": "CCB",
+            "propellants": "Lox/Kerosene",
+            "thrustVac": "4152",
+            "isp": "338",
+            "seaLevelIsp": "311",
+            "burnTime": "253",
+            "span": "3.81",
+            "diameter": "3.81",
+            "height": "32.46",
+            "grossMass": "284089",
+            "emptyMass": "21054"
           },
           {
             "engines": [
               {
-                "name": "RL10A-4-2"
+                "name": "RL10A-4-2",
+                "thrustVac": "99.2",
+                "count": "1"
               }
             ],
-            "name": "Centaur-5-SEC"
+            "name": "Centaur-5-SEC",
+            "propellants": "Hydrazine",
+            "thrustVac": "99.2",
+            "isp": "451",
+            "span": "3.05",
+            "diameter": "3.05",
+            "height": "12.68",
+            "grossMass": "20830",
+            "emptyMass": "2243"
           }
         ],
         "name": "Atlas-5 401s",
