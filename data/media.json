@@ -555,8 +555,7 @@
     "launchID": "f130e525-0ae6-4aa8-8c73-c42a0bcff51b",
     "description": "The Apollo 10 (Spacecraft 106/Lunar Module 4/Saturn 505) space vehicle is launched from Pad B, Launch Complex 39, Kennedy Space Center at 12:49 p.m. (EDT), May 18, 1969. Aboard the spacecraft are astronauts Thomas P. Stafford, commander; John W. Young, command module pilot; and Eugene A. Cernan, lunar module pilot. The eight-day, lunar orbit mission will mark the first time the complete Apollo spacecraft has operated around the moon and the second manned flight for the Lunar Module (LM). Two Apollo 10 astronauts, Stafford and Cernan, are scheduled to descend to within eight nautical miles of the moon's surface in the LM.",
     "filename": "nasa/S69-34145.jpg",
-    "id": "30b39c3d-8ce0-4ed9-b290-27374701150d",
-    "default": true
+    "id": "30b39c3d-8ce0-4ed9-b290-27374701150d"
   },
   {
     "id": "3113fb60-2672-4e1a-91c4-3f8ee907afb4",
@@ -610,7 +609,8 @@
     "launchID": "f130e525-0ae6-4aa8-8c73-c42a0bcff51b",
     "description": "The Apollo 10 (Spacecraft 106/Lunar Module 4/Saturn 505) space vehicle is launched from Pad B, Launch Complex 39, Kennedy Space Center, Florida at 12:49 p.m., May 18, 1969. Aboard the spacecraft are astronauts Thomas P. Stafford, commander; John W. Young, command module pilot; and Eugene A. Cernan, lunar module pilot. The eight-day, lunar orbit mission will mark the first time the complete Apollo spacecraft has operated around the moon and the second manned flight for the Lunar Module (LM). Two Apollo 10 astronauts, Stafford and Cernan, are scheduled to descend to within eight nautical miles of the moon's surface in the LM.",
     "filename": "nasa/s69-34144.jpg",
-    "id": "380e7cd3-e1d2-4b6b-8379-8e177dcf8f45"
+    "id": "380e7cd3-e1d2-4b6b-8379-8e177dcf8f45",
+    "default": true
   },
   {
     "id": "383e8e35-5260-4cbd-a751-4c3bf0286075",
