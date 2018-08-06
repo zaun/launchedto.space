@@ -1,5 +1,5 @@
 <template>
-  <div id="rockets">
+  <div id="rockets" :class="this.$vuetify.breakpoint.name">
     <section class="family" v-for="(family) in families" :key="`family-${family.name}`" v-if="isReady">
       <h3>{{family.name}}</h3>
       <rocket v-for="(rocket, index) in family.rockets" v-if="getLaunchCount(rocket) > 0" :key="`rockets-${index}`" :rocket="rocket" />
@@ -50,6 +50,10 @@ export default {
   width 100%
   padding-top 1rem;
 
+  &.xs
+    h3
+      transform rotate(270deg) translateX(-5rem)  translateY(0rem) 
+
   .family
     position relative
     max-width 700px
@@ -58,10 +62,12 @@ export default {
     margin-right auto
 
     h3
+      display inline-block
       position sticky
       float left
       top 64px
       font-size 1.5em
       font-weight 400
       height 0px
+      width 0px
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <section class="launch" :id="`l-${launch.id}`" :class="`status_${launch.status.replace(' ', '_')}`">
+  <section class="launch" :id="`l-${launch.id}`" :class="`status_${launch.status.replace(' ', '_')} ${this.$vuetify.breakpoint.name}`">
     <v-card>
       <v-card-text v-if="hasMedia" class="hero" @click="launchImagesDisplayed = true">
         <img :src="defaultMedia" />
@@ -220,6 +220,7 @@ export default {
 
 <style scoped lang="stylus">
 left-padding = 4.5rem
+left-padding-xs = 2.5rem
 dot-size = 0.75
 line-width = 4
 
@@ -240,6 +241,9 @@ half-line-width = line-width / 2
   padding 0 0 1.5rem left-padding
   margin-top 1rem
 
+  &.xs
+    padding 0 0 1.5rem left-padding-xs
+
   &:after
     content ''
     width line-width px
@@ -249,6 +253,9 @@ half-line-width = line-width / 2
     left "calc(%s - 1rem + %sem - %spx)" % (left-padding half-dot-size half-line-width)
     z-index 1
     background #C5C5C5
+
+  &.xs:after
+    left "calc(%s - 1rem + %sem - %spx)" % (left-padding-xs half-dot-size half-line-width)
 
   &:before
     content ''
@@ -262,6 +269,9 @@ half-line-width = line-width / 2
     z-index 2
     border-radius 100%
   
+  &.xs:before
+    left "calc(%s - 1rem)" % left-padding-xs
+
   &.status_success:before
     background green
   

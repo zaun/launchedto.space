@@ -4,9 +4,12 @@
       <v-toolbar-title class="hidden-xs-only">Launched To Space</v-toolbar-title>
       <v-toolbar-title class="hidden-sm-and-up">L2S</v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-toolbar-items class="hidden-sm-and-down">
+      <v-toolbar-items>
         <v-btn flat to="launches">Launches</v-btn>
         <v-btn flat to="rockets">Rockets</v-btn>
+        <v-btn flat href="https://github.com/zaun/launchedto.space" class="hidden-sm-and-down">
+          <v-icon>fab fa-github</v-icon>
+        </v-btn>
       </v-toolbar-items>
     </v-toolbar>
     <div class="toolbar-spacer"></div>

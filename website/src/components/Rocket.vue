@@ -1,5 +1,5 @@
 <template>
-  <div class="rocket" :class="{ flip: showBack }">
+  <div class="rocket" :class="rocketClass">
     <div class="flipper">
       <v-card class="front">
         <v-toolbar card dark color="teal">
@@ -69,7 +69,7 @@
             </v-tab>
             <v-tab-item v-for="(stage, index) in rocket.stages" :key="`tabitem-${index}`">
               <v-layout row wrap>
-                <v-flex xs6>
+                <v-flex sm6>
                   <table>
                     <tr>
                       <th>Empty Mass:</th>
@@ -113,7 +113,7 @@
                     </tr>
                   </table>
                 </v-flex>
-                <v-flex xs6>
+                <v-flex sm6>
                   <table class="engines" v-if="stage.engines.length > 0">
                     <tr>
                       <th>Engine</th>
@@ -226,6 +226,14 @@ export default {
 
       return '/media/thumb/' + img.filename;
     },
+
+    rocketClass () {
+      let classes = {
+        flip: this.showBack
+      };
+      classes[this.$vuetify.breakpoint.name] = true;
+      return classes
+    }
   },
 
   methods: {
@@ -238,12 +246,19 @@ export default {
 
 <style scoped lang="stylus">
 left-padding = 6rem
+left-padding-xs = 3rem
 
 .rocket
   position relative
   margin-top 1rem
   margin 0 0 1.5rem left-padding
   perspective 1000px
+
+  &.xs
+    margin 0 0 1.5rem left-padding-xs
+
+    .default-image
+      display none
 
   &.flip .flipper
     transform rotateY(180deg)

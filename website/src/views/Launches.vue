@@ -1,5 +1,5 @@
 <template>
-  <div ref="launches" id="launches">
+  <div ref="launches" id="launches" :class="this.$vuetify.breakpoint.name">
     <!-- <Background /> -->
     <section class="year" v-for="(year) in years" :key="`year-${year}`" v-if="isReady">
       <h3>{{year}}</h3>
@@ -52,22 +52,25 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-  #launches
-    width 100%
+#launches
+  width 100%
 
-    .year
-      position relative
-      max-width 600px
-      padding 0 6px
-      margin-left auto 
-      margin-right auto
+  &.xs
+    h3
+      transform rotate(270deg) translateX(-1rem) translateY(-2rem)
 
-      h3
-        position sticky
-        float left
-        top 64px
-        font-size 1.5em
-        font-weight 400
-        height 0px
+  .year
+    position relative
+    max-width 600px
+    padding 0 6px
+    margin-left auto 
+    margin-right auto
 
+    h3
+      position sticky
+      float left
+      top 64px
+      font-size 1.5em
+      font-weight 400
+      height 0px
 </style>
