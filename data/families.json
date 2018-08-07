@@ -1571,7 +1571,7 @@
             "engines": [
               {
                 "name": "RD-180",
-                "thrustVac": "2176",
+                "thrustVac": "2076",
                 "count": "2"
               }
             ],
@@ -1644,7 +1644,7 @@
             "engines": [
               {
                 "name": "RD-180",
-                "thrustVac": "2176",
+                "thrustVac": "2076",
                 "count": "2"
               }
             ],
@@ -1717,7 +1717,7 @@
             "engines": [
               {
                 "name": "RD-180",
-                "thrustVac": "2176",
+                "thrustVac": "2076",
                 "count": "2"
               }
             ],
@@ -1763,6 +1763,148 @@
         "height": "56.5",
         "astronautixURL": "http://www.astronautix.com/a/atlasv.html",
         "rocketImage": "atlas-5_401.png"
+      },
+      {
+        "id": "eb641bd8-921f-4b35-9f44-1c6650d425db",
+        "engines": [],
+        "payloads": [],
+        "stages": [
+          {
+            "engines": [
+              {
+                "name": "AJ-60A",
+                "count": "1",
+                "thrustVac": "1688.4"
+              }
+            ],
+            "name": "Strap-On",
+            "emptyMass": "",
+            "height": "17.0",
+            "diameter": "1.6",
+            "span": "1.6",
+            "grossMass": "46697",
+            "thrustVac": "1688.4",
+            "burnTime": "94",
+            "propellants": "HTPB"
+          },
+          {
+            "engines": [
+              {
+                "name": "RD-180",
+                "count": "2",
+                "thrustVac": "2076"
+              }
+            ],
+            "name": "CCB",
+            "emptyMass": "21054",
+            "grossMass": "284089",
+            "height": "32.46",
+            "diameter": "3.81",
+            "span": "3.81",
+            "propellants": "Lox/Kerosene",
+            "thrustVac": "4152",
+            "isp": "338",
+            "seaLevelIsp": "311",
+            "burnTime": "253"
+          },
+          {
+            "engines": [
+              {
+                "name": "RL10A-4-2",
+                "count": "1",
+                "thrustVac": "99.2"
+              }
+            ],
+            "name": "Centaur-5-SEC",
+            "emptyMass": "2243",
+            "grossMass": "20830",
+            "height": "12.68",
+            "diameter": "3.05",
+            "span": "3.05",
+            "thrustVac": "99.2",
+            "isp": "452",
+            "propellants": "Hydrazine"
+          }
+        ],
+        "name": "Atlas-5 411m",
+        "payloadType": "Fairing",
+        "expendable": "yes",
+        "fairingHeight": "10.3",
+        "fairingDiameter": "4",
+        "diameter": "3.81",
+        "span": "5.40",
+        "skyrocketURL": "https://space.skyrocket.de/doc_lau_det/atlas-5-411.htm"
+      },
+      {
+        "engines": [],
+        "payloads": [],
+        "stages": [
+          {
+            "engines": [
+              {
+                "name": "AJ-60A",
+                "count": "1",
+                "thrustVac": "1688.4"
+              }
+            ],
+            "name": "Strap-On",
+            "emptyMass": "",
+            "height": "17.0",
+            "diameter": "1.6",
+            "span": "1.6",
+            "grossMass": "46697",
+            "thrustVac": "1688.4",
+            "burnTime": "94",
+            "propellants": "HTPB"
+          },
+          {
+            "engines": [
+              {
+                "name": "RD-180",
+                "count": "2",
+                "thrustVac": "2076"
+              }
+            ],
+            "name": "CCB",
+            "emptyMass": "21054",
+            "grossMass": "284089",
+            "height": "32.46",
+            "diameter": "3.81",
+            "span": "3.81",
+            "propellants": "Lox/Kerosene",
+            "thrustVac": "4152",
+            "isp": "338",
+            "seaLevelIsp": "311",
+            "burnTime": "253"
+          },
+          {
+            "engines": [
+              {
+                "name": "RL10A-4-2",
+                "count": "1",
+                "thrustVac": "99.2"
+              }
+            ],
+            "name": "Centaur-5-SEC",
+            "emptyMass": "2243",
+            "grossMass": "20830",
+            "height": "12.68",
+            "diameter": "3.05",
+            "span": "3.05",
+            "thrustVac": "99.2",
+            "isp": "452",
+            "propellants": "Hydrazine"
+          }
+        ],
+        "name": "Atlas-5 411s",
+        "payloadType": "Fairing",
+        "expendable": "yes",
+        "fairingHeight": "9.4",
+        "fairingDiameter": "4",
+        "diameter": "3.81",
+        "span": "5.40",
+        "id": "e779df73-be1e-4edd-a3f6-dbe02301334f",
+        "skyrocketURL": "https://space.skyrocket.de/doc_lau_det/atlas-5-411.htm"
       }
     ]
   }

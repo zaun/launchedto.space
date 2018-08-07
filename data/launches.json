@@ -1052,6 +1052,30 @@
     "id": "be3abaef-ad0a-418e-b214-88f38de93412"
   },
   {
+    "id": "211195be-0f84-4f34-8107-c8de8f3675d9",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "0c1080a0-6494-405c-b5de-719e014f257d",
+        "name": "Astra 1KR",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": "4332",
+        "type": "Satellite",
+        "status": "success",
+        "description": "SES ASTRA ordered two new Astra satellite in June 2003. The satellites, designated Astra 1KR and Astra 1L will provide distribution of direct-to-home broadcast services across Europe following their scheduled launches in the second half of 2005 and 2006 respectively."
+      }
+    ],
+    "vehicle": "Atlas-5 411m",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-008",
+    "date": "2006-04-20",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41"
+  },
+  {
     "vehicle": "Atlas-5 401s",
     "vehicleFamily": "Atlas",
     "serial": "AV-013",
@@ -1206,6 +1230,30 @@
       }
     ],
     "id": "6e35848d-b5c6-4987-80bb-25c853280790"
+  },
+  {
+    "id": "fce66d34-1044-4ad8-93b9-7b32fe25116c",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "2f560d18-e0b2-4ebc-8838-73b9d05fd26b",
+        "name": "Trumpet-F/O-1 1",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "4500",
+        "type": "Satellite",
+        "status": "success",
+        "description": "The spacecraft are probably the replacement for the Trumpet SIGINT satellites operating in a Molniya orbit. As no name is known, these are referred here as \"Trumpet Follow On\". These satellite most likely use a large, unfurlable dish antenna to collect the signals."
+      }
+    ],
+    "vehicle": "Atlas-5 411m",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-006",
+    "date": "2008-03-13",
+    "launchSite": "Vandenberg AFB",
+    "launchPad": "SLC-3E"
   },
   {
     "vehicle": "Falcon-1",
@@ -1518,6 +1566,40 @@
       }
     ],
     "id": "40b12a37-b76d-46b1-a762-5c5a3fe96ef4"
+  },
+  {
+    "id": "d14ea965-1c61-400a-b4b3-b7541328f5e9",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "483cb4de-47c5-4365-9a31-1861de785617",
+        "name": "Intruder 9A",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "6500",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      },
+      {
+        "id": "acee93fd-6be9-4b77-904e-34c1423228cd",
+        "name": "Intruder 9B",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": "6500",
+        "type": "Satellite",
+        "status": "success",
+        "description": ""
+      }
+    ],
+    "vehicle": "Atlas-5 411m",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-027",
+    "date": "2011-04-15",
+    "launchSite": "Vandenberg AFB",
+    "launchPad": "SLC-3E"
   },
   {
     "vehicle": "Atlas-5 401s",
@@ -4245,6 +4327,30 @@
     "id": "94683d1b-f74c-43b3-8ff2-bd8af292293b"
   },
   {
+    "id": "bd48f849-2cd0-4453-835d-23df7a083fdb",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "740528ba-b30c-41a3-9657-7b4b76cd109b",
+        "name": "OSIRIS-REx",
+        "orbital": "yes",
+        "orbit": "HEO",
+        "mass": "1528",
+        "type": "Satellite",
+        "status": "success",
+        "description": "NASA has selected the University of Arizona to lead the OSIRIS-REx (Origins, Spectral Interpretation, Resource Identification, Security –Regolith Explorer) sample-return mission to an asteroid."
+      }
+    ],
+    "vehicle": "Atlas-5 411s",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-067",
+    "date": "2016-09-08",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41"
+  },
+  {
     "id": "12ddb0c9-a403-4508-a3e1-1ff046eeb7cd",
     "manned": "no",
     "orbital": "yes",
@@ -5819,6 +5925,30 @@
       }
     ],
     "id": "e88a4cb5-0d54-4e34-bdb8-504f1ab7b49c"
+  },
+  {
+    "id": "81b8b362-52de-4ad0-8c8a-ab1f05cc04f2",
+    "manned": "no",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [
+      {
+        "id": "b2dc3de8-075d-48ef-9bc3-9e243e3d3816",
+        "name": "SBIRS-GEO 4",
+        "orbital": "yes",
+        "orbit": "GEO",
+        "mass": "4500",
+        "type": "Satellite",
+        "status": "success",
+        "description": "SBIRS-GEO (Space Based Infra Red Sensor - Geostationary) is the geostationary component of the SBIRS-High program, which will replace the DSP system of early warning satellites in providing early warning for Intercontinental Ballistic Missile launches."
+      }
+    ],
+    "vehicle": "Atlas-5 411s",
+    "vehicleFamily": "Atlas",
+    "serial": "AV-076",
+    "date": "2018-01-20",
+    "launchSite": "Cape Canaveral",
+    "launchPad": "SLC-41"
   },
   {
     "vehicle": "Falcon-9 v1.2 B3 Fx",
