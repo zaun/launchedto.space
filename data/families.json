@@ -521,49 +521,10 @@
         "span": "3.7"
       },
       {
-        "id": "ae35985d-33db-43d1-b003-66c25514e38a",
-        "engines": [],
-        "payloads": [],
-        "name": "Falcon-9 v1.1",
-        "payloadType": "Fairing",
-        "stages": [
-          {
-            "engines": [
-              {
-                "name": "Merlin-1D",
-                "count": "9",
-                "thrustVac": "720"
-              }
-            ],
-            "name": "Stage-1"
-          },
-          {
-            "engines": [
-              {
-                "name": "Merlin-1D Vacuum",
-                "count": "1",
-                "thrustVac": "617"
-              }
-            ],
-            "name": "Stage-2"
-          }
-        ],
-        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-1-r.htm",
-        "astronautixURL": "http://www.astronautix.com/f/falcon9.html",
-        "fairingHeight": "13.1",
-        "fairingDiameter": "5.2",
-        "expendable": "no",
-        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.1",
-        "height": "81.5",
-        "diameter": "3.66",
-        "rocketImage": "falcon-9_v1-1.png",
-        "span": "5.2"
-      },
-      {
         "id": "678fac31-5bae-4695-9614-0c06387dd2af",
         "engines": [],
         "payloads": [],
-        "name": "Falcon-9 v1.1a",
+        "name": "Falcon-9 v1.1 C",
         "payloadType": "Capsule",
         "stages": [
           {
@@ -571,20 +532,37 @@
               {
                 "name": "Merlin-1D",
                 "count": "9",
-                "thrustVac": "720"
+                "thrustVac": "741.38"
               }
             ],
-            "name": "Stage-1"
+            "name": "Stage-1",
+            "diameter": "3.66",
+            "span": "3.66",
+            "burnTime": "162",
+            "isp": "312",
+            "seaLevelIsp": "283",
+            "grossMass": "404000",
+            "emptyMass": "19000",
+            "thrustVac": "6672.41",
+            "propellants": "LOX / RP-1"
           },
           {
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
                 "count": "1",
-                "thrustVac": "617"
+                "thrustVac": "800.68"
               }
             ],
-            "name": "Stage-2"
+            "name": "Stage-2",
+            "diameter": "3.66",
+            "span": "3.66",
+            "burnTime": "397",
+            "isp": "348",
+            "grossMass": "93000",
+            "emptyMass": "4250",
+            "thrustVac": "800.68",
+            "propellants": "LOX / RP-1"
           }
         ],
         "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-1-r.htm",
@@ -602,7 +580,7 @@
         "id": "bb1aafe1-f1a3-490a-a48a-3abcef960159",
         "engines": [],
         "payloads": [],
-        "name": "Falcon-9 v1.1b",
+        "name": "Falcon-9 v1.1 Cx",
         "payloadType": "Capsule",
         "stages": [
           {
@@ -610,21 +588,37 @@
               {
                 "name": "Merlin-1D",
                 "count": "9",
-                "thrustVac": "720"
+                "thrustVac": "741.38"
               }
             ],
             "name": "Stage-1",
-            "burnTime": ""
+            "diameter": "3.66",
+            "span": "3.66",
+            "burnTime": "162",
+            "isp": "312",
+            "seaLevelIsp": "283",
+            "grossMass": "404000",
+            "emptyMass": "19000",
+            "thrustVac": "6672.41",
+            "propellants": "LOX / RP-1"
           },
           {
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
                 "count": "1",
-                "thrustVac": "617"
+                "thrustVac": "800.68"
               }
             ],
-            "name": "Stage-2"
+            "name": "Stage-2",
+            "diameter": "3.66",
+            "span": "3.66",
+            "burnTime": "397",
+            "isp": "348",
+            "grossMass": "93000",
+            "emptyMass": "4250",
+            "thrustVac": "800.68",
+            "propellants": "LOX / RP-1"
           }
         ],
         "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-1-r.htm",
@@ -639,10 +633,10 @@
         "span": "3.7"
       },
       {
-        "id": "9edf93cc-b356-4528-9733-37ab5188c761",
+        "id": "ae35985d-33db-43d1-b003-66c25514e38a",
         "engines": [],
         "payloads": [],
-        "name": "Falcon-9 v1.1c",
+        "name": "Falcon-9 v1.1 F",
         "payloadType": "Fairing",
         "stages": [
           {
@@ -650,20 +644,93 @@
               {
                 "name": "Merlin-1D",
                 "count": "9",
-                "thrustVac": "720"
+                "thrustVac": "741.38"
               }
             ],
-            "name": "Stage-1"
+            "name": "Stage-1",
+            "diameter": "3.66",
+            "span": "3.66",
+            "burnTime": "162",
+            "isp": "312",
+            "seaLevelIsp": "283",
+            "grossMass": "404000",
+            "emptyMass": "19000",
+            "thrustVac": "6672.41",
+            "propellants": "LOX / RP-1"
           },
           {
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
                 "count": "1",
-                "thrustVac": "617"
+                "thrustVac": "800.68"
               }
             ],
-            "name": "Stage-2"
+            "name": "Stage-2",
+            "diameter": "3.66",
+            "span": "3.66",
+            "burnTime": "397",
+            "isp": "348",
+            "grossMass": "93000",
+            "emptyMass": "4250",
+            "thrustVac": "800.68",
+            "propellants": "LOX / RP-1"
+          }
+        ],
+        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-1-r.htm",
+        "astronautixURL": "http://www.astronautix.com/f/falcon9.html",
+        "fairingHeight": "13.1",
+        "fairingDiameter": "5.2",
+        "expendable": "no",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_v1.1",
+        "height": "81.5",
+        "diameter": "3.66",
+        "rocketImage": "falcon-9_v1-1.png",
+        "span": "5.2"
+      },
+      {
+        "id": "9edf93cc-b356-4528-9733-37ab5188c761",
+        "engines": [],
+        "payloads": [],
+        "name": "Falcon-9 v1.1 Fx",
+        "payloadType": "Fairing",
+        "stages": [
+          {
+            "engines": [
+              {
+                "name": "Merlin-1D",
+                "count": "9",
+                "thrustVac": "741.38"
+              }
+            ],
+            "name": "Stage-1",
+            "diameter": "3.66",
+            "span": "3.66",
+            "burnTime": "162",
+            "isp": "312",
+            "seaLevelIsp": "283",
+            "grossMass": "404000",
+            "emptyMass": "19000",
+            "thrustVac": "6672.41",
+            "propellants": "LOX / RP-1"
+          },
+          {
+            "engines": [
+              {
+                "name": "Merlin-1D Vacuum",
+                "count": "1",
+                "thrustVac": "800.68"
+              }
+            ],
+            "name": "Stage-2",
+            "diameter": "3.66",
+            "span": "3.66",
+            "burnTime": "397",
+            "isp": "348",
+            "grossMass": "93000",
+            "emptyMass": "4250",
+            "thrustVac": "800.68",
+            "propellants": "LOX / RP-1"
           }
         ],
         "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-1-r.htm",
@@ -714,7 +781,9 @@
         "diameter": "3.66",
         "height": "78.1",
         "id": "7d4984f3-f38d-40b1-83c1-2df3727a0776",
-        "span": "5.2"
+        "span": "5.2",
+        "spaceflight101URL": "",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
       },
       {
         "engines": [],
@@ -753,7 +822,8 @@
         "capsuleHeight": "8.1",
         "capsuleDiameter": "3.7",
         "id": "ff0fe186-b1d6-4824-8d9c-ca6e1d898d49",
-        "span": "3.7"
+        "span": "3.7",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
       },
       {
         "engines": [],
@@ -792,7 +862,8 @@
         "diameter": "3.66",
         "height": "78.1",
         "id": "6025cf7a-cc3f-4555-bd2c-6c84741ac95b",
-        "span": "5.2"
+        "span": "5.2",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
       },
       {
         "engines": [],
@@ -803,24 +874,40 @@
               {
                 "name": "Merlin-1D",
                 "count": "9",
-                "thrustVac": "720"
+                "thrustVac": "824.85"
               }
             ],
             "name": "Stage-1",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "span": "3.66",
+            "height": "40.9",
+            "isp": "312",
+            "seaLevelIsp": "283",
+            "burnTime": "162",
+            "emptyMass": "27200",
+            "grossMass": "438200",
+            "thrustVac": "7423.63"
           },
           {
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
                 "count": "1",
-                "thrustVac": "617"
+                "thrustVac": "934.13"
               }
             ],
             "name": "Stage-2",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "span": "3.66",
+            "height": "16.0",
+            "isp": "348",
+            "seaLevelIsp": "",
+            "burnTime": "397",
+            "emptyMass": "4500",
+            "grossMass": "116000",
+            "thrustVac": "934.13"
           }
         ],
         "name": "Falcon-9 v1.2 B3 C",
@@ -831,7 +918,8 @@
         "capsuleHeight": "8.1",
         "capsuleDiameter": "3.7",
         "id": "42253f77-476d-42cb-a8ec-455c23dfe504",
-        "span": "3.7"
+        "span": "3.7",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
       },
       {
         "engines": [],
@@ -842,24 +930,40 @@
               {
                 "name": "Merlin-1D",
                 "count": "9",
-                "thrustVac": "720"
+                "thrustVac": "824.85"
               }
             ],
             "name": "Stage-1",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "span": "3.66",
+            "height": "40.9",
+            "isp": "312",
+            "seaLevelIsp": "283",
+            "burnTime": "162",
+            "emptyMass": "27200",
+            "grossMass": "438200",
+            "thrustVac": "7423.63"
           },
           {
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
                 "count": "1",
-                "thrustVac": "617"
+                "thrustVac": "934.13"
               }
             ],
             "name": "Stage-2",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "span": "3.66",
+            "height": "16.0",
+            "isp": "348",
+            "seaLevelIsp": "",
+            "burnTime": "397",
+            "emptyMass": "4500",
+            "grossMass": "116000",
+            "thrustVac": "934.13"
           }
         ],
         "name": "Falcon-9 v1.2 B3 Cx",
@@ -870,7 +974,8 @@
         "capsuleHeight": "8.1",
         "capsuleDiameter": "3.7",
         "id": "aff061ff-dc17-4331-bad7-c41c89a4542c",
-        "span": "3.7"
+        "span": "3.7",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
       },
       {
         "engines": [],
@@ -881,24 +986,40 @@
               {
                 "name": "Merlin-1D",
                 "count": "9",
-                "thrustVac": "720"
+                "thrustVac": "824.85"
               }
             ],
             "name": "Stage-1",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "span": "3.66",
+            "height": "40.9",
+            "isp": "312",
+            "seaLevelIsp": "283",
+            "burnTime": "162",
+            "emptyMass": "27200",
+            "grossMass": "438200",
+            "thrustVac": "7423.63"
           },
           {
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
                 "count": "1",
-                "thrustVac": "617"
+                "thrustVac": "934.13"
               }
             ],
             "name": "Stage-2",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "span": "3.66",
+            "height": "16.0",
+            "isp": "348",
+            "seaLevelIsp": "",
+            "burnTime": "397",
+            "emptyMass": "4500",
+            "grossMass": "116000",
+            "thrustVac": "934.13"
           }
         ],
         "name": "Falcon-9 v1.2 B3 F",
@@ -909,7 +1030,8 @@
         "diameter": "3.66",
         "height": "78.1",
         "id": "505182ab-4079-4a04-b46c-e11a0b42ed83",
-        "span": "5.2"
+        "span": "5.2",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
       },
       {
         "engines": [],
@@ -920,24 +1042,40 @@
               {
                 "name": "Merlin-1D",
                 "count": "9",
-                "thrustVac": "720"
+                "thrustVac": "824.85"
               }
             ],
             "name": "Stage-1",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "span": "3.66",
+            "height": "40.9",
+            "isp": "312",
+            "seaLevelIsp": "283",
+            "burnTime": "162",
+            "emptyMass": "27200",
+            "grossMass": "438200",
+            "thrustVac": "7423.63"
           },
           {
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
                 "count": "1",
-                "thrustVac": "617"
+                "thrustVac": "934.13"
               }
             ],
             "name": "Stage-2",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "span": "3.66",
+            "height": "16.0",
+            "isp": "348",
+            "seaLevelIsp": "",
+            "burnTime": "397",
+            "emptyMass": "4500",
+            "grossMass": "116000",
+            "thrustVac": "934.13"
           }
         ],
         "name": "Falcon-9 v1.2 B3 Fx",
@@ -948,7 +1086,8 @@
         "fairingDiameter": "5.2",
         "fairingHeight": "8.1",
         "id": "f5fbd30f-e61e-421d-9ab6-614b957e065c",
-        "span": "5.2"
+        "span": "5.2",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
       },
       {
         "engines": [],
@@ -959,24 +1098,40 @@
               {
                 "name": "Merlin-1D",
                 "count": "9",
-                "thrustVac": "720"
+                "thrustVac": "824.85"
               }
             ],
             "name": "Stage-1",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "span": "3.66",
+            "height": "40.9",
+            "isp": "312",
+            "seaLevelIsp": "283",
+            "burnTime": "162",
+            "emptyMass": "27200",
+            "grossMass": "438200",
+            "thrustVac": "7423.63"
           },
           {
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
                 "count": "1",
-                "thrustVac": "617"
+                "thrustVac": "934.13"
               }
             ],
             "name": "Stage-2",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "span": "3.66",
+            "height": "16.0",
+            "isp": "348",
+            "seaLevelIsp": "",
+            "burnTime": "397",
+            "emptyMass": "4500",
+            "grossMass": "116000",
+            "thrustVac": "934.13"
           }
         ],
         "name": "Falcon-9 v1.2 B4 C",
@@ -987,7 +1142,8 @@
         "capsuleHeight": "8.1",
         "capsuleDiameter": "3.7",
         "id": "36d809c4-18e9-418d-b963-4c7e0b594ac7",
-        "span": "3.7"
+        "span": "3.7",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
       },
       {
         "engines": [],
@@ -998,24 +1154,40 @@
               {
                 "name": "Merlin-1D",
                 "count": "9",
-                "thrustVac": "720"
+                "thrustVac": "824.85"
               }
             ],
             "name": "Stage-1",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "span": "3.66",
+            "height": "40.9",
+            "isp": "312",
+            "seaLevelIsp": "283",
+            "burnTime": "162",
+            "emptyMass": "27200",
+            "grossMass": "438200",
+            "thrustVac": "7423.63"
           },
           {
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
                 "count": "1",
-                "thrustVac": "617"
+                "thrustVac": "934.13"
               }
             ],
             "name": "Stage-2",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "span": "3.66",
+            "height": "16.0",
+            "isp": "348",
+            "seaLevelIsp": "",
+            "burnTime": "397",
+            "emptyMass": "4500",
+            "grossMass": "116000",
+            "thrustVac": "934.13"
           }
         ],
         "name": "Falcon-9 v1.2 B4 Cx",
@@ -1026,7 +1198,8 @@
         "capsuleHeight": "8.1",
         "capsuleDiameter": "3.7",
         "id": "d3c175a3-64b0-4cca-b280-2fc225344c93",
-        "span": "3.7"
+        "span": "3.7",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
       },
       {
         "engines": [],
@@ -1037,25 +1210,40 @@
               {
                 "name": "Merlin-1D",
                 "count": "9",
-                "thrustVac": "720"
+                "thrustVac": "824.85"
               }
             ],
             "name": "Stage-1",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "span": "3.66",
+            "height": "40.9",
+            "isp": "312",
+            "seaLevelIsp": "283",
+            "burnTime": "162",
+            "emptyMass": "27200",
+            "grossMass": "438200",
+            "thrustVac": "7423.63"
           },
           {
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
                 "count": "1",
-                "thrustVac": "617"
+                "thrustVac": "934.13"
               }
             ],
             "name": "Stage-2",
-            "span": "",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "span": "3.66",
+            "height": "16.0",
+            "isp": "348",
+            "seaLevelIsp": "",
+            "burnTime": "397",
+            "emptyMass": "4500",
+            "grossMass": "116000",
+            "thrustVac": "934.13"
           }
         ],
         "name": "Falcon-9 v1.2 B4 F",
@@ -1066,7 +1254,8 @@
         "diameter": "3.66",
         "height": "78.1",
         "id": "1ccb9d4c-70cd-450e-bce7-f5e16c07552d",
-        "span": "5.2"
+        "span": "5.2",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
       },
       {
         "engines": [],
@@ -1077,24 +1266,40 @@
               {
                 "name": "Merlin-1D",
                 "count": "9",
-                "thrustVac": "720"
+                "thrustVac": "824.85"
               }
             ],
             "name": "Stage-1",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "span": "3.66",
+            "height": "40.9",
+            "isp": "312",
+            "seaLevelIsp": "283",
+            "burnTime": "162",
+            "emptyMass": "27200",
+            "grossMass": "438200",
+            "thrustVac": "7423.63"
           },
           {
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
                 "count": "1",
-                "thrustVac": "617"
+                "thrustVac": "934.13"
               }
             ],
             "name": "Stage-2",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "span": "3.66",
+            "height": "16.0",
+            "isp": "348",
+            "seaLevelIsp": "",
+            "burnTime": "397",
+            "emptyMass": "4500",
+            "grossMass": "116000",
+            "thrustVac": "934.13"
           }
         ],
         "name": "Falcon-9 v1.2 B4 Fx",
@@ -1105,7 +1310,8 @@
         "fairingDiameter": "5.2",
         "fairingHeight": "8.1",
         "id": "dc14274e-2c0e-4325-b6b2-33b4d094c18d",
-        "span": "5.2"
+        "span": "5.2",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
       },
       {
         "engines": [],
@@ -1116,24 +1322,39 @@
               {
                 "name": "Merlin-1D",
                 "count": "9",
-                "thrustVac": "720"
+                "thrustVac": "921.83"
               }
             ],
             "name": "Stage-1",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "span": "3.66",
+            "height": "40.9",
+            "emptyMass": "27200",
+            "grossMass": "445900",
+            "burnTime": "161",
+            "isp": "312",
+            "seaLevelIsp": "283",
+            "thrustVac": "8296.43"
           },
           {
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
                 "count": "1",
-                "thrustVac": "617"
+                "thrustVac": "934.13"
               }
             ],
             "name": "Stage-2",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "height": "16.0",
+            "span": "3.66",
+            "emptyMass": "4500",
+            "grossMass": "116000",
+            "burnTime": "397",
+            "isp": "348",
+            "thrustVac": "934.13"
           }
         ],
         "name": "Falcon-9 v1.2 B5 C",
@@ -1144,7 +1365,8 @@
         "capsuleHeight": "8.1",
         "capsuleDiameter": "3.7",
         "id": "87353f84-5396-4044-9312-47781c55f7b3",
-        "span": "3.7"
+        "span": "3.7",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
       },
       {
         "engines": [],
@@ -1155,24 +1377,39 @@
               {
                 "name": "Merlin-1D",
                 "count": "9",
-                "thrustVac": "720"
+                "thrustVac": "921.83"
               }
             ],
             "name": "Stage-1",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "span": "3.66",
+            "height": "40.9",
+            "emptyMass": "27200",
+            "grossMass": "445900",
+            "burnTime": "161",
+            "isp": "312",
+            "seaLevelIsp": "283",
+            "thrustVac": "8296.43"
           },
           {
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
                 "count": "1",
-                "thrustVac": "617"
+                "thrustVac": "934.13"
               }
             ],
             "name": "Stage-2",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "height": "16.0",
+            "span": "3.66",
+            "emptyMass": "4500",
+            "grossMass": "116000",
+            "burnTime": "397",
+            "isp": "348",
+            "thrustVac": "934.13"
           }
         ],
         "name": "Falcon-9 v1.2 B5 Cx",
@@ -1183,7 +1420,8 @@
         "capsuleHeight": "8.1",
         "capsuleDiameter": "3.7",
         "id": "e5f71795-3993-409e-86d4-1e5900f93873",
-        "span": "3.7"
+        "span": "3.7",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
       },
       {
         "engines": [],
@@ -1194,24 +1432,39 @@
               {
                 "name": "Merlin-1D",
                 "count": "9",
-                "thrustVac": "720"
+                "thrustVac": "921.83"
               }
             ],
             "name": "Stage-1",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "span": "3.66",
+            "height": "40.9",
+            "emptyMass": "27200",
+            "grossMass": "445900",
+            "burnTime": "161",
+            "isp": "312",
+            "seaLevelIsp": "283",
+            "thrustVac": "8296.43"
           },
           {
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
                 "count": "1",
-                "thrustVac": "617"
+                "thrustVac": "934.13"
               }
             ],
             "name": "Stage-2",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "height": "16.0",
+            "span": "3.66",
+            "emptyMass": "4500",
+            "grossMass": "116000",
+            "burnTime": "397",
+            "isp": "348",
+            "thrustVac": "934.13"
           }
         ],
         "name": "Falcon-9 v1.2 B5 F",
@@ -1222,7 +1475,8 @@
         "diameter": "3.66",
         "height": "78.1",
         "id": "c1c29d68-69b2-447b-a929-4af7c916f5f0",
-        "span": "5.2"
+        "span": "5.2",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
       },
       {
         "engines": [],
@@ -1233,24 +1487,39 @@
               {
                 "name": "Merlin-1D",
                 "count": "9",
-                "thrustVac": "720"
+                "thrustVac": "921.83"
               }
             ],
             "name": "Stage-1",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "span": "3.66",
+            "height": "40.9",
+            "emptyMass": "27200",
+            "grossMass": "445900",
+            "burnTime": "161",
+            "isp": "312",
+            "seaLevelIsp": "283",
+            "thrustVac": "8296.43"
           },
           {
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
                 "count": "1",
-                "thrustVac": "617"
+                "thrustVac": "934.13"
               }
             ],
             "name": "Stage-2",
             "propellants": "LOX / RP-1",
-            "diameter": "3.66"
+            "diameter": "3.66",
+            "height": "16.0",
+            "span": "3.66",
+            "emptyMass": "4500",
+            "grossMass": "116000",
+            "burnTime": "397",
+            "isp": "348",
+            "thrustVac": "934.13"
           }
         ],
         "name": "Falcon-9 v1.2 B5 Fx",
@@ -1261,7 +1530,8 @@
         "fairingDiameter": "5.2",
         "fairingHeight": "8.1",
         "id": "7bb0eae1-d8da-435a-b192-8911b2d1707d",
-        "span": "5.2"
+        "span": "5.2",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
       },
       {
         "id": "16919357-6b13-472a-b176-58978644f2e6",
@@ -1323,7 +1593,8 @@
         "wikipediaURL": "https://en.wikipedia.org/wiki/Grasshopper_(rocket)#F9R_Dev1_flight_tests",
         "astronautixURL": "http://www.astronautix.com/f/falcon9r.html",
         "height": "30.48",
-        "diameter": "1.7"
+        "diameter": "1.7",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
       },
       {
         "id": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
@@ -1342,201 +1613,6 @@
         "wikipediaURL": "https://en.wikipedia.org/wiki/Grasshopper_(rocket)",
         "height": "30.48",
         "diameter": "1.7"
-      },
-      {
-        "id": "14cc7e30-cc07-470a-85e8-0b2c91a4fe9c",
-        "engines": [],
-        "payloads": [
-          {
-            "orbit": "LEO",
-            "capacity": "22800"
-          },
-          {
-            "orbit": "GTO",
-            "capacity": "5300"
-          },
-          {
-            "orbit": "IP",
-            "capacity": "4020"
-          }
-        ],
-        "stages": [
-          {
-            "engines": [
-              {
-                "name": "Merlin-1D",
-                "count": "9",
-                "thrustVac": "720"
-              }
-            ],
-            "name": "Stage-1"
-          },
-          {
-            "engines": [
-              {
-                "name": "Merlin-1D Vacuum",
-                "count": "1",
-                "thrustVac": "617"
-              }
-            ],
-            "name": "Stage-2"
-          }
-        ],
-        "name": "cc Falcon-9 v1.2c",
-        "payloadType": "Fairing",
-        "fairingHeight": "13.1",
-        "fairingDiameter": "5.2",
-        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm",
-        "expendable": "yes",
-        "height": "83.1",
-        "diameter": "3.66"
-      },
-      {
-        "id": "2ae0880f-39c8-4549-af75-c4c9a5fed92a",
-        "engines": [],
-        "payloads": [
-          {
-            "orbit": "LEO",
-            "capacity": "22800"
-          },
-          {
-            "orbit": "GTO",
-            "capacity": "5300"
-          },
-          {
-            "orbit": "IP",
-            "capacity": "4020"
-          }
-        ],
-        "stages": [
-          {
-            "engines": [
-              {
-                "name": "Merlin-1D",
-                "count": "9",
-                "thrustVac": "720"
-              }
-            ],
-            "name": "Stage-1"
-          },
-          {
-            "engines": [
-              {
-                "name": "Merlin-1D Vacuum",
-                "count": "1",
-                "thrustVac": "617"
-              }
-            ],
-            "name": "Stage-2"
-          }
-        ],
-        "name": "xx Falcon-9 v1.2",
-        "payloadType": "Fairing",
-        "fairingHeight": "13.1",
-        "fairingDiameter": "5.2",
-        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm",
-        "expendable": "no",
-        "height": "83.1",
-        "diameter": "3.66",
-        "rocketImage": "falcon-9_v1-2.png",
-        "span": "5.2"
-      },
-      {
-        "id": "465a00d9-a60e-4910-9e5a-b8dea565cf37",
-        "engines": [],
-        "payloads": [
-          {
-            "orbit": "LEO",
-            "capacity": "22800"
-          },
-          {
-            "orbit": "GTO",
-            "capacity": "5300"
-          },
-          {
-            "orbit": "IP",
-            "capacity": "4020"
-          }
-        ],
-        "stages": [
-          {
-            "engines": [
-              {
-                "name": "Merlin-1D",
-                "count": "9",
-                "thrustVac": "720"
-              }
-            ],
-            "name": "Stage-1"
-          },
-          {
-            "engines": [
-              {
-                "name": "Merlin-1D Vacuum",
-                "count": "1",
-                "thrustVac": "617"
-              }
-            ],
-            "name": "Stage-2",
-            "burnTime": ""
-          }
-        ],
-        "name": "xx Falcon-9 v1.2a",
-        "payloadType": "Capsule",
-        "capsuleHeight": "8.1",
-        "capsuleDiameter": "3.7",
-        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm",
-        "expendable": "no",
-        "height": "78.1",
-        "diameter": "3.66"
-      },
-      {
-        "id": "c7f5240c-23cf-498b-bd39-6be018d0c0ff",
-        "engines": [],
-        "payloads": [
-          {
-            "orbit": "LEO",
-            "capacity": "22800"
-          },
-          {
-            "orbit": "GTO",
-            "capacity": "5300"
-          },
-          {
-            "orbit": "IP",
-            "capacity": "4020"
-          }
-        ],
-        "stages": [
-          {
-            "engines": [
-              {
-                "name": "Merlin-1D",
-                "count": "9",
-                "thrustVac": "720"
-              }
-            ],
-            "name": "Stage-1"
-          },
-          {
-            "engines": [
-              {
-                "name": "Merlin-1D Vacuum",
-                "count": "1",
-                "thrustVac": "617"
-              }
-            ],
-            "name": "Stage-2"
-          }
-        ],
-        "name": "xx Falcon-9 v1.2b",
-        "payloadType": "Capsule",
-        "capsuleHeight": "8.2",
-        "capsuleDiameter": "3.7",
-        "skyrocketURL": "http://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm",
-        "expendable": "yes",
-        "height": "78.1",
-        "diameter": "3.66"
       }
     ],
     "id": "83f8614b-cb40-4c92-bf1f-6100bd16ab29"

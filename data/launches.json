@@ -1983,7 +1983,7 @@
     "id": "51f5972f-565b-457b-a332-14dcb424b4ab"
   },
   {
-    "vehicle": "Falcon-9 v1.1c",
+    "vehicle": "Falcon-9 v1.1 Fx",
     "vehicleFamily": "Falcon",
     "serial": "",
     "date": "2013-03-01",
@@ -2218,7 +2218,7 @@
     "launchPad": "SLC-41"
   },
   {
-    "vehicle": "Falcon-9 v1.1c",
+    "vehicle": "Falcon-9 v1.1 Fx",
     "vehicleFamily": "Falcon",
     "serial": "",
     "date": "2013-12-03",
@@ -2242,7 +2242,7 @@
     "id": "02f8d95d-02e9-4057-a10f-e612398cb638"
   },
   {
-    "vehicle": "Falcon-9 v1.1c",
+    "vehicle": "Falcon-9 v1.1 Fx",
     "vehicleFamily": "Falcon",
     "serial": "",
     "date": "2014-01-06",
@@ -2327,7 +2327,7 @@
     "id": "9f53e966-9dcc-4128-9854-fc240ef8cd1d"
   },
   {
-    "vehicle": "Falcon-9 v1.1a",
+    "vehicle": "Falcon-9 v1.1 C",
     "vehicleFamily": "Falcon",
     "serial": "",
     "date": "2014-04-18",
@@ -2481,7 +2481,7 @@
     "id": "770a0b04-8793-405f-a130-a243f7b591c9"
   },
   {
-    "vehicle": "Falcon-9 v1.1",
+    "vehicle": "Falcon-9 v1.1 F",
     "vehicleFamily": "Falcon",
     "serial": "",
     "date": "2014-07-14",
@@ -2602,7 +2602,7 @@
     "launchPad": "SLC-41"
   },
   {
-    "vehicle": "Falcon-9 v1.1c",
+    "vehicle": "Falcon-9 v1.1 Fx",
     "vehicleFamily": "Falcon",
     "serial": "",
     "date": "2014-08-05",
@@ -2663,7 +2663,7 @@
     "id": "e7f335fc-cd24-4535-905c-48d8e93ce45a"
   },
   {
-    "vehicle": "Falcon-9 v1.1c",
+    "vehicle": "Falcon-9 v1.1 Fx",
     "vehicleFamily": "Falcon",
     "serial": "",
     "date": "2014-09-07",
@@ -2711,7 +2711,7 @@
     "launchPad": "SLC-41"
   },
   {
-    "vehicle": "Falcon-9 v1.1b",
+    "vehicle": "Falcon-9 v1.1 Cx",
     "vehicleFamily": "Falcon",
     "serial": "",
     "date": "2014-09-21",
@@ -2779,7 +2779,7 @@
     "launchPad": "SLC-41"
   },
   {
-    "vehicle": "Falcon-9 v1.1a",
+    "vehicle": "Falcon-9 v1.1 C",
     "vehicleFamily": "Falcon",
     "serial": "",
     "date": "2015-01-10",
@@ -2843,7 +2843,7 @@
     "id": "1236bda7-91b4-4178-8e24-b7f624132bec"
   },
   {
-    "vehicle": "Falcon-9 v1.1",
+    "vehicle": "Falcon-9 v1.1 F",
     "vehicleFamily": "Falcon",
     "serial": "",
     "date": "2015-02-11",
@@ -2867,7 +2867,7 @@
     "id": "63a1fc8f-cb6b-430d-95c8-cda275390f14"
   },
   {
-    "vehicle": "Falcon-9 v1.1c",
+    "vehicle": "Falcon-9 v1.1 Fx",
     "vehicleFamily": "Falcon",
     "serial": "",
     "date": "2015-03-01",
@@ -2901,7 +2901,7 @@
     "id": "993c3698-ca16-469e-9979-1129e7fd896c"
   },
   {
-    "vehicle": "Falcon-9 v1.1",
+    "vehicle": "Falcon-9 v1.1 F",
     "vehicleFamily": "Falcon",
     "serial": "",
     "date": "2015-04-14",
@@ -3085,7 +3085,7 @@
     "id": "2db2680a-92f4-4064-8a18-2d1cad68eb30"
   },
   {
-    "vehicle": "Falcon-9 v1.1c",
+    "vehicle": "Falcon-9 v1.1 Fx",
     "vehicleFamily": "Falcon",
     "serial": "",
     "date": "2015-04-27",
@@ -3109,7 +3109,7 @@
     "id": "cc1d33ec-9f86-4fe7-9e70-1f3095b9104c"
   },
   {
-    "vehicle": "Falcon-9 v1.1a",
+    "vehicle": "Falcon-9 v1.1 C",
     "vehicleFamily": "Falcon",
     "serial": "",
     "date": "2015-06-28",
@@ -3733,7 +3733,7 @@
     "id": "550333ac-04ba-41c6-a501-798ce241d3dc"
   },
   {
-    "vehicle": "Falcon-9 v1.1",
+    "vehicle": "Falcon-9 v1.1 F",
     "vehicleFamily": "Falcon",
     "serial": "",
     "date": "2016-01-17",

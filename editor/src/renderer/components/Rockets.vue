@@ -30,7 +30,7 @@
 
     <v-form ref="rocketForm" v-model="rocketFormValid" lazy-validation>
       <v-layout row>
-        <v-flex xs1>
+        <v-flex xs2>
           <v-text-field disabled v-model="selectedGroup.name" label="Rocket Family" class="pr-1"></v-text-field>
         </v-flex>
         <v-flex xs2>
@@ -39,7 +39,7 @@
         <v-flex xs2>
           <v-text-field v-model="selected.height" label="Total Height (m)" type="number" class="pr-1"></v-text-field>
         </v-flex>
-        <v-flex xs1>
+        <v-flex xs2>
           <v-text-field v-model="selected.diameter" label="Diameter (m)" type="number" class="pr-1"></v-text-field>
         </v-flex>
         <v-flex xs1>
@@ -65,23 +65,29 @@
         </v-flex>
       </v-layout>
       <v-layout row>
-        <v-flex xs4>
+        <v-flex xs2>
           <v-text-field v-model="selected.wikipediaURL" label="Wikipedia URL" class="pr-1"></v-text-field>
         </v-flex>
-        <v-flex xs4>
+        <v-flex xs2>
           <v-text-field v-model="selected.astronautixURL" label="Astronautix URL" class="pr-1"></v-text-field>
         </v-flex>
-        <v-flex xs4>
+        <v-flex xs2>
           <v-text-field v-model="selected.skyrocketURL" label="Skyrocket URL" class="pr-1"></v-text-field>
+        </v-flex>
+        <v-flex xs2>
+          <v-text-field v-model="selected.spacelaunchreportURL" label="Space Launch Report URL" class="pr-1"></v-text-field>
+        </v-flex>
+        <v-flex xs2>
+          <v-text-field v-model="selected.spaceflight101URL" label="Spaceflight 101 URL" class="pr-1"></v-text-field>
         </v-flex>
       </v-layout>
       <v-layout row>
-        <v-flex xs1>
+        <v-flex xs2>
           <v-btn outline color="pink" @click="showAddRocketImage()">
             Set<br />Image
           </v-btn>
         </v-flex>
-        <v-flex xs11>
+        <v-flex xs10>
           <div class="rocket-image" :style="{ 'height': getRocketImageHeight() }">
             <div class="image" :style="{ 'background-image': 'url(' + imageData[selected.id] + ')', 'width': getRocketImageWidth() }"></div>
             <div class="scale" :style="{ width: `${metersToPixels(100)}px` }">100 (m)</div>
@@ -89,12 +95,12 @@
         </v-flex>
       </v-layout>
       <v-layout row>
-        <v-flex xs1>
+        <v-flex xs2>
           <v-btn outline color="pink" @click="showAddRocketIcon()">
             Set<br />Icon
           </v-btn>
         </v-flex>
-        <v-flex xs11>
+        <v-flex xs10>
           <div class="rocket-icon">
             <div class="image" :style="{ 'background-image': 'url(' + imageData[`${selected.id}-icon`] + ')' }"></div>
           </div>
