@@ -518,7 +518,8 @@
         "capsuleDiameter": "3.7",
         "rocketImage": "falcon-9_v1-0.png",
         "diameter": "3.66",
-        "span": "3.7"
+        "span": "3.7",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9.html"
       },
       {
         "id": "678fac31-5bae-4695-9614-0c06387dd2af",
@@ -574,7 +575,8 @@
         "height": "76.5",
         "diameter": "3.66",
         "rocketImage": "falcon-9_v1-1-dragon.png",
-        "span": "3.7"
+        "span": "3.7",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9v1-1.html"
       },
       {
         "id": "bb1aafe1-f1a3-490a-a48a-3abcef960159",
@@ -630,7 +632,8 @@
         "height": "76.5",
         "diameter": "3.66",
         "rocketImage": "falcon-9_v1-1-dragon-expendable.png",
-        "span": "3.7"
+        "span": "3.7",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9v1-1.html"
       },
       {
         "id": "ae35985d-33db-43d1-b003-66c25514e38a",
@@ -686,7 +689,8 @@
         "height": "81.5",
         "diameter": "3.66",
         "rocketImage": "falcon-9_v1-1.png",
-        "span": "5.2"
+        "span": "5.2",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9v1-1.html"
       },
       {
         "id": "9edf93cc-b356-4528-9733-37ab5188c761",
@@ -742,7 +746,8 @@
         "height": "81.5",
         "diameter": "3.66",
         "rocketImage": "falcon-9_v1-1-expendable.png",
-        "span": "5.2"
+        "span": "5.2",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9v1-1.html"
       },
       {
         "engines": [],
@@ -783,7 +788,9 @@
         "id": "7d4984f3-f38d-40b1-83c1-2df3727a0776",
         "span": "5.2",
         "spaceflight101URL": "",
-        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_Full_Thrust",
+        "skyrocketURL": "https://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm"
       },
       {
         "engines": [],
@@ -823,7 +830,9 @@
         "capsuleDiameter": "3.7",
         "id": "ff0fe186-b1d6-4824-8d9c-ca6e1d898d49",
         "span": "3.7",
-        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_Full_Thrust",
+        "skyrocketURL": "https://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm"
       },
       {
         "engines": [],
@@ -863,7 +872,9 @@
         "height": "78.1",
         "id": "6025cf7a-cc3f-4555-bd2c-6c84741ac95b",
         "span": "5.2",
-        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_Full_Thrust",
+        "skyrocketURL": "https://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm"
       },
       {
         "engines": [],
@@ -919,7 +930,9 @@
         "capsuleDiameter": "3.7",
         "id": "42253f77-476d-42cb-a8ec-455c23dfe504",
         "span": "3.7",
-        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_Full_Thrust",
+        "skyrocketURL": "https://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm"
       },
       {
         "engines": [],
@@ -975,7 +988,9 @@
         "capsuleDiameter": "3.7",
         "id": "aff061ff-dc17-4331-bad7-c41c89a4542c",
         "span": "3.7",
-        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_Full_Thrust",
+        "skyrocketURL": "https://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm"
       },
       {
         "engines": [],
@@ -1031,7 +1046,9 @@
         "height": "78.1",
         "id": "505182ab-4079-4a04-b46c-e11a0b42ed83",
         "span": "5.2",
-        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_Full_Thrust",
+        "skyrocketURL": "https://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm"
       },
       {
         "engines": [],
@@ -1087,7 +1104,9 @@
         "fairingHeight": "8.1",
         "id": "f5fbd30f-e61e-421d-9ab6-614b957e065c",
         "span": "5.2",
-        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_Full_Thrust",
+        "skyrocketURL": "https://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm"
       },
       {
         "engines": [],
@@ -1143,7 +1162,9 @@
         "capsuleDiameter": "3.7",
         "id": "36d809c4-18e9-418d-b963-4c7e0b594ac7",
         "span": "3.7",
-        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_Full_Thrust",
+        "skyrocketURL": "https://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm"
       },
       {
         "engines": [],
@@ -1199,7 +1220,9 @@
         "capsuleDiameter": "3.7",
         "id": "d3c175a3-64b0-4cca-b280-2fc225344c93",
         "span": "3.7",
-        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_Full_Thrust",
+        "skyrocketURL": "https://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm"
       },
       {
         "engines": [],
@@ -1255,7 +1278,9 @@
         "height": "78.1",
         "id": "1ccb9d4c-70cd-450e-bce7-f5e16c07552d",
         "span": "5.2",
-        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_Full_Thrust",
+        "skyrocketURL": "https://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm"
       },
       {
         "engines": [],
@@ -1311,7 +1336,9 @@
         "fairingHeight": "8.1",
         "id": "dc14274e-2c0e-4325-b6b2-33b4d094c18d",
         "span": "5.2",
-        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_Full_Thrust",
+        "skyrocketURL": "https://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm"
       },
       {
         "engines": [],
@@ -1366,7 +1393,9 @@
         "capsuleDiameter": "3.7",
         "id": "87353f84-5396-4044-9312-47781c55f7b3",
         "span": "3.7",
-        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_Full_Thrust",
+        "skyrocketURL": "https://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm"
       },
       {
         "engines": [],
@@ -1421,7 +1450,9 @@
         "capsuleDiameter": "3.7",
         "id": "e5f71795-3993-409e-86d4-1e5900f93873",
         "span": "3.7",
-        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_Full_Thrust",
+        "skyrocketURL": "https://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm"
       },
       {
         "engines": [],
@@ -1476,7 +1507,9 @@
         "height": "78.1",
         "id": "c1c29d68-69b2-447b-a929-4af7c916f5f0",
         "span": "5.2",
-        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_Full_Thrust",
+        "skyrocketURL": "https://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm"
       },
       {
         "engines": [],
@@ -1531,7 +1564,9 @@
         "fairingHeight": "8.1",
         "id": "7bb0eae1-d8da-435a-b192-8911b2d1707d",
         "span": "5.2",
-        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_Full_Thrust",
+        "skyrocketURL": "https://space.skyrocket.de/doc_lau_det/falcon-9_v1-2.htm"
       },
       {
         "id": "16919357-6b13-472a-b176-58978644f2e6",
@@ -1547,23 +1582,60 @@
             "engines": [
               {
                 "name": "Merlin-1D",
-                "count": "27",
-                "thrustVac": "720"
+                "count": "18",
+                "thrustVac": "914.118"
+              }
+            ],
+            "name": "Booster",
+            "propellants": "LOX / RP-1",
+            "thrustVac": "16454.124",
+            "isp": "312",
+            "burnTime": "162",
+            "seaLevelIsp": "285",
+            "grossMass": "424600",
+            "emptyMass": "17000",
+            "height": "42.6",
+            "diameter": "3.66",
+            "span": "3.66"
+          },
+          {
+            "engines": [
+              {
+                "name": "Merlin-1D",
+                "count": "9",
+                "thrustVac": "914.118"
               }
             ],
             "name": "Stage-1",
-            "propellants": "LOX / RP-1"
+            "propellants": "LOX / RP-1",
+            "thrustVac": "8227.062",
+            "isp": "312",
+            "seaLevelIsp": "285",
+            "burnTime": "162",
+            "emptyMass": "17000",
+            "grossMass": "424600",
+            "height": "42.6",
+            "diameter": "3.66",
+            "span": "3.66"
           },
           {
             "engines": [
               {
                 "name": "Merlin-1D Vacuum",
                 "count": "1",
-                "thrustVac": "617"
+                "thrustVac": "95.255"
               }
             ],
+            "propellants": "LOX / RP-1",
             "name": "Stage-2",
-            "propellants": "LOX / RP-1"
+            "burnTime": "375",
+            "isp": "348",
+            "thrustVac": "95.255",
+            "span": "3.66",
+            "diameter": "3.66",
+            "height": "12.6",
+            "emptyMass": "4500",
+            "grossMass": "111700"
           }
         ],
         "name": "Falcon-9 v1.2 Heavy",
@@ -1575,7 +1647,9 @@
         "height": "83.1",
         "diameter": "3.66",
         "rocketImage": "falcon-9_heavy.png",
-        "span": "10.98"
+        "span": "10.98",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Falcon_9_Full_Thrust",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falconH.html"
       },
       {
         "id": "d5b30df1-33e0-4321-8c96-8b19280783b0",
@@ -1594,7 +1668,8 @@
         "astronautixURL": "http://www.astronautix.com/f/falcon9r.html",
         "height": "30.48",
         "diameter": "1.7",
-        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html"
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/falcon9ft.html",
+        "skyrocketURL": "https://space.skyrocket.de/doc_lau/grasshopper.htm"
       },
       {
         "id": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
@@ -1612,7 +1687,8 @@
         "payloadType": "None",
         "wikipediaURL": "https://en.wikipedia.org/wiki/Grasshopper_(rocket)",
         "height": "30.48",
-        "diameter": "1.7"
+        "diameter": "1.7",
+        "skyrocketURL": "https://space.skyrocket.de/doc_lau/grasshopper.htm"
       }
     ],
     "id": "83f8614b-cb40-4c92-bf1f-6100bd16ab29"
@@ -1692,7 +1768,8 @@
         "diameter": "3.81",
         "span": "5.40",
         "height": "58.30",
-        "rocketImage": "atlas-5_401.png"
+        "rocketImage": "atlas-5_401.png",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Atlas_V"
       },
       {
         "id": "a07661db-3029-4a64-a944-4ad91f265b22",
@@ -1765,7 +1842,8 @@
         "span": "5.40",
         "height": "57.4",
         "astronautixURL": "http://www.astronautix.com/a/atlasv.html",
-        "rocketImage": "atlas-5_401.png"
+        "rocketImage": "atlas-5_401.png",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Atlas_V"
       },
       {
         "id": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
@@ -1838,7 +1916,8 @@
         "span": "5.40",
         "height": "56.5",
         "astronautixURL": "http://www.astronautix.com/a/atlasv.html",
-        "rocketImage": "atlas-5_401.png"
+        "rocketImage": "atlas-5_401.png",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Atlas_V"
       },
       {
         "id": "eb641bd8-921f-4b35-9f44-1c6650d425db",
@@ -1909,7 +1988,8 @@
         "fairingDiameter": "4",
         "diameter": "3.81",
         "span": "5.40",
-        "skyrocketURL": "https://space.skyrocket.de/doc_lau_det/atlas-5-411.htm"
+        "skyrocketURL": "https://space.skyrocket.de/doc_lau_det/atlas-5-411.htm",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Atlas_V"
       },
       {
         "engines": [],
@@ -1980,7 +2060,8 @@
         "diameter": "3.81",
         "span": "5.40",
         "id": "e779df73-be1e-4edd-a3f6-dbe02301334f",
-        "skyrocketURL": "https://space.skyrocket.de/doc_lau_det/atlas-5-411.htm"
+        "skyrocketURL": "https://space.skyrocket.de/doc_lau_det/atlas-5-411.htm",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Atlas_V"
       }
     ]
   }

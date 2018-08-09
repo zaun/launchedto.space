@@ -53,7 +53,7 @@
               </table>
             </v-flex>
             <v-flex xs6>
-              <img :src="defaultMedia" class="default-image" />
+              <!-- <img :src="defaultMedia" class="default-image" /> -->
             </v-flex>
           </v-layout>
         </v-card-text>
@@ -131,6 +131,13 @@
             </v-tab-item>
           </v-tabs>
         </v-card-text>
+
+        <v-toolbar dense flat color="teal lighten-5">
+          <v-btn flat v-if="rocket.astronautixURL" :href="rocket.astronautixURL" title="Astronautix">A</v-btn>
+          <v-btn flat v-if="rocket.skyrocketURL" :href="rocket.skyrocketURL" title="Gunter's Space Page">SR</v-btn>
+          <v-btn flat v-if="rocket.spacelaunchreportURL" :href="rocket.spacelaunchreportURL" title="Space Launch Report">SLR</v-btn>
+          <v-btn flat v-if="rocket.wikipediaURL" :href="rocket.wikipediaURL" title="Wikipedia">W</v-btn>
+        </v-toolbar>
       </v-card>
 
       <v-card class="back">
@@ -294,7 +301,7 @@ left-padding-xs = 3rem
 
     .launches 
       margin-left 0.5rem
-      height 420px
+      height 475px
       overflow-y auto
 
     .default-image
