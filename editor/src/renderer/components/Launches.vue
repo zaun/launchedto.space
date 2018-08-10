@@ -4,7 +4,7 @@
       <v-list two-line dense>
         <v-list-tile v-for="(item, idx) in items" :class="{ blue: item.id === selected.id }" :key="`launch-${idx}`" @click="select(item)">
           <v-list-tile-content>
-            <v-list-tile-title>{{ item.vehicle }}</v-list-tile-title>
+            <v-list-tile-title>{{ vehicleName(item) }}</v-list-tile-title>
             <v-list-tile-sub-title>{{ item.date }}</v-list-tile-sub-title>
           </v-list-tile-content>
         </v-list-tile>
@@ -237,14 +237,20 @@
 
     computed: {
       vehicleFamilyOptions() {
-        return map(this.$store.state.families, i => i.name);
+        return map(this.$store.state.families, i => ({
+          value: i.id,
+          text: i.name,
+        }));
       },
       vehicleOptions() {
-        const fam = find(this.$store.state.families, { name: this.selected.vehicleFamily });
+        const fam = find(this.$store.state.families, { id: this.selected.vehicleFamily });
         if (!fam) {
           return [];
         }
-        return map(sortBy(fam.rockets, 'name'), r => r.name);
+        return map(sortBy(fam.rockets, 'name'), r => ({
+          value: r.id,
+          text: r.name,
+        }));
       },
       items() {
         return this.$store.state.launches;
@@ -374,6 +380,13 @@
       select(item) {
         this.selected = cloneDeep(item);
         this.media = cloneDeep(filter(this.$store.state.media, { launchID: this.selected.id }));
+      },
+
+      vehicleName(item) {
+        const f = find(this.$store.state.families, { id: item.vehicleFamily });
+        const r = find(f.rockets, { id: item.vehicle });
+
+        return r.name;
       },
     },
 

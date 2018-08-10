@@ -39,7 +39,7 @@ export default {
 
   methods: {
     getLaunchCount(rocket) {
-      return filter(this.launches, { vehicle: rocket.name }).length;
+      return filter(this.launches, { vehicle: rocket.id }).length;
     }
   },
 }

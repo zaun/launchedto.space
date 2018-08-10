@@ -1,7 +1,7 @@
 [
   {
-    "vehicle": "Saturn-1 Block 1",
-    "vehicleFamily": "Saturn",
+    "vehicle": "187cd80a-90a8-408c-bc42-0db024edf023",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-1",
     "date": "1961-10-27",
     "status": "success",
@@ -13,8 +13,8 @@
     "id": "d4c7ca6c-eaf5-4380-af29-c88cac0f3250"
   },
   {
-    "vehicle": "Saturn-1 Block 1",
-    "vehicleFamily": "Saturn",
+    "vehicle": "187cd80a-90a8-408c-bc42-0db024edf023",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-2",
     "date": "1962-04-25",
     "status": "success",
@@ -37,8 +37,8 @@
     "id": "06f5d3c8-b1af-4a4a-b40a-bdd1bb03b852"
   },
   {
-    "vehicle": "Saturn-1 Block 1",
-    "vehicleFamily": "Saturn",
+    "vehicle": "187cd80a-90a8-408c-bc42-0db024edf023",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-3",
     "date": "1962-11-16",
     "status": "success",
@@ -61,8 +61,8 @@
     "id": "e62ab087-9a67-4dac-805a-cf83a17a7992"
   },
   {
-    "vehicle": "Saturn-1 Block 1",
-    "vehicleFamily": "Saturn",
+    "vehicle": "187cd80a-90a8-408c-bc42-0db024edf023",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-4",
     "date": "1963-03-28",
     "status": "success",
@@ -74,8 +74,8 @@
     "id": "d9485552-6957-4f42-a312-a6e5bdebf587"
   },
   {
-    "vehicle": "Saturn-1 Block 2",
-    "vehicleFamily": "Saturn",
+    "vehicle": "ad651b83-9c15-400b-ba33-dc8c68a9b75e",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-5",
     "date": "1964-01-29",
     "status": "success",
@@ -98,8 +98,8 @@
     "id": "9d025a36-cd26-48f6-b243-048040d6eb8f"
   },
   {
-    "vehicle": "Saturn-1 Block 2",
-    "vehicleFamily": "Saturn",
+    "vehicle": "ad651b83-9c15-400b-ba33-dc8c68a9b75e",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-6",
     "date": "1964-05-28",
     "status": "success",
@@ -132,8 +132,8 @@
     "id": "a182dda3-9ba7-4132-8cad-70be2c4c1756"
   },
   {
-    "vehicle": "Saturn-1 Block 2",
-    "vehicleFamily": "Saturn",
+    "vehicle": "ad651b83-9c15-400b-ba33-dc8c68a9b75e",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-7",
     "date": "1964-09-18",
     "status": "success",
@@ -166,8 +166,8 @@
     "id": "f7c748f5-82ef-46ac-b4cf-e8bfdfbd0749"
   },
   {
-    "vehicle": "Saturn-1 Block 2",
-    "vehicleFamily": "Saturn",
+    "vehicle": "ad651b83-9c15-400b-ba33-dc8c68a9b75e",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-9",
     "date": "1965-02-16",
     "status": "success",
@@ -200,8 +200,8 @@
     "id": "d05e6b12-6d3b-44f1-b973-a20c3943996c"
   },
   {
-    "vehicle": "Saturn-1 Block 2",
-    "vehicleFamily": "Saturn",
+    "vehicle": "ad651b83-9c15-400b-ba33-dc8c68a9b75e",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-8",
     "date": "1965-05-25",
     "status": "success",
@@ -234,8 +234,8 @@
     "id": "dbcc2d3e-9c4b-48e0-ba93-767e19f4c8c4"
   },
   {
-    "vehicle": "Saturn-1 Block 2",
-    "vehicleFamily": "Saturn",
+    "vehicle": "ad651b83-9c15-400b-ba33-dc8c68a9b75e",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-10",
     "date": "1965-07-30",
     "status": "success",
@@ -268,8 +268,8 @@
     "id": "9914a9f6-1050-40ae-bb51-4d5abfb327af"
   },
   {
-    "vehicle": "Saturn-1B",
-    "vehicleFamily": "Saturn",
+    "vehicle": "a1c50ce1-1b2e-4128-ad76-98bcf4c92dc8",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-201",
     "date": "1966-02-26",
     "status": "success",
@@ -292,8 +292,8 @@
     "id": "46916fa6-0517-4f35-9dbf-3a5417250d69"
   },
   {
-    "vehicle": "Saturn-1B",
-    "vehicleFamily": "Saturn",
+    "vehicle": "a1c50ce1-1b2e-4128-ad76-98bcf4c92dc8",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-203",
     "date": "1966-07-05",
     "status": "success",
@@ -316,8 +316,8 @@
     "id": "dc7fb7a3-e75d-486a-9350-77e631edb87b"
   },
   {
-    "vehicle": "Saturn-1B",
-    "vehicleFamily": "Saturn",
+    "vehicle": "a1c50ce1-1b2e-4128-ad76-98bcf4c92dc8",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-202",
     "date": "1966-07-05",
     "status": "success",
@@ -341,8 +341,8 @@
   },
   {
     "id": "76a85922-7eb8-44d6-9bba-53b49e9b508f",
-    "vehicle": "Saturn-5",
-    "vehicleFamily": "Saturn",
+    "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-501",
     "date": "1967-11-09",
     "status": "success",
@@ -374,8 +374,8 @@
     ]
   },
   {
-    "vehicle": "Saturn-1B",
-    "vehicleFamily": "Saturn",
+    "vehicle": "a1c50ce1-1b2e-4128-ad76-98bcf4c92dc8",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-204",
     "date": "1968-01-22",
     "status": "success",
@@ -399,8 +399,8 @@
   },
   {
     "id": "df6a3030-9bed-412d-a610-792a854d62ad",
-    "vehicle": "Saturn-5",
-    "vehicleFamily": "Saturn",
+    "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-502",
     "date": "1968-04-04",
     "status": "partial failure",
@@ -432,8 +432,8 @@
     ]
   },
   {
-    "vehicle": "Saturn-1B",
-    "vehicleFamily": "Saturn",
+    "vehicle": "a1c50ce1-1b2e-4128-ad76-98bcf4c92dc8",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-205",
     "date": "1968-10-11",
     "status": "success",
@@ -457,8 +457,8 @@
   },
   {
     "id": "6c845dc0-4b25-4b6d-9163-d32245ce481e",
-    "vehicle": "Saturn-5",
-    "vehicleFamily": "Saturn",
+    "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-503",
     "date": "1968-12-12",
     "status": "success",
@@ -491,8 +491,8 @@
   },
   {
     "id": "06aed022-b711-4f0d-9297-dfc81bf200f8",
-    "vehicle": "Saturn-5",
-    "vehicleFamily": "Saturn",
+    "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-504",
     "date": "1969-03-03",
     "status": "success",
@@ -525,8 +525,8 @@
   },
   {
     "id": "f130e525-0ae6-4aa8-8c73-c42a0bcff51b",
-    "vehicle": "Saturn-5",
-    "vehicleFamily": "Saturn",
+    "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-505",
     "date": "1969-05-18",
     "status": "success",
@@ -558,8 +558,8 @@
     ]
   },
   {
-    "vehicle": "Saturn-5",
-    "vehicleFamily": "Saturn",
+    "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-506",
     "date": "1969-07-16",
     "status": "success",
@@ -592,8 +592,8 @@
     "id": "b5de85b5-4926-4251-a57b-40a7a7fffba8"
   },
   {
-    "vehicle": "Saturn-5",
-    "vehicleFamily": "Saturn",
+    "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-507",
     "date": "1969-11-14",
     "status": "success",
@@ -626,8 +626,8 @@
     "id": "489d2566-7dfd-4134-8f4c-692cd26491ec"
   },
   {
-    "vehicle": "Saturn-5",
-    "vehicleFamily": "Saturn",
+    "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-508",
     "date": "1970-04-11",
     "status": "success",
@@ -660,8 +660,8 @@
     "id": "6aca8324-3dec-40fb-873b-d94438384a59"
   },
   {
-    "vehicle": "Saturn-5",
-    "vehicleFamily": "Saturn",
+    "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-509",
     "date": "1971-01-31",
     "status": "success",
@@ -694,8 +694,8 @@
     "id": "4dd99210-610a-42b5-87e6-8dc3c80dea6c"
   },
   {
-    "vehicle": "Saturn-5",
-    "vehicleFamily": "Saturn",
+    "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-510",
     "date": "1971-07-26",
     "status": "success",
@@ -738,8 +738,8 @@
     "id": "618b785a-6d02-4047-b625-7dd260af3368"
   },
   {
-    "vehicle": "Saturn-5",
-    "vehicleFamily": "Saturn",
+    "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-511",
     "date": "1972-04-16",
     "status": "success",
@@ -782,8 +782,8 @@
     "id": "4e77f2c1-5d7e-4d47-bdf1-eee646241dd5"
   },
   {
-    "vehicle": "Saturn-5",
-    "vehicleFamily": "Saturn",
+    "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-512",
     "date": "1972-12-07",
     "status": "success",
@@ -816,8 +816,8 @@
     "id": "a8140614-691e-4b92-9f67-f9454c7f39b6"
   },
   {
-    "vehicle": "Saturn-5 2nd Stage",
-    "vehicleFamily": "Saturn",
+    "vehicle": "c50a3cd4-d6a2-4807-9cad-6445a1e03520",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-513",
     "date": "1973-05-14",
     "status": "success",
@@ -840,8 +840,8 @@
     "id": "f77dc0c2-1d11-4450-953d-99b178a932cc"
   },
   {
-    "vehicle": "Saturn-1B",
-    "vehicleFamily": "Saturn",
+    "vehicle": "a1c50ce1-1b2e-4128-ad76-98bcf4c92dc8",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-206",
     "date": "1973-05-25",
     "status": "success",
@@ -864,8 +864,8 @@
     "id": "d4d38ce4-23f4-4157-bc71-afa83e8fc31f"
   },
   {
-    "vehicle": "Saturn-1B",
-    "vehicleFamily": "Saturn",
+    "vehicle": "a1c50ce1-1b2e-4128-ad76-98bcf4c92dc8",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-207",
     "date": "1973-07-28",
     "status": "success",
@@ -898,8 +898,8 @@
     "id": "73db2b0e-0959-49ed-a795-076f3031a1c7"
   },
   {
-    "vehicle": "Saturn-1B",
-    "vehicleFamily": "Saturn",
+    "vehicle": "a1c50ce1-1b2e-4128-ad76-98bcf4c92dc8",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-208",
     "date": "1973-11-16",
     "status": "success",
@@ -922,8 +922,8 @@
     "id": "8ee034b0-1b8f-458a-a5e8-aeb8b59087f0"
   },
   {
-    "vehicle": "Saturn-1B",
-    "vehicleFamily": "Saturn",
+    "vehicle": "a1c50ce1-1b2e-4128-ad76-98bcf4c92dc8",
+    "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-210",
     "date": "1975-07-15",
     "status": "success",
@@ -956,8 +956,8 @@
     "id": "51cef3de-eb2d-433e-bad9-928085e0a5de"
   },
   {
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-001",
     "date": "2002-08-21",
     "status": "success",
@@ -980,8 +980,8 @@
     "id": "b915216a-2fcc-40b3-80d3-211d79ab3119"
   },
   {
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-002",
     "date": "2003-05-13",
     "status": "success",
@@ -1004,8 +1004,8 @@
     "id": "2d73fcc5-39d1-4afb-86fa-cb8e50271456"
   },
   {
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-007",
     "date": "2005-08-12",
     "status": "success",
@@ -1028,8 +1028,8 @@
     "id": "d8c72e60-b3b7-42c8-a80f-4b4edcf8d996"
   },
   {
-    "vehicle": "Falcon-1 (dev)",
-    "vehicleFamily": "Falcon",
+    "vehicle": "c6485a5d-deac-4644-a9aa-4767d235a3a2",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2006-03-24",
     "status": "failure",
@@ -1068,16 +1068,16 @@
         "description": "SES ASTRA ordered two new Astra satellite in June 2003. The satellites, designated Astra 1KR and Astra 1L will provide distribution of direct-to-home broadcast services across Europe following their scheduled launches in the second half of 2005 and 2006 respectively."
       }
     ],
-    "vehicle": "Atlas-5 411m",
-    "vehicleFamily": "Atlas",
+    "vehicle": "eb641bd8-921f-4b35-9f44-1c6650d425db",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-008",
     "date": "2006-04-20",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41"
   },
   {
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-013",
     "date": "2007-03-09",
     "status": "success",
@@ -1150,8 +1150,8 @@
     "id": "bde4273a-8c05-4cac-a525-5378caed269f"
   },
   {
-    "vehicle": "Falcon-1 (dev)",
-    "vehicleFamily": "Falcon",
+    "vehicle": "c6485a5d-deac-4644-a9aa-4767d235a3a2",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2007-03-21",
     "status": "failure",
@@ -1174,8 +1174,8 @@
     "id": "b26f10ee-41e4-4941-ba59-8c214711abc4"
   },
   {
-    "vehicle": "Atlas-5 401m",
-    "vehicleFamily": "Atlas",
+    "vehicle": "a07661db-3029-4a64-a944-4ad91f265b22",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-009",
     "date": "2007-06-15",
     "status": "partial failure",
@@ -1208,8 +1208,8 @@
     "id": "eb112b16-789c-4c7e-9d65-668f0892dc30"
   },
   {
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-015",
     "date": "2007-12-10",
     "status": "success",
@@ -1248,16 +1248,16 @@
         "description": "The spacecraft are probably the replacement for the Trumpet SIGINT satellites operating in a Molniya orbit. As no name is known, these are referred here as \"Trumpet Follow On\". These satellite most likely use a large, unfurlable dish antenna to collect the signals."
       }
     ],
-    "vehicle": "Atlas-5 411m",
-    "vehicleFamily": "Atlas",
+    "vehicle": "eb641bd8-921f-4b35-9f44-1c6650d425db",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-006",
     "date": "2008-03-13",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-3E"
   },
   {
-    "vehicle": "Falcon-1",
-    "vehicleFamily": "Falcon",
+    "vehicle": "26edb74e-6435-4af7-9961-09a9e1754561",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2008-08-03",
     "status": "failure",
@@ -1310,8 +1310,8 @@
     "id": "4ab98917-f111-4c9e-8632-8307a2e33dba"
   },
   {
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-020",
     "date": "2009-06-18",
     "status": "success",
@@ -1344,8 +1344,8 @@
     "id": "7dcb52d8-6885-4b18-805f-61f94a3f44da"
   },
   {
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-018",
     "date": "2009-09-08",
     "status": "success",
@@ -1368,8 +1368,8 @@
     "id": "41930998-ea81-4633-88e6-29d02ff5f2b2"
   },
   {
-    "vehicle": "Falcon-1",
-    "vehicleFamily": "Falcon",
+    "vehicle": "26edb74e-6435-4af7-9961-09a9e1754561",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2009-09-29",
     "status": "success",
@@ -1392,8 +1392,8 @@
     "id": "8b7ae082-92b2-4ef2-9e94-03ca3be740ca"
   },
   {
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-017",
     "date": "2009-10-18",
     "status": "success",
@@ -1416,8 +1416,8 @@
     "id": "24da5eca-6723-495d-80a5-ae5812eb6b98"
   },
   {
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-021",
     "date": "2010-02-11",
     "status": "success",
@@ -1440,8 +1440,8 @@
     "id": "acb1e3ed-8803-4e7c-8c16-ff67f75f91a6"
   },
   {
-    "vehicle": "Falcon-9 v1.0",
-    "vehicleFamily": "Falcon",
+    "vehicle": "c455825f-c71d-4dd2-ba46-de1a2fab9c25",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B003",
     "date": "2010-06-04",
     "status": "success",
@@ -1464,8 +1464,8 @@
     "id": "677954bf-4255-4c38-bc9f-8dd9be3f1152"
   },
   {
-    "vehicle": "Falcon-9 v1.0",
-    "vehicleFamily": "Falcon",
+    "vehicle": "c455825f-c71d-4dd2-ba46-de1a2fab9c25",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2010-12-08",
     "status": "success",
@@ -1594,16 +1594,16 @@
         "description": ""
       }
     ],
-    "vehicle": "Atlas-5 411m",
-    "vehicleFamily": "Atlas",
+    "vehicle": "eb641bd8-921f-4b35-9f44-1c6650d425db",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-027",
     "date": "2011-04-15",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-3E"
   },
   {
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-022",
     "date": "2011-06-20",
     "status": "success",
@@ -1626,8 +1626,8 @@
     "id": "d53e7855-0b21-4387-9891-2c4f39ea4ce7"
   },
   {
-    "vehicle": "Falcon-9 v1.0",
-    "vehicleFamily": "Falcon",
+    "vehicle": "c455825f-c71d-4dd2-ba46-de1a2fab9c25",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2012-05-22",
     "status": "success",
@@ -1660,8 +1660,8 @@
     "id": "1b4a8777-0813-433c-9f61-ea5aeafb061f"
   },
   {
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-023",
     "date": "2012-06-20",
     "status": "success",
@@ -1684,8 +1684,8 @@
     "id": "6df23d13-8501-430c-bef0-cdce3a826005"
   },
   {
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-032",
     "date": "2012-08-30",
     "status": "success",
@@ -1718,8 +1718,8 @@
     "id": "99ccf748-de19-4455-8cdc-8f35b38157ac"
   },
   {
-    "vehicle": "Atlas-5 401m",
-    "vehicleFamily": "Atlas",
+    "vehicle": "a07661db-3029-4a64-a944-4ad91f265b22",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-033",
     "date": "2012-09-13",
     "status": "success",
@@ -1862,8 +1862,8 @@
     "id": "10a6864a-3141-4ddf-9be3-96bb999afd12"
   },
   {
-    "vehicle": "Grasshopper",
-    "vehicleFamily": "Falcon",
+    "vehicle": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B0002.1",
     "date": "2012-09-21",
     "status": "success",
@@ -1875,8 +1875,8 @@
     "id": "e4af82cd-af7e-482d-a220-d2f8798b7312"
   },
   {
-    "vehicle": "Falcon-9 v1.0",
-    "vehicleFamily": "Falcon",
+    "vehicle": "c455825f-c71d-4dd2-ba46-de1a2fab9c25",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2012-10-08",
     "status": "partial failure",
@@ -1909,8 +1909,8 @@
     "id": "4c580b1f-e9f6-462a-a6f6-5ed4327ac66f"
   },
   {
-    "vehicle": "Grasshopper",
-    "vehicleFamily": "Falcon",
+    "vehicle": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B0002.2",
     "date": "2012-11-01",
     "status": "success",
@@ -1922,8 +1922,8 @@
     "id": "095c5c90-32fa-4313-9a16-a1625ccaf539"
   },
   {
-    "vehicle": "Grasshopper",
-    "vehicleFamily": "Falcon",
+    "vehicle": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B0002.3",
     "date": "2012-12-17",
     "status": "success",
@@ -1935,8 +1935,8 @@
     "id": "b7c8583b-bd5e-4f71-b2ba-009245e58813"
   },
   {
-    "vehicle": "Atlas-5 401m",
-    "vehicleFamily": "Atlas",
+    "vehicle": "a07661db-3029-4a64-a944-4ad91f265b22",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-036",
     "date": "2013-01-31",
     "status": "success",
@@ -1959,8 +1959,8 @@
     "id": "639bd69e-0093-4408-9bef-2bf708a0e3a5"
   },
   {
-    "vehicle": "Atlas-5 401m",
-    "vehicleFamily": "Atlas",
+    "vehicle": "a07661db-3029-4a64-a944-4ad91f265b22",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-035",
     "date": "2013-02-11",
     "status": "success",
@@ -1983,8 +1983,8 @@
     "id": "51f5972f-565b-457b-a332-14dcb424b4ab"
   },
   {
-    "vehicle": "Falcon-9 v1.1 Fx",
-    "vehicleFamily": "Falcon",
+    "vehicle": "9edf93cc-b356-4528-9733-37ab5188c761",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2013-03-01",
     "status": "success",
@@ -2057,8 +2057,8 @@
     "id": "963623de-2e24-4d12-92b8-1258945e96e7"
   },
   {
-    "vehicle": "Falcon-9 v1.0",
-    "vehicleFamily": "Falcon",
+    "vehicle": "c455825f-c71d-4dd2-ba46-de1a2fab9c25",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2013-03-01",
     "status": "success",
@@ -2081,8 +2081,8 @@
     "id": "2e057a04-566d-4452-add6-f0d089693cad"
   },
   {
-    "vehicle": "Grasshopper",
-    "vehicleFamily": "Falcon",
+    "vehicle": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B0002.4",
     "date": "2013-03-07",
     "status": "success",
@@ -2110,16 +2110,16 @@
         "description": "\nSBIRS-GEO 1 [USAF]\n\nSBIRS-GEO (Space Based Infra Red Sensor - Geostationary) is the geostationary component of the SBIRS-High program, which will replace the DSP system of early warning satellites in providing early warning for Intercontinental Ballistic Missile launches."
       }
     ],
-    "vehicle": "Atlas-5 401m",
-    "vehicleFamily": "Atlas",
+    "vehicle": "a07661db-3029-4a64-a944-4ad91f265b22",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-037",
     "date": "2013-03-19",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41"
   },
   {
-    "vehicle": "Grasshopper",
-    "vehicleFamily": "Falcon",
+    "vehicle": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B0002.5",
     "date": "2013-04-17",
     "status": "success",
@@ -2147,16 +2147,16 @@
         "description": "GPS-2F or Navstar-2F satellites are the fourth evolution stage of the second generation of the GPS satellites. Improvements included an extended design life of 12 years, faster processors, more memory, and a new civil signal on a third frequency."
       }
     ],
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-039",
     "date": "2013-05-15",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41"
   },
   {
-    "vehicle": "Grasshopper",
-    "vehicleFamily": "Falcon",
+    "vehicle": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B0002.6",
     "date": "2013-06-14",
     "status": "success",
@@ -2168,8 +2168,8 @@
     "id": "ec7ac3c2-3abc-4851-ba4e-6ecce504e55f"
   },
   {
-    "vehicle": "Grasshopper",
-    "vehicleFamily": "Falcon",
+    "vehicle": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B0002.7",
     "date": "2013-08-13",
     "status": "success",
@@ -2181,8 +2181,8 @@
     "id": "cfe51af4-dec4-4275-8ff4-f2441a7da1b4"
   },
   {
-    "vehicle": "Grasshopper",
-    "vehicleFamily": "Falcon",
+    "vehicle": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B0002.8",
     "date": "2013-10-07",
     "status": "success",
@@ -2210,16 +2210,16 @@
         "description": "MAVEN (Mars Atmosphere and Volatile EvolutioN) ia a $485 million mission launched late 2013. The selection was evaluated to have the best science value and lowest implementation risk from 20 mission investigation proposals submitted in response to a NASA Announcement of Opportunity in August 2006."
       }
     ],
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-038",
     "date": "2013-11-18",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41"
   },
   {
-    "vehicle": "Falcon-9 v1.1 Fx",
-    "vehicleFamily": "Falcon",
+    "vehicle": "9edf93cc-b356-4528-9733-37ab5188c761",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2013-12-03",
     "status": "success",
@@ -2242,8 +2242,8 @@
     "id": "02f8d95d-02e9-4057-a10f-e612398cb638"
   },
   {
-    "vehicle": "Falcon-9 v1.1 Fx",
-    "vehicleFamily": "Falcon",
+    "vehicle": "9edf93cc-b356-4528-9733-37ab5188c761",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2014-01-06",
     "status": "success",
@@ -2282,8 +2282,8 @@
         "description": "NASA selected Boeing in December 2007 to built the third generation of TDRS (Tracking & Data Relay Satellite) data relay satellites. They are the successors of the second generation TDRS satellites."
       }
     ],
-    "vehicle": "Atlas-5 401m",
-    "vehicleFamily": "Atlas",
+    "vehicle": "a07661db-3029-4a64-a944-4ad91f265b22",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-043",
     "date": "2014-02-24",
     "launchSite": "Cape Canaveral",
@@ -2306,16 +2306,16 @@
         "description": "DMSP-5D3 (Defense Meteorological Satellite Program Block 5D3) is the eleventh and most recent version of the military meteorological satellites of the Defense Meteorological Satellite Program."
       }
     ],
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-044",
     "date": "2014-04-03",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-3E"
   },
   {
-    "vehicle": "Falcon-9R-Dev-1",
-    "vehicleFamily": "Falcon",
+    "vehicle": "d5b30df1-33e0-4321-8c96-8b19280783b0",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1002.1",
     "date": "2014-04-17",
     "status": "success",
@@ -2327,8 +2327,8 @@
     "id": "9f53e966-9dcc-4128-9854-fc240ef8cd1d"
   },
   {
-    "vehicle": "Falcon-9 v1.1 C",
-    "vehicleFamily": "Falcon",
+    "vehicle": "678fac31-5bae-4695-9614-0c06387dd2af",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2014-04-18",
     "status": "success",
@@ -2431,8 +2431,8 @@
     "id": "6d4a2c67-8948-47aa-90f7-4aa289e080b4"
   },
   {
-    "vehicle": "Falcon-9R-Dev-1",
-    "vehicleFamily": "Falcon",
+    "vehicle": "d5b30df1-33e0-4321-8c96-8b19280783b0",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1002.2",
     "date": "2014-05-01",
     "status": "success",
@@ -2460,16 +2460,16 @@
         "description": "Satellite Data System spacecraft are communication relay satellites for transmitting data from US reconnaissance satellites in polar areas. They are also used for communications to USAF aircraft on polar routes and connect the various ground stations of the Air Force Satellite Control Network."
       }
     ],
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-46",
     "date": "2014-05-22",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41"
   },
   {
-    "vehicle": "Falcon-9R-Dev-1",
-    "vehicleFamily": "Falcon",
+    "vehicle": "d5b30df1-33e0-4321-8c96-8b19280783b0",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1002.3",
     "date": "2014-06-17",
     "status": "success",
@@ -2481,8 +2481,8 @@
     "id": "770a0b04-8793-405f-a130-a243f7b591c9"
   },
   {
-    "vehicle": "Falcon-9 v1.1 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "ae35985d-33db-43d1-b003-66c25514e38a",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2014-07-14",
     "status": "success",
@@ -2565,8 +2565,8 @@
     "id": "03e0138c-573b-4d4d-8b84-0e24f5d11e17"
   },
   {
-    "vehicle": "Falcon-9R-Dev-1",
-    "vehicleFamily": "Falcon",
+    "vehicle": "d5b30df1-33e0-4321-8c96-8b19280783b0",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1002.4",
     "date": "2014-08-01",
     "status": "success",
@@ -2594,16 +2594,16 @@
         "description": "GPS-2F or Navstar-2F satellites are the fourth evolution stage of the second generation of the GPS satellites. Improvements included an extended design life of 12 years, faster processors, more memory, and a new civil signal on a third frequency."
       }
     ],
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-048",
     "date": "2014-08-02",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41"
   },
   {
-    "vehicle": "Falcon-9 v1.1 Fx",
-    "vehicleFamily": "Falcon",
+    "vehicle": "9edf93cc-b356-4528-9733-37ab5188c761",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2014-08-05",
     "status": "success",
@@ -2642,16 +2642,16 @@
         "description": "WorldView 2 enables DigitalGlobe to offer half-meter panchromatic resolution and 1.8 meter multispectral resolution. The WorldView 2 system allows DigitalGlobe to substantially expand its imagery product offerings to both commercial and international customers."
       }
     ],
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-047",
     "date": "2014-08-13",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-3E"
   },
   {
-    "vehicle": "Falcon-9R-Dev-1",
-    "vehicleFamily": "Falcon",
+    "vehicle": "d5b30df1-33e0-4321-8c96-8b19280783b0",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1002.5",
     "date": "2014-08-22",
     "status": "failure",
@@ -2663,8 +2663,8 @@
     "id": "e7f335fc-cd24-4535-905c-48d8e93ce45a"
   },
   {
-    "vehicle": "Falcon-9 v1.1 Fx",
-    "vehicleFamily": "Falcon",
+    "vehicle": "9edf93cc-b356-4528-9733-37ab5188c761",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2014-09-07",
     "status": "success",
@@ -2703,16 +2703,16 @@
         "description": "The Nemesis series of satellites are geostationary COMINT satellites to intercept transmissions to commercial communicationss satellites. These satellites were known at launch by the names PAN and CLIO or the program designation P360."
       }
     ],
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-049",
     "date": "2014-09-17",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41"
   },
   {
-    "vehicle": "Falcon-9 v1.1 Cx",
-    "vehicleFamily": "Falcon",
+    "vehicle": "bb1aafe1-f1a3-490a-a48a-3abcef960159",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2014-09-21",
     "status": "success",
@@ -2771,16 +2771,16 @@
         "description": "GPS-2F or Navstar-2F satellites are the fourth evolution stage of the second generation of the GPS satellites. Improvements included an extended design life of 12 years, faster processors, more memory, and a new civil signal on a third frequency."
       }
     ],
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-050",
     "date": "2014-10-29",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41"
   },
   {
-    "vehicle": "Falcon-9 v1.1 C",
-    "vehicleFamily": "Falcon",
+    "vehicle": "678fac31-5bae-4695-9614-0c06387dd2af",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2015-01-10",
     "status": "success",
@@ -2843,8 +2843,8 @@
     "id": "1236bda7-91b4-4178-8e24-b7f624132bec"
   },
   {
-    "vehicle": "Falcon-9 v1.1 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "ae35985d-33db-43d1-b003-66c25514e38a",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2015-02-11",
     "status": "success",
@@ -2867,8 +2867,8 @@
     "id": "63a1fc8f-cb6b-430d-95c8-cda275390f14"
   },
   {
-    "vehicle": "Falcon-9 v1.1 Fx",
-    "vehicleFamily": "Falcon",
+    "vehicle": "9edf93cc-b356-4528-9733-37ab5188c761",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2015-03-01",
     "status": "success",
@@ -2901,8 +2901,8 @@
     "id": "993c3698-ca16-469e-9979-1129e7fd896c"
   },
   {
-    "vehicle": "Falcon-9 v1.1 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "ae35985d-33db-43d1-b003-66c25514e38a",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2015-04-14",
     "status": "success",
@@ -3085,8 +3085,8 @@
     "id": "2db2680a-92f4-4064-8a18-2d1cad68eb30"
   },
   {
-    "vehicle": "Falcon-9 v1.1 Fx",
-    "vehicleFamily": "Falcon",
+    "vehicle": "9edf93cc-b356-4528-9733-37ab5188c761",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2015-04-27",
     "status": "success",
@@ -3109,8 +3109,8 @@
     "id": "cc1d33ec-9f86-4fe7-9e70-1f3095b9104c"
   },
   {
-    "vehicle": "Falcon-9 v1.1 C",
-    "vehicleFamily": "Falcon",
+    "vehicle": "678fac31-5bae-4695-9614-0c06387dd2af",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2015-06-28",
     "status": "failure",
@@ -3169,8 +3169,8 @@
         "description": "GPS-2F or Navstar-2F satellites are the fourth evolution stage of the second generation of the GPS satellites. Improvements included an extended design life of 12 years, faster processors, more memory, and a new civil signal on a third frequency."
       }
     ],
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-50",
     "date": "2015-07-15",
     "launchSite": "Cape Canaveral",
@@ -3333,8 +3333,8 @@
         "description": "The PropCube (Propagation CubeSat) series of 1U CubeSats are ionospheric research satellites to measure artificial ionization."
       }
     ],
-    "vehicle": "Atlas-5 401m",
-    "vehicleFamily": "Atlas",
+    "vehicle": "a07661db-3029-4a64-a944-4ad91f265b22",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-058",
     "date": "2015-10-08",
     "launchSite": "Vandenberg AFB",
@@ -3357,8 +3357,8 @@
         "description": "GPS-2F or Navstar-2F satellites are the fourth evolution stage of the second generation of the GPS satellites. Improvements included an extended design life of 12 years, faster processors, more memory, and a new civil signal on a third frequency."
       }
     ],
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-060",
     "date": "2015-10-31",
     "launchSite": "Cape Canaveral",
@@ -3591,16 +3591,16 @@
         "description": "SNAPS (Stanford Nano Picture Satellite) is a nanosatellite built by Stanford (SSDL), which is intended to image other CubeSats autonomously using H264 compression."
       }
     ],
-    "vehicle": "Atlas-5 401l",
-    "vehicleFamily": "Atlas",
+    "vehicle": "b5739ce4-47b6-4792-85ce-849c5435b96d",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-061",
     "date": "2015-12-06",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B1 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "7d4984f3-f38d-40b1-83c1-2df3727a0776",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1019.1",
     "date": "2015-12-22",
     "status": "success",
@@ -3733,8 +3733,8 @@
     "id": "550333ac-04ba-41c6-a501-798ce241d3dc"
   },
   {
-    "vehicle": "Falcon-9 v1.1 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "ae35985d-33db-43d1-b003-66c25514e38a",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "",
     "date": "2016-01-17",
     "status": "success",
@@ -3773,16 +3773,16 @@
         "description": "GPS-2F or Navstar-2F satellites are the fourth evolution stage of the second generation of the GPS satellites. Improvements included an extended design life of 12 years, faster processors, more memory, and a new civil signal on a third frequency."
       }
     ],
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
     "date": "2016-02-05",
     "serial": "AV-057"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B1 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "7d4984f3-f38d-40b1-83c1-2df3727a0776",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1020.1",
     "date": "2016-03-04",
     "status": "success",
@@ -4121,16 +4121,16 @@
         "description": "\nLemur 2 [Spire]\n\nLemur-2 is the initial constellation of low-Earth orbiting satellites built by Spire. These satellites carry two payloads for meteorology and ship traffic tracking."
       }
     ],
-    "vehicle": "Atlas-5 401l",
-    "vehicleFamily": "Atlas",
+    "vehicle": "b5739ce4-47b6-4792-85ce-849c5435b96d",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-064",
     "date": "2016-03-23",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B2 C",
-    "vehicleFamily": "Falcon",
+    "vehicle": "ff0fe186-b1d6-4824-8d9c-ca6e1d898d49",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1021.1",
     "date": "2016-04-08",
     "status": "success",
@@ -4163,8 +4163,8 @@
     "id": "876d3ed9-d537-4aae-b201-278394602d34"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B2 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "6025cf7a-cc3f-4555-bd2c-6c84741ac95b",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1022.1",
     "date": "2016-05-06",
     "status": "success",
@@ -4187,8 +4187,8 @@
     "id": "5946130c-356c-44fc-bbc7-45266d603478"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B2 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "6025cf7a-cc3f-4555-bd2c-6c84741ac95b",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1023.1",
     "date": "2016-05-27",
     "status": "success",
@@ -4211,8 +4211,8 @@
     "id": "259d39ca-a505-4cb9-b63f-e521d715c141"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B2 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "6025cf7a-cc3f-4555-bd2c-6c84741ac95b",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1024.1",
     "date": "2016-06-15",
     "status": "success",
@@ -4245,8 +4245,8 @@
     "id": "1369d88d-fa12-495d-9817-553e388c2ef6"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B2 C",
-    "vehicleFamily": "Falcon",
+    "vehicle": "ff0fe186-b1d6-4824-8d9c-ca6e1d898d49",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1025.1",
     "date": "2016-07-18",
     "status": "success",
@@ -4279,8 +4279,8 @@
     "id": "64323077-e8c0-4b53-83fc-880f0171b0f6"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B2 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "6025cf7a-cc3f-4555-bd2c-6c84741ac95b",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1026.1",
     "date": "2016-08-14",
     "status": "success",
@@ -4303,8 +4303,8 @@
     "id": "42bb677d-cfbe-45ce-9a3a-10494e57a09d"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B3 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "505182ab-4079-4a04-b46c-e11a0b42ed83",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1028.1",
     "date": "2016-09-01",
     "status": "failure",
@@ -4343,8 +4343,8 @@
         "description": "NASA has selected the University of Arizona to lead the OSIRIS-REx (Origins, Spectral Interpretation, Resource Identification, Security –Regolith Explorer) sample-return mission to an asteroid."
       }
     ],
-    "vehicle": "Atlas-5 411s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "e779df73-be1e-4edd-a3f6-dbe02301334f",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-067",
     "date": "2016-09-08",
     "launchSite": "Cape Canaveral",
@@ -4437,16 +4437,16 @@
         "description": "CELTEE 1 (CubeSat Enhanced Locator Transponder Evaluation Experiment 1) is picosatellite built by M42 Technologies (Seattle,WA) for the Air Force Research Laboratory (AFRL). It is built to the 1U CubeSat form factor."
       }
     ],
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "date": "2016-11-11",
     "serial": "AV-062",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-3E"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B3 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "505182ab-4079-4a04-b46c-e11a0b42ed83",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1029.1",
     "date": "2017-01-14",
     "status": "success",
@@ -4575,16 +4575,16 @@
         "description": "SBIRS-GEO (Space Based Infra Red Sensor - Geostationary) is the geostationary component of the SBIRS-High program, which will replace the DSP system of early warning satellites in providing early warning for Intercontinental Ballistic Missile launches."
       }
     ],
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-066",
     "date": "2017-01-21",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B3 C",
-    "vehicleFamily": "Falcon",
+    "vehicle": "42253f77-476d-42cb-a8ec-455c23dfe504",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1029.1",
     "date": "2017-02-19",
     "status": "success",
@@ -4653,16 +4653,16 @@
         "description": "NOSS-3 (Naval Ocean Surveillance System), which is likely not the official designation, is the third generation of NOSS satellites, which are low orbit SIGINT satellites. In 2013, the designation Intruder leaked out."
       }
     ],
-    "vehicle": "Atlas-5 401m",
-    "vehicleFamily": "Atlas",
+    "vehicle": "a07661db-3029-4a64-a944-4ad91f265b22",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-068",
     "date": "2017-03-01",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-3E"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B3 Fx",
-    "vehicleFamily": "Falcon",
+    "vehicle": "f5fbd30f-e61e-421d-9ab6-614b957e065c",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1030",
     "date": "2017-03-16",
     "status": "success",
@@ -4685,8 +4685,8 @@
     "id": "f32a7cba-4ae4-46bc-9f6a-0925d4d9edd3"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B2 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "6025cf7a-cc3f-4555-bd2c-6c84741ac95b",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1021.2",
     "date": "2017-03-30",
     "status": "success",
@@ -5105,16 +5105,16 @@
         "description": "Lemur-2 is the initial constellation of low-Earth orbiting satellites built by Spire. These satellites carry two payloads for meteorology and ship traffic tracking."
       }
     ],
-    "vehicle": "Atlas-5 401l",
-    "vehicleFamily": "Atlas",
+    "vehicle": "b5739ce4-47b6-4792-85ce-849c5435b96d",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-070",
     "date": "2017-04-18",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B3 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "505182ab-4079-4a04-b46c-e11a0b42ed83",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1032.1",
     "date": "2017-05-01",
     "status": "success",
@@ -5137,8 +5137,8 @@
     "id": "c409b5d2-124b-4326-b4bf-a0498d0e34c0"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B3 Fx",
-    "vehicleFamily": "Falcon",
+    "vehicle": "f5fbd30f-e61e-421d-9ab6-614b957e065c",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1034",
     "date": "2017-05-15",
     "status": "success",
@@ -5161,8 +5161,8 @@
     "id": "6aaf7c06-3eae-4f80-acbc-440398589a1d"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B3 C",
-    "vehicleFamily": "Falcon",
+    "vehicle": "42253f77-476d-42cb-a8ec-455c23dfe504",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1035.1",
     "date": "2017-06-03",
     "status": "success",
@@ -5265,8 +5265,8 @@
     "id": "9320b599-3538-4415-977c-259c60b4645a"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B3 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "505182ab-4079-4a04-b46c-e11a0b42ed83",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1029.2",
     "date": "2017-06-23",
     "status": "success",
@@ -5289,8 +5289,8 @@
     "id": "24c41276-6dec-4431-acd1-4ce041716338"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B3 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "505182ab-4079-4a04-b46c-e11a0b42ed83",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1036.1",
     "date": "2017-06-25",
     "status": "success",
@@ -5403,8 +5403,8 @@
     "id": "27c9e733-a5f8-433f-9087-2366ddd7a29e"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B3 Fx",
-    "vehicleFamily": "Falcon",
+    "vehicle": "f5fbd30f-e61e-421d-9ab6-614b957e065c",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1037",
     "date": "2017-07-05",
     "status": "success",
@@ -5427,8 +5427,8 @@
     "id": "b51e5528-7a0d-4552-a992-1caf559e8c5f"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B4 C",
-    "vehicleFamily": "Falcon",
+    "vehicle": "36d809c4-18e9-418d-b963-4c7e0b594ac7",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1039.1",
     "date": "2017-08-14",
     "status": "success",
@@ -5517,16 +5517,16 @@
         "description": "NASA selected Boeing in December 2007 to built the third generation of TDRS (Tracking & Data Relay Satellite) data relay satellites. They are the successors of the second generation TDRS satellites."
       }
     ],
-    "vehicle": "Atlas-5 401m",
-    "vehicleFamily": "Atlas",
+    "vehicle": "a07661db-3029-4a64-a944-4ad91f265b22",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-074",
     "date": "2017-08-18",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B3 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "505182ab-4079-4a04-b46c-e11a0b42ed83",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1038.1",
     "date": "2017-08-24",
     "status": "success",
@@ -5549,8 +5549,8 @@
     "id": "3f074854-c14e-47f4-8a7c-2e9dbfbf92c4"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B4 C",
-    "vehicleFamily": "Falcon",
+    "vehicle": "36d809c4-18e9-418d-b963-4c7e0b594ac7",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1040.1",
     "date": "2017-09-07",
     "status": "success",
@@ -5689,16 +5689,16 @@
         "description": ""
       }
     ],
-    "vehicle": "Falcon-9 v1.2 B4 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "1ccb9d4c-70cd-450e-bce7-f5e16c07552d",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1041.1",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
     "date": "2017-10-09"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B3 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "505182ab-4079-4a04-b46c-e11a0b42ed83",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1031.2",
     "date": "2017-10-11",
     "status": "success",
@@ -5721,8 +5721,8 @@
     "id": "f1ead91f-9e4e-42b2-bcc0-a41ea27973e2"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B4 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "1ccb9d4c-70cd-450e-bce7-f5e16c07552d",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1042.1",
     "date": "2017-10-30",
     "status": "success",
@@ -5745,8 +5745,8 @@
     "id": "dc4e6095-059e-4ade-8bd7-0b29b3503231"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B4 C",
-    "vehicleFamily": "Falcon",
+    "vehicle": "36d809c4-18e9-418d-b963-4c7e0b594ac7",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1035.2",
     "date": "2017-12-15",
     "status": "success",
@@ -5789,8 +5789,8 @@
     "id": "1b84c7e1-9228-46f4-9a3d-3e4d17e5d7d0"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B3 Fx",
-    "vehicleFamily": "Falcon",
+    "vehicle": "f5fbd30f-e61e-421d-9ab6-614b957e065c",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1036.2",
     "date": "2017-12-23",
     "status": "success",
@@ -5903,8 +5903,8 @@
     "id": "9966c24d-ea67-45a8-9c11-78ef696de359"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B4 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "1ccb9d4c-70cd-450e-bce7-f5e16c07552d",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1043.1",
     "date": "2018-01-08",
     "status": "success",
@@ -5943,16 +5943,16 @@
         "description": "SBIRS-GEO (Space Based Infra Red Sensor - Geostationary) is the geostationary component of the SBIRS-High program, which will replace the DSP system of early warning satellites in providing early warning for Intercontinental Ballistic Missile launches."
       }
     ],
-    "vehicle": "Atlas-5 411s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "e779df73-be1e-4edd-a3f6-dbe02301334f",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-076",
     "date": "2018-01-20",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B3 Fx",
-    "vehicleFamily": "Falcon",
+    "vehicle": "f5fbd30f-e61e-421d-9ab6-614b957e065c",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1032.2",
     "date": "2018-01-31",
     "status": "success",
@@ -5975,8 +5975,8 @@
     "id": "498eb2b9-0108-4c9d-86bb-a6738727b778"
   },
   {
-    "vehicle": "Falcon-9 v1.2 Heavy",
-    "vehicleFamily": "Falcon",
+    "vehicle": "16919357-6b13-472a-b176-58978644f2e6",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1023.2 / B1033.1 / B1025.2",
     "date": "2018-02-06",
     "status": "success",
@@ -5999,8 +5999,8 @@
     "id": "db7ab512-b98a-48da-868a-401c5abf9491"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B3 Fx",
-    "vehicleFamily": "Falcon",
+    "vehicle": "f5fbd30f-e61e-421d-9ab6-614b957e065c",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1038.2",
     "date": "2018-02-22",
     "status": "success",
@@ -6043,8 +6043,8 @@
     "id": "961e9908-1759-4e6b-afd2-008909a3d7bb"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B4 Fx",
-    "vehicleFamily": "Falcon",
+    "vehicle": "dc14274e-2c0e-4325-b6b2-33b4d094c18d",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1044.1",
     "date": "2018-03-26",
     "status": "success",
@@ -6077,8 +6077,8 @@
     "id": "fc6f1bf2-bf8c-4a50-9581-1e1404431f85"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B4 Fx",
-    "vehicleFamily": "Falcon",
+    "vehicle": "dc14274e-2c0e-4325-b6b2-33b4d094c18d",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1041.2",
     "date": "2018-03-30",
     "status": "success",
@@ -6191,8 +6191,8 @@
     "id": "4f74a304-6095-4bce-b2e9-9a92af46d72a"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B4 Cx",
-    "vehicleFamily": "Falcon",
+    "vehicle": "d3c175a3-64b0-4cca-b280-2fc225344c93",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1039.2",
     "date": "2018-04-02",
     "status": "success",
@@ -6305,8 +6305,8 @@
     "id": "a6604799-0394-4609-bae2-1f4ac72942ef"
   },
   {
-    "vehicle": "Falcon-9 v1.2 B4 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "1ccb9d4c-70cd-450e-bce7-f5e16c07552d",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1045.1",
     "date": "2018-04-18",
     "status": "success",
@@ -6365,8 +6365,8 @@
         "description": "MarCO (Mars Cube One) is a two spacecraft mission to accompany the InSight Mars lander to provide real-time data relay during the landing phase, as the MRO, MAVEN, and Mars Odyssey orbiters will not be in position to receive InSight data. The probes are nick-named Wall-E and Eva."
       }
     ],
-    "vehicle": "Atlas-5 401s",
-    "vehicleFamily": "Atlas",
+    "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
+    "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-078",
     "date": "2018-05-05",
     "launchSite": "Vandenberg AFB",
@@ -6389,8 +6389,8 @@
         "description": "Bangabandhu 1 is the first Bangladeshian geostationary communications satellite. The satellite was ordered in November 2015 from Thales Alenia Space, who will build, launch and operate the satellite for the Bangladesh Telecommunication Regulatory Commission."
       }
     ],
-    "vehicle": "Falcon-9 v1.2 B5 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "c1c29d68-69b2-447b-a929-4af7c916f5f0",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1046.1",
     "date": "2018-05-11",
     "launchSite": "Kennedy Space Center",
@@ -6473,8 +6473,8 @@
         "description": "GRACE-FO (Gravity Recovery And Climate Experiment - Follow On) mission is the successor to the GRACE mission. For a minimum of five years from August 2017, the GRACE-FO mission will continue the extremely accurate measurement data collection of the first twin GRACE satellites."
       }
     ],
-    "vehicle": "Falcon-9 v1.2 B4 Fx",
-    "vehicleFamily": "Falcon",
+    "vehicle": "dc14274e-2c0e-4325-b6b2-33b4d094c18d",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1043.2",
     "date": "2018-05-22",
     "launchSite": "Vandenberg AFB",
@@ -6497,8 +6497,8 @@
         "description": "SES 12 is a powerful geostationary communications satellite operating in Ku- and Ka-bands, which uses electric propulsion for initial orbit raising and all on-orbit manoeuvres."
       }
     ],
-    "vehicle": "Falcon-9 v1.2 B4 Fx",
-    "vehicleFamily": "Falcon",
+    "vehicle": "dc14274e-2c0e-4325-b6b2-33b4d094c18d",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1040.2",
     "date": "2018-06-04",
     "launchSite": "Cape Canaveral",
@@ -6591,8 +6591,8 @@
         "description": "Bird are a small technological CubeSat (1U) built by Kyushu Institute of Technology (Kyutech) as the Joint Global Multi-Nation Birds Satellite project, which is a cross-border interdisciplinary satellite project for non-space faring countries supported by Japan."
       }
     ],
-    "vehicle": "Falcon-9 v1.2 B4 Cx",
-    "vehicleFamily": "Falcon",
+    "vehicle": "d3c175a3-64b0-4cca-b280-2fc225344c93",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1045.2",
     "date": "2018-06-29",
     "launchSite": "Cape Canaveral",
@@ -6615,8 +6615,8 @@
         "description": "Telstar 19 VANTAGE or Telstar 19V is a communications satellite with two high throughput payloads, one in Ku-band and the other in Ka-band."
       }
     ],
-    "vehicle": "Falcon-9 v1.2 B5 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "c1c29d68-69b2-447b-a929-4af7c916f5f0",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1047.1",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
@@ -6729,8 +6729,8 @@
         "description": ""
       }
     ],
-    "vehicle": "Falcon-9 v1.2 B5 F",
-    "vehicleFamily": "Falcon",
+    "vehicle": "c1c29d68-69b2-447b-a929-4af7c916f5f0",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
     "serial": "B1048.1",
     "date": "2018-07-25",
     "launchSite": "Vandenberg AFB",

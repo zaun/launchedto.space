@@ -53,7 +53,6 @@
               </table>
             </v-flex>
             <v-flex xs6>
-              <!-- <img :src="defaultMedia" class="default-image" /> -->
             </v-flex>
           </v-layout>
         </v-card-text>
@@ -212,26 +211,11 @@ export default {
 
   computed:  {
     launches () {
-      return filter(this.$store.state.launches, { vehicle: this.rocket.name });
+      return filter(this.$store.state.launches, { vehicle: this.rocket.id });
     },
     
     launchByStatus () {
       return countBy(this.launches, 'status'); 
-    },
-
-    defaultMedia () {
-      const launchId = this.launches[this.launches.length - 1].id;
-
-      if (!this.$store.state.mediaByLaunch[launchId]) {
-        return '';
-      }
-
-      let img = find(this.$store.state.mediaByLaunch[launchId], { default: true });
-      if (!img) {
-        img = this.$store.state.mediaByLaunch[launchId][0];
-      }
-
-      return '/media/thumb/' + img.filename;
     },
 
     rocketClass () {

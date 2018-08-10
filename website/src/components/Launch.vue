@@ -176,11 +176,11 @@ export default {
     },
 
     family () {
-      return _.find(this.$store.state.families, { name: this.launch.vehicleFamily });
+      return _.find(this.$store.state.families, { id: this.launch.vehicleFamily });
     },
 
     rocket () {
-      return _.find(this.family.rockets, { name: this.launch.vehicle });
+      return _.find(this.family.rockets, { id: this.launch.vehicle });
     },
 
     status () {

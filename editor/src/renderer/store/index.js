@@ -151,6 +151,17 @@ export default new Vuex.Store({
             return p;
           });
 
+          let f = find(state.families, { name: i.vehicleFamily });
+          if (f) {
+            i.vehicleFamily = f.id;
+          }
+          f = find(state.families, { id: i.vehicleFamily });
+
+          const r = find(f.rockets, { name: i.vehicle });
+          if (r) {
+            i.vehicle = r.id;
+          }
+
           return i;
         });
       });
@@ -265,9 +276,11 @@ export default new Vuex.Store({
     },
 
     updateData(context) {
-      context.commit('updateLaunchData');
       context.commit('updateMediaData');
       context.commit('updateFamilies');
+      setTimeout(() => {
+        context.commit('updateLaunchData');
+      }, 100);
     },
 
     saveLaunch(context, data) {
