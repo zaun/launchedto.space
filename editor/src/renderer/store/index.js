@@ -11,6 +11,7 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
+    astronauts: [],
     launches: [],
     families: [],
     media: [],
@@ -31,6 +32,15 @@ export default new Vuex.Store({
   },
 
   mutations: {
+
+    addAstronaut(state, data) {
+      const found = find(state.astronauts, { id: data.id });
+
+      if (!found) {
+        state.astronauts.push(data);
+      }
+    },
+
     addLaunchMedia(state, data) {
       encodeFromFile(path.join(__dirname, '../../../../media/thumb/', data.filename)).then((uri) => {
         // eslint-disable-next-line
@@ -75,6 +85,17 @@ export default new Vuex.Store({
       } else {
         delete m.default;
       }
+    },
+
+    saveAstronaut(state, data) {
+      const found = find(state.astronauts, { id: data.id });
+
+      if (found) {
+        remove(state.astronauts, { id: data.id });
+      }
+      state.astronauts.push(data);
+      state.astronauts = sortBy(state.astronauts, ['nationality', 'lastName']);
+      writeFile(path.join(__dirname, '../../../../data/astronauts.json'), JSON.stringify(state.astronauts, null, 2));
     },
 
     saveMedia(state, data) {
@@ -124,6 +145,17 @@ export default new Vuex.Store({
       }
     },
 
+    updateAstronautData(state) {
+      readFile(path.join(__dirname, '../../../../data/astronauts.json'), (err, data) => {
+        state.astronauts = JSON.parse(data.toString());
+
+        state.astronauts.forEach((a) => {
+          a.id = a.id ? a.id : uuidv4();
+          a.almamaters = a.almamaters ? a.almamaters : [];
+        });
+      });
+    },
+
     updateLaunchData(state) {
       readFile(path.join(__dirname, '../../../../data/launches.json'), (err, data) => {
         state.launches = map(filter(sortBy(JSON.parse(data.toString()), 'date'), 'date'), (i) => {
@@ -151,16 +183,11 @@ export default new Vuex.Store({
             return p;
           });
 
-          let f = find(state.families, { name: i.vehicleFamily });
-          if (f) {
-            i.vehicleFamily = f.id;
+          if (i.manned) {
+            delete i.manned;
           }
-          f = find(state.families, { id: i.vehicleFamily });
 
-          const r = find(f.rockets, { name: i.vehicle });
-          if (r) {
-            i.vehicle = r.id;
-          }
+          i.crew = i.crew ? i.crew : [];
 
           return i;
         });
@@ -248,9 +275,17 @@ export default new Vuex.Store({
     writeFamiliesData(state) {
       writeFile(path.join(__dirname, '../../../../data/families.json'), JSON.stringify(state.families, null, 2));
     },
+
+    writeAstronautData(state) {
+      writeFile(path.join(__dirname, '../../../../data/astronauts.json'), JSON.stringify(state.families, null, 2));
+    },
   },
 
   actions: {
+    addAstronaut(context, data) {
+      context.commit('addAstronaut', data);
+    },
+
     addLaunchMedia(context, data) {
       context.commit('addLaunchMedia', data);
     },
@@ -276,11 +311,14 @@ export default new Vuex.Store({
     },
 
     updateData(context) {
-      context.commit('updateMediaData');
+      context.commit('updateAstronautData');
       context.commit('updateFamilies');
-      setTimeout(() => {
-        context.commit('updateLaunchData');
-      }, 100);
+      context.commit('updateLaunchData');
+      context.commit('updateMediaData');
+    },
+
+    saveAstronaut(context, data) {
+      context.commit('saveAstronaut', data);
     },
 
     saveLaunch(context, data) {

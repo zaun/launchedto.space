@@ -2,6 +2,7 @@ import 'babel-polyfill';
 import Vue from 'vue';
 import Vuetify from 'vuetify';
 import VueAnalytics from 'vue-analytics';
+import VueYoutube from 'vue-youtube';
 
 import 'material-design-icons-iconfont/dist/material-design-icons.css';
 import 'vueperslides/dist/vueperslides.min.css';
@@ -21,6 +22,7 @@ Vue.use(VueAnalytics, {
 });
 
 Vue.use(Vuetify);
+Vue.use(VueYoutube);
 
 new Vue({
   router,

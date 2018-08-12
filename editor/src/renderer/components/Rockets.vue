@@ -49,7 +49,7 @@
           <v-select v-model="selected.expendable" :items="expendableOptions" label="Expendable" class="pr-1"></v-select>
         </v-flex>
         <v-flex xs2>
-          <v-select v-model="selected.payloadType" :items="payloadTypeOptions" label="Payload Type" class="pr-1"></v-select>
+          <v-select v-model="selected.payloadType" :items="payloadTypeOptions" label="Payload Type" clearable class="pr-1"></v-select>
         </v-flex>
         <v-flex v-if="selected.payloadType == 'Fairing'" xs2>
           <v-text-field v-model="selected.fairingHeight" label="Fairing Height (m)" type="number" class="pr-1"></v-text-field>

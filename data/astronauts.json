@@ -1,0 +1,486 @@
+[
+  {
+    "id": "37784553-bfeb-416f-a0cc-147098914cc8",
+    "firstName": "Joseph",
+    "middleName": "Michael",
+    "nationality": "American",
+    "status": "Active",
+    "birthDate": "1967-05-17",
+    "lastName": "Acaba",
+    "military": "Marine Corps Reserve",
+    "daysInSpace": "306.0236",
+    "evaTime": "19.7666",
+    "militaryYears": "6",
+    "militaryRank": "Sergeant",
+    "nickName": "Joe",
+    "birthCity": "Inglewood",
+    "birthReagon": "California",
+    "almamaters": [
+      {
+        "name": "University of California, Santa Barbara ",
+        "year": "1990",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Geology"
+      },
+      {
+        "name": "University of Arizona ",
+        "year": "1992",
+        "degree": "Master of Science",
+        "fieldOfStudy": "Geology"
+      }
+    ],
+    "gender": "Male"
+  },
+  {
+    "id": "bfaf8469-0c2d-4afc-b8d6-62e48079cc03",
+    "firstName": "Loren",
+    "lastName": "Acton",
+    "status": "Retired",
+    "nationality": "American",
+    "middleName": "Wilber",
+    "birthDate": "1936-03-07",
+    "daysInSpace": "7.9479",
+    "evaTime": "",
+    "birthReagon": "Montana",
+    "birthCity": "Lewistown",
+    "almamaters": [],
+    "gender": "Male"
+  },
+  {
+    "id": "a211948d-21b3-4ac3-b727-d58cd435e5d3",
+    "firstName": "Michael",
+    "middleName": "James",
+    "lastName": "Adams",
+    "nickName": "Mike",
+    "nationality": "American",
+    "birthDate": "1930-05-05",
+    "birthCity": "Sacramento",
+    "birthReagon": "California",
+    "status": "Deceased",
+    "military": "Air Force",
+    "militaryRank": "Major",
+    "deathDate": "1976-11-15",
+    "deathCity": "Johannesburg",
+    "deathReagon": "California",
+    "almamaters": [
+      {
+        "name": "University of Oklahoma",
+        "year": "1958",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Aeronautical Engineering"
+      }
+    ],
+    "gender": "Male"
+  },
+  {
+    "id": "d248a907-584b-4c05-b009-f94c703461ba",
+    "lastName": "Adamson",
+    "firstName": "James",
+    "middleName": "Craig",
+    "nationality": "American",
+    "status": "Retired",
+    "military": "Army",
+    "militaryRank": "Colonel",
+    "birthDate": "1946-03-03",
+    "birthCity": "Warsaw",
+    "birthReagon": "New York",
+    "daysInSpace": "13.9312",
+    "almamaters": [
+      {
+        "name": "United States Military Academy",
+        "year": "1969",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Engineering"
+      },
+      {
+        "name": "Princeton University",
+        "degree": "Master of Science",
+        "year": "1977",
+        "fieldOfStudy": "Aerospace Engineering"
+      }
+    ],
+    "gender": "Male"
+  },
+  {
+    "id": "33772793-cafa-4f8c-bf6c-c42361fd4fdf",
+    "firstName": "Thomas",
+    "middleName": "Dale",
+    "lastName": "Akers",
+    "nationality": "American",
+    "birthDate": "1951-05-20",
+    "birthCity": "St. Louis",
+    "birthReagon": "Missouri",
+    "status": "Active",
+    "military": "Air Force",
+    "militaryRank": "Colonel",
+    "daysInSpace": "33.9472",
+    "almamaters": [
+      {
+        "name": "University of Missouri-Rolla",
+        "year": "1973",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Applied Mathematics"
+      },
+      {
+        "name": "University of Missouri-Rolla",
+        "year": "1975",
+        "degree": "Master of Science",
+        "fieldOfStudy": "Applied Mathematics"
+      }
+    ],
+    "gender": "Male"
+  },
+  {
+    "id": "cef5a876-efcf-4a08-8999-8ecaed77ec86",
+    "almamaters": [
+      {
+        "name": "United States Military Academy",
+        "year": "1951",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Mechanical Engineering"
+      },
+      {
+        "name": "Massachusetts Institute of Technology",
+        "year": "1963",
+        "fieldOfStudy": "Astronautics",
+        "degree": "Doctor of Science"
+      }
+    ],
+    "firstName": "Edwin",
+    "middleName": "Eugene",
+    "lastName": "Aldrin",
+    "suffix": "Jr.",
+    "nickName": "Buzz",
+    "nationality": "American",
+    "birthDate": "1930-01-20",
+    "birthCity": "Glen Ridge",
+    "birthReagon": "New Jersey",
+    "status": "Retired",
+    "daysInSpace": "12.0777",
+    "evaTime": "7.8666",
+    "military": "Air Force",
+    "militaryRank": "Colonel",
+    "gender": "Male"
+  },
+  {
+    "id": "1fb739f1-a1f8-4867-ad21-cc0a12c1c8e1",
+    "almamaters": [
+      {
+        "name": "United States Naval Academy",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Electrical Engineering",
+        "year": "1955"
+      },
+      {
+        "name": "Air Force Institute of Technology",
+        "fieldOfStudy": "Nuclear Engineering",
+        "degree": "Master of Science",
+        "year": "1962"
+      },
+      {
+        "year": "1979",
+        "name": "Harvard Business School",
+        "fieldOfStudy": "Advanced Management Program"
+      }
+    ],
+    "firstName": "William",
+    "middleName": "Alison",
+    "lastName": "Anders",
+    "nickName": "Bill",
+    "gender": "Male",
+    "nationality": "American",
+    "birthDate": "1933-10-17",
+    "birthCity": "British Hong Kong",
+    "status": "Retired",
+    "daysInSpace": "6.125",
+    "military": "Air Force Reserve",
+    "militaryRank": "Major General"
+  },
+  {
+    "id": "22619841-0d46-425d-82ef-c80ac71d8104",
+    "almamaters": [
+      {
+        "name": "United States Military Academy",
+        "year": "1950",
+        "degree": "Bachelor of Science"
+      },
+      {
+        "name": "California Institute of Technology",
+        "year": "1957",
+        "degree": "Master of Science",
+        "fieldOfStudy": "Aeronautical Engineering"
+      }
+    ],
+    "firstName": "Frank",
+    "middleName": "Frederick",
+    "lastName": "Borman",
+    "suffix": "II",
+    "gender": "Male",
+    "nationality": "American",
+    "birthDate": "1928-03-14",
+    "birthCity": "Gary",
+    "birthReagon": "Indiana",
+    "military": "Air Force",
+    "militaryRank": "Colonel",
+    "status": "Retired",
+    "daysInSpace": "19.8993"
+  },
+  {
+    "id": "dfa662c8-c4af-42bd-916b-e88c172b79c5",
+    "almamaters": [
+      {
+        "name": "University of Texas at Austin",
+        "year": "1960",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Aerospace Engineering"
+      }
+    ],
+    "firstName": "Robert",
+    "middleName": "Laurel",
+    "lastName": "Crippen",
+    "nationality": "American",
+    "birthDate": "1937-09-11",
+    "birthCity": "Beaumont",
+    "birthReagon": "Texas",
+    "status": "Retired",
+    "daysInSpace": "23.5736",
+    "military": "Navy",
+    "militaryRank": "Captain",
+    "gender": "Male"
+  },
+  {
+    "id": "5b6a9933-2758-4847-bf9e-ecc17b6e443d",
+    "almamaters": [
+      {
+        "name": "University of Kansas",
+        "year": "1955",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Aeronautical Engineering"
+      }
+    ],
+    "firstName": "Joe",
+    "middleName": "Henry",
+    "lastName": "Engle",
+    "gender": "Male",
+    "nationality": "American",
+    "status": "Retired",
+    "birthDate": "1932-08-26",
+    "birthCity": "Chapman",
+    "birthReagon": "Kansas",
+    "military": "Air Force",
+    "militaryRank": "Major General",
+    "daysInSpace": "9.3541"
+  },
+  {
+    "id": "ad7d04b2-1fc7-4481-8304-95068c142075",
+    "almamaters": [
+      {
+        "name": "California Institute of Technology",
+        "year": "1957",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Mechanical Engineering"
+      },
+      {
+        "fieldOfStudy": "Mechanical Engineering",
+        "name": "California Institute of Technology",
+        "year": "1958",
+        "degree": "Master of Science"
+      }
+    ],
+    "firstName": "Charles",
+    "middleName": "Gordon",
+    "lastName": "Fullerton",
+    "nationality": "American",
+    "status": "Deceased",
+    "birthDate": "1936-10-11",
+    "birthCity": "Rochester",
+    "birthReagon": "New York",
+    "deathDate": "2013-08-21",
+    "deathCity": "Lancaster",
+    "deathReagon": "California",
+    "military": "Air Force",
+    "militaryRank": "Colonel",
+    "daysInSpace": "15.9513"
+  },
+  {
+    "id": "fdb3f682-7cbc-4926-8929-4831247f1e99",
+    "almamaters": [
+      {
+        "name": "University of Michigan",
+        "year": "1959",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Aeronautical Engineering"
+      },
+      {
+        "fieldOfStudy": "Aeronautical Engineering",
+        "degree": "Master of Science",
+        "year": "1965",
+        "name": "U.S. Naval Postgraduate School"
+      }
+    ],
+    "firstName": "Jack",
+    "middleName": "Robert",
+    "lastName": "Lousma",
+    "gender": "Male",
+    "nationality": "American",
+    "birthDate": "1936-02-29",
+    "birthCity": "Grand Rapids",
+    "birthReagon": "Michigan",
+    "military": "Marine Corps",
+    "militaryRank": "Colonel",
+    "status": "Retired",
+    "daysInSpace": "67.4673"
+  },
+  {
+    "id": "d666da8f-a8f2-4856-a83c-96a002cd5614",
+    "almamaters": [
+      {
+        "name": "University of Wisconsin–Madison",
+        "fieldOfStudy": "Flying Midshipman",
+        "year": "1948"
+      }
+    ],
+    "firstName": "James",
+    "middleName": "Arthur",
+    "lastName": "Lovell",
+    "suffix": "Jr.",
+    "gender": "Male",
+    "nationality": "American",
+    "birthDate": "1928-03-25",
+    "birthCity": "Cleveland",
+    "birthReagon": "Ohio",
+    "status": "Retired",
+    "military": "Navy",
+    "militaryRank": "Captain",
+    "daysInSpace": "29.7937"
+  },
+  {
+    "id": "4cb777b7-ead6-4d83-924c-23b920393ff3",
+    "almamaters": [
+      {
+        "name": "Georgia Institute of Technology",
+        "year": "1959",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Aeronautical Engineering"
+      }
+    ],
+    "firstName": "Richard",
+    "middleName": "Harrison",
+    "lastName": "Truly",
+    "gender": "Male",
+    "nationality": "American",
+    "birthDate": "1989-07-01",
+    "birthCity": "Fayette",
+    "birthReagon": "Mississippi",
+    "status": "Retired",
+    "military": "Navy",
+    "militaryRank": "Vice Admiral"
+  },
+  {
+    "id": "461cfa15-569a-48cd-8129-efc83787e4b0",
+    "almamaters": [
+      {
+        "name": "Georgia Institute of Technology",
+        "year": "1952",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Aeronautical Engineering"
+      }
+    ],
+    "firstName": "John",
+    "middleName": "Watts",
+    "lastName": "Young",
+    "nationality": "American",
+    "birthDate": "1930-09-24",
+    "birthCity": "San Francisco",
+    "birthReagon": "California",
+    "deathDate": "2018-01-05",
+    "deathCity": "Houston",
+    "deathReagon": "Texas",
+    "status": "Deceased",
+    "military": "Navy",
+    "militaryRank": "Captain",
+    "daysInSpace": "34.8187",
+    "evaTime": "20.2333",
+    "gender": "Male"
+  },
+  {
+    "id": "4b3ed17e-e350-44ec-843a-9516105e1036",
+    "almamaters": [],
+    "firstName": "Aleksandr",
+    "middleName": "Panayotov",
+    "lastName": "Aleksandrov",
+    "nationality": "Bulgarian",
+    "birthDate": "1951-12-01",
+    "birthCity": "Omurtag",
+    "birthReagon": "Targovisht Oblast",
+    "status": "Retired",
+    "military": "Air Force",
+    "militaryRank": "Lieutenant Colonel",
+    "daysInSpace": "9.8402",
+    "gender": "Male"
+  },
+  {
+    "id": "20ae7ce2-3e92-4ba6-86d7-6624a13ac68d",
+    "firstName": "Aidyn",
+    "middleName": "Akanovich",
+    "lastName": "Aimbetov",
+    "nationality": "Kazakh",
+    "status": "Active",
+    "military": "Air Force",
+    "militaryRank": "Colonel",
+    "daysInSpace": "9.8430",
+    "birthDate": "1972-07-27",
+    "birthReagon": "Kazakh SSR",
+    "almamaters": [],
+    "gender": "Male"
+  },
+  {
+    "id": "87e98eb4-b440-4a53-9cd5-568686cf1cf6",
+    "firstName": "Viktor",
+    "middleName": "Mikhailovich",
+    "lastName": "Afanasyev",
+    "nationality": "Russian",
+    "birthDate": "1948-12-31",
+    "status": "Retired",
+    "daysInSpace": "555.7729",
+    "evaTime": "38.0666",
+    "military": "Air Force",
+    "militaryRank": "Colonel",
+    "almamaters": [],
+    "gender": "Male"
+  },
+  {
+    "id": "f1e0c834-6537-44af-b1bc-eecad5894494",
+    "almamaters": [],
+    "firstName": "Vladimir",
+    "middleName": "Viktorovich",
+    "lastName": "Aksyonov",
+    "nationality": "Russian",
+    "status": "Retired",
+    "birthDate": "1935-02-01",
+    "birthCity": "Giblitsy",
+    "birthReagon": "Kasimovsky District",
+    "daysInSpace": "11.8409",
+    "gender": "Male"
+  },
+  {
+    "id": "b0ae65e9-a585-4482-91b8-ca2b21f6ed1c",
+    "almamaters": [
+      {
+        "name": "Moscow Bauman-Highschool",
+        "year": "1969",
+        "degree": "Doctor of Science",
+        "fieldOfStudy": "Spacecraft Steering Systems"
+      }
+    ],
+    "firstName": "Aleksandr",
+    "middleName": "Pavlovich",
+    "lastName": "Aleksandrov",
+    "nationality": "Russian",
+    "birthDate": "1943-02-20",
+    "birthCity": "Moscow",
+    "daysInSpace": "309.7513",
+    "status": "Retired",
+    "gender": "Male"
+  }
+]

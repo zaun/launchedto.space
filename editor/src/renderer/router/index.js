@@ -6,6 +6,11 @@ Vue.use(Router);
 export default new Router({
   routes: [
     {
+      path: '/astronauts',
+      name: 'astronauts',
+      component: require('@/components/Astronauts').default,
+    },
+    {
       path: '/launches',
       name: 'launches',
       component: require('@/components/Launches').default,

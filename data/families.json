@@ -2064,5 +2064,63 @@
         "wikipediaURL": "https://en.wikipedia.org/wiki/Atlas_V"
       }
     ]
+  },
+  {
+    "id": "d3089bab-31b1-4d63-90cd-f4eac7cdfcae",
+    "name": "Shuttle",
+    "rockets": [
+      {
+        "id": "fe494619-d36a-48df-a235-a98acbc3bcd0",
+        "engines": [],
+        "payloads": [],
+        "stages": [
+          {
+            "engines": [
+              {
+                "count": "2",
+                "name": "Thiokol",
+                "thrustVac": "11522.8137"
+              }
+            ],
+            "name": "Boosters",
+            "height": "38.47",
+            "diameter": "3.71",
+            "span": "3.71",
+            "grossMass": "589670",
+            "propellants": "PBAN/AL\t",
+            "thrustVac": "23045.6274",
+            "seaLevelIsp": "237",
+            "isp": "269",
+            "burnTime": "124"
+          },
+          {
+            "engines": [
+              {
+                "count": "3",
+                "name": "SSME",
+                "thrustVac": "2278.0847"
+              }
+            ],
+            "name": "Orbiter",
+            "propellants": "LOX / LH2",
+            "emptyMass": "99320",
+            "height": "32.24",
+            "diameter": "4.9",
+            "span": "4.9",
+            "thrustVac": "6834.2541",
+            "seaLevelIsp": "363",
+            "isp": "455",
+            "burnTime": "480"
+          }
+        ],
+        "name": "Columbia",
+        "skyrocketURL": "https://space.skyrocket.de/doc_lau/sts.htm",
+        "wikipediaURL": "https://en.wikipedia.org/wiki/Space_Shuttle_Columbia",
+        "astronautixURL": "http://www.astronautix.com/s/spaceshuttle.html",
+        "spacelaunchreportURL": "http://www.spacelaunchreport.com/sts.html",
+        "spaceflight101URL": "http://www.spaceflight101.net/the-space-shuttle.html",
+        "height": "56.1"
+      }
+    ]
   }
 ]

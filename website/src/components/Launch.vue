@@ -11,7 +11,9 @@
           <div class="subheading">{{ launch.launchSite }}<span v-if="launch.launchPad"> at {{ launch.launchPad  }}</span></div>
         </v-toolbar-title>
         <v-spacer></v-spacer>
-        <div v-if="isManned" class="manned"></div>
+        <v-btn flat icon v-if="launch.youtube" @click="launchVideoDisplayed = true">
+          <v-icon>videocam</v-icon>
+        </v-btn>
       </v-toolbar>
 
       <v-card-text v-if="1==0">
@@ -50,7 +52,7 @@
               <th>Expendable:</th>
               <td>{{ rocket.expendable === 'yes' ? 'Yes' : 'No' }}</td>
             </tr>
-            <tr>
+            <tr v-if="rocket.payloadType">
               <th>Payload Type:</th>
               <td>{{ rocket.payloadType }}</td>
             </tr>
@@ -68,6 +70,19 @@
             </tr>
           </table>
         </div>
+      </v-card-text>
+
+      <v-toolbar dense flat color="teal lighten-5" v-if="sortedCrew.length > 0">
+        <v-toolbar-title>Crew</v-toolbar-title>
+      </v-toolbar>
+
+      <v-card-text v-if="sortedCrew.length > 0">
+        <ul class="crew">
+          <li v-for="(crew, index) in sortedCrew" :key="`crew-${index}`">
+            <div>{{ crew.lastName }}, {{ crew.firstName }} {{ crew.middleName }}<span v-if="crew.nickName"> &quot;{{ crew.nickName }}&quot;</span></div>
+            <div class="small">{{ crew.nationality }}<span v-if="crew.birthDate">, born {{ formatShortDate(crew.birthDate) }}</span></div>
+          </li>
+        </ul>
       </v-card-text>
 
       <v-toolbar dense flat color="teal lighten-5" v-if="launch.payloads.length > 0">
@@ -106,6 +121,19 @@
         </vueper-slide>
       </vueper-slides>
     </v-dialog>
+
+    <v-dialog v-model="launchVideoDisplayed" lazy :scrollable="false" width="640">
+      <v-toolbar dense flat color="teal lighten-5" v-if="sortedCrew.length > 0">
+        <v-toolbar-title>Launch Video</v-toolbar-title>
+        <v-spacer></v-spacer>
+        <v-btn flat icon @click="closeVideo">
+          <v-icon>close</v-icon>
+        </v-btn>
+      </v-toolbar>
+      <div v-if="launchVideoDisplayed">
+        <youtube :video-id="launch.youtube" :player-vars="ytOptions" ref="youtube"></youtube>
+      </div>
+    </v-dialog>
   </section>
 </template>
 
@@ -135,7 +163,12 @@ export default {
       isMounted: false,
       maxHeight: 0,
 
+      ytOptions: {
+        autoplay: 1
+      },
+
       launchImagesDisplayed: false,
+      launchVideoDisplayed: false,
     };
   },
 
@@ -144,12 +177,15 @@ export default {
       return sortBy(this.launch.payloads, 'name');
     },
 
-    hasMedia () {
-      return this.$store.state.mediaByLaunch[this.launch.id] && this.$store.state.mediaByLaunch[this.launch.id].length > 0;
+    sortedCrew() {
+      var crew = _.map(this.launch.crew, (c) => {
+        return _.find(this.$store.state.astronauts, { id: c });
+      });
+      return _.sortBy(crew, 'lastName');
     },
 
-    isManned () {
-      return this.launch.manned === "yes";
+    hasMedia () {
+      return this.$store.state.mediaByLaunch[this.launch.id] && this.$store.state.mediaByLaunch[this.launch.id].length > 0;
     },
 
     launchImages () {
@@ -207,8 +243,16 @@ export default {
       return moment(date).format('MMMM Do, YYYY');
     },
 
+    formatShortDate(date) {
+      return moment(date).format('MMM. DD, YYYY');
+    },
+
     closeSlideshow() {
       this.launchImagesDisplayed = false;
+    },
+
+    closeVideo() {
+      this.launchVideoDisplayed = false;
     },
   },
 
@@ -290,6 +334,13 @@ half-line-width = line-width / 2
     background-size contain
     background-position center
 
+  .crew
+    list-style-type none
+    list-style-position inside
+
+    li
+      margin 0
+      padding 0
 
   .payload
     list-style-type none   

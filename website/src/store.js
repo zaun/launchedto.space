@@ -7,7 +7,7 @@ Vue.use(Vuex);
 
 const incLoaded = (state) => {
   state.loaded += 1;
-  if (state.loaded === 3) {
+  if (state.loaded === 4) {
     state.isReady = true;
   }
 };
@@ -18,6 +18,7 @@ export default new Vuex.Store({
     launchesByFamily: [],
     launches: [],
     mediaByLaunch: [],
+    astronauts: [],
     families: [],
     loaded: 0,
     isReady: false,
@@ -71,6 +72,18 @@ export default new Vuex.Store({
           console.log('err', error);
         });
     },
+
+    updateAstronauts(state) {
+      fetch('/data/astronauts.json')
+        .then(resp => resp.json())
+        .then((data) => {
+          state.astronauts = data;
+          incLoaded(state);
+        })
+        .catch((error) => {
+          console.log('err', error);
+        });
+    },
   },
 
   actions: {
@@ -78,6 +91,7 @@ export default new Vuex.Store({
       context.commit('updateLaunchData');
       context.commit('updateMediaData');
       context.commit('updateFamilies');
+      context.commit('updateAstronauts');
     },
   },
 });

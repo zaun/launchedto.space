@@ -7,10 +7,10 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-34",
-    "manned": "no",
     "orbital": "no",
     "payloads": [],
-    "id": "d4c7ca6c-eaf5-4380-af29-c88cac0f3250"
+    "id": "d4c7ca6c-eaf5-4380-af29-c88cac0f3250",
+    "crew": []
   },
   {
     "vehicle": "187cd80a-90a8-408c-bc42-0db024edf023",
@@ -20,7 +20,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-34",
-    "manned": "no",
     "orbital": "no",
     "payloads": [
       {
@@ -34,7 +33,8 @@
         "status": "success"
       }
     ],
-    "id": "06f5d3c8-b1af-4a4a-b40a-bdd1bb03b852"
+    "id": "06f5d3c8-b1af-4a4a-b40a-bdd1bb03b852",
+    "crew": []
   },
   {
     "vehicle": "187cd80a-90a8-408c-bc42-0db024edf023",
@@ -44,7 +44,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-34",
-    "manned": "no",
     "orbital": "no",
     "payloads": [
       {
@@ -58,7 +57,8 @@
         "status": "success"
       }
     ],
-    "id": "e62ab087-9a67-4dac-805a-cf83a17a7992"
+    "id": "e62ab087-9a67-4dac-805a-cf83a17a7992",
+    "crew": []
   },
   {
     "vehicle": "187cd80a-90a8-408c-bc42-0db024edf023",
@@ -68,10 +68,10 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-34",
-    "manned": "no",
     "orbital": "no",
     "payloads": [],
-    "id": "d9485552-6957-4f42-a312-a6e5bdebf587"
+    "id": "d9485552-6957-4f42-a312-a6e5bdebf587",
+    "crew": []
   },
   {
     "vehicle": "ad651b83-9c15-400b-ba33-dc8c68a9b75e",
@@ -81,7 +81,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-37B",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -95,7 +94,8 @@
         "status": "success"
       }
     ],
-    "id": "9d025a36-cd26-48f6-b243-048040d6eb8f"
+    "id": "9d025a36-cd26-48f6-b243-048040d6eb8f",
+    "crew": []
   },
   {
     "vehicle": "ad651b83-9c15-400b-ba33-dc8c68a9b75e",
@@ -105,7 +105,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-37B",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -129,7 +128,8 @@
         "status": "success"
       }
     ],
-    "id": "a182dda3-9ba7-4132-8cad-70be2c4c1756"
+    "id": "a182dda3-9ba7-4132-8cad-70be2c4c1756",
+    "crew": []
   },
   {
     "vehicle": "ad651b83-9c15-400b-ba33-dc8c68a9b75e",
@@ -139,7 +139,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-37B",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -163,7 +162,8 @@
         "status": "success"
       }
     ],
-    "id": "f7c748f5-82ef-46ac-b4cf-e8bfdfbd0749"
+    "id": "f7c748f5-82ef-46ac-b4cf-e8bfdfbd0749",
+    "crew": []
   },
   {
     "vehicle": "ad651b83-9c15-400b-ba33-dc8c68a9b75e",
@@ -173,7 +173,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-37B",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -197,7 +196,8 @@
         "status": "success"
       }
     ],
-    "id": "d05e6b12-6d3b-44f1-b973-a20c3943996c"
+    "id": "d05e6b12-6d3b-44f1-b973-a20c3943996c",
+    "crew": []
   },
   {
     "vehicle": "ad651b83-9c15-400b-ba33-dc8c68a9b75e",
@@ -207,7 +207,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-37B",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -231,7 +230,8 @@
         "status": "success"
       }
     ],
-    "id": "dbcc2d3e-9c4b-48e0-ba93-767e19f4c8c4"
+    "id": "dbcc2d3e-9c4b-48e0-ba93-767e19f4c8c4",
+    "crew": []
   },
   {
     "vehicle": "ad651b83-9c15-400b-ba33-dc8c68a9b75e",
@@ -241,7 +241,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-37B",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -265,7 +264,8 @@
         "status": "success"
       }
     ],
-    "id": "9914a9f6-1050-40ae-bb51-4d5abfb327af"
+    "id": "9914a9f6-1050-40ae-bb51-4d5abfb327af",
+    "crew": []
   },
   {
     "vehicle": "a1c50ce1-1b2e-4128-ad76-98bcf4c92dc8",
@@ -275,7 +275,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-34",
-    "manned": "no",
     "orbital": "no",
     "payloads": [
       {
@@ -289,7 +288,8 @@
         "status": "success"
       }
     ],
-    "id": "46916fa6-0517-4f35-9dbf-3a5417250d69"
+    "id": "46916fa6-0517-4f35-9dbf-3a5417250d69",
+    "crew": []
   },
   {
     "vehicle": "a1c50ce1-1b2e-4128-ad76-98bcf4c92dc8",
@@ -299,7 +299,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-37B",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -313,7 +312,8 @@
         "status": "success"
       }
     ],
-    "id": "dc7fb7a3-e75d-486a-9350-77e631edb87b"
+    "id": "dc7fb7a3-e75d-486a-9350-77e631edb87b",
+    "crew": []
   },
   {
     "vehicle": "a1c50ce1-1b2e-4128-ad76-98bcf4c92dc8",
@@ -323,7 +323,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-34",
-    "manned": "no",
     "orbital": "no",
     "payloads": [
       {
@@ -337,7 +336,8 @@
         "status": "success"
       }
     ],
-    "id": "46a952e7-e826-4358-bb5e-7b595b424bce"
+    "id": "46a952e7-e826-4358-bb5e-7b595b424bce",
+    "crew": []
   },
   {
     "id": "76a85922-7eb8-44d6-9bba-53b49e9b508f",
@@ -348,7 +348,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -371,7 +370,8 @@
         "id": "44a55b64-b63c-4425-b682-e1a7ed84c32d",
         "status": "success"
       }
-    ]
+    ],
+    "crew": []
   },
   {
     "vehicle": "a1c50ce1-1b2e-4128-ad76-98bcf4c92dc8",
@@ -381,7 +381,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-34",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -395,7 +394,8 @@
         "status": "success"
       }
     ],
-    "id": "0077f02a-b3cb-494a-bb8d-30874e900527"
+    "id": "0077f02a-b3cb-494a-bb8d-30874e900527",
+    "crew": []
   },
   {
     "id": "df6a3030-9bed-412d-a610-792a854d62ad",
@@ -406,7 +406,6 @@
     "status": "partial failure",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -429,7 +428,8 @@
         "id": "988d44b2-2aea-4551-906d-44499762f283",
         "status": "partial failure"
       }
-    ]
+    ],
+    "crew": []
   },
   {
     "vehicle": "a1c50ce1-1b2e-4128-ad76-98bcf4c92dc8",
@@ -439,7 +439,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-34",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -453,7 +452,8 @@
         "status": "success"
       }
     ],
-    "id": "30f51e1c-73bb-4955-a4d0-33d60fd27356"
+    "id": "30f51e1c-73bb-4955-a4d0-33d60fd27356",
+    "crew": []
   },
   {
     "id": "6c845dc0-4b25-4b6d-9163-d32245ce481e",
@@ -464,7 +464,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "yes",
     "orbital": "yes",
     "payloads": [
       {
@@ -487,7 +486,13 @@
         "id": "950a15d8-56df-4e64-96c3-d168dc97bcd8",
         "status": "success"
       }
-    ]
+    ],
+    "crew": [
+      "22619841-0d46-425d-82ef-c80ac71d8104",
+      "d666da8f-a8f2-4856-a83c-96a002cd5614",
+      "1fb739f1-a1f8-4867-ad21-cc0a12c1c8e1"
+    ],
+    "youtube": "pbmX3zyanS8"
   },
   {
     "id": "06aed022-b711-4f0d-9297-dfc81bf200f8",
@@ -498,7 +503,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "yes",
     "orbital": "yes",
     "payloads": [
       {
@@ -521,7 +525,8 @@
         "id": "0b734d6d-c7c9-4b2d-850b-f58c1a80a237",
         "status": "success"
       }
-    ]
+    ],
+    "crew": []
   },
   {
     "id": "f130e525-0ae6-4aa8-8c73-c42a0bcff51b",
@@ -532,7 +537,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "yes",
     "orbital": "yes",
     "payloads": [
       {
@@ -555,7 +559,8 @@
         "id": "e6a08f54-d2f2-45dd-887b-ce7bcf6c6932",
         "status": "success"
       }
-    ]
+    ],
+    "crew": []
   },
   {
     "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
@@ -565,7 +570,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "yes",
     "orbital": "yes",
     "payloads": [
       {
@@ -589,7 +593,8 @@
         "status": "success"
       }
     ],
-    "id": "b5de85b5-4926-4251-a57b-40a7a7fffba8"
+    "id": "b5de85b5-4926-4251-a57b-40a7a7fffba8",
+    "crew": []
   },
   {
     "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
@@ -599,7 +604,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "yes",
     "orbital": "yes",
     "payloads": [
       {
@@ -623,7 +627,8 @@
         "status": "success"
       }
     ],
-    "id": "489d2566-7dfd-4134-8f4c-692cd26491ec"
+    "id": "489d2566-7dfd-4134-8f4c-692cd26491ec",
+    "crew": []
   },
   {
     "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
@@ -633,7 +638,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "yes",
     "orbital": "yes",
     "payloads": [
       {
@@ -657,7 +661,8 @@
         "id": "d12f987e-501b-44d1-9058-4bfcb8cfd0b4"
       }
     ],
-    "id": "6aca8324-3dec-40fb-873b-d94438384a59"
+    "id": "6aca8324-3dec-40fb-873b-d94438384a59",
+    "crew": []
   },
   {
     "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
@@ -667,7 +672,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "yes",
     "orbital": "yes",
     "payloads": [
       {
@@ -691,7 +695,8 @@
         "status": "success"
       }
     ],
-    "id": "4dd99210-610a-42b5-87e6-8dc3c80dea6c"
+    "id": "4dd99210-610a-42b5-87e6-8dc3c80dea6c",
+    "crew": []
   },
   {
     "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
@@ -701,7 +706,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "yes",
     "orbital": "yes",
     "payloads": [
       {
@@ -735,7 +739,8 @@
         "status": "success"
       }
     ],
-    "id": "618b785a-6d02-4047-b625-7dd260af3368"
+    "id": "618b785a-6d02-4047-b625-7dd260af3368",
+    "crew": []
   },
   {
     "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
@@ -745,7 +750,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "yes",
     "orbital": "yes",
     "payloads": [
       {
@@ -779,7 +783,8 @@
         "status": "success"
       }
     ],
-    "id": "4e77f2c1-5d7e-4d47-bdf1-eee646241dd5"
+    "id": "4e77f2c1-5d7e-4d47-bdf1-eee646241dd5",
+    "crew": []
   },
   {
     "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
@@ -789,7 +794,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "yes",
     "orbital": "yes",
     "payloads": [
       {
@@ -813,7 +817,8 @@
         "status": "success"
       }
     ],
-    "id": "a8140614-691e-4b92-9f67-f9454c7f39b6"
+    "id": "a8140614-691e-4b92-9f67-f9454c7f39b6",
+    "crew": []
   },
   {
     "vehicle": "c50a3cd4-d6a2-4807-9cad-6445a1e03520",
@@ -823,7 +828,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -837,7 +841,8 @@
         "status": "success"
       }
     ],
-    "id": "f77dc0c2-1d11-4450-953d-99b178a932cc"
+    "id": "f77dc0c2-1d11-4450-953d-99b178a932cc",
+    "crew": []
   },
   {
     "vehicle": "a1c50ce1-1b2e-4128-ad76-98bcf4c92dc8",
@@ -847,7 +852,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39B",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -861,7 +865,8 @@
         "status": "success"
       }
     ],
-    "id": "d4d38ce4-23f4-4157-bc71-afa83e8fc31f"
+    "id": "d4d38ce4-23f4-4157-bc71-afa83e8fc31f",
+    "crew": []
   },
   {
     "vehicle": "a1c50ce1-1b2e-4128-ad76-98bcf4c92dc8",
@@ -871,7 +876,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39B",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -895,7 +899,8 @@
         "status": "success"
       }
     ],
-    "id": "73db2b0e-0959-49ed-a795-076f3031a1c7"
+    "id": "73db2b0e-0959-49ed-a795-076f3031a1c7",
+    "crew": []
   },
   {
     "vehicle": "a1c50ce1-1b2e-4128-ad76-98bcf4c92dc8",
@@ -905,7 +910,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39B",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -919,7 +923,8 @@
         "status": "success"
       }
     ],
-    "id": "8ee034b0-1b8f-458a-a5e8-aeb8b59087f0"
+    "id": "8ee034b0-1b8f-458a-a5e8-aeb8b59087f0",
+    "crew": []
   },
   {
     "vehicle": "a1c50ce1-1b2e-4128-ad76-98bcf4c92dc8",
@@ -929,7 +934,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39B",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -953,7 +957,56 @@
         "status": "success"
       }
     ],
-    "id": "51cef3de-eb2d-433e-bad9-928085e0a5de"
+    "id": "51cef3de-eb2d-433e-bad9-928085e0a5de",
+    "crew": []
+  },
+  {
+    "id": "e0544abb-33d3-43c8-ad35-188b04282620",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [],
+    "vehicle": "fe494619-d36a-48df-a235-a98acbc3bcd0",
+    "vehicleFamily": "d3089bab-31b1-4d63-90cd-f4eac7cdfcae",
+    "launchSite": "Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "date": "1981-04-12",
+    "serial": "STS-1",
+    "crew": [
+      "461cfa15-569a-48cd-8129-efc83787e4b0",
+      "dfa662c8-c4af-42bd-916b-e88c172b79c5"
+    ]
+  },
+  {
+    "id": "8706f4e0-499d-4244-bb94-8754d3cad2c0",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [],
+    "vehicle": "fe494619-d36a-48df-a235-a98acbc3bcd0",
+    "vehicleFamily": "d3089bab-31b1-4d63-90cd-f4eac7cdfcae",
+    "launchSite": "Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "date": "1981-11-12",
+    "serial": "STS-2",
+    "crew": [
+      "4cb777b7-ead6-4d83-924c-23b920393ff3",
+      "5b6a9933-2758-4847-bf9e-ecc17b6e443d"
+    ]
+  },
+  {
+    "id": "1457535b-294b-46c1-a604-85bdba848544",
+    "orbital": "yes",
+    "status": "success",
+    "payloads": [],
+    "vehicle": "fe494619-d36a-48df-a235-a98acbc3bcd0",
+    "vehicleFamily": "d3089bab-31b1-4d63-90cd-f4eac7cdfcae",
+    "date": "1982-03-22",
+    "launchSite": "Kennedy Space Center",
+    "launchPad": "LC-39A",
+    "serial": "STS-3",
+    "crew": [
+      "fdb3f682-7cbc-4926-8929-4831247f1e99",
+      "ad7d04b2-1fc7-4481-8304-95068c142075"
+    ]
   },
   {
     "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
@@ -963,7 +1016,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -977,7 +1029,8 @@
         "status": "success"
       }
     ],
-    "id": "b915216a-2fcc-40b3-80d3-211d79ab3119"
+    "id": "b915216a-2fcc-40b3-80d3-211d79ab3119",
+    "crew": []
   },
   {
     "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
@@ -987,7 +1040,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1001,7 +1053,8 @@
         "status": "success"
       }
     ],
-    "id": "2d73fcc5-39d1-4afb-86fa-cb8e50271456"
+    "id": "2d73fcc5-39d1-4afb-86fa-cb8e50271456",
+    "crew": []
   },
   {
     "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
@@ -1011,7 +1064,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1025,7 +1077,8 @@
         "status": "success"
       }
     ],
-    "id": "d8c72e60-b3b7-42c8-a80f-4b4edcf8d996"
+    "id": "d8c72e60-b3b7-42c8-a80f-4b4edcf8d996",
+    "crew": []
   },
   {
     "vehicle": "c6485a5d-deac-4644-a9aa-4767d235a3a2",
@@ -1035,7 +1088,6 @@
     "status": "failure",
     "launchSite": "Omelek Island",
     "launchPad": "",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1049,11 +1101,11 @@
         "status": "failure"
       }
     ],
-    "id": "be3abaef-ad0a-418e-b214-88f38de93412"
+    "id": "be3abaef-ad0a-418e-b214-88f38de93412",
+    "crew": []
   },
   {
     "id": "211195be-0f84-4f34-8107-c8de8f3675d9",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -1073,7 +1125,8 @@
     "serial": "AV-008",
     "date": "2006-04-20",
     "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-41"
+    "launchPad": "SLC-41",
+    "crew": []
   },
   {
     "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
@@ -1083,7 +1136,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1147,7 +1199,8 @@
         "status": "success"
       }
     ],
-    "id": "bde4273a-8c05-4cac-a525-5378caed269f"
+    "id": "bde4273a-8c05-4cac-a525-5378caed269f",
+    "crew": []
   },
   {
     "vehicle": "c6485a5d-deac-4644-a9aa-4767d235a3a2",
@@ -1157,7 +1210,6 @@
     "status": "failure",
     "launchSite": "Omelek Island",
     "launchPad": "",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1171,7 +1223,8 @@
         "status": "failure"
       }
     ],
-    "id": "b26f10ee-41e4-4941-ba59-8c214711abc4"
+    "id": "b26f10ee-41e4-4941-ba59-8c214711abc4",
+    "crew": []
   },
   {
     "vehicle": "a07661db-3029-4a64-a944-4ad91f265b22",
@@ -1181,7 +1234,6 @@
     "status": "partial failure",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1205,7 +1257,8 @@
         "status": "partial failure"
       }
     ],
-    "id": "eb112b16-789c-4c7e-9d65-668f0892dc30"
+    "id": "eb112b16-789c-4c7e-9d65-668f0892dc30",
+    "crew": []
   },
   {
     "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
@@ -1215,7 +1268,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1229,11 +1281,11 @@
         "status": "success"
       }
     ],
-    "id": "6e35848d-b5c6-4987-80bb-25c853280790"
+    "id": "6e35848d-b5c6-4987-80bb-25c853280790",
+    "crew": []
   },
   {
     "id": "fce66d34-1044-4ad8-93b9-7b32fe25116c",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -1253,7 +1305,8 @@
     "serial": "AV-006",
     "date": "2008-03-13",
     "launchSite": "Vandenberg AFB",
-    "launchPad": "SLC-3E"
+    "launchPad": "SLC-3E",
+    "crew": []
   },
   {
     "vehicle": "26edb74e-6435-4af7-9961-09a9e1754561",
@@ -1263,7 +1316,6 @@
     "status": "failure",
     "launchSite": "Omelek Island",
     "launchPad": "",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1307,7 +1359,8 @@
         "status": "failure"
       }
     ],
-    "id": "4ab98917-f111-4c9e-8632-8307a2e33dba"
+    "id": "4ab98917-f111-4c9e-8632-8307a2e33dba",
+    "crew": []
   },
   {
     "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
@@ -1317,7 +1370,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1341,7 +1393,8 @@
         "status": "success"
       }
     ],
-    "id": "7dcb52d8-6885-4b18-805f-61f94a3f44da"
+    "id": "7dcb52d8-6885-4b18-805f-61f94a3f44da",
+    "crew": []
   },
   {
     "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
@@ -1351,7 +1404,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1365,7 +1417,8 @@
         "status": "success"
       }
     ],
-    "id": "41930998-ea81-4633-88e6-29d02ff5f2b2"
+    "id": "41930998-ea81-4633-88e6-29d02ff5f2b2",
+    "crew": []
   },
   {
     "vehicle": "26edb74e-6435-4af7-9961-09a9e1754561",
@@ -1375,7 +1428,6 @@
     "status": "success",
     "launchSite": "Omelek Island",
     "launchPad": "",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1389,7 +1441,8 @@
         "status": "success"
       }
     ],
-    "id": "8b7ae082-92b2-4ef2-9e94-03ca3be740ca"
+    "id": "8b7ae082-92b2-4ef2-9e94-03ca3be740ca",
+    "crew": []
   },
   {
     "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
@@ -1399,7 +1452,6 @@
     "status": "success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-3E",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1413,7 +1465,8 @@
         "status": "success"
       }
     ],
-    "id": "24da5eca-6723-495d-80a5-ae5812eb6b98"
+    "id": "24da5eca-6723-495d-80a5-ae5812eb6b98",
+    "crew": []
   },
   {
     "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
@@ -1423,7 +1476,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1437,7 +1489,8 @@
         "status": "success"
       }
     ],
-    "id": "acb1e3ed-8803-4e7c-8c16-ff67f75f91a6"
+    "id": "acb1e3ed-8803-4e7c-8c16-ff67f75f91a6",
+    "crew": []
   },
   {
     "vehicle": "c455825f-c71d-4dd2-ba46-de1a2fab9c25",
@@ -1447,7 +1500,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1461,7 +1513,8 @@
         "status": "success"
       }
     ],
-    "id": "677954bf-4255-4c38-bc9f-8dd9be3f1152"
+    "id": "677954bf-4255-4c38-bc9f-8dd9be3f1152",
+    "crew": []
   },
   {
     "vehicle": "c455825f-c71d-4dd2-ba46-de1a2fab9c25",
@@ -1471,7 +1524,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1565,11 +1617,11 @@
         "status": "success"
       }
     ],
-    "id": "40b12a37-b76d-46b1-a762-5c5a3fe96ef4"
+    "id": "40b12a37-b76d-46b1-a762-5c5a3fe96ef4",
+    "crew": []
   },
   {
     "id": "d14ea965-1c61-400a-b4b3-b7541328f5e9",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -1599,7 +1651,8 @@
     "serial": "AV-027",
     "date": "2011-04-15",
     "launchSite": "Vandenberg AFB",
-    "launchPad": "SLC-3E"
+    "launchPad": "SLC-3E",
+    "crew": []
   },
   {
     "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
@@ -1609,7 +1662,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1623,7 +1675,8 @@
         "status": "success"
       }
     ],
-    "id": "d53e7855-0b21-4387-9891-2c4f39ea4ce7"
+    "id": "d53e7855-0b21-4387-9891-2c4f39ea4ce7",
+    "crew": []
   },
   {
     "vehicle": "c455825f-c71d-4dd2-ba46-de1a2fab9c25",
@@ -1633,7 +1686,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1657,7 +1709,8 @@
         "status": "success"
       }
     ],
-    "id": "1b4a8777-0813-433c-9f61-ea5aeafb061f"
+    "id": "1b4a8777-0813-433c-9f61-ea5aeafb061f",
+    "crew": []
   },
   {
     "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
@@ -1667,7 +1720,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1681,7 +1733,8 @@
         "status": "success"
       }
     ],
-    "id": "6df23d13-8501-430c-bef0-cdce3a826005"
+    "id": "6df23d13-8501-430c-bef0-cdce3a826005",
+    "crew": []
   },
   {
     "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
@@ -1691,7 +1744,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1715,7 +1767,8 @@
         "status": "success"
       }
     ],
-    "id": "99ccf748-de19-4455-8cdc-8f35b38157ac"
+    "id": "99ccf748-de19-4455-8cdc-8f35b38157ac",
+    "crew": []
   },
   {
     "vehicle": "a07661db-3029-4a64-a944-4ad91f265b22",
@@ -1725,7 +1778,6 @@
     "status": "success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-3E",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1859,7 +1911,8 @@
         "status": "success"
       }
     ],
-    "id": "10a6864a-3141-4ddf-9be3-96bb999afd12"
+    "id": "10a6864a-3141-4ddf-9be3-96bb999afd12",
+    "crew": []
   },
   {
     "vehicle": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
@@ -1869,10 +1922,10 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "manned": "no",
     "orbital": "no",
     "payloads": [],
-    "id": "e4af82cd-af7e-482d-a220-d2f8798b7312"
+    "id": "e4af82cd-af7e-482d-a220-d2f8798b7312",
+    "crew": []
   },
   {
     "vehicle": "c455825f-c71d-4dd2-ba46-de1a2fab9c25",
@@ -1882,7 +1935,6 @@
     "status": "partial failure",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1906,7 +1958,8 @@
         "status": "partial failure"
       }
     ],
-    "id": "4c580b1f-e9f6-462a-a6f6-5ed4327ac66f"
+    "id": "4c580b1f-e9f6-462a-a6f6-5ed4327ac66f",
+    "crew": []
   },
   {
     "vehicle": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
@@ -1916,10 +1969,10 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "manned": "no",
     "orbital": "no",
     "payloads": [],
-    "id": "095c5c90-32fa-4313-9a16-a1625ccaf539"
+    "id": "095c5c90-32fa-4313-9a16-a1625ccaf539",
+    "crew": []
   },
   {
     "vehicle": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
@@ -1929,10 +1982,10 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "manned": "no",
     "orbital": "no",
     "payloads": [],
-    "id": "b7c8583b-bd5e-4f71-b2ba-009245e58813"
+    "id": "b7c8583b-bd5e-4f71-b2ba-009245e58813",
+    "crew": []
   },
   {
     "vehicle": "a07661db-3029-4a64-a944-4ad91f265b22",
@@ -1942,7 +1995,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1956,7 +2008,8 @@
         "status": "success"
       }
     ],
-    "id": "639bd69e-0093-4408-9bef-2bf708a0e3a5"
+    "id": "639bd69e-0093-4408-9bef-2bf708a0e3a5",
+    "crew": []
   },
   {
     "vehicle": "a07661db-3029-4a64-a944-4ad91f265b22",
@@ -1966,7 +2019,6 @@
     "status": "success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-3E",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -1980,7 +2032,8 @@
         "status": "success"
       }
     ],
-    "id": "51f5972f-565b-457b-a332-14dcb424b4ab"
+    "id": "51f5972f-565b-457b-a332-14dcb424b4ab",
+    "crew": []
   },
   {
     "vehicle": "9edf93cc-b356-4528-9733-37ab5188c761",
@@ -1990,7 +2043,6 @@
     "status": "success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2054,7 +2106,8 @@
         "status": "success"
       }
     ],
-    "id": "963623de-2e24-4d12-92b8-1258945e96e7"
+    "id": "963623de-2e24-4d12-92b8-1258945e96e7",
+    "crew": []
   },
   {
     "vehicle": "c455825f-c71d-4dd2-ba46-de1a2fab9c25",
@@ -2064,7 +2117,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2078,7 +2130,8 @@
         "status": "success"
       }
     ],
-    "id": "2e057a04-566d-4452-add6-f0d089693cad"
+    "id": "2e057a04-566d-4452-add6-f0d089693cad",
+    "crew": []
   },
   {
     "vehicle": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
@@ -2088,14 +2141,13 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "manned": "no",
     "orbital": "no",
     "payloads": [],
-    "id": "8ca6eaed-9a24-44e9-8f9b-f72ed6e4e0d0"
+    "id": "8ca6eaed-9a24-44e9-8f9b-f72ed6e4e0d0",
+    "crew": []
   },
   {
     "id": "90b80fcd-4410-4d5b-909e-e90580a0766b",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -2115,7 +2167,8 @@
     "serial": "AV-037",
     "date": "2013-03-19",
     "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-41"
+    "launchPad": "SLC-41",
+    "crew": []
   },
   {
     "vehicle": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
@@ -2125,14 +2178,13 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "manned": "no",
     "orbital": "no",
     "payloads": [],
-    "id": "5cb139f6-1754-4a97-aa2e-dbeb4fb7022a"
+    "id": "5cb139f6-1754-4a97-aa2e-dbeb4fb7022a",
+    "crew": []
   },
   {
     "id": "e10de016-bf4c-45f3-91db-c5a44734073b",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -2152,7 +2204,8 @@
     "serial": "AV-039",
     "date": "2013-05-15",
     "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-41"
+    "launchPad": "SLC-41",
+    "crew": []
   },
   {
     "vehicle": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
@@ -2162,10 +2215,10 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "manned": "no",
     "orbital": "no",
     "payloads": [],
-    "id": "ec7ac3c2-3abc-4851-ba4e-6ecce504e55f"
+    "id": "ec7ac3c2-3abc-4851-ba4e-6ecce504e55f",
+    "crew": []
   },
   {
     "vehicle": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
@@ -2175,10 +2228,10 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "manned": "no",
     "orbital": "no",
     "payloads": [],
-    "id": "cfe51af4-dec4-4275-8ff4-f2441a7da1b4"
+    "id": "cfe51af4-dec4-4275-8ff4-f2441a7da1b4",
+    "crew": []
   },
   {
     "vehicle": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
@@ -2188,14 +2241,13 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "manned": "no",
     "orbital": "no",
     "payloads": [],
-    "id": "8b817237-c252-46b5-acf5-a3811fec7b32"
+    "id": "8b817237-c252-46b5-acf5-a3811fec7b32",
+    "crew": []
   },
   {
     "id": "012c8128-77d4-49a5-b30d-0a3eb25f4456",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -2215,7 +2267,8 @@
     "serial": "AV-038",
     "date": "2013-11-18",
     "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-41"
+    "launchPad": "SLC-41",
+    "crew": []
   },
   {
     "vehicle": "9edf93cc-b356-4528-9733-37ab5188c761",
@@ -2225,7 +2278,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2239,7 +2291,8 @@
         "status": "success"
       }
     ],
-    "id": "02f8d95d-02e9-4057-a10f-e612398cb638"
+    "id": "02f8d95d-02e9-4057-a10f-e612398cb638",
+    "crew": []
   },
   {
     "vehicle": "9edf93cc-b356-4528-9733-37ab5188c761",
@@ -2249,7 +2302,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2263,11 +2315,11 @@
         "status": "success"
       }
     ],
-    "id": "0ca73a82-e41d-4f8b-a670-587fcd8ba9f5"
+    "id": "0ca73a82-e41d-4f8b-a670-587fcd8ba9f5",
+    "crew": []
   },
   {
     "id": "374c0569-2c04-45ac-a201-225928245a87",
-    "manned": "no",
     "orbital": "no",
     "status": "success",
     "payloads": [
@@ -2287,11 +2339,11 @@
     "serial": "AV-043",
     "date": "2014-02-24",
     "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-41"
+    "launchPad": "SLC-41",
+    "crew": []
   },
   {
     "id": "d45bb35b-8ec6-4fe4-b93c-2611414c9cb2",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -2311,7 +2363,8 @@
     "serial": "AV-044",
     "date": "2014-04-03",
     "launchSite": "Vandenberg AFB",
-    "launchPad": "SLC-3E"
+    "launchPad": "SLC-3E",
+    "crew": []
   },
   {
     "vehicle": "d5b30df1-33e0-4321-8c96-8b19280783b0",
@@ -2321,10 +2374,10 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "manned": "no",
     "orbital": "no",
     "payloads": [],
-    "id": "9f53e966-9dcc-4128-9854-fc240ef8cd1d"
+    "id": "9f53e966-9dcc-4128-9854-fc240ef8cd1d",
+    "crew": []
   },
   {
     "vehicle": "678fac31-5bae-4695-9614-0c06387dd2af",
@@ -2334,7 +2387,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2428,7 +2480,8 @@
         "status": "success"
       }
     ],
-    "id": "6d4a2c67-8948-47aa-90f7-4aa289e080b4"
+    "id": "6d4a2c67-8948-47aa-90f7-4aa289e080b4",
+    "crew": []
   },
   {
     "vehicle": "d5b30df1-33e0-4321-8c96-8b19280783b0",
@@ -2438,14 +2491,13 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "manned": "no",
     "orbital": "no",
     "payloads": [],
-    "id": "d5986f98-cc81-4415-a24a-b34988363bc3"
+    "id": "d5986f98-cc81-4415-a24a-b34988363bc3",
+    "crew": []
   },
   {
     "id": "9107f3fc-dd6d-4cf7-848e-3cba6029a933",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -2465,7 +2517,8 @@
     "serial": "AV-46",
     "date": "2014-05-22",
     "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-41"
+    "launchPad": "SLC-41",
+    "crew": []
   },
   {
     "vehicle": "d5b30df1-33e0-4321-8c96-8b19280783b0",
@@ -2475,10 +2528,10 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "manned": "no",
     "orbital": "no",
     "payloads": [],
-    "id": "770a0b04-8793-405f-a130-a243f7b591c9"
+    "id": "770a0b04-8793-405f-a130-a243f7b591c9",
+    "crew": []
   },
   {
     "vehicle": "ae35985d-33db-43d1-b003-66c25514e38a",
@@ -2488,7 +2541,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2562,7 +2614,8 @@
         "status": "success"
       }
     ],
-    "id": "03e0138c-573b-4d4d-8b84-0e24f5d11e17"
+    "id": "03e0138c-573b-4d4d-8b84-0e24f5d11e17",
+    "crew": []
   },
   {
     "vehicle": "d5b30df1-33e0-4321-8c96-8b19280783b0",
@@ -2572,14 +2625,13 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "manned": "no",
     "orbital": "no",
     "payloads": [],
-    "id": "7613233a-dcbf-4b64-82b3-759bebd318ef"
+    "id": "7613233a-dcbf-4b64-82b3-759bebd318ef",
+    "crew": []
   },
   {
     "id": "1f911eba-ec23-4dbf-8a73-35a7f498710a",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -2599,7 +2651,8 @@
     "serial": "AV-048",
     "date": "2014-08-02",
     "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-41"
+    "launchPad": "SLC-41",
+    "crew": []
   },
   {
     "vehicle": "9edf93cc-b356-4528-9733-37ab5188c761",
@@ -2609,7 +2662,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2623,11 +2675,11 @@
         "status": "success"
       }
     ],
-    "id": "729329e6-de40-4ee6-9d01-31689de74de1"
+    "id": "729329e6-de40-4ee6-9d01-31689de74de1",
+    "crew": []
   },
   {
     "id": "f5948c6f-80c5-4bfd-9009-40055074bfbb",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -2647,7 +2699,8 @@
     "serial": "AV-047",
     "date": "2014-08-13",
     "launchSite": "Vandenberg AFB",
-    "launchPad": "SLC-3E"
+    "launchPad": "SLC-3E",
+    "crew": []
   },
   {
     "vehicle": "d5b30df1-33e0-4321-8c96-8b19280783b0",
@@ -2657,10 +2710,10 @@
     "status": "failure",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "manned": "no",
     "orbital": "no",
     "payloads": [],
-    "id": "e7f335fc-cd24-4535-905c-48d8e93ce45a"
+    "id": "e7f335fc-cd24-4535-905c-48d8e93ce45a",
+    "crew": []
   },
   {
     "vehicle": "9edf93cc-b356-4528-9733-37ab5188c761",
@@ -2670,7 +2723,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2684,11 +2736,11 @@
         "status": "success"
       }
     ],
-    "id": "cedf60e3-120f-4111-93a8-f7966e505e77"
+    "id": "cedf60e3-120f-4111-93a8-f7966e505e77",
+    "crew": []
   },
   {
     "id": "d9fe86bd-b582-437e-a995-f654b53415ea",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -2708,7 +2760,8 @@
     "serial": "AV-049",
     "date": "2014-09-17",
     "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-41"
+    "launchPad": "SLC-41",
+    "crew": []
   },
   {
     "vehicle": "bb1aafe1-f1a3-490a-a48a-3abcef960159",
@@ -2718,7 +2771,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2752,11 +2804,11 @@
         "status": "success"
       }
     ],
-    "id": "809a0abe-7b20-4748-bd0a-19d189aa9f02"
+    "id": "809a0abe-7b20-4748-bd0a-19d189aa9f02",
+    "crew": []
   },
   {
     "id": "2847ca03-46a2-4724-9e09-2c2edda90f1d",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -2776,7 +2828,8 @@
     "serial": "AV-050",
     "date": "2014-10-29",
     "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-41"
+    "launchPad": "SLC-41",
+    "crew": []
   },
   {
     "vehicle": "678fac31-5bae-4695-9614-0c06387dd2af",
@@ -2786,7 +2839,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2840,7 +2892,8 @@
         "description": ""
       }
     ],
-    "id": "1236bda7-91b4-4178-8e24-b7f624132bec"
+    "id": "1236bda7-91b4-4178-8e24-b7f624132bec",
+    "crew": []
   },
   {
     "vehicle": "ae35985d-33db-43d1-b003-66c25514e38a",
@@ -2850,7 +2903,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2864,7 +2916,8 @@
         "status": "success"
       }
     ],
-    "id": "63a1fc8f-cb6b-430d-95c8-cda275390f14"
+    "id": "63a1fc8f-cb6b-430d-95c8-cda275390f14",
+    "crew": []
   },
   {
     "vehicle": "9edf93cc-b356-4528-9733-37ab5188c761",
@@ -2874,7 +2927,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -2898,7 +2950,8 @@
         "status": "success"
       }
     ],
-    "id": "993c3698-ca16-469e-9979-1129e7fd896c"
+    "id": "993c3698-ca16-469e-9979-1129e7fd896c",
+    "crew": []
   },
   {
     "vehicle": "ae35985d-33db-43d1-b003-66c25514e38a",
@@ -2908,7 +2961,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -3082,7 +3134,8 @@
         "description": ""
       }
     ],
-    "id": "2db2680a-92f4-4064-8a18-2d1cad68eb30"
+    "id": "2db2680a-92f4-4064-8a18-2d1cad68eb30",
+    "crew": []
   },
   {
     "vehicle": "9edf93cc-b356-4528-9733-37ab5188c761",
@@ -3092,7 +3145,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -3106,7 +3158,8 @@
         "status": "success"
       }
     ],
-    "id": "cc1d33ec-9f86-4fe7-9e70-1f3095b9104c"
+    "id": "cc1d33ec-9f86-4fe7-9e70-1f3095b9104c",
+    "crew": []
   },
   {
     "vehicle": "678fac31-5bae-4695-9614-0c06387dd2af",
@@ -3116,7 +3169,6 @@
     "status": "failure",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -3150,11 +3202,11 @@
         "status": "failure"
       }
     ],
-    "id": "49323df7-d39d-4234-9fbf-2f1428e64b1a"
+    "id": "49323df7-d39d-4234-9fbf-2f1428e64b1a",
+    "crew": []
   },
   {
     "id": "1bdb8176-194d-467a-a9fa-3c5bb1bea1b0",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -3174,11 +3226,11 @@
     "serial": "AV-50",
     "date": "2015-07-15",
     "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-41"
+    "launchPad": "SLC-41",
+    "crew": []
   },
   {
     "id": "0743c5ec-fa5a-40d4-be86-b02c86b5a526",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -3338,11 +3390,11 @@
     "serial": "AV-058",
     "date": "2015-10-08",
     "launchSite": "Vandenberg AFB",
-    "launchPad": "SLC-3E"
+    "launchPad": "SLC-3E",
+    "crew": []
   },
   {
     "id": "82cfcae2-e413-4631-ac50-b6551b3fc145",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -3362,11 +3414,11 @@
     "serial": "AV-060",
     "date": "2015-10-31",
     "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-41"
+    "launchPad": "SLC-41",
+    "crew": []
   },
   {
     "id": "da0f7c13-d58c-4a9b-bc79-88d5fea329bf",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -3596,7 +3648,8 @@
     "serial": "AV-061",
     "date": "2015-12-06",
     "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-41"
+    "launchPad": "SLC-41",
+    "crew": []
   },
   {
     "vehicle": "7d4984f3-f38d-40b1-83c1-2df3727a0776",
@@ -3606,7 +3659,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -3730,7 +3782,8 @@
         "status": "success"
       }
     ],
-    "id": "550333ac-04ba-41c6-a501-798ce241d3dc"
+    "id": "550333ac-04ba-41c6-a501-798ce241d3dc",
+    "crew": []
   },
   {
     "vehicle": "ae35985d-33db-43d1-b003-66c25514e38a",
@@ -3740,7 +3793,6 @@
     "status": "success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -3754,11 +3806,11 @@
         "status": "success"
       }
     ],
-    "id": "25ec9d82-b928-41a6-9f20-071de2c4086d"
+    "id": "25ec9d82-b928-41a6-9f20-071de2c4086d",
+    "crew": []
   },
   {
     "id": "b63882e9-c151-4c93-b3af-de9ab93ccd68",
-    "manned": "no",
     "orbital": "no",
     "status": "success",
     "payloads": [
@@ -3778,7 +3830,8 @@
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
     "date": "2016-02-05",
-    "serial": "AV-057"
+    "serial": "AV-057",
+    "crew": []
   },
   {
     "vehicle": "7d4984f3-f38d-40b1-83c1-2df3727a0776",
@@ -3788,7 +3841,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -3802,11 +3854,11 @@
         "status": "success"
       }
     ],
-    "id": "da2a5edd-5a8b-44b2-960b-a62ee11c07ce"
+    "id": "da2a5edd-5a8b-44b2-960b-a62ee11c07ce",
+    "crew": []
   },
   {
     "id": "c1495f62-e3a7-4717-8830-1b16cecab616",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -4126,7 +4178,8 @@
     "serial": "AV-064",
     "date": "2016-03-23",
     "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-41"
+    "launchPad": "SLC-41",
+    "crew": []
   },
   {
     "vehicle": "ff0fe186-b1d6-4824-8d9c-ca6e1d898d49",
@@ -4136,7 +4189,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -4160,7 +4212,8 @@
         "status": "success"
       }
     ],
-    "id": "876d3ed9-d537-4aae-b201-278394602d34"
+    "id": "876d3ed9-d537-4aae-b201-278394602d34",
+    "crew": []
   },
   {
     "vehicle": "6025cf7a-cc3f-4555-bd2c-6c84741ac95b",
@@ -4170,7 +4223,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -4184,7 +4236,8 @@
         "status": "success"
       }
     ],
-    "id": "5946130c-356c-44fc-bbc7-45266d603478"
+    "id": "5946130c-356c-44fc-bbc7-45266d603478",
+    "crew": []
   },
   {
     "vehicle": "6025cf7a-cc3f-4555-bd2c-6c84741ac95b",
@@ -4194,7 +4247,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -4208,7 +4260,8 @@
         "status": "success"
       }
     ],
-    "id": "259d39ca-a505-4cb9-b63f-e521d715c141"
+    "id": "259d39ca-a505-4cb9-b63f-e521d715c141",
+    "crew": []
   },
   {
     "vehicle": "6025cf7a-cc3f-4555-bd2c-6c84741ac95b",
@@ -4218,7 +4271,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -4242,7 +4294,8 @@
         "status": "success"
       }
     ],
-    "id": "1369d88d-fa12-495d-9817-553e388c2ef6"
+    "id": "1369d88d-fa12-495d-9817-553e388c2ef6",
+    "crew": []
   },
   {
     "vehicle": "ff0fe186-b1d6-4824-8d9c-ca6e1d898d49",
@@ -4252,7 +4305,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -4276,7 +4328,8 @@
         "status": "success"
       }
     ],
-    "id": "64323077-e8c0-4b53-83fc-880f0171b0f6"
+    "id": "64323077-e8c0-4b53-83fc-880f0171b0f6",
+    "crew": []
   },
   {
     "vehicle": "6025cf7a-cc3f-4555-bd2c-6c84741ac95b",
@@ -4286,7 +4339,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -4300,7 +4352,8 @@
         "status": "success"
       }
     ],
-    "id": "42bb677d-cfbe-45ce-9a3a-10494e57a09d"
+    "id": "42bb677d-cfbe-45ce-9a3a-10494e57a09d",
+    "crew": []
   },
   {
     "vehicle": "505182ab-4079-4a04-b46c-e11a0b42ed83",
@@ -4310,7 +4363,6 @@
     "status": "failure",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -4324,11 +4376,11 @@
         "status": "failure"
       }
     ],
-    "id": "94683d1b-f74c-43b3-8ff2-bd8af292293b"
+    "id": "94683d1b-f74c-43b3-8ff2-bd8af292293b",
+    "crew": []
   },
   {
     "id": "bd48f849-2cd0-4453-835d-23df7a083fdb",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -4348,11 +4400,11 @@
     "serial": "AV-067",
     "date": "2016-09-08",
     "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-41"
+    "launchPad": "SLC-41",
+    "crew": []
   },
   {
     "id": "12ddb0c9-a403-4508-a3e1-1ff046eeb7cd",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -4442,7 +4494,8 @@
     "date": "2016-11-11",
     "serial": "AV-062",
     "launchSite": "Vandenberg AFB",
-    "launchPad": "SLC-3E"
+    "launchPad": "SLC-3E",
+    "crew": []
   },
   {
     "vehicle": "505182ab-4079-4a04-b46c-e11a0b42ed83",
@@ -4452,7 +4505,6 @@
     "status": "success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -4556,11 +4608,11 @@
         "status": "success"
       }
     ],
-    "id": "e1c954e5-4366-475c-9e1d-7ae324f922d5"
+    "id": "e1c954e5-4366-475c-9e1d-7ae324f922d5",
+    "crew": []
   },
   {
     "id": "d0699f38-cb22-4d6e-bdb5-79d77907cf5d",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -4580,7 +4632,8 @@
     "serial": "AV-066",
     "date": "2017-01-21",
     "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-41"
+    "launchPad": "SLC-41",
+    "crew": []
   },
   {
     "vehicle": "42253f77-476d-42cb-a8ec-455c23dfe504",
@@ -4590,7 +4643,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -4624,11 +4676,11 @@
         "status": "success"
       }
     ],
-    "id": "2db3805c-2465-497a-a73b-06aad40b6d8c"
+    "id": "2db3805c-2465-497a-a73b-06aad40b6d8c",
+    "crew": []
   },
   {
     "id": "6aa88f76-b3cf-4794-a75a-761707694015",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -4658,7 +4710,8 @@
     "serial": "AV-068",
     "date": "2017-03-01",
     "launchSite": "Vandenberg AFB",
-    "launchPad": "SLC-3E"
+    "launchPad": "SLC-3E",
+    "crew": []
   },
   {
     "vehicle": "f5fbd30f-e61e-421d-9ab6-614b957e065c",
@@ -4668,7 +4721,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "LC-39A",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -4682,7 +4734,8 @@
         "status": "success"
       }
     ],
-    "id": "f32a7cba-4ae4-46bc-9f6a-0925d4d9edd3"
+    "id": "f32a7cba-4ae4-46bc-9f6a-0925d4d9edd3",
+    "crew": []
   },
   {
     "vehicle": "6025cf7a-cc3f-4555-bd2c-6c84741ac95b",
@@ -4692,7 +4745,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -4706,11 +4758,11 @@
         "status": "success"
       }
     ],
-    "id": "de0b89f9-cfdc-405f-a420-e599dd924319"
+    "id": "de0b89f9-cfdc-405f-a420-e599dd924319",
+    "crew": []
   },
   {
     "id": "f62ca213-fdbc-4c3d-b208-4c41e3c84750",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -5110,7 +5162,8 @@
     "serial": "AV-070",
     "date": "2017-04-18",
     "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-41"
+    "launchPad": "SLC-41",
+    "crew": []
   },
   {
     "vehicle": "505182ab-4079-4a04-b46c-e11a0b42ed83",
@@ -5120,7 +5173,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -5134,7 +5186,8 @@
         "status": "success"
       }
     ],
-    "id": "c409b5d2-124b-4326-b4bf-a0498d0e34c0"
+    "id": "c409b5d2-124b-4326-b4bf-a0498d0e34c0",
+    "crew": []
   },
   {
     "vehicle": "f5fbd30f-e61e-421d-9ab6-614b957e065c",
@@ -5144,7 +5197,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -5158,7 +5210,8 @@
         "status": "success"
       }
     ],
-    "id": "6aaf7c06-3eae-4f80-acbc-440398589a1d"
+    "id": "6aaf7c06-3eae-4f80-acbc-440398589a1d",
+    "crew": []
   },
   {
     "vehicle": "42253f77-476d-42cb-a8ec-455c23dfe504",
@@ -5168,7 +5221,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -5262,7 +5314,8 @@
         "status": "success"
       }
     ],
-    "id": "9320b599-3538-4415-977c-259c60b4645a"
+    "id": "9320b599-3538-4415-977c-259c60b4645a",
+    "crew": []
   },
   {
     "vehicle": "505182ab-4079-4a04-b46c-e11a0b42ed83",
@@ -5272,7 +5325,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -5286,7 +5338,8 @@
         "status": "success"
       }
     ],
-    "id": "24c41276-6dec-4431-acd1-4ce041716338"
+    "id": "24c41276-6dec-4431-acd1-4ce041716338",
+    "crew": []
   },
   {
     "vehicle": "505182ab-4079-4a04-b46c-e11a0b42ed83",
@@ -5296,7 +5349,6 @@
     "status": "success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -5400,7 +5452,8 @@
         "status": "success"
       }
     ],
-    "id": "27c9e733-a5f8-433f-9087-2366ddd7a29e"
+    "id": "27c9e733-a5f8-433f-9087-2366ddd7a29e",
+    "crew": []
   },
   {
     "vehicle": "f5fbd30f-e61e-421d-9ab6-614b957e065c",
@@ -5410,7 +5463,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -5424,7 +5476,8 @@
         "status": "success"
       }
     ],
-    "id": "b51e5528-7a0d-4552-a992-1caf559e8c5f"
+    "id": "b51e5528-7a0d-4552-a992-1caf559e8c5f",
+    "crew": []
   },
   {
     "vehicle": "36d809c4-18e9-418d-b963-4c7e0b594ac7",
@@ -5434,7 +5487,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -5498,11 +5550,11 @@
         "status": "success"
       }
     ],
-    "id": "1f747df9-1354-4249-a30b-346b0086b139"
+    "id": "1f747df9-1354-4249-a30b-346b0086b139",
+    "crew": []
   },
   {
     "id": "60f40579-e82b-4982-9606-cf32ae61da2b",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -5522,7 +5574,8 @@
     "serial": "AV-074",
     "date": "2017-08-18",
     "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-41"
+    "launchPad": "SLC-41",
+    "crew": []
   },
   {
     "vehicle": "505182ab-4079-4a04-b46c-e11a0b42ed83",
@@ -5532,7 +5585,6 @@
     "status": "success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -5546,7 +5598,8 @@
         "status": "success"
       }
     ],
-    "id": "3f074854-c14e-47f4-8a7c-2e9dbfbf92c4"
+    "id": "3f074854-c14e-47f4-8a7c-2e9dbfbf92c4",
+    "crew": []
   },
   {
     "vehicle": "36d809c4-18e9-418d-b963-4c7e0b594ac7",
@@ -5556,7 +5609,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -5580,11 +5632,11 @@
         "status": "success"
       }
     ],
-    "id": "6e86ea9f-a7df-4fc8-b535-dd221b4db551"
+    "id": "6e86ea9f-a7df-4fc8-b535-dd221b4db551",
+    "crew": []
   },
   {
     "id": "84e69931-c2a7-4d29-b6d9-029c72e1fb2f",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -5694,7 +5746,8 @@
     "serial": "B1041.1",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
-    "date": "2017-10-09"
+    "date": "2017-10-09",
+    "crew": []
   },
   {
     "vehicle": "505182ab-4079-4a04-b46c-e11a0b42ed83",
@@ -5704,7 +5757,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -5718,7 +5770,8 @@
         "status": "success"
       }
     ],
-    "id": "f1ead91f-9e4e-42b2-bcc0-a41ea27973e2"
+    "id": "f1ead91f-9e4e-42b2-bcc0-a41ea27973e2",
+    "crew": []
   },
   {
     "vehicle": "1ccb9d4c-70cd-450e-bce7-f5e16c07552d",
@@ -5728,7 +5781,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -5742,7 +5794,8 @@
         "status": "success"
       }
     ],
-    "id": "dc4e6095-059e-4ade-8bd7-0b29b3503231"
+    "id": "dc4e6095-059e-4ade-8bd7-0b29b3503231",
+    "crew": []
   },
   {
     "vehicle": "36d809c4-18e9-418d-b963-4c7e0b594ac7",
@@ -5752,7 +5805,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -5786,7 +5838,8 @@
         "status": "success"
       }
     ],
-    "id": "1b84c7e1-9228-46f4-9a3d-3e4d17e5d7d0"
+    "id": "1b84c7e1-9228-46f4-9a3d-3e4d17e5d7d0",
+    "crew": []
   },
   {
     "vehicle": "f5fbd30f-e61e-421d-9ab6-614b957e065c",
@@ -5796,7 +5849,6 @@
     "status": "success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -5900,7 +5952,8 @@
         "status": "success"
       }
     ],
-    "id": "9966c24d-ea67-45a8-9c11-78ef696de359"
+    "id": "9966c24d-ea67-45a8-9c11-78ef696de359",
+    "crew": []
   },
   {
     "vehicle": "1ccb9d4c-70cd-450e-bce7-f5e16c07552d",
@@ -5910,7 +5963,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -5924,11 +5976,11 @@
         "id": "ef40a96d-0b94-4bcb-b757-f35c03ca8535"
       }
     ],
-    "id": "e88a4cb5-0d54-4e34-bdb8-504f1ab7b49c"
+    "id": "e88a4cb5-0d54-4e34-bdb8-504f1ab7b49c",
+    "crew": []
   },
   {
     "id": "81b8b362-52de-4ad0-8c8a-ab1f05cc04f2",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -5948,7 +6000,8 @@
     "serial": "AV-076",
     "date": "2018-01-20",
     "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-41"
+    "launchPad": "SLC-41",
+    "crew": []
   },
   {
     "vehicle": "f5fbd30f-e61e-421d-9ab6-614b957e065c",
@@ -5958,7 +6011,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -5972,7 +6024,8 @@
         "status": "success"
       }
     ],
-    "id": "498eb2b9-0108-4c9d-86bb-a6738727b778"
+    "id": "498eb2b9-0108-4c9d-86bb-a6738727b778",
+    "crew": []
   },
   {
     "vehicle": "16919357-6b13-472a-b176-58978644f2e6",
@@ -5982,7 +6035,6 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -5996,7 +6048,8 @@
         "status": "success"
       }
     ],
-    "id": "db7ab512-b98a-48da-868a-401c5abf9491"
+    "id": "db7ab512-b98a-48da-868a-401c5abf9491",
+    "crew": []
   },
   {
     "vehicle": "f5fbd30f-e61e-421d-9ab6-614b957e065c",
@@ -6006,7 +6059,6 @@
     "status": "success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -6040,7 +6092,8 @@
         "status": "success"
       }
     ],
-    "id": "961e9908-1759-4e6b-afd2-008909a3d7bb"
+    "id": "961e9908-1759-4e6b-afd2-008909a3d7bb",
+    "crew": []
   },
   {
     "vehicle": "dc14274e-2c0e-4325-b6b2-33b4d094c18d",
@@ -6050,7 +6103,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -6074,7 +6126,8 @@
         "status": "success"
       }
     ],
-    "id": "fc6f1bf2-bf8c-4a50-9581-1e1404431f85"
+    "id": "fc6f1bf2-bf8c-4a50-9581-1e1404431f85",
+    "crew": []
   },
   {
     "vehicle": "dc14274e-2c0e-4325-b6b2-33b4d094c18d",
@@ -6084,7 +6137,6 @@
     "status": "success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -6188,7 +6240,8 @@
         "status": "success"
       }
     ],
-    "id": "4f74a304-6095-4bce-b2e9-9a92af46d72a"
+    "id": "4f74a304-6095-4bce-b2e9-9a92af46d72a",
+    "crew": []
   },
   {
     "vehicle": "d3c175a3-64b0-4cca-b280-2fc225344c93",
@@ -6198,7 +6251,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -6302,7 +6354,8 @@
         "status": "success"
       }
     ],
-    "id": "a6604799-0394-4609-bae2-1f4ac72942ef"
+    "id": "a6604799-0394-4609-bae2-1f4ac72942ef",
+    "crew": []
   },
   {
     "vehicle": "1ccb9d4c-70cd-450e-bce7-f5e16c07552d",
@@ -6312,7 +6365,6 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "manned": "no",
     "orbital": "yes",
     "payloads": [
       {
@@ -6326,11 +6378,11 @@
         "status": "success"
       }
     ],
-    "id": "63d64482-dbe4-41b1-9c44-3bbf951097aa"
+    "id": "63d64482-dbe4-41b1-9c44-3bbf951097aa",
+    "crew": []
   },
   {
     "id": "ba298925-2954-43d2-8ab1-fa9c818d6e1e",
-    "manned": "no",
     "orbital": "no",
     "status": "success",
     "payloads": [
@@ -6370,11 +6422,11 @@
     "serial": "AV-078",
     "date": "2018-05-05",
     "launchSite": "Vandenberg AFB",
-    "launchPad": "SLC-3E"
+    "launchPad": "SLC-3E",
+    "crew": []
   },
   {
     "id": "1c8ae0f1-956f-4abf-80f7-687955a994dc",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -6394,11 +6446,11 @@
     "serial": "B1046.1",
     "date": "2018-05-11",
     "launchSite": "Kennedy Space Center",
-    "launchPad": "LC-39A"
+    "launchPad": "LC-39A",
+    "crew": []
   },
   {
     "id": "21adb8c5-44ab-42ee-9549-6f5fd481a710",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -6478,11 +6530,11 @@
     "serial": "B1043.2",
     "date": "2018-05-22",
     "launchSite": "Vandenberg AFB",
-    "launchPad": "SLC-4E"
+    "launchPad": "SLC-4E",
+    "crew": []
   },
   {
     "id": "98c64a85-0fed-46a8-84c7-340f3bf9b592",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -6502,11 +6554,11 @@
     "serial": "B1040.2",
     "date": "2018-06-04",
     "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-40"
+    "launchPad": "SLC-40",
+    "crew": []
   },
   {
     "id": "1873ba3d-6b87-40c1-886e-05ad528224c7",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -6596,11 +6648,11 @@
     "serial": "B1045.2",
     "date": "2018-06-29",
     "launchSite": "Cape Canaveral",
-    "launchPad": "SLC-40"
+    "launchPad": "SLC-40",
+    "crew": []
   },
   {
     "id": "36971d9f-4ece-444d-afc9-f1cfce5268ec",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -6620,11 +6672,11 @@
     "serial": "B1047.1",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "date": "2018-07-22"
+    "date": "2018-07-22",
+    "crew": []
   },
   {
     "id": "9213877f-4739-4eb4-9214-0b3a711c8cff",
-    "manned": "no",
     "orbital": "yes",
     "status": "success",
     "payloads": [
@@ -6734,6 +6786,7 @@
     "serial": "B1048.1",
     "date": "2018-07-25",
     "launchSite": "Vandenberg AFB",
-    "launchPad": "SLC-4E"
+    "launchPad": "SLC-4E",
+    "crew": []
   }
 ]

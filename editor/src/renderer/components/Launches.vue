@@ -28,24 +28,27 @@
           <v-text-field v-model="selected.serial" label="Serial Number" class="pr-1"></v-text-field>
         </v-flex>
         <v-flex xs3>
-          <v-select v-model="selected.manned" :items="mannedOptions" label="Manned Flight" class="pr-1"></v-select>
-        </v-flex>
-        <v-flex xs3>
           <v-select v-model="selected.orbital" :items="orbitalOptions" label="Orbital"></v-select>
         </v-flex>
       </v-layout>
       <v-layout row>
-        <v-flex xs3>
+        <v-flex xs2>
           <v-text-field v-model="selected.date" label="Launch Date" required :rules="requiredDate" class="pr-1"></v-text-field>
         </v-flex>
-        <v-flex xs3>
+        <v-flex xs2>
           <v-select v-model="selected.status" :items="statusOptions" label="Status" class="pr-1"></v-select>
         </v-flex>
-        <v-flex xs3>
+        <v-flex xs4>
           <v-select v-model="selected.launchSite" :items="launchSiteOptions" label="Launch Site" class="pr-1"></v-select>
         </v-flex>
-        <v-flex xs3>
+        <v-flex xs2>
           <v-text-field v-model="selected.launchPad" label="Launch Pad"></v-text-field>
+        </v-flex>
+        <v-flex xs1>
+          <v-text-field v-model="selected.youtube" label="Youtube ID" class="pr-1"></v-text-field>
+        </v-flex>
+        <v-flex xs1>
+          <v-btn flat @click.stop="crewDialog = true">Crew</v-btn>
         </v-flex>
       </v-layout>
 
@@ -160,12 +163,37 @@
         </v-card>
       </v-form>
     </v-dialog>
+
+    <v-dialog v-model="crewDialog" max-width="500px">
+      <v-form v-model="crewFormValid" lazy-validation>
+        <v-card>
+          <v-card-title>
+            <span>Select Crew</span>
+          </v-card-title>
+          <v-card-text class="scrollable">
+            <v-layout  v-for="(astronaut, idx) in astronauts" :key="`crew-${idx}`">
+              <v-flex xs12>
+                <v-checkbox
+                  :label="`${astronaut.lastName}, ${astronaut.firstName} -- ${astronaut.nationality}`"
+                  :input-value="astronaut.checked"
+                  @click="toggleCrew(astronaut)"
+                ></v-checkbox>
+              </v-flex>
+            </v-layout>
+          </v-card-text>
+          <v-card-actions>
+            <v-spacer></v-spacer>
+            <v-btn :disabled="!crewFormValid" color="primary" flat @click.stop="crewDialog = false">OK</v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-form>
+    </v-dialog>
   </div>
 </template>
 
 <script>
   import { copySync } from 'fs-extra';
-  import { cloneDeep, filter, find, findIndex, map, sortBy } from 'lodash';
+  import { cloneDeep, filter, find, findIndex, includes, map, sortBy } from 'lodash';
   import path from 'path';
   import sharp from 'sharp';
   import uuidv4 from 'uuid/v4';
@@ -181,6 +209,7 @@
 
     data() {
       return {
+        crewFormValid: true,
         imageFormValid: true,
         launchFormValid: true,
         requiredRule: [v => !!v || 'Item is required'],
@@ -195,6 +224,8 @@
         launchMediaDialog: false,
         launchMediaType: '',
         launchMediaFilename: '',
+
+        crewDialog: false,
 
         launchSiteOptions: [
           'Cape Canaveral',
@@ -252,6 +283,13 @@
           text: r.name,
         }));
       },
+      astronauts() {
+        return map(sortBy(this.$store.state.astronauts, 'lastName'), (a) => {
+          const ret = cloneDeep(a);
+          ret.checked = includes(this.selected.crew, a.id);
+          return ret;
+        });
+      },
       items() {
         return this.$store.state.launches;
       },
@@ -267,10 +305,10 @@
       addLaunch() {
         this.selected = {
           id: uuidv4(),
-          manned: 'no',
           orbital: 'no',
           status: '',
           payloads: [],
+          crew: [],
         };
       },
 
@@ -368,6 +406,15 @@
 
         this.launchMediaType = '';
         this.launchMediaDialog = false;
+      },
+
+      toggleCrew(astronaut) {
+        const idx = findIndex(this.selected.crew, i => i === astronaut.id);
+        if (idx >= 0) {
+          this.$delete(this.selected.crew, idx);
+        } else {
+          this.selected.crew.push(astronaut.id);
+        }
       },
 
       saveLaunch() {
@@ -481,5 +528,10 @@
 
   .mediaSection {
     min-width: 20em;
+  }
+
+  .scrollable {
+    height: 350px;
+    overflow-y: scroll;
   }
 </style>

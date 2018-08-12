@@ -131,6 +131,9 @@ table
 .title
   font-size 1.2rem !important
 
+.small
+  font-size 0.85em
+
 .app-toolbar
   opacity 0.97
   z-index 99
@@ -147,7 +150,6 @@ table
 .vueperslides__bullets
   z-index 20 !important
 
-
 .v-card 
   &:after
     content ''
@@ -161,6 +163,10 @@ table
       display block
       width 100%
       cursor pointer
+
+iframe
+  display block
+  background-color black
 
 @media screen and (max-width: 480px)
   html, body

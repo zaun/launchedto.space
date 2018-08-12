@@ -4,9 +4,9 @@
       <v-toolbar-title>launchedto.space (editor)</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items>
-        <v-btn flat to="/sites">Sites</v-btn>
-        <v-btn flat to="/rockets">Rockets</v-btn>
+        <v-btn flat to="/astronauts">Astronauts</v-btn>
         <v-btn flat to="/launches">Launches</v-btn>
+        <v-btn flat to="/rockets">Rockets</v-btn>
       </v-toolbar-items>
     </v-toolbar>
     <v-content fluid class="ml-2 mr-2 mt-2">
