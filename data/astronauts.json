@@ -197,6 +197,66 @@
     "militaryRank": "Major General"
   },
   {
+    "id": "86e171cb-5ec3-4080-8b88-4e20e7258864",
+    "almamaters": [
+      {
+        "name": "Purdue University",
+        "year": "1955",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Aeronautical Engineering"
+      },
+      {
+        "name": "University of Southern California",
+        "year": "1970",
+        "degree": "Master of Science",
+        "fieldOfStudy": "Aerospace Engineering"
+      }
+    ],
+    "firstName": "Neil",
+    "middleName": "Alden",
+    "lastName": "Armstrong",
+    "gender": "Male",
+    "nationality": "American",
+    "birthDate": "1930-08-05",
+    "birthCity": "Wapakoneta",
+    "birthReagon": "Ohio",
+    "deathDate": "2012-08-25",
+    "deathCity": "Cincinnati",
+    "deathReagon": "Ohio",
+    "status": "Deceased",
+    "daysInSpace": "8.5916",
+    "evaTime": "2.5166",
+    "military": "Navy",
+    "militaryRank": "Lieutenant"
+  },
+  {
+    "id": "a4caa27e-73b5-484e-af04-d278addb5025",
+    "almamaters": [
+      {
+        "degree": "Bachelor of Science",
+        "year": "1955",
+        "name": "University of Texas at Austin",
+        "fieldOfStudy": "Aeronautical Engineering"
+      }
+    ],
+    "firstName": "Alan",
+    "middleName": "LaVern",
+    "lastName": "Bean",
+    "gender": "Male",
+    "nationality": "American",
+    "status": "Deceased",
+    "birthDate": "1932-03-15",
+    "birthCity": "Wheeler",
+    "birthReagon": "Texas",
+    "deathDate": "2018-05-26",
+    "deathCity": "Houston",
+    "deathReagon": "Texas",
+    "militaryRank": "Captain",
+    "military": "Navy",
+    "daysInSpace": "69.6562",
+    "evaTime": "10.4333"
+  },
+  {
     "id": "22619841-0d46-425d-82ef-c80ac71d8104",
     "almamaters": [
       {
@@ -224,6 +284,88 @@
     "militaryRank": "Colonel",
     "status": "Retired",
     "daysInSpace": "19.8993"
+  },
+  {
+    "id": "a46cb42b-9149-4dd4-83b0-9a04bfd06144",
+    "almamaters": [
+      {
+        "name": "Purdue University",
+        "year": "1956",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Electrical Engineering"
+      },
+      {
+        "name": "Naval Postgraduate School",
+        "year": "1963",
+        "degree": "Master of Science",
+        "fieldOfStudy": "Aeronautical Engineering"
+      }
+    ],
+    "firstName": "Eugene",
+    "middleName": "Andrew",
+    "lastName": "Cernan",
+    "gender": "Male",
+    "nationality": "American",
+    "status": "Deceased",
+    "birthDate": "1934-03-14",
+    "birthCity": "Chicago",
+    "birthReagon": "Illinois",
+    "deathDate": "2017-01-16",
+    "deathCity": "Houston",
+    "deathReagon": "Texas",
+    "military": "Navy",
+    "militaryRank": "Captain"
+  },
+  {
+    "id": "070c9599-f88d-41d7-b3c8-4cbbb79a7d61",
+    "almamaters": [
+      {
+        "year": "1952",
+        "degree": "Bachelor of Science",
+        "name": "This is a featured article. Click here for more information. United States Military Academy"
+      }
+    ],
+    "firstName": "Michael",
+    "lastName": "Collins",
+    "nationality": "American",
+    "status": "Retired",
+    "gender": "Male",
+    "birthDate": "1930-10-31",
+    "birthCity": "Rome",
+    "birthReagon": "Italy",
+    "military": "Air Force",
+    "militaryRank": "Major General",
+    "militaryYears": "18",
+    "daysInSpace": "11.0861",
+    "evaTime": "1.4666"
+  },
+  {
+    "id": "fe895021-29e7-4036-9815-427f3708e136",
+    "almamaters": [
+      {
+        "name": "Princeton University",
+        "year": "1953",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Aeronautical Engineering"
+      }
+    ],
+    "firstName": "Charles",
+    "lastName": "Conrad",
+    "suffix": "Jr.",
+    "nickName": "Pete",
+    "gender": "Male",
+    "nationality": "American",
+    "birthDate": "1930-06-02",
+    "birthCity": "Philadelphia",
+    "birthReagon": "Pennsylvania",
+    "deathDate": "1999-07-08",
+    "deathCity": "Ojai",
+    "deathReagon": "California",
+    "military": "Navy",
+    "militaryRank": "Captain",
+    "status": "Deceased",
+    "daysInSpace": "49.1513",
+    "evaTime": "12.7666"
   },
   {
     "id": "dfa662c8-c4af-42bd-916b-e88c172b79c5",
@@ -303,6 +445,64 @@
     "daysInSpace": "15.9513"
   },
   {
+    "id": "c9170505-fce4-4529-bad2-9f6e79d13721",
+    "almamaters": [
+      {
+        "name": "University of Washington",
+        "year": "1951",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Chemistry"
+      }
+    ],
+    "firstName": "Richard",
+    "middleName": "Francis",
+    "lastName": "Gordon",
+    "suffix": "Jr.",
+    "gender": "Male",
+    "nationality": "American",
+    "status": "Deceased",
+    "military": "Navy",
+    "militaryRank": "Captain",
+    "birthDate": "1929-10-05",
+    "birthCity": "Seattle",
+    "birthReagon": "Washington",
+    "deathDate": "2017-11-06",
+    "deathCity": "San Marcos",
+    "deathReagon": "California",
+    "daysInSpace": "13.1618",
+    "evaTime": "2.6833"
+  },
+  {
+    "id": "f8c2feb0-67d3-4f72-bc05-f23cc5976c10",
+    "almamaters": [
+      {
+        "name": "Perkinston Junior College",
+        "year": "1952",
+        "fieldOfStudy": "Journalism",
+        "degree": "Associate of Arts"
+      },
+      {
+        "name": "University of Oklahoma",
+        "year": "1959",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Aeronautical Engineering"
+      }
+    ],
+    "firstName": "Fred",
+    "middleName": "Wallace",
+    "lastName": "Haise",
+    "suffix": "Jr.",
+    "gender": "Male",
+    "nationality": "American",
+    "status": "Retired",
+    "birthDate": "1933-11-14",
+    "birthCity": "Bilozi",
+    "birthReagon": "Mississippi",
+    "military": "Air Force",
+    "militaryRank": "Captain",
+    "daysInSpace": "5.9541"
+  },
+  {
     "id": "fdb3f682-7cbc-4926-8929-4831247f1e99",
     "almamaters": [
       {
@@ -353,6 +553,155 @@
     "military": "Navy",
     "militaryRank": "Captain",
     "daysInSpace": "29.7937"
+  },
+  {
+    "id": "ebc04fcd-594e-4223-aeea-f294a360d5ef",
+    "almamaters": [
+      {
+        "name": "University of Michigan",
+        "year": "1959",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Aeronautical Engineering"
+      }
+    ],
+    "firstName": "James",
+    "middleName": "Alton",
+    "lastName": "McDivitt",
+    "nickName": "Jim",
+    "gender": "Male",
+    "nationality": "American",
+    "status": "Retired",
+    "daysInSpace": "14.1222",
+    "military": "Air Force",
+    "militaryRank": "Brigadier General",
+    "birthDate": "1929-06-10",
+    "birthCity": "Chicago",
+    "birthReagon": "Illinois"
+  },
+  {
+    "id": "b295ff90-ce7b-4ac8-a8c4-dc351208f0f4",
+    "almamaters": [
+      {
+        "name": "Massachusetts Institute of Technology",
+        "year": "1956",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Aeronautical Engineering"
+      },
+      {
+        "name": "Massachusetts Institute of Technology",
+        "year": "1963",
+        "degree": "Master of Science",
+        "fieldOfStudy": "Aeronautics and Astronautics"
+      }
+    ],
+    "firstName": "Russell",
+    "middleName": "Louis",
+    "lastName": "Schweickart",
+    "nickName": "Rusty",
+    "gender": "Male",
+    "nationality": "American",
+    "status": "Retired",
+    "birthDate": "1935-10-25",
+    "birthCity": "Neptune",
+    "birthReagon": "New Jersey",
+    "daysInSpace": "10.0416",
+    "evaTime": "1.1166"
+  },
+  {
+    "id": "84c85133-ad4f-4532-ad50-686e54cf84c7",
+    "almamaters": [
+      {
+        "year": "1953",
+        "name": "University of Michigan",
+        "degree": null,
+        "fieldOfStudy": "Engineering"
+      },
+      {
+        "name": "United States Military Academy",
+        "year": "1954",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Astronautical Science"
+      },
+      {
+        "name": "Massachusetts Institute of Technology",
+        "year": "1962",
+        "degree": "Master of Science",
+        "fieldOfStudy": "Aeronautics/Astronautics"
+      }
+    ],
+    "firstName": "David",
+    "middleName": "Randolph",
+    "lastName": "Scott",
+    "gender": "Male",
+    "nationality": "American",
+    "status": "Retired",
+    "birthDate": "1932-06-06",
+    "birthCity": "San Antonio",
+    "birthReagon": "Texas",
+    "daysInSpace": "22.7868",
+    "military": "Air Force",
+    "militaryRank": "Colonel"
+  },
+  {
+    "id": "224cdd05-62cf-46be-8076-856f6bb044c6",
+    "almamaters": [
+      {
+        "name": "United States Naval Academy",
+        "year": "1952",
+        "degree": "Bachelor of Science"
+      }
+    ],
+    "firstName": "Thomas",
+    "middleName": "Patten",
+    "lastName": "Stafford",
+    "gender": "Male",
+    "nationality": "American",
+    "status": "Retired",
+    "birthDate": "1930-09-17",
+    "birthCity": "Weatherford",
+    "birthReagon": "Oklahoma",
+    "military": "Air Force",
+    "militaryRank": "Lieutenant General",
+    "daysInSpace": "21.1263"
+  },
+  {
+    "id": "d525b289-d39a-4045-8063-0fd725e96596",
+    "almamaters": [
+      {
+        "name": "University of Colorado",
+        "year": "1953",
+        "degree": "Bachelor of Science",
+        "fieldOfStudy": "Mechanical Engineering"
+      },
+      {
+        "name": "Rensselaer Polytechnic Institute",
+        "year": "1965",
+        "degree": "Master of Science",
+        "fieldOfStudy": "Aerospace Engineering"
+      },
+      {
+        "year": "1967",
+        "name": "University of Hartford",
+        "degree": "Master of Business Administration"
+      }
+    ],
+    "firstName": "John",
+    "middleName": "Leonard",
+    "lastName": "Swigert",
+    "suffix": "Jr.",
+    "nickName": "Jack",
+    "gender": "Male",
+    "nationality": "American",
+    "birthDate": "1931-08-30",
+    "birthCity": "Denver",
+    "birthReagon": "Colorado",
+    "deathDate": "1982-12-27",
+    "deathCity": "",
+    "deathReagon": "Washington D.C",
+    "military": "Air Force",
+    "militaryRank": "Captain",
+    "daysInSpace": "5.9541",
+    "status": "Deceased"
   },
   {
     "id": "4cb777b7-ead6-4d83-924c-23b920393ff3",

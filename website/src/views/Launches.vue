@@ -1,7 +1,7 @@
 <template>
   <div ref="launches" id="launches" :class="this.$vuetify.breakpoint.name">
     <!-- <Background /> -->
-    <section class="year" v-for="(year) in years" :key="`year-${year}`" v-if="isReady">
+    <section class="year" v-for="(year) in years" :key="`year-${year}`" v-if="isReady && sortedLaunches(year).length">
       <h3>{{year}}</h3>
       <launch v-for="(launch, index) in sortedLaunches(year)" :key="`launch-${index}`" :launch="launch" />
     </section>
@@ -20,7 +20,7 @@
 // @ is an alias to /src
 import Background from '@/components/Background.vue';
 import Launch from '@/components/Launch.vue';
-import { filter, groupBy, keys, sortBy, reverse } from 'lodash';
+import { includes, groupBy, keys, sortBy, reverse } from 'lodash';
 
 export default {
   name: 'launches',
@@ -38,8 +38,8 @@ export default {
   },
 
   computed:  {
-    launchesByYear () { return this.$store.state.launchesByYear; },
-    years () { return reverse(keys(this.$store.state.launchesByYear)); },
+    launchesByYear () { return this.$store.getters.launchesByYear; },
+    years () { return reverse(keys(this.$store.getters.launchesByYear)); },
     isReady () { return this.$store.state.isReady; },
   },
 

@@ -526,7 +526,12 @@
         "status": "success"
       }
     ],
-    "crew": []
+    "crew": [
+      "ebc04fcd-594e-4223-aeea-f294a360d5ef",
+      "84c85133-ad4f-4532-ad50-686e54cf84c7",
+      "b295ff90-ce7b-4ac8-a8c4-dc351208f0f4"
+    ],
+    "youtube": "2Hkf_dQIbPs"
   },
   {
     "id": "f130e525-0ae6-4aa8-8c73-c42a0bcff51b",
@@ -560,7 +565,11 @@
         "status": "success"
       }
     ],
-    "crew": []
+    "crew": [
+      "a46cb42b-9149-4dd4-83b0-9a04bfd06144",
+      "224cdd05-62cf-46be-8076-856f6bb044c6",
+      "461cfa15-569a-48cd-8129-efc83787e4b0"
+    ]
   },
   {
     "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
@@ -594,7 +603,11 @@
       }
     ],
     "id": "b5de85b5-4926-4251-a57b-40a7a7fffba8",
-    "crew": []
+    "crew": [
+      "86e171cb-5ec3-4080-8b88-4e20e7258864",
+      "070c9599-f88d-41d7-b3c8-4cbbb79a7d61",
+      "cef5a876-efcf-4a08-8999-8ecaed77ec86"
+    ]
   },
   {
     "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
@@ -628,14 +641,18 @@
       }
     ],
     "id": "489d2566-7dfd-4134-8f4c-692cd26491ec",
-    "crew": []
+    "crew": [
+      "fe895021-29e7-4036-9815-427f3708e136",
+      "a4caa27e-73b5-484e-af04-d278addb5025",
+      "c9170505-fce4-4529-bad2-9f6e79d13721"
+    ]
   },
   {
     "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
     "vehicleFamily": "e0dd9673-3c46-48cb-9561-b802a33ad6e6",
     "serial": "SA-508",
     "date": "1970-04-11",
-    "status": "success",
+    "status": "partial failure",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
     "orbital": "yes",
@@ -644,7 +661,7 @@
         "name": "Apollo 13",
         "orbital": "yes",
         "orbit": "HEO",
-        "status": "Partial Failure",
+        "status": "partial failure",
         "mass": 28801,
         "type": "Capsule",
         "description": "The Apollo spacecraft was designed as part of the Apollo Program, by the United States in the early 1960s to land men on the moon before 1970 and return them safely to earth.",
@@ -654,7 +671,7 @@
         "name": "LM 7 (Aquarius)",
         "orbital": "yes",
         "orbit": "HEO",
-        "status": "Partial Failure",
+        "status": "partial failure",
         "mass": 12000,
         "type": "Satellite",
         "description": "The NASA/Grumman Apollo Lunar Module after descending to the lunar surface from lunar orbit, provides a base from which the astronauts explore the landing site and enables the astronauts to take off from the lunar surface to rendezvous and dock with the orbiting Command and Service Modules.",
@@ -662,7 +679,11 @@
       }
     ],
     "id": "6aca8324-3dec-40fb-873b-d94438384a59",
-    "crew": []
+    "crew": [
+      "d666da8f-a8f2-4856-a83c-96a002cd5614",
+      "f8c2feb0-67d3-4f72-bc05-f23cc5976c10",
+      "d525b289-d39a-4045-8063-0fd725e96596"
+    ]
   },
   {
     "vehicle": "21f69e2d-6fe2-4190-93de-ae2c13b44737",
@@ -1224,7 +1245,8 @@
       }
     ],
     "id": "b26f10ee-41e4-4941-ba59-8c214711abc4",
-    "crew": []
+    "crew": [],
+    "youtube": "Lk4zQ2wP-Nc"
   },
   {
     "vehicle": "a07661db-3029-4a64-a944-4ad91f265b22",
@@ -1363,6 +1385,31 @@
     "crew": []
   },
   {
+    "vehicle": "26edb74e-6435-4af7-9961-09a9e1754561",
+    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
+    "serial": "",
+    "date": "2008-09-28",
+    "status": "success",
+    "launchSite": "Omelek Island",
+    "launchPad": "",
+    "orbital": "yes",
+    "payloads": [
+      {
+        "name": "Ratsat",
+        "orbital": "yes",
+        "orbit": "LEO",
+        "mass": 165,
+        "type": "Satellite",
+        "description": "Ratsat is a vehicle evaluation payload for the fourth flight of the Falcon-1 rocket designed and built by SpaceX specifically for this mission.",
+        "id": "af9a4d6d-4d07-4849-815f-c7516df56a49",
+        "status": "success"
+      }
+    ],
+    "id": "8b7ae082-92b2-4ef2-9e94-03ca3be740ca",
+    "crew": [],
+    "youtube": "dLQ2tZEH6G0"
+  },
+  {
     "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
     "vehicleFamily": "03fe3d92-fbfd-4d5a-ad9f-60c7748580b9",
     "serial": "AV-020",
@@ -1418,30 +1465,6 @@
       }
     ],
     "id": "41930998-ea81-4633-88e6-29d02ff5f2b2",
-    "crew": []
-  },
-  {
-    "vehicle": "26edb74e-6435-4af7-9961-09a9e1754561",
-    "vehicleFamily": "83f8614b-cb40-4c92-bf1f-6100bd16ab29",
-    "serial": "",
-    "date": "2009-09-29",
-    "status": "success",
-    "launchSite": "Omelek Island",
-    "launchPad": "",
-    "orbital": "yes",
-    "payloads": [
-      {
-        "name": "Ratsat",
-        "orbital": "yes",
-        "orbit": "LEO",
-        "mass": 165,
-        "type": "Satellite",
-        "description": "Ratsat is a vehicle evaluation payload for the fourth flight of the Falcon-1 rocket designed and built by SpaceX specifically for this mission.",
-        "id": "af9a4d6d-4d07-4849-815f-c7516df56a49",
-        "status": "success"
-      }
-    ],
-    "id": "8b7ae082-92b2-4ef2-9e94-03ca3be740ca",
     "crew": []
   },
   {
@@ -1710,7 +1733,8 @@
       }
     ],
     "id": "1b4a8777-0813-433c-9f61-ea5aeafb061f",
-    "crew": []
+    "crew": [],
+    "youtube": "y_4-TOcVegM"
   },
   {
     "vehicle": "3d86d602-0ad8-4992-bbf6-e297629f5da0",
@@ -1925,7 +1949,8 @@
     "orbital": "no",
     "payloads": [],
     "id": "e4af82cd-af7e-482d-a220-d2f8798b7312",
-    "crew": []
+    "crew": [],
+    "youtube": "pzXlUw2WhcE"
   },
   {
     "vehicle": "c455825f-c71d-4dd2-ba46-de1a2fab9c25",
@@ -1959,7 +1984,8 @@
       }
     ],
     "id": "4c580b1f-e9f6-462a-a6f6-5ed4327ac66f",
-    "crew": []
+    "crew": [],
+    "youtube": "tRTYh71D9P0"
   },
   {
     "vehicle": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
@@ -1972,7 +1998,8 @@
     "orbital": "no",
     "payloads": [],
     "id": "095c5c90-32fa-4313-9a16-a1625ccaf539",
-    "crew": []
+    "crew": [],
+    "youtube": "VjaBSSnqs"
   },
   {
     "vehicle": "6c21b823-b6f4-4d06-b08f-e41cb2b785d8",
@@ -1985,7 +2012,8 @@
     "orbital": "no",
     "payloads": [],
     "id": "b7c8583b-bd5e-4f71-b2ba-009245e58813",
-    "crew": []
+    "crew": [],
+    "youtube": "B4PEXLODw9c"
   },
   {
     "vehicle": "a07661db-3029-4a64-a944-4ad91f265b22",
@@ -2316,7 +2344,8 @@
       }
     ],
     "id": "0ca73a82-e41d-4f8b-a670-587fcd8ba9f5",
-    "crew": []
+    "crew": [],
+    "youtube": "DjpUf__4vPA"
   },
   {
     "id": "374c0569-2c04-45ac-a201-225928245a87",
@@ -2481,7 +2510,8 @@
       }
     ],
     "id": "6d4a2c67-8948-47aa-90f7-4aa289e080b4",
-    "crew": []
+    "crew": [],
+    "youtube": "OzEsXL3S_mc"
   },
   {
     "vehicle": "d5b30df1-33e0-4321-8c96-8b19280783b0",
@@ -2615,7 +2645,8 @@
       }
     ],
     "id": "03e0138c-573b-4d4d-8b84-0e24f5d11e17",
-    "crew": []
+    "crew": [],
+    "youtube": "lbHnSu-DLR4"
   },
   {
     "vehicle": "d5b30df1-33e0-4321-8c96-8b19280783b0",
@@ -2676,7 +2707,8 @@
       }
     ],
     "id": "729329e6-de40-4ee6-9d01-31689de74de1",
-    "crew": []
+    "crew": [],
+    "youtube": "essrkMGlw5s"
   },
   {
     "id": "f5948c6f-80c5-4bfd-9009-40055074bfbb",
@@ -2737,7 +2769,8 @@
       }
     ],
     "id": "cedf60e3-120f-4111-93a8-f7966e505e77",
-    "crew": []
+    "crew": [],
+    "youtube": "39ninsyTRk8"
   },
   {
     "id": "d9fe86bd-b582-437e-a995-f654b53415ea",
@@ -2805,7 +2838,8 @@
       }
     ],
     "id": "809a0abe-7b20-4748-bd0a-19d189aa9f02",
-    "crew": []
+    "crew": [],
+    "youtube": "7YkCh7uOw1Y"
   },
   {
     "id": "2847ca03-46a2-4724-9e09-2c2edda90f1d",
@@ -2893,7 +2927,8 @@
       }
     ],
     "id": "1236bda7-91b4-4178-8e24-b7f624132bec",
-    "crew": []
+    "crew": [],
+    "youtube": "p7x-SumbynI"
   },
   {
     "vehicle": "ae35985d-33db-43d1-b003-66c25514e38a",
@@ -2917,7 +2952,8 @@
       }
     ],
     "id": "63a1fc8f-cb6b-430d-95c8-cda275390f14",
-    "crew": []
+    "crew": [],
+    "youtube": "OvHJSIKP0Hg"
   },
   {
     "vehicle": "9edf93cc-b356-4528-9733-37ab5188c761",
@@ -2951,7 +2987,8 @@
       }
     ],
     "id": "993c3698-ca16-469e-9979-1129e7fd896c",
-    "crew": []
+    "crew": [],
+    "youtube": "mN7lyaCBzT8"
   },
   {
     "vehicle": "ae35985d-33db-43d1-b003-66c25514e38a",
@@ -3135,7 +3172,8 @@
       }
     ],
     "id": "2db2680a-92f4-4064-8a18-2d1cad68eb30",
-    "crew": []
+    "crew": [],
+    "youtube": "csVpa25iqH0"
   },
   {
     "vehicle": "9edf93cc-b356-4528-9733-37ab5188c761",
@@ -3159,7 +3197,8 @@
       }
     ],
     "id": "cc1d33ec-9f86-4fe7-9e70-1f3095b9104c",
-    "crew": []
+    "crew": [],
+    "youtube": "nBwAYT_ogj4"
   },
   {
     "vehicle": "678fac31-5bae-4695-9614-0c06387dd2af",
@@ -3783,7 +3822,8 @@
       }
     ],
     "id": "550333ac-04ba-41c6-a501-798ce241d3dc",
-    "crew": []
+    "crew": [],
+    "youtube": "O5bTbVbe4e4"
   },
   {
     "vehicle": "ae35985d-33db-43d1-b003-66c25514e38a",
@@ -3807,7 +3847,8 @@
       }
     ],
     "id": "25ec9d82-b928-41a6-9f20-071de2c4086d",
-    "crew": []
+    "crew": [],
+    "youtube": "ivdKRJzl6y0"
   },
   {
     "id": "b63882e9-c151-4c93-b3af-de9ab93ccd68",
@@ -3855,7 +3896,8 @@
       }
     ],
     "id": "da2a5edd-5a8b-44b2-960b-a62ee11c07ce",
-    "crew": []
+    "crew": [],
+    "youtube": "muDPSyO7-A0"
   },
   {
     "id": "c1495f62-e3a7-4717-8830-1b16cecab616",
@@ -4213,7 +4255,8 @@
       }
     ],
     "id": "876d3ed9-d537-4aae-b201-278394602d34",
-    "crew": []
+    "crew": [],
+    "youtube": "C_Gmgj3N_Z0"
   },
   {
     "vehicle": "6025cf7a-cc3f-4555-bd2c-6c84741ac95b",
@@ -4237,7 +4280,8 @@
       }
     ],
     "id": "5946130c-356c-44fc-bbc7-45266d603478",
-    "crew": []
+    "crew": [],
+    "youtube": "L0bMeDj76ig"
   },
   {
     "vehicle": "6025cf7a-cc3f-4555-bd2c-6c84741ac95b",
@@ -4261,7 +4305,8 @@
       }
     ],
     "id": "259d39ca-a505-4cb9-b63f-e521d715c141",
-    "crew": []
+    "crew": [],
+    "youtube": "wPYOtCFSLKw"
   },
   {
     "vehicle": "6025cf7a-cc3f-4555-bd2c-6c84741ac95b",
@@ -4295,7 +4340,8 @@
       }
     ],
     "id": "1369d88d-fa12-495d-9817-553e388c2ef6",
-    "crew": []
+    "crew": [],
+    "youtube": "gLNmtUEvI5A"
   },
   {
     "vehicle": "ff0fe186-b1d6-4824-8d9c-ca6e1d898d49",
@@ -4329,7 +4375,8 @@
       }
     ],
     "id": "64323077-e8c0-4b53-83fc-880f0171b0f6",
-    "crew": []
+    "crew": [],
+    "youtube": "ThIdCuSsJh8"
   },
   {
     "vehicle": "6025cf7a-cc3f-4555-bd2c-6c84741ac95b",
@@ -4353,7 +4400,8 @@
       }
     ],
     "id": "42bb677d-cfbe-45ce-9a3a-10494e57a09d",
-    "crew": []
+    "crew": [],
+    "youtube": "QZTCEO0gvLo"
   },
   {
     "vehicle": "505182ab-4079-4a04-b46c-e11a0b42ed83",
@@ -4609,7 +4657,8 @@
       }
     ],
     "id": "e1c954e5-4366-475c-9e1d-7ae324f922d5",
-    "crew": []
+    "crew": [],
+    "youtube": "tTmbSur4fcs"
   },
   {
     "id": "d0699f38-cb22-4d6e-bdb5-79d77907cf5d",
@@ -4677,7 +4726,8 @@
       }
     ],
     "id": "2db3805c-2465-497a-a73b-06aad40b6d8c",
-    "crew": []
+    "crew": [],
+    "youtube": "giNhaEzv_PI"
   },
   {
     "id": "6aa88f76-b3cf-4794-a75a-761707694015",
@@ -4735,7 +4785,8 @@
       }
     ],
     "id": "f32a7cba-4ae4-46bc-9f6a-0925d4d9edd3",
-    "crew": []
+    "crew": [],
+    "youtube": "lZmqbL-hz7U"
   },
   {
     "vehicle": "6025cf7a-cc3f-4555-bd2c-6c84741ac95b",
@@ -4759,7 +4810,8 @@
       }
     ],
     "id": "de0b89f9-cfdc-405f-a420-e599dd924319",
-    "crew": []
+    "crew": [],
+    "youtube": "xsZSXav4wI8"
   },
   {
     "id": "f62ca213-fdbc-4c3d-b208-4c41e3c84750",
@@ -5187,7 +5239,8 @@
       }
     ],
     "id": "c409b5d2-124b-4326-b4bf-a0498d0e34c0",
-    "crew": []
+    "crew": [],
+    "youtube": "EzQpkQ1etdA"
   },
   {
     "vehicle": "f5fbd30f-e61e-421d-9ab6-614b957e065c",
@@ -5211,7 +5264,8 @@
       }
     ],
     "id": "6aaf7c06-3eae-4f80-acbc-440398589a1d",
-    "crew": []
+    "crew": [],
+    "youtube": "ynMYE64IEKs"
   },
   {
     "vehicle": "42253f77-476d-42cb-a8ec-455c23dfe504",
@@ -5315,7 +5369,8 @@
       }
     ],
     "id": "9320b599-3538-4415-977c-259c60b4645a",
-    "crew": []
+    "crew": [],
+    "youtube": "JuZBOUMsYws"
   },
   {
     "vehicle": "505182ab-4079-4a04-b46c-e11a0b42ed83",
@@ -5339,7 +5394,8 @@
       }
     ],
     "id": "24c41276-6dec-4431-acd1-4ce041716338",
-    "crew": []
+    "crew": [],
+    "youtube": "Y8mLi-rRTh8"
   },
   {
     "vehicle": "505182ab-4079-4a04-b46c-e11a0b42ed83",
@@ -5477,7 +5533,8 @@
       }
     ],
     "id": "b51e5528-7a0d-4552-a992-1caf559e8c5f",
-    "crew": []
+    "crew": [],
+    "youtube": "MIHVPCj25Z0"
   },
   {
     "vehicle": "36d809c4-18e9-418d-b963-4c7e0b594ac7",
@@ -5551,7 +5608,8 @@
       }
     ],
     "id": "1f747df9-1354-4249-a30b-346b0086b139",
-    "crew": []
+    "crew": [],
+    "youtube": "vLxWsYx8dbo"
   },
   {
     "id": "60f40579-e82b-4982-9606-cf32ae61da2b",
@@ -5599,7 +5657,8 @@
       }
     ],
     "id": "3f074854-c14e-47f4-8a7c-2e9dbfbf92c4",
-    "crew": []
+    "crew": [],
+    "youtube": "J4u3ZN2g_MI"
   },
   {
     "vehicle": "36d809c4-18e9-418d-b963-4c7e0b594ac7",
@@ -5633,7 +5692,8 @@
       }
     ],
     "id": "6e86ea9f-a7df-4fc8-b535-dd221b4db551",
-    "crew": []
+    "crew": [],
+    "youtube": "9M6Zvi-fFv4"
   },
   {
     "id": "84e69931-c2a7-4d29-b6d9-029c72e1fb2f",
@@ -5747,7 +5807,8 @@
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
     "date": "2017-10-09",
-    "crew": []
+    "crew": [],
+    "youtube": "SB4N4xF2B2w"
   },
   {
     "vehicle": "505182ab-4079-4a04-b46c-e11a0b42ed83",
@@ -5771,7 +5832,8 @@
       }
     ],
     "id": "f1ead91f-9e4e-42b2-bcc0-a41ea27973e2",
-    "crew": []
+    "crew": [],
+    "youtube": "iv1zeGSvhIw"
   },
   {
     "vehicle": "1ccb9d4c-70cd-450e-bce7-f5e16c07552d",
@@ -5795,7 +5857,8 @@
       }
     ],
     "id": "dc4e6095-059e-4ade-8bd7-0b29b3503231",
-    "crew": []
+    "crew": [],
+    "youtube": "CNRTNxZSPhE"
   },
   {
     "vehicle": "36d809c4-18e9-418d-b963-4c7e0b594ac7",
@@ -5839,7 +5902,8 @@
       }
     ],
     "id": "1b84c7e1-9228-46f4-9a3d-3e4d17e5d7d0",
-    "crew": []
+    "crew": [],
+    "youtube": "OPHbqY9LHCs"
   },
   {
     "vehicle": "f5fbd30f-e61e-421d-9ab6-614b957e065c",
@@ -5953,7 +6017,8 @@
       }
     ],
     "id": "9966c24d-ea67-45a8-9c11-78ef696de359",
-    "crew": []
+    "crew": [],
+    "youtube": "OPHbqY9LHCs"
   },
   {
     "vehicle": "1ccb9d4c-70cd-450e-bce7-f5e16c07552d",
@@ -5977,7 +6042,8 @@
       }
     ],
     "id": "e88a4cb5-0d54-4e34-bdb8-504f1ab7b49c",
-    "crew": []
+    "crew": [],
+    "youtube": "0PWu3BRxn60"
   },
   {
     "id": "81b8b362-52de-4ad0-8c8a-ab1f05cc04f2",
@@ -6025,7 +6091,8 @@
       }
     ],
     "id": "498eb2b9-0108-4c9d-86bb-a6738727b778",
-    "crew": []
+    "crew": [],
+    "youtube": "ScYUA51-POQ"
   },
   {
     "vehicle": "16919357-6b13-472a-b176-58978644f2e6",
@@ -6049,7 +6116,8 @@
       }
     ],
     "id": "db7ab512-b98a-48da-868a-401c5abf9491",
-    "crew": []
+    "crew": [],
+    "youtube": "A0FZIwabctw"
   },
   {
     "vehicle": "f5fbd30f-e61e-421d-9ab6-614b957e065c",
@@ -6093,7 +6161,8 @@
       }
     ],
     "id": "961e9908-1759-4e6b-afd2-008909a3d7bb",
-    "crew": []
+    "crew": [],
+    "youtube": "-p-PToD2URA"
   },
   {
     "vehicle": "dc14274e-2c0e-4325-b6b2-33b4d094c18d",
@@ -6127,7 +6196,8 @@
       }
     ],
     "id": "fc6f1bf2-bf8c-4a50-9581-1e1404431f85",
-    "crew": []
+    "crew": [],
+    "youtube": "Kpfrp-GMKKM"
   },
   {
     "vehicle": "dc14274e-2c0e-4325-b6b2-33b4d094c18d",
@@ -6241,7 +6311,8 @@
       }
     ],
     "id": "4f74a304-6095-4bce-b2e9-9a92af46d72a",
-    "crew": []
+    "crew": [],
+    "youtube": "mp0TW8vkCLg"
   },
   {
     "vehicle": "d3c175a3-64b0-4cca-b280-2fc225344c93",
@@ -6355,7 +6426,8 @@
       }
     ],
     "id": "a6604799-0394-4609-bae2-1f4ac72942ef",
-    "crew": []
+    "crew": [],
+    "youtube": "BPQHG-LevZM"
   },
   {
     "vehicle": "1ccb9d4c-70cd-450e-bce7-f5e16c07552d",
@@ -6379,7 +6451,8 @@
       }
     ],
     "id": "63d64482-dbe4-41b1-9c44-3bbf951097aa",
-    "crew": []
+    "crew": [],
+    "youtube": "aY-0uBIYYKk"
   },
   {
     "id": "ba298925-2954-43d2-8ab1-fa9c818d6e1e",
@@ -6447,7 +6520,8 @@
     "date": "2018-05-11",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "crew": []
+    "crew": [],
+    "youtube": "rQEqKZ7CJlk"
   },
   {
     "id": "21adb8c5-44ab-42ee-9549-6f5fd481a710",
@@ -6531,7 +6605,8 @@
     "date": "2018-05-22",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
-    "crew": []
+    "crew": [],
+    "youtube": "I_0GgKfwCSk"
   },
   {
     "id": "98c64a85-0fed-46a8-84c7-340f3bf9b592",
@@ -6540,7 +6615,7 @@
     "payloads": [
       {
         "id": "47dec054-1e27-4bb8-97de-79e76ac71d42",
-        "name": "SEC 12",
+        "name": "SES 12",
         "orbital": "yes",
         "orbit": "GEO",
         "mass": "5300",
@@ -6555,7 +6630,8 @@
     "date": "2018-06-04",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "crew": []
+    "crew": [],
+    "youtube": "2hcM5hqQ45s"
   },
   {
     "id": "1873ba3d-6b87-40c1-886e-05ad528224c7",
@@ -6649,7 +6725,8 @@
     "date": "2018-06-29",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "crew": []
+    "crew": [],
+    "youtube": "ycMagB1s8XM"
   },
   {
     "id": "36971d9f-4ece-444d-afc9-f1cfce5268ec",
@@ -6673,7 +6750,8 @@
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
     "date": "2018-07-22",
-    "crew": []
+    "crew": [],
+    "youtube": "xybp6zLaGx4"
   },
   {
     "id": "9213877f-4739-4eb4-9214-0b3a711c8cff",
@@ -6787,6 +6865,7 @@
     "date": "2018-07-25",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
-    "crew": []
+    "crew": [],
+    "youtube": "vsDknmK30C0"
   }
 ]

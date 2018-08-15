@@ -7,7 +7,6 @@ Vue.use(Router);
 
 export default new Router({
   scrollBehavior: (to) => {
-    console.log(to);
     if (to.hash) {
       return {
         selector: to.hash,

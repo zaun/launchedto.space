@@ -194,7 +194,7 @@
 
 <script>
 import moment from 'moment';
-import { countBy, filter } from 'lodash';
+import { countBy } from 'lodash';
 
 export default {
   name: 'rocket',
@@ -210,8 +210,8 @@ export default {
   },
 
   computed:  {
-    launches () {
-      return filter(this.$store.state.launches, { vehicle: this.rocket.id });
+    launches() {
+      return this.$store.getters.launchesByRocket[this.rocket.id];
     },
     
     launchByStatus () {

@@ -7,6 +7,9 @@
       <v-toolbar-items>
         <v-btn flat to="launches">Launches</v-btn>
         <v-btn flat to="rockets">Rockets</v-btn>
+        <v-btn flat @click="showFilter = true">
+          <v-icon>fas fa-filter</v-icon>
+        </v-btn>
         <v-btn flat href="https://github.com/zaun/launchedto.space" class="hidden-sm-and-down">
           <v-icon>fab fa-github</v-icon>
         </v-btn>
@@ -14,39 +17,33 @@
     </v-toolbar>
     <div class="toolbar-spacer"></div>
 
-    <!-- <v-dialog v-model="about" max-width="500px">
-      <v-toolbar color="indigo" dense>
-        <v-toolbar-title class="white--text">About</v-toolbar-title>
-      </v-toolbar>
-      <div class="dialog-about_content pa-2">
-        <div class="headline">Data</div>
-        <ul class="ml-5">
-          <li><a target="_blank" href="http://space.skyrocket.de/doc_lau/falcon-1.htm">Falcon-1</a> at Gunter's Space Page</li>
-          <li><a target="_blank" href="http://space.skyrocket.de/doc_lau/falcon-9.htm">Falcon-9</a> at Gunter's Space Page</li>
-          <li><a target="_blank" href="http://space.skyrocket.de/doc_lau/grasshopper.htm">Grasshopper</a> at Gunter's Space Page</li>
-          <li><a target="_blank" href="http://space.skyrocket.de/doc_lau_fam/saturn.htm">Saturn</a> at Gunter's Space Page</li>
-          <li><a target="_blank" href="http://www.astronautix.com/s/spacex.html">SpaceX</a> at Encyclopedia Astronautica</li>
-        </ul>
-        <div class="headline mt-3">Icons & Images</div>
-        <ul class="ml-5">
-          <li><a target="_blank" href="https://www.patreon.com/user?u=5775382">Spacecraft Vector Art</a> by Ezekiel</li>
-          <li><a target="_blank" href="https://www.flaticon.com/free-icon/file-sharing_287699#term=image%20video&page=2&position=7">Media</a> by Nikita Golubev</li>
-          <li><a target="_blank" href="https://www.flaticon.com/free-icon/astronaut-user_81468#term=astronaut&page=1&position=20">Astronaut</a> by Freepik</li>
-          <li><a target="_blank" href="https://thenounproject.com/term/icon/724999/">Satellite</a> by Ralf Schmitzer</li>
-          <li><a target="_blank" href="https://thenounproject.com/term/icon/956251/">ISS</a> by Viktor Korobkov</li>
-          <li><a target="_blank" href="https://thenounproject.com/term/icon/1671108/">Capsule</a> by Brand Mania</li>
-          <li><a target="_blank" href="https://thenounproject.com/term/icon/744249/">Station</a> by Eliricon</li>
-        </ul>
-        <div class="headline mt-3">Help Out</div>
-        <ul class="ml-5 mr-5">
-          <li>This project is hosted on <a target="_blank" href="https://github.com/zaun/launchedto.space">GitHub</a>. Please feel free to fork it and send pull requests.</li>
-        </ul>
-      </div>
-      <v-footer height="auto">
-        <v-spacer></v-spacer>
-        <v-btn @click="hideAbout">Close</v-btn>
-      </v-footer>
-    </v-dialog> -->
+    <v-dialog v-model="showFilter" persistent no-click-animation max-width="500px">
+      <v-card>
+        <v-toolbar flat dark color="teal">
+          <v-toolbar-title class="white--text">
+            Filter
+          </v-toolbar-title>
+        </v-toolbar>
+
+        <v-card-text>
+          <v-layout row>
+            <v-flex xs12>
+              <v-select v-model="filter.years" :items="yearOptions" label="Years" clearable multiple class="pr-1"></v-select>
+            </v-flex>
+          </v-layout>
+          <v-layout row>
+            <v-flex xs12>
+              <v-select :value="filterFamilies" @input="updateFilterFamilies" :items="familyOptions" label="Rocket Families" clearable multiple class="pr-1"></v-select>
+            </v-flex>
+          </v-layout>
+        </v-card-text>
+
+        <v-footer height="auto">
+          <v-spacer></v-spacer>
+          <v-btn @click="showFilter = false">Close</v-btn>
+        </v-footer>
+      </v-card>
+    </v-dialog>
     
     <router-view/>
   </v-app>
@@ -54,7 +51,8 @@
 
 <script>
 // @ is an alias to /src
-import { keys } from 'lodash';
+import { keys, map, uniq, reverse, sortBy } from 'lodash';
+import moment from 'moment';
 import Background from '@/components/Background.vue';
 
 export default {
@@ -65,17 +63,29 @@ export default {
 
   data () {
     return {
-      about: false,
-      selectedVehicle: 'All'
+      showFilter: false,
+
+      filter: {
+        years: [],
+      },
     };
   },
 
   computed: {
-    vehicles() {
-      const families = keys(this.$store.state.launchesByFamily).sort();
-      families.unshift('All');
-      return families;
-    }
+    families () { return sortBy(this.$store.getters.families, 'name'); },
+    launches () { return this.$store.getters.launches; },
+
+    familyOptions () {
+      return this.$store.getters.familyOptions;
+    },
+
+    yearOptions () {
+      return reverse(uniq(map(this.launches, (l) => moment(l.date).format('YYYY'))).sort());
+    },
+
+    filterFamilies () {
+      return this.$store.state.filter.familyNames;
+    },
   },
 
   methods: {
@@ -83,17 +93,16 @@ export default {
       this.selectedVehicle = v;
     },
 
-    showAbout () {
-      this.about = true;
+    updateFilterFamilies (value) {
+      this.$store.commit('updateFilter', {
+        prop: 'families',
+        value: value,
+      });
     },
-
-    hideAbout () {
-      this.about = false;
-    }
   },
 
   created () {
-    this.$store.dispatch('updateData');
+    this.$store.dispatch('loadData');
   }
 };
 </script>
@@ -150,19 +159,21 @@ table
 .vueperslides__bullets
   z-index 20 !important
 
-.v-card 
+.v-card
   &:after
     content ''
     display table
     clear both
   
-  .v-card__text.hero
-    padding 0
-    margin 0
-    > img
-      display block
-      width 100%
-      cursor pointer
+  .v-card__text
+    background-color white
+    &.hero
+      padding 0
+      margin 0
+      > img
+        display block
+        width 100%
+        cursor pointer
 
 iframe
   display block

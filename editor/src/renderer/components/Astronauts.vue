@@ -104,10 +104,10 @@
         <v-flex xs2>
           <v-text-field v-model="school.year" label="Graduation Year" :rules="yearRule" class="pr-1"></v-text-field>
         </v-flex>
-        <v-flex xs2>
-          <v-select v-model="school.degree" :items="degreeOptions" label="Degree" class="pr-1"></v-select>
-        </v-flex>
         <v-flex xs4>
+          <v-select v-model="school.degree" :items="degreeOptions" label="Degree" clearable class="pr-1"></v-select>
+        </v-flex>
+        <v-flex xs3>
           <v-text-field v-model="school.fieldOfStudy" label="Field of Study" class="pr-1"></v-text-field>
         </v-flex>
       </v-layout>
@@ -167,10 +167,10 @@
           v => v.length < 300 || 'Item is to long',
         ],
 
-        degreeOptions: ['Bachelor of Science', 'Master of Science', 'Doctor of Science'],
+        degreeOptions: ['Associate of Arts', 'Bachelor of Science', 'Master of Science', 'Master of Business Administration', 'Doctor of Science'],
         genderOptions: ['Male', 'Female'],
         militaryOptions: ['Army', 'Air Force', 'Air Force Reserve', 'Marine Corps', 'Marine Corps Reserve', 'Navy'],
-        militaryRankOptions: ['Captain', 'Colonel', 'Lieutenant Colonel', 'Major', 'Major General', 'Sergeant', 'Vice Admiral'],
+        militaryRankOptions: ['Captain', 'Colonel', 'Lieutenant Colonel', 'Major', 'Lieutenant General', 'Major General', 'Brigadier General', 'Lieutenant', 'Sergeant', 'Vice Admiral'],
         nationalityOptions: ['American', 'Bulgarian', 'Kazakh', 'Russian'],
         statusOptions: ['Active', 'Retired', 'Deceased'],
         suffixOptions: ['Jr.', 'II', 'III'],

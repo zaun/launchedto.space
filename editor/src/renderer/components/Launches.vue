@@ -48,7 +48,7 @@
           <v-text-field v-model="selected.youtube" label="Youtube ID" class="pr-1"></v-text-field>
         </v-flex>
         <v-flex xs1>
-          <v-btn flat @click.stop="crewDialog = true">Crew</v-btn>
+          <v-btn flat @click.stop="crewDialog = true">Crew ({{ selected.crew.length }})</v-btn>
         </v-flex>
       </v-layout>
 

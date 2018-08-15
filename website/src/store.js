@@ -1,6 +1,6 @@
 /* eslint-disable no-param-reassign */
 import Vue from 'vue';
-import { filter, sortBy, groupBy, map } from 'lodash/';
+import { countBy, filter, includes, groupBy, map, sortBy } from 'lodash/';
 import Vuex from 'vuex';
 
 Vue.use(Vuex);
@@ -12,86 +12,178 @@ const incLoaded = (state) => {
   }
 };
 
+const updateCache = (state) => {
+  if (!state.isReady) {
+    return Promise.reject(new Error('Update skipped, not ready'));
+  }
+
+  state.isReady = false;
+  return new Promise((resolve) => {
+    // Launch data
+    const sortedDataL = sortBy(filter(state.raw.launches, l => l.date.length > 0), 'date');
+    const cleanDataL = map(sortedDataL, (l) => {
+      l.payloads = l.payloads ? l.payloads : [];
+      l.payloads = map(l.payloads, (p) => {
+        p.status = p.status ? p.status : l.status;
+        return p;
+      });
+
+      return l;
+    });
+    const filteredDataL = filter(cleanDataL, (l) => {
+      const found = includes(state.filter.families, l.vehicleFamily);
+      return found || state.filter.families.length === 0;
+    });
+    state.cache.launchesByYear = groupBy(filteredDataL, l => l.date.split('-')[0]);
+    state.cache.launchesByFamily = groupBy(filteredDataL, l => l.vehicleFamily);
+    state.cache.launchesByRocket = groupBy(filteredDataL, l => l.vehicle);
+    state.cache.launchCountByRocket = countBy(filteredDataL, l => l.vehicle);
+
+    // Rocket Family data
+    const filteredDataF = filter(state.raw.families, (f) => {
+      const found = includes(state.filter.families, f.id);
+      return found || state.filter.families.length === 0;
+    });
+    state.cache.storedFamilies = sortBy(filteredDataF, 'name');
+    state.cache.familyOptions = map(state.raw.families, f => ({
+      value: f.id,
+      text: f.name,
+    }));
+
+    // Media
+    const filteredDataM = filter(state.raw.media, m => m.launchID.length > 0);
+    state.cache.mediaByLaunch = groupBy(filteredDataM, m => m.launchID);
+
+    console.info('Updated cached data');
+    state.isDirty = false;
+    state.isReady = true;
+    resolve();
+  });
+};
+
 export default new Vuex.Store({
   state: {
-    launchesByYear: [],
-    launchesByFamily: [],
-    launches: [],
-    mediaByLaunch: [],
-    astronauts: [],
-    families: [],
     loaded: 0,
+
+    raw: {
+      astronauts: [],
+      families: [],
+      launches: [],
+      media: [],
+    },
+
+    cache: {
+      launchesByYear: [],
+      launchesByFamily: [],
+      launchesByRocket: [],
+      launchCountByRocket: {},
+      mediaByLaunch: [],
+      storedFamilies: [],
+
+      familyOptions: [],
+    },
+
+    filter: {
+      families: [],
+      years: [],
+    },
+
+    isDirty: false,
     isReady: false,
   },
 
+  getters: {
+    astronauts: state => state.raw.astronauts,
+
+    families: (state) => {
+      if (state.isDirty) {
+        updateCache(state).catch(() => {});
+      }
+
+      return state.cache.storedFamilies;
+    },
+
+    familyOptions: (state) => {
+      if (state.isDirty) {
+        updateCache(state).catch(() => {});
+      }
+
+      return state.cache.familyOptions;
+    },
+
+    launches: state => state.raw.launches,
+
+    launchesByYear: (state) => {
+      if (state.isDirty) {
+        updateCache(state).catch(() => {});
+      }
+
+      return state.cache.launchesByYear;
+    },
+
+    launchesByFamily: (state) => {
+      if (state.isDirty) {
+        updateCache(state).catch(() => {});
+      }
+
+      return state.cache.launchesByFamily;
+    },
+
+    launchesByRocket: (state) => {
+      if (state.isDirty) {
+        updateCache(state).catch(() => {});
+      }
+
+      return state.cache.launchesByRocket;
+    },
+
+    launchCountByRocket: (state) => {
+      if (state.isDirty) {
+        updateCache(state).catch(() => {});
+      }
+
+      return state.cache.launchCountByRocket;
+    },
+
+    mediaByLaunch: (state) => {
+      if (state.isDirty) {
+        updateCache(state).catch(() => {});
+      }
+
+      return state.cache.mediaByLaunch;
+    },
+  },
+
   mutations: {
-    updateLaunchData(state) {
-      fetch('/data/launches.json')
-        .then(resp => resp.json())
-        .then((data) => {
-          const filteredData = map(sortBy(filter(data, l => l.date.length > 0), 'date'), (l) => {
-            l.payloads = l.payloads ? l.payloads : [];
-            l.payloads = map(l.payloads, (p) => {
-              p.status = p.status ? p.status : l.status;
-              return p;
-            });
-
-            return l;
-          });
-          state.launches = filteredData;
-          state.launchesByYear = groupBy(filteredData, l => l.date.split('-')[0]);
-          state.launchesByFamily = groupBy(filteredData, l => l.vehicleFamily);
-          incLoaded(state);
-        })
-        .catch((error) => {
-          console.log('err', error);
-        });
+    updateFilter(state, data) {
+      state.filter[data.prop] = data.value;
+      state.isDirty = true;
     },
 
-    updateMediaData(state) {
-      fetch('/data/media.json')
+    loadData(state, file) {
+      fetch(`/data/${file}.json`)
         .then(resp => resp.json())
         .then((data) => {
-          const filteredData = filter(data, m => m.launchID.length > 0);
-          state.mediaByLaunch = groupBy(filteredData, m => m.launchID);
+          state.raw[file] = data;
+          state.isDirty = true;
           incLoaded(state);
         })
         .catch((error) => {
-          console.log('err', error);
-        });
-    },
-
-    updateFamilies(state) {
-      fetch('/data/families.json')
-        .then(resp => resp.json())
-        .then((data) => {
-          state.families = data;
-          incLoaded(state);
-        })
-        .catch((error) => {
-          console.log('err', error);
-        });
-    },
-
-    updateAstronauts(state) {
-      fetch('/data/astronauts.json')
-        .then(resp => resp.json())
-        .then((data) => {
-          state.astronauts = data;
-          incLoaded(state);
-        })
-        .catch((error) => {
-          console.log('err', error);
+          console.error(`Error loading file ${file}`, error);
         });
     },
   },
 
   actions: {
-    updateData(context) {
-      context.commit('updateLaunchData');
-      context.commit('updateMediaData');
-      context.commit('updateFamilies');
-      context.commit('updateAstronauts');
+    loadData(context) {
+      context.commit('loadData', 'astronauts');
+      context.commit('loadData', 'families');
+      context.commit('loadData', 'launches');
+      context.commit('loadData', 'media');
+    },
+
+    updateFilter(context, data) {
+      context.commit('updateFilter', data);
     },
   },
 });

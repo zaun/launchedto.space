@@ -79,7 +79,7 @@
       <v-card-text v-if="sortedCrew.length > 0">
         <ul class="crew">
           <li v-for="(crew, index) in sortedCrew" :key="`crew-${index}`">
-            <div>{{ crew.lastName }}, {{ crew.firstName }} {{ crew.middleName }}<span v-if="crew.nickName"> &quot;{{ crew.nickName }}&quot;</span></div>
+            <div>{{ crew.lastName }}, {{ crew.firstName }} {{ crew.middleName }}<span v-if="crew.nickName"> &quot;{{ crew.nickName }}&quot;</span><span v-if="crew.suffix"> {{ crew.suffix }}</span></div>
             <div class="small">{{ crew.nationality }}<span v-if="crew.birthDate">, born {{ formatShortDate(crew.birthDate) }}</span></div>
           </li>
         </ul>
@@ -164,7 +164,8 @@ export default {
       maxHeight: 0,
 
       ytOptions: {
-        autoplay: 1
+        autoplay: 1,
+        width: '640'
       },
 
       launchImagesDisplayed: false,
@@ -179,21 +180,21 @@ export default {
 
     sortedCrew() {
       var crew = _.map(this.launch.crew, (c) => {
-        return _.find(this.$store.state.astronauts, { id: c });
+        return _.find(this.$store.getters.astronauts, { id: c });
       });
       return _.sortBy(crew, 'lastName');
     },
 
     hasMedia () {
-      return this.$store.state.mediaByLaunch[this.launch.id] && this.$store.state.mediaByLaunch[this.launch.id].length > 0;
+      return this.$store.getters.mediaByLaunch[this.launch.id] && this.$store.getters.mediaByLaunch[this.launch.id].length > 0;
     },
 
     launchImages () {
-      if (!this.$store.state.mediaByLaunch[this.launch.id]) {
+      if (!this.$store.getters.mediaByLaunch[this.launch.id]) {
         return [];
       }
 
-      return this.$store.state.mediaByLaunch[this.launch.id].map((i) => {
+      return this.$store.getters.mediaByLaunch[this.launch.id].map((i) => {
         return {
           src: '/thumb/' + i.filename,
           full: '/orig/' + i.filename,
@@ -212,7 +213,7 @@ export default {
     },
 
     family () {
-      return _.find(this.$store.state.families, { id: this.launch.vehicleFamily });
+      return _.find(this.$store.getters.families, { id: this.launch.vehicleFamily });
     },
 
     rocket () {

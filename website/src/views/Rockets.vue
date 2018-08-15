@@ -17,7 +17,6 @@
 
 <script>
 import Rocket from '@/components/Rocket.vue';
-import { filter, groupBy, keys, sortBy, reverse } from 'lodash';
 
 export default {
   name: 'rockets',
@@ -32,14 +31,14 @@ export default {
   },
 
   computed:  {
-    families () { return sortBy(this.$store.state.families, 'name'); },
-    launches () { return this.$store.state.launches; },
+    families () { return this.$store.getters.families },
+    launches () { return this.$store.getters.launches; },
     isReady () { return this.$store.state.isReady; },
   },
 
   methods: {
     getLaunchCount(rocket) {
-      return filter(this.launches, { vehicle: rocket.id }).length;
+      return this.$store.getters.launchCountByRocket[rocket.id];
     }
   },
 }
