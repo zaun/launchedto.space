@@ -2,7 +2,7 @@
   <section class="launch" :id="`l-${launch.id}`" :class="`status_${launch.status.replace(' ', '_')} ${this.$vuetify.breakpoint.name}`">
     <v-card>
       <v-card-text v-if="hasMedia" class="hero" @click="launchImagesDisplayed = true">
-        <img :src="defaultMedia" />
+        <img v-lazy="defaultMedia" alt="Launch Image" />
       </v-card-text>
       
       <v-toolbar flat dark color="teal">

@@ -16,6 +16,7 @@
     "vue-analytics": "^5.12.3",
     "vue-carousel": "^0.7.3",
     "vue-goodshare": "^0.9.3",
+    "vue-lazyload": "^1.2.6",
     "vue-router": "^3.0.1",
     "vue-youtube": "^1.2.5",
     "vueperslides": "^1.9.3",

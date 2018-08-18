@@ -2,6 +2,7 @@ import 'babel-polyfill';
 import Vue from 'vue';
 import Vuetify from 'vuetify';
 import VueAnalytics from 'vue-analytics';
+import VueLazyload from 'vue-lazyload';
 import VueYoutube from 'vue-youtube';
 
 import 'material-design-icons-iconfont/dist/material-design-icons.css';
@@ -12,6 +13,8 @@ import router from './router';
 import store from './store';
 
 Vue.config.productionTip = false;
+Vue.config.devtools = process.env.NODE_ENV !== 'production';
+Vue.config.performance = process.env.NODE_ENV !== 'production';
 
 Vue.use(VueAnalytics, {
   id: 'UA-123671572-1',
@@ -21,6 +24,7 @@ Vue.use(VueAnalytics, {
   router,
 });
 
+Vue.use(VueLazyload);
 Vue.use(Vuetify);
 Vue.use(VueYoutube);
 

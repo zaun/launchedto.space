@@ -53,6 +53,9 @@ export default {
     h3
       transform rotate(270deg) translateX(-5rem)  translateY(0rem) 
 
+  .v-progress-circular
+    margin-top 5rem;
+
   .family
     position relative
     max-width 700px

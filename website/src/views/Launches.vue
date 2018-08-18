@@ -11,6 +11,7 @@
         :width="7"
         color="teal"
         indeterminate
+        :top="7"
       ></v-progress-circular>
     </div>
   </div>
@@ -58,6 +59,9 @@ export default {
   &.xs
     h3
       transform rotate(270deg) translateX(-1rem) translateY(-2rem)
+
+  .v-progress-circular
+    margin-top 5rem;
 
   .year
     position relative

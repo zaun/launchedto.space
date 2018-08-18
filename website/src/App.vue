@@ -7,9 +7,9 @@
       <v-toolbar-items>
         <v-btn flat to="launches">Launches</v-btn>
         <v-btn flat to="rockets">Rockets</v-btn>
-        <v-btn flat @click="showFilter = true">
+        <!-- <v-btn flat @click="showFilter = true">
           <v-icon>fas fa-filter</v-icon>
-        </v-btn>
+        </v-btn> -->
         <v-btn flat href="https://github.com/zaun/launchedto.space" class="hidden-sm-and-down">
           <v-icon>fab fa-github</v-icon>
         </v-btn>
