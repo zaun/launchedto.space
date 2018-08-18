@@ -11,7 +11,7 @@
           <div class="subheading">{{ launch.launchSite }}<span v-if="launch.launchPad"> at {{ launch.launchPad  }}</span></div>
         </v-toolbar-title>
         <v-spacer></v-spacer>
-        <v-btn flat icon v-if="launch.youtube" @click="launchVideoDisplayed = true">
+        <v-btn flat icon v-if="launch.youtube" @click="launchVideoDisplayed = true" aria-label="Launch Video">
           <v-icon>videocam</v-icon>
         </v-btn>
       </v-toolbar>
@@ -126,7 +126,7 @@
       <v-toolbar dense flat color="teal lighten-5" v-if="sortedCrew.length > 0">
         <v-toolbar-title>Launch Video</v-toolbar-title>
         <v-spacer></v-spacer>
-        <v-btn flat icon @click="closeVideo">
+        <v-btn flat icon @click="closeVideo" aria-label="Close">
           <v-icon>close</v-icon>
         </v-btn>
       </v-toolbar>
