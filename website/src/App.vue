@@ -44,14 +44,16 @@
         </v-footer>
       </v-card>
     </v-dialog>
-    
+
     <router-view/>
   </v-app>
 </template>
 
 <script>
 // @ is an alias to /src
-import { keys, map, uniq, reverse, sortBy } from 'lodash';
+import {
+  keys, map, uniq, reverse, sortBy,
+} from 'lodash';
 import moment from 'moment';
 import Background from '@/components/Background.vue';
 
@@ -61,7 +63,7 @@ export default {
     Background,
   },
 
-  data () {
+  data() {
     return {
       showFilter: false,
 
@@ -72,18 +74,18 @@ export default {
   },
 
   computed: {
-    families () { return sortBy(this.$store.getters.families, 'name'); },
-    launches () { return this.$store.getters.launches; },
+    families() { return sortBy(this.$store.getters.families, 'name'); },
+    launches() { return this.$store.getters.launches; },
 
-    familyOptions () {
+    familyOptions() {
       return this.$store.getters.familyOptions;
     },
 
-    yearOptions () {
+    yearOptions() {
       return reverse(uniq(map(this.launches, (l) => moment(l.date).format('YYYY'))).sort());
     },
 
-    filterFamilies () {
+    filterFamilies() {
       return this.$store.state.filter.familyNames;
     },
   },
@@ -93,17 +95,17 @@ export default {
       this.selectedVehicle = v;
     },
 
-    updateFilterFamilies (value) {
+    updateFilterFamilies(value) {
       this.$store.commit('updateFilter', {
         prop: 'families',
-        value: value,
+        value,
       });
     },
   },
 
-  created () {
+  created() {
     this.$store.dispatch('loadData');
-  }
+  },
 };
 </script>
 
@@ -111,7 +113,7 @@ export default {
 *
   box-sizing border-box
   cursor default
-  
+
 html, body
   margin 0
   padding 0
@@ -164,7 +166,7 @@ table
     content ''
     display table
     clear both
-  
+
   .v-card__text
     background-color white
     &.hero

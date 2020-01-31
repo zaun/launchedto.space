@@ -1,6 +1,6 @@
 <template>
   <div id="rockets">
-    <v-navigation-drawer app permanent fixed light width=200 class="ml-0 pl-0 pb-0 mb-0">
+    <v-navigation-drawer app permanent fixed light width="200" class="ml-0 pl-0 pb-0 mb-0">
       <v-list two-line dense>
         <v-list-tile v-for="(item, idx) in items" :class="{ blue: item.id === selected.id }" :key="`astronaut-${idx}`" @click="select(item)">
           <v-list-tile-content>
@@ -123,104 +123,104 @@
 </template>
 
 <script>
-  import { cloneDeep } from 'lodash';
-  import uuidv4 from 'uuid/v4';
+import { cloneDeep } from 'lodash';
+import uuidv4 from 'uuid/v4';
 
-  import fileInput from './file-input.vue';
+// import fileInput from './file-input.vue';
 
-  export default {
-    name: 'launches',
+export default {
+  name: 'launches',
 
-    components: {
-      fileInput,
+  components: {
+    // fileInput,
+  },
+
+  data() {
+    return {
+      formIsValid: true,
+      requiredRule: [(v) => !!v || 'Item is required'],
+      dateRule: [
+        (v) => {
+          if (v) {
+            return /^([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))$/.test(v) || 'Date must be valid YYYY-MM-DD';
+          }
+          return true;
+        },
+      ],
+      numberRule: [
+        (v) => {
+          if (v) {
+            return /^(\s*|\d+(\.\d{1,4})?)$/.test(v) || 'Float; max precision 4';
+          }
+          return true;
+        },
+      ],
+      yearRule: [
+        (v) => {
+          if (v) {
+            return /^(\d{4})$/.test(v) || 'Vaild Year YYYY';
+          }
+          return true;
+        },
+      ],
+      descriptionRule: [
+        (v) => v.length < 300 || 'Item is to long',
+      ],
+
+      degreeOptions: ['Associate of Arts', 'Bachelor of Science', 'Master of Science', 'Master of Business Administration', 'Doctor of Science'],
+      genderOptions: ['Male', 'Female'],
+      militaryOptions: ['Army', 'Air Force', 'Air Force Reserve', 'Marine Corps', 'Marine Corps Reserve', 'Navy'],
+      militaryRankOptions: ['Captain', 'Colonel', 'Lieutenant Colonel', 'Major', 'Lieutenant General', 'Major General', 'Brigadier General', 'Lieutenant', 'Sergeant', 'Vice Admiral'],
+      nationalityOptions: ['American', 'Bulgarian', 'Kazakh', 'Russian'],
+      statusOptions: ['Active', 'Retired', 'Deceased'],
+      suffixOptions: ['Jr.', 'II', 'III'],
+      selected: {},
+    };
+  },
+
+  computed: {
+    items() {
+      return this.$store.state.astronauts;
+    },
+    orbitOptions() {
+      return this.$store.state.orbitOptions;
+    },
+    imageData() {
+      return this.$store.state.imageData;
+    },
+  },
+
+  methods: {
+    addAlmamater() {
+      this.selected.almamaters.push({});
     },
 
-    data() {
-      return {
-        formIsValid: true,
-        requiredRule: [v => !!v || 'Item is required'],
-        dateRule: [
-          (v) => {
-            if (v) {
-              return /^([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))$/.test(v) || 'Date must be valid YYYY-MM-DD';
-            }
-            return true;
-          },
-        ],
-        numberRule: [
-          (v) => {
-            if (v) {
-              return /^(\s*|\d+(\.\d{1,4})?)$/.test(v) || 'Float; max precision 4';
-            }
-            return true;
-          },
-        ],
-        yearRule: [
-          (v) => {
-            if (v) {
-              return /^(\d{4})$/.test(v) || 'Vaild Year YYYY';
-            }
-            return true;
-          },
-        ],
-        descriptionRule: [
-          v => v.length < 300 || 'Item is to long',
-        ],
-
-        degreeOptions: ['Associate of Arts', 'Bachelor of Science', 'Master of Science', 'Master of Business Administration', 'Doctor of Science'],
-        genderOptions: ['Male', 'Female'],
-        militaryOptions: ['Army', 'Air Force', 'Air Force Reserve', 'Marine Corps', 'Marine Corps Reserve', 'Navy'],
-        militaryRankOptions: ['Captain', 'Colonel', 'Lieutenant Colonel', 'Major', 'Lieutenant General', 'Major General', 'Brigadier General', 'Lieutenant', 'Sergeant', 'Vice Admiral'],
-        nationalityOptions: ['American', 'Bulgarian', 'Kazakh', 'Russian'],
-        statusOptions: ['Active', 'Retired', 'Deceased'],
-        suffixOptions: ['Jr.', 'II', 'III'],
-        selected: {},
+    addAstronaut() {
+      this.selected = {
+        id: uuidv4(),
+        almamaters: [],
       };
     },
 
-    computed: {
-      items() {
-        return this.$store.state.astronauts;
-      },
-      orbitOptions() {
-        return this.$store.state.orbitOptions;
-      },
-      imageData() {
-        return this.$store.state.imageData;
-      },
-    },
-
-    methods: {
-      addAlmamater() {
-        this.selected.almamaters.push({});
-      },
-
-      addAstronaut() {
-        this.selected = {
-          id: uuidv4(),
-          almamaters: [],
-        };
-      },
-
-      saveAstronaut() {
-        if (this.$refs.dataForm.validate()) {
-          this.$store.dispatch('saveAstronaut', this.selected);
-        }
-      },
-
-      select(item) {
-        this.selected = cloneDeep(item);
-      },
-    },
-
-    created() {
-      if (this.items.length > 0) {
-        this.select(this.items[0]);
-      } else {
-        this.addAstronaut();
+    saveAstronaut() {
+      if (this.$refs.dataForm.validate()) {
+        this.$store.dispatch('saveAstronaut', this.selected);
       }
     },
-  };
+
+    select(item) {
+      this.selected = cloneDeep(item);
+    },
+  },
+
+  created() {
+    if (this.items.length > 0) {
+      this.select(this.items[0]);
+    } else {
+      this.addAstronaut();
+    }
+  },
+};
 </script>
 
 <style scoped>
@@ -278,7 +278,7 @@
     height: calc(100% - 50px) !important;
     overflow-y: auto;
   }
-  
+
   .navigation-drawer .footer.footer--fixed {
     width: auto;
     right: 1px

@@ -45,7 +45,7 @@ export default new Vuex.Store({
   },
 
   getters: {
-    astronauts: state => state.raw.astronauts,
+    astronauts: (state) => state.raw.astronauts,
 
     families: (state) => {
       if (state.isDirty && state.isReady) {
@@ -87,7 +87,7 @@ export default new Vuex.Store({
       return state.cache.familyOptions;
     },
 
-    launches: state => state.raw.launches,
+    launches: (state) => state.raw.launches,
 
     launchesByYear: (state) => {
       if (state.isDirty && state.isReady) {
@@ -198,7 +198,7 @@ export default new Vuex.Store({
 
     loadData(state, file) {
       fetch(`/data/${file}.json`)
-        .then(resp => resp.json())
+        .then((resp) => resp.json())
         .then((data) => {
           state.raw[file] = data;
           state.isDirty = true;

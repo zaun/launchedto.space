@@ -19,9 +19,11 @@
 
 <script>
 // @ is an alias to /src
+import {
+  includes, groupBy, keys, sortBy, reverse,
+} from 'lodash';
 import Background from '@/components/Background.vue';
 import Launch from '@/components/Launch.vue';
-import { includes, groupBy, keys, sortBy, reverse } from 'lodash';
 
 export default {
   name: 'launches',
@@ -31,17 +33,17 @@ export default {
     Launch,
   },
 
-  data: function () {
+  data() {
     return {
       isMounted: false,
-      position: 0
+      position: 0,
     };
   },
 
-  computed:  {
-    launchesByYear () { return this.$store.getters.launchesByYear; },
-    years () { return reverse(keys(this.$store.getters.launchesByYear)); },
-    isReady () { return this.$store.state.isReady; },
+  computed: {
+    launchesByYear() { return this.$store.getters.launchesByYear; },
+    years() { return reverse(keys(this.$store.getters.launchesByYear)); },
+    isReady() { return this.$store.state.isReady; },
   },
 
   methods: {
@@ -67,7 +69,7 @@ export default {
     position relative
     max-width 600px
     padding 0 6px
-    margin-left auto 
+    margin-left auto
     margin-right auto
 
     h3

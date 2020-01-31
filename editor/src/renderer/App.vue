@@ -16,18 +16,18 @@
 </template>
 
 <script>
-  export default {
-    name: 'editor',
+export default {
+  name: 'editor',
 
-    created() {
-      this.$store.dispatch('updateData');
-    },
-  };
+  created() {
+    this.$store.dispatch('updateData');
+  },
+};
 </script>
 
 <style>
   /* CSS */
-  
+
   * {
     box-sizing: border-box;
     margin: 0;
@@ -41,7 +41,7 @@
   .content {
     padding-bottom: 0px !important;
   }
-  
+
   .description > .input-group__input > textarea {
     font-size: 13px !important;
   }

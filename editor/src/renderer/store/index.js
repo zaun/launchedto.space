@@ -3,7 +3,9 @@ import Vue from 'vue';
 import Vuex from 'vuex';
 import { readFile, writeFile } from 'fs';
 import { encodeFromFile } from 'image-data-uri';
-import { filter, find, findIndex, map, remove, sortBy } from 'lodash';
+import {
+  filter, find, findIndex, map, remove, sortBy,
+} from 'lodash';
 import path from 'path';
 import uuidv4 from 'uuid/v4';
 

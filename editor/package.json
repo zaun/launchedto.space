@@ -1,113 +1,118 @@
 {
   "name": "launchedto.space-editor",
-  "version": "0.0.0",
+  "productName": "launchedto.space-editor",
+  "version": "0.0.1",
   "author": "Justin Zaun <justin.zaun@gmail.com>",
-  "description": "Simple editor for launchedto.space data",
+  "description": "Data editor for launchedto.space",
   "license": null,
   "main": "./dist/electron/main.js",
   "scripts": {
-    "build": "node .electron-vue/build.js && electron-builder",
-    "build:dir": "node .electron-vue/build.js && electron-builder --dir",
+    "build": "node .electron-vue/build.js",
+    "build:darwin": "cross-env BUILD_TARGET=darwin node .electron-vue/build.js",
+    "build:linux": "cross-env BUILD_TARGET=linux node .electron-vue/build.js",
+    "build:mas": "cross-env BUILD_TARGET=mas node .electron-vue/build.js",
+    "build:win32": "cross-env BUILD_TARGET=win32 node .electron-vue/build.js",
     "build:clean": "cross-env BUILD_TARGET=clean node .electron-vue/build.js",
     "build:web": "cross-env BUILD_TARGET=web node .electron-vue/build.js",
-    "rebuild": "electron-rebuild -p -t \"dev,prod,optional\"",
     "dev": "node .electron-vue/dev-runner.js",
-    "lint": "eslint --ext .js,.vue -f ./node_modules/eslint-friendly-formatter src",
-    "lint:fix": "eslint --ext .js,.vue -f ./node_modules/eslint-friendly-formatter --fix src",
-    "pack": "yarnOrNpm run pack:main && yarnOrNpm run pack:renderer",
+    "oldlint": "eslint --ext .js,.vue -f ./node_modules/eslint-friendly-formatter src",
+    "lint": "vue-cli-service lint",
+    "pack": "npm run pack:main && npm run pack:renderer",
     "pack:main": "cross-env NODE_ENV=production webpack --progress --colors --config .electron-vue/webpack.main.config.js",
     "pack:renderer": "cross-env NODE_ENV=production webpack --progress --colors --config .electron-vue/webpack.renderer.config.js",
-    "postinstall": "yarnOrNpm run lint:fix"
-  },
-  "build": {
-    "productName": "launchedto.space-editor",
-    "appId": "org.simulatedgreg.electron-vue",
-    "directories": {
-      "output": "build"
-    },
-    "files": [
-      "dist/electron/**/*"
-    ],
-    "dmg": {
-      "contents": [
-        {
-          "x": 410,
-          "y": 150,
-          "type": "link",
-          "path": "/Applications"
-        },
-        {
-          "x": 130,
-          "y": 150,
-          "type": "file"
-        }
-      ]
-    },
-    "mac": {
-      "icon": "build/icons/icon.icns"
-    },
-    "win": {
-      "icon": "build/icons/icon.ico"
-    },
-    "linux": {
-      "icon": "build/icons"
-    }
+    "postinstall": "npm run lint"
   },
   "dependencies": {
-    "fs-extra": "^6.0.1",
-    "image-data-uri": "^1.1.0",
-    "lodash": "^4.17.10",
-    "material-design-icons-iconfont": "^3.0.3",
-    "sharp": "^0.20.2",
-    "uuid": "^3.2.1",
-    "vue": "^2.3.3",
-    "vue-electron": "^1.0.6",
-    "vue-router": "^2.5.3",
+    "core-js": "3.6.4",
+    "fs-extra": "8.1.0",
+    "image-data-uri": "2.0.1",
+    "lodash": "4.17.15",
+    "material-design-icons-iconfont": "5.0.1",
+    "sharp": "0.24.0",
+    "uuid": "3.4.0",
+    "vue": "2.6.11",
+    "vue-electron": "1.0.6",
+    "vue-router": "3.1.5",
     "vuetify": "^1.0.17",
-    "vuex": "^2.3.1"
+    "vuex": "3.1.2",
+    "vuex-electron": "^1.0.0"
   },
   "devDependencies": {
-    "babel-core": "^6.25.0",
-    "babel-eslint": "^7.2.3",
-    "babel-loader": "^7.1.1",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-stage-0": "^6.24.1",
-    "babel-register": "^6.24.1",
-    "babili-webpack-plugin": "^0.1.2",
-    "cfonts": "^1.1.3",
-    "chalk": "^2.1.0",
-    "copy-webpack-plugin": "^4.0.1",
-    "cross-env": "^5.0.5",
-    "css-loader": "^0.28.4",
-    "del": "^3.0.0",
+    "@babel/core": "7.8.4",
+    "@babel/preset-env": "7.8.4",
+    "@babel/plugin-proposal-function-bind": "7.8.3",
+    "@babel/polyfill": "7.8.3",
+    "@babel/register": "7.8.3",
+    "@vue/cli-plugin-babel": "4.1.2",
+    "@vue/cli-plugin-eslint": "4.1.2",
+    "@vue/cli-service": "4.1.2",
+    "@vue/eslint-config-airbnb": "5.0.2",
+    "eslint-plugin-vue": "6.1.2",
+    "ajv": "6.11.0",
+    "babel-eslint": "10.0.3",
+    "babel-loader": "8.0.6",
+    "babel-minify-webpack-plugin": "0.3.1",
+    "cfonts": "2.4.8",
+    "chalk": "3.0.0",
+    "copy-webpack-plugin": "5.1.1",
+    "cross-env": "7.0.0",
+    "css-loader": "3.4.2",
+    "del": "5.1.0",
     "devtron": "^1.4.0",
-    "electron": "^1.7.5",
-    "electron-builder": "^19.19.1",
-    "electron-debug": "^1.4.0",
-    "electron-devtools-installer": "^2.2.0",
-    "electron-rebuild": "^1.7.3",
-    "eslint": "^4.4.1",
-    "eslint-config-airbnb-base": "^11.2.0",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-import-resolver-webpack": "^0.8.1",
-    "eslint-loader": "^1.9.0",
-    "eslint-plugin-html": "^3.1.1",
-    "eslint-plugin-import": "^2.2.0",
-    "extract-text-webpack-plugin": "^3.0.0",
-    "file-loader": "^0.11.2",
-    "html-webpack-plugin": "^2.30.1",
-    "multispinner": "^0.2.1",
-    "node-loader": "^0.6.0",
-    "style-loader": "^0.18.2",
-    "url-loader": "^0.5.9",
-    "vue-html-loader": "^1.2.4",
-    "vue-loader": "^13.0.5",
-    "vue-style-loader": "^3.0.1",
-    "vue-template-compiler": "^2.4.2",
-    "webpack": "^3.5.2",
-    "webpack-dev-server": "^2.7.1",
-    "webpack-hot-middleware": "^2.18.2",
-    "yarn-or-npm": "^1.0.0"
+    "electron": "^2.0.4",
+    "electron-debug": "^1.5.0",
+    "electron-devtools-installer": "^2.2.4",
+    "electron-packager": "^12.1.0",
+    "electron-rebuild": "^1.8.1",
+    "mini-css-extract-plugin": "0.4.0",
+    "file-loader": "5.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "multispinner": "0.2.1",
+    "node-loader": "0.6.0",
+    "node-sass": "4.13.1",
+    "sass-loader": "8.0.2",
+    "style-loader": "1.1.3",
+    "url-loader": "3.0.0",
+    "vue-eslint-parser": "7.0.0",
+    "vue-html-loader": "1.2.4",
+    "vue-loader": "15.8.3",
+    "vue-style-loader": "4.1.2",
+    "vue-template-compiler": "2.6.11",
+    "webpack-cli": "^3.0.8",
+    "webpack": "^4.15.1",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-hot-middleware": "^2.22.2",
+    "webpack-merge": "^4.1.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/airbnb"
+    ],
+    "globals": {
+      "__static": true
+    },
+    "plugins": [
+      "html"
+    ],
+    "rules": {
+      "global-require": 0,
+      "import/no-unresolved": 0,
+      "no-param-reassign": 0,
+      "no-shadow": 0,
+      "import/extensions": 0,
+      "import/newline-after-import": 0,
+      "no-multi-assign": 0,
+      "max-len": 0,
+      "vue/no-use-v-if-with-v-for": 0
+    }
   }
 }

@@ -1,6 +1,6 @@
 <template>
   <div id="rockets">
-    <v-navigation-drawer app permanent fixed light width=200 class="ml-0 pl-0 pb-0 mb-0">
+    <v-navigation-drawer app permanent fixed light width="200" class="ml-0 pl-0 pb-0 mb-0">
       <v-list two-line dense>
         <v-list-tile v-for="(item, idx) in items" :class="{ blue: item.id === selected.id }" :key="`launch-${idx}`" @click="select(item)">
           <v-list-tile-content>
@@ -192,259 +192,261 @@
 </template>
 
 <script>
-  import { copySync } from 'fs-extra';
-  import { cloneDeep, filter, find, findIndex, includes, map, sortBy } from 'lodash';
-  import path from 'path';
-  import sharp from 'sharp';
-  import uuidv4 from 'uuid/v4';
+// import { copySync } from 'fs-extra';
+import {
+  cloneDeep, filter, find, findIndex, includes, map, sortBy,
+} from 'lodash';
+// import path from 'path';
+// import sharp from 'sharp';
+import uuidv4 from 'uuid/v4';
 
-  import fileInput from './file-input.vue';
+import fileInput from './file-input.vue';
 
-  export default {
-    name: 'launches',
+export default {
+  name: 'launches',
 
-    components: {
-      fileInput,
+  components: {
+    fileInput,
+  },
+
+  data() {
+    return {
+      crewFormValid: true,
+      imageFormValid: true,
+      launchFormValid: true,
+      requiredRule: [(v) => !!v || 'Item is required'],
+      requiredDate: [
+        (v) => !!v || 'Item is required',
+        (v) => /^([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))$/.test(v) || 'Date must be valid YYYY-MM-DD',
+      ],
+      descriptionRule: [
+        (v) => v.length < 300 || 'Item is to long',
+      ],
+
+      launchMediaDialog: false,
+      launchMediaType: '',
+      launchMediaFilename: '',
+
+      crewDialog: false,
+
+      launchSiteOptions: [
+        'Cape Canaveral',
+        'Kennedy Space Center',
+        'Omelek Island',
+        'SpaceX McGregor Test Site',
+        'Vandenberg AFB',
+        'Unknown',
+      ],
+      statusOptions: [
+        { value: 'success', text: 'Success' },
+        { value: 'partial failure', text: 'Partial Failure' },
+        { value: 'failure', text: 'Failure' },
+        { value: '', text: 'Unknown' },
+      ],
+      mannedOptions: [
+        { value: 'yes', text: 'Yes' },
+        { value: 'no', text: 'No' },
+        { value: '', text: 'Unknown' },
+      ],
+      orbitalOptions: [
+        { value: 'yes', text: 'Yes' },
+        { value: 'no', text: 'No' },
+        { value: '', text: 'Unknown' },
+      ],
+      payloadOptions: [
+        'Capsule',
+        'Satellite',
+        'Station',
+      ],
+      mediaOptions: [
+        { value: '', text: 'Random Image' },
+        { value: 'nasa', text: 'Nasa' },
+        { value: 'spacex', text: 'SpaceX' },
+      ],
+      media: [],
+      selected: {},
+    };
+  },
+
+  computed: {
+    vehicleFamilyOptions() {
+      return map(this.$store.state.families, (i) => ({
+        value: i.id,
+        text: i.name,
+      }));
     },
+    vehicleOptions() {
+      const fam = find(this.$store.state.families, { id: this.selected.vehicleFamily });
+      if (!fam) {
+        return [];
+      }
+      return map(sortBy(fam.rockets, 'name'), (r) => ({
+        value: r.id,
+        text: r.name,
+      }));
+    },
+    astronauts() {
+      return map(sortBy(this.$store.state.astronauts, 'lastName'), (a) => {
+        const ret = cloneDeep(a);
+        ret.checked = includes(this.selected.crew, a.id);
+        return ret;
+      });
+    },
+    items() {
+      return this.$store.state.launches;
+    },
+    orbitOptions() {
+      return this.$store.state.orbitOptions;
+    },
+    imageData() {
+      return this.$store.state.imageData;
+    },
+  },
 
-    data() {
-      return {
-        crewFormValid: true,
-        imageFormValid: true,
-        launchFormValid: true,
-        requiredRule: [v => !!v || 'Item is required'],
-        requiredDate: [
-          v => !!v || 'Item is required',
-          v => /^([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))$/.test(v) || 'Date must be valid YYYY-MM-DD',
-        ],
-        descriptionRule: [
-          v => v.length < 300 || 'Item is to long',
-        ],
-
-        launchMediaDialog: false,
-        launchMediaType: '',
-        launchMediaFilename: '',
-
-        crewDialog: false,
-
-        launchSiteOptions: [
-          'Cape Canaveral',
-          'Kennedy Space Center',
-          'Omelek Island',
-          'SpaceX McGregor Test Site',
-          'Vandenberg AFB',
-          'Unknown',
-        ],
-        statusOptions: [
-          { value: 'success', text: 'Success' },
-          { value: 'partial failure', text: 'Partial Failure' },
-          { value: 'failure', text: 'Failure' },
-          { value: '', text: 'Unknown' },
-        ],
-        mannedOptions: [
-          { value: 'yes', text: 'Yes' },
-          { value: 'no', text: 'No' },
-          { value: '', text: 'Unknown' },
-        ],
-        orbitalOptions: [
-          { value: 'yes', text: 'Yes' },
-          { value: 'no', text: 'No' },
-          { value: '', text: 'Unknown' },
-        ],
-        payloadOptions: [
-          'Capsule',
-          'Satellite',
-          'Station',
-        ],
-        mediaOptions: [
-          { value: '', text: 'Random Image' },
-          { value: 'nasa', text: 'Nasa' },
-          { value: 'spacex', text: 'SpaceX' },
-        ],
-        media: [],
-        selected: {},
+  methods: {
+    addLaunch() {
+      this.selected = {
+        id: uuidv4(),
+        orbital: 'no',
+        status: '',
+        payloads: [],
+        crew: [],
       };
     },
 
-    computed: {
-      vehicleFamilyOptions() {
-        return map(this.$store.state.families, i => ({
-          value: i.id,
-          text: i.name,
-        }));
-      },
-      vehicleOptions() {
-        const fam = find(this.$store.state.families, { id: this.selected.vehicleFamily });
-        if (!fam) {
-          return [];
-        }
-        return map(sortBy(fam.rockets, 'name'), r => ({
-          value: r.id,
-          text: r.name,
-        }));
-      },
-      astronauts() {
-        return map(sortBy(this.$store.state.astronauts, 'lastName'), (a) => {
-          const ret = cloneDeep(a);
-          ret.checked = includes(this.selected.crew, a.id);
-          return ret;
-        });
-      },
-      items() {
-        return this.$store.state.launches;
-      },
-      orbitOptions() {
-        return this.$store.state.orbitOptions;
-      },
-      imageData() {
-        return this.$store.state.imageData;
-      },
+    addMedia() {
+      this.launchMediaDialog = true;
     },
 
-    methods: {
-      addLaunch() {
-        this.selected = {
-          id: uuidv4(),
-          orbital: 'no',
-          status: '',
-          payloads: [],
-          crew: [],
-        };
-      },
+    addPayload() {
+      if (!this.selected) {
+        return;
+      }
 
-      addMedia() {
-        this.launchMediaDialog = true;
-      },
-
-      addPayload() {
-        if (!this.selected) {
-          return;
-        }
-
-        this.selected.payloads.push({
-          id: uuidv4(),
-          name: '',
-          orbital: this.selected.orbital ? this.selected.orbital : '',
-          orbit: 'LEO',
-          mass: -1,
-          type: 'Satellite',
-          status: this.selected.status,
-          description: '',
-        });
-      },
-
-      defaultMediaStyle(item) {
-        return {
-          opacity: item.default === true ? 1 : 0.25,
-        };
-      },
-
-      defaultMedia(item) {
-        if (!this.selected) {
-          return;
-        }
-
-        this.media.forEach((m, idx) => {
-          if (m.id === item.id) {
-            m.default = true;
-            this.$set(this.media, idx, m);
-            this.$store.dispatch('defaultLaunchMedia', m);
-          } else if (m.default === true) {
-            m.default = false;
-            this.$set(this.media, idx, m);
-            this.$store.dispatch('defaultLaunchMedia', m);
-          }
-        });
-      },
-
-      deleteMedia(item) {
-        if (!this.selected) {
-          return;
-        }
-
-        const idx = findIndex(this.media, item);
-        this.$delete(this.media, idx);
-
-        this.$store.dispatch('deleteLaunchMedia', item);
-      },
-
-      deletePayload(item) {
-        if (!this.selected) {
-          return;
-        }
-
-        const idx = findIndex(this.selected.payloads, item);
-        this.$delete(this.selected.payloads, idx);
-      },
-
-      doAddMedia() {
-        if (this.launchMediaFilename) {
-          const mediaID = uuidv4();
-          let name = path.basename(this.launchMediaFilename);
-          if (this.launchMediaType) {
-            name = path.join(this.launchMediaType, name);
-          }
-          const origFile = path.join(__dirname, '../../../../media/orig/', name);
-          const thumbFile = path.join(__dirname, '../../../../media/thumb/', name);
-          copySync(this.launchMediaFilename, origFile);
-          sharp(origFile).resize(500).toFile(thumbFile).then(() => {
-            this.$store.dispatch('addLaunchMedia', {
-              id: mediaID,
-              launchID: this.selected.id,
-              description: '',
-              filename: name,
-            });
-
-            this.media.push({
-              id: mediaID,
-              launchID: this.selected.id,
-              description: '',
-              filename: name,
-            });
-          });
-        }
-
-        this.launchMediaType = '';
-        this.launchMediaDialog = false;
-      },
-
-      toggleCrew(astronaut) {
-        const idx = findIndex(this.selected.crew, i => i === astronaut.id);
-        if (idx >= 0) {
-          this.$delete(this.selected.crew, idx);
-        } else {
-          this.selected.crew.push(astronaut.id);
-        }
-      },
-
-      saveLaunch() {
-        if (this.$refs.launchForm.validate()) {
-          this.$store.dispatch('saveLaunch', this.selected);
-          this.$store.dispatch('saveMedia', this.media);
-        }
-      },
-
-      select(item) {
-        this.selected = cloneDeep(item);
-        this.media = cloneDeep(filter(this.$store.state.media, { launchID: this.selected.id }));
-      },
-
-      vehicleName(item) {
-        const f = find(this.$store.state.families, { id: item.vehicleFamily });
-        const r = find(f.rockets, { id: item.vehicle });
-
-        return r.name;
-      },
+      this.selected.payloads.push({
+        id: uuidv4(),
+        name: '',
+        orbital: this.selected.orbital ? this.selected.orbital : '',
+        orbit: 'LEO',
+        mass: -1,
+        type: 'Satellite',
+        status: this.selected.status,
+        description: '',
+      });
     },
 
-    created() {
-      if (this.items.length > 0) {
-        this.select(this.items[0]);
+    defaultMediaStyle(item) {
+      return {
+        opacity: item.default === true ? 1 : 0.25,
+      };
+    },
+
+    defaultMedia(item) {
+      if (!this.selected) {
+        return;
+      }
+
+      this.media.forEach((m, idx) => {
+        if (m.id === item.id) {
+          m.default = true;
+          this.$set(this.media, idx, m);
+          this.$store.dispatch('defaultLaunchMedia', m);
+        } else if (m.default === true) {
+          m.default = false;
+          this.$set(this.media, idx, m);
+          this.$store.dispatch('defaultLaunchMedia', m);
+        }
+      });
+    },
+
+    deleteMedia(item) {
+      if (!this.selected) {
+        return;
+      }
+
+      const idx = findIndex(this.media, item);
+      this.$delete(this.media, idx);
+
+      this.$store.dispatch('deleteLaunchMedia', item);
+    },
+
+    deletePayload(item) {
+      if (!this.selected) {
+        return;
+      }
+
+      const idx = findIndex(this.selected.payloads, item);
+      this.$delete(this.selected.payloads, idx);
+    },
+
+    doAddMedia() {
+      // if (this.launchMediaFilename) {
+      //   const mediaID = uuidv4();
+      //   let name = path.basename(this.launchMediaFilename);
+      //   if (this.launchMediaType) {
+      //     name = path.join(this.launchMediaType, name);
+      //   }
+      //   const origFile = path.join(__dirname, '../../../../media/orig/', name);
+      //   const thumbFile = path.join(__dirname, '../../../../media/thumb/', name);
+      //   copySync(this.launchMediaFilename, origFile);
+      //   sharp(origFile).resize(500).toFile(thumbFile).then(() => {
+      //     this.$store.dispatch('addLaunchMedia', {
+      //       id: mediaID,
+      //       launchID: this.selected.id,
+      //       description: '',
+      //       filename: name,
+      //     });
+
+      //     this.media.push({
+      //       id: mediaID,
+      //       launchID: this.selected.id,
+      //       description: '',
+      //       filename: name,
+      //     });
+      //   });
+      // }
+
+      this.launchMediaType = '';
+      this.launchMediaDialog = false;
+    },
+
+    toggleCrew(astronaut) {
+      const idx = findIndex(this.selected.crew, (i) => i === astronaut.id);
+      if (idx >= 0) {
+        this.$delete(this.selected.crew, idx);
       } else {
-        this.addLaunch();
+        this.selected.crew.push(astronaut.id);
       }
     },
-  };
+
+    saveLaunch() {
+      if (this.$refs.launchForm.validate()) {
+        this.$store.dispatch('saveLaunch', this.selected);
+        this.$store.dispatch('saveMedia', this.media);
+      }
+    },
+
+    select(item) {
+      this.selected = cloneDeep(item);
+      this.media = cloneDeep(filter(this.$store.state.media, { launchID: this.selected.id }));
+    },
+
+    vehicleName(item) {
+      const f = find(this.$store.state.families, { id: item.vehicleFamily });
+      const r = find(f.rockets, { id: item.vehicle });
+
+      return r.name;
+    },
+  },
+
+  created() {
+    if (this.items.length > 0) {
+      this.select(this.items[0]);
+    } else {
+      this.addLaunch();
+    }
+  },
+};
 </script>
 
 <style scoped>
@@ -505,7 +507,7 @@
     height: calc(100% - 50px) !important;
     overflow-y: auto;
   }
-  
+
   .navigation-drawer .footer.footer--fixed {
     width: auto;
     right: 1px

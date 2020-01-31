@@ -203,32 +203,32 @@ export default {
     rocket: Object,
   },
 
-  data: function () {
+  data() {
     return {
       showBack: false,
     };
   },
 
-  computed:  {
+  computed: {
     launches() {
       return this.$store.getters.launchesByRocket[this.rocket.id];
     },
-    
-    launchByStatus () {
-      return countBy(this.launches, 'status'); 
+
+    launchByStatus() {
+      return countBy(this.launches, 'status');
     },
 
-    rocketClass () {
-      let classes = {
-        flip: this.showBack
+    rocketClass() {
+      const classes = {
+        flip: this.showBack,
       };
       classes[this.$vuetify.breakpoint.name] = true;
-      return classes
-    }
+      return classes;
+    },
   },
 
   methods: {
-    formatDate (date) {
+    formatDate(date) {
       return moment(date).format('MMMM Do, YYYY');
     },
   },
@@ -264,7 +264,7 @@ left-padding-xs = 3rem
     backface-visibility hidden
     z-index 2
     transform rotateY(0deg)
-    
+
     &:after
       content ''
       display table
@@ -283,7 +283,7 @@ left-padding-xs = 3rem
       z-index 1
       transform rotateY(180deg)
 
-    .launches 
+    .launches
       margin-left 0.5rem
       height 475px
       overflow-y auto

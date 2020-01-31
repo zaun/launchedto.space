@@ -6,39 +6,39 @@
 </template>
 
 <script>
-  export default {
-    name: 'upload-button',
-    props: {
-      label: {
-        type: String,
-      },
+export default {
+  name: 'upload-button',
+  props: {
+    label: {
+      type: String,
     },
-    data() {
-      return {
-        filename: '',
-      };
+  },
+  data() {
+    return {
+      filename: '',
+    };
+  },
+  methods: {
+    onFocus() {
+      if (!this.disabled) {
+        this.$refs.fileInput.click();
+      }
     },
-    methods: {
-      onFocus() {
-        if (!this.disabled) {
-          this.$refs.fileInput.click();
-        }
-      },
-      fileSelected(e) {
-        const files = e.target.files;
-        if (files) {
-          if (files.length > 0) {
-            this.filename = files[0].path;
-          } else {
-            this.filename = null;
-          }
+    fileSelected(e) {
+      const { files } = e.target;
+      if (files) {
+        if (files.length > 0) {
+          this.filename = files[0].path;
         } else {
-          this.filename = e.target.value.split('\\').pop();
+          this.filename = null;
         }
-        this.$emit('input', this.filename);
-      },
+      } else {
+        this.filename = e.target.value.split('\\').pop();
+      }
+      this.$emit('input', this.filename);
     },
-  };
+  },
+};
 </script>
 
 <style scoped>

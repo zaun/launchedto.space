@@ -22,26 +22,26 @@ export default {
   name: 'rockets',
 
   components: {
-    Rocket
+    Rocket,
   },
 
-  data: function () {
+  data() {
     return {
     };
   },
 
-  computed:  {
-    families () { return this.$store.getters.families },
-    launches () { return this.$store.getters.launches; },
-    isReady () { return this.$store.state.isReady; },
+  computed: {
+    families() { return this.$store.getters.families; },
+    launches() { return this.$store.getters.launches; },
+    isReady() { return this.$store.state.isReady; },
   },
 
   methods: {
     getLaunchCount(rocket) {
       return this.$store.getters.launchCountByRocket[rocket.id];
-    }
+    },
   },
-}
+};
 </script>
 
 <style scoped lang="stylus">
@@ -51,7 +51,7 @@ export default {
 
   &.xs
     h3
-      transform rotate(270deg) translateX(-5rem)  translateY(0rem) 
+      transform rotate(270deg) translateX(-5rem)  translateY(0rem)
 
   .v-progress-circular
     margin-top 5rem;
@@ -60,7 +60,7 @@ export default {
     position relative
     max-width 700px
     padding 0 6px
-    margin-left auto 
+    margin-left auto
     margin-right auto
 
     h3

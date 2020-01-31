@@ -1,6 +1,6 @@
 <template>
   <div id="rocketFamily">
-    <v-navigation-drawer app permanent fixed light width=200 class="ml-0 pl-0 pb-0 mb-0">
+    <v-navigation-drawer app permanent fixed light width="200" class="ml-0 pl-0 pb-0 mb-0">
       <v-list two-line dense>
         <v-list-group v-for="(family, idx) in items" :key="`family-${idx}`">
           <v-list-tile slot="activator">
@@ -276,233 +276,233 @@
 </template>
 
 <script>
-  import { copySync } from 'fs-extra';
-  import { cloneDeep, filter } from 'lodash';
-  import path from 'path';
-  import uuidv4 from 'uuid/v4';
+import { copySync } from 'fs-extra';
+import { cloneDeep, filter } from 'lodash';
+import path from 'path';
+import uuidv4 from 'uuid/v4';
 
-  import fileInput from './file-input.vue';
+import fileInput from './file-input.vue';
 
-  const PIXELS_PER_METER = 10;
+const PIXELS_PER_METER = 10;
 
-  export default {
-    name: 'rockets',
+export default {
+  name: 'rockets',
 
-    components: {
-      fileInput,
+  components: {
+    fileInput,
+  },
+
+  data() {
+    return {
+      familyFormValid: true,
+      rocketFormValid: true,
+      imageFormValid: true,
+
+      requiredRule: [(v) => !!v || 'Item is required'],
+      numberRule: [
+        (v) => {
+          if (v) {
+            return /^(\s*|\d+(\.\d{1,4})?)$/.test(v) || 'Float; max precision 4';
+          }
+          return true;
+        },
+      ],
+      requiredNumberRule: [
+        (v) => !!v || 'Item is required',
+        (v) => /^\d+(\.\d{1,4})?$/.test(v) || 'Float; max precision 4',
+      ],
+
+      addFamilyDialog: false,
+      newFamilyName: '',
+
+      rocketImageDialogMode: 0,
+      rocketImageDialogTitle: '',
+      rocketImageDialog: false,
+      rocketImageFilename: '',
+
+      payloadTypeOptions: [
+        'Capsule',
+        'Fairing',
+        'None',
+      ],
+      expendableOptions: [
+        { value: 'yes', text: 'Yes' },
+        { value: 'no', text: 'No' },
+        { value: '', text: 'Unknown' },
+      ],
+
+      selectedGroup: {},
+      selected: {},
+    };
+  },
+
+  computed: {
+    items() {
+      return this.$store.state.families;
+    },
+    orbitOptions() {
+      return this.$store.state.orbitOptions;
+    },
+    imageData() {
+      return this.$store.state.imageData;
+    },
+  },
+
+  methods: {
+    addEngine(stage) {
+      stage.engines.push({});
+      this.$set(stage.engines, stage.engines);
+      // eslint-disable-next-line
+        console.log(stage);
     },
 
-    data() {
-      return {
-        familyFormValid: true,
-        rocketFormValid: true,
-        imageFormValid: true,
+    addPayload() {
+      this.selected.payloads.push({});
+      this.$set(this.selected.payloads, this.selected.payloads);
+    },
 
-        requiredRule: [v => !!v || 'Item is required'],
-        numberRule: [
-          (v) => {
-            if (v) {
-              return /^(\s*|\d+(\.\d{1,4})?)$/.test(v) || 'Float; max precision 4';
-            }
-            return true;
-          },
-        ],
-        requiredNumberRule: [
-          v => !!v || 'Item is required',
-          v => /^\d+(\.\d{1,4})?$/.test(v) || 'Float; max precision 4',
-        ],
-
-        addFamilyDialog: false,
-        newFamilyName: '',
-
-        rocketImageDialogMode: 0,
-        rocketImageDialogTitle: '',
-        rocketImageDialog: false,
-        rocketImageFilename: '',
-
-        payloadTypeOptions: [
-          'Capsule',
-          'Fairing',
-          'None',
-        ],
-        expendableOptions: [
-          { value: 'yes', text: 'Yes' },
-          { value: 'no', text: 'No' },
-          { value: '', text: 'Unknown' },
-        ],
-
-        selectedGroup: {},
-        selected: {},
+    addRocket(group) {
+      this.selectedGroup = group;
+      this.selected = {
+        id: uuidv4(),
+        engines: [],
+        payloads: [],
+        stages: [],
       };
     },
 
-    computed: {
-      items() {
-        return this.$store.state.families;
-      },
-      orbitOptions() {
-        return this.$store.state.orbitOptions;
-      },
-      imageData() {
-        return this.$store.state.imageData;
-      },
+    addStage() {
+      this.selected.stages.push({
+        engines: [],
+      });
+      this.$set(this.selected.stages, this.selected.stages);
     },
 
-    methods: {
-      addEngine(stage) {
-        stage.engines.push({});
-        this.$set(stage.engines, stage.engines);
-        // eslint-disable-next-line
-        console.log(stage);
-      },
+    deleteEngine(stage, idx) {
+      this.$delete(stage.engines, idx);
+    },
 
-      addPayload() {
-        this.selected.payloads.push({});
-        this.$set(this.selected.payloads, this.selected.payloads);
-      },
+    deletePayload(idx) {
+      this.$delete(this.selected.payloads, idx);
+    },
 
-      addRocket(group) {
-        this.selectedGroup = group;
-        this.selected = {
+    deleteStage(idx) {
+      this.$delete(this.selected.stages, idx);
+    },
+
+    doAddFamily() {
+      if (this.$refs.familyForm.validate()) {
+        this.$store.dispatch('addRocketFamily', {
           id: uuidv4(),
-          engines: [],
-          payloads: [],
-          stages: [],
-        };
-      },
-
-      addStage() {
-        this.selected.stages.push({
-          engines: [],
+          name: this.newFamilyName,
+          rockets: [],
         });
-        this.$set(this.selected.stages, this.selected.stages);
-      },
-
-      deleteEngine(stage, idx) {
-        this.$delete(stage.engines, idx);
-      },
-
-      deletePayload(idx) {
-        this.$delete(this.selected.payloads, idx);
-      },
-
-      deleteStage(idx) {
-        this.$delete(this.selected.stages, idx);
-      },
-
-      doAddFamily() {
-        if (this.$refs.familyForm.validate()) {
-          this.$store.dispatch('addRocketFamily', {
-            id: uuidv4(),
-            name: this.newFamilyName,
-            rockets: [],
-          });
-          this.addFamilyDialog = false;
-        }
-      },
-
-      doAddRocketImage() {
-        if (this.rocketImageFilename) {
-          const name = path.basename(this.rocketImageFilename);
-          if (this.rocketImageDialogMode === 0) {
-            copySync(this.rocketImageFilename, path.join(__dirname, '../../../../media/vehicles/', name));
-            this.selected.rocketImage = name;
-            this.$store.dispatch('addRocketImage', {
-              id: this.selected.id,
-              name,
-            });
-          } else {
-            copySync(this.rocketImageFilename, path.join(__dirname, '../../../../media/vehicles_icon/', name));
-            this.selected.rocketIcon = name;
-            this.$store.dispatch('addRocketIcon', {
-              id: this.selected.id,
-              name,
-            });
-          }
-        }
-
-        this.rocketImageDialog = false;
-      },
-
-      getRocketImageWidth() {
-        let width = 100;
-        if (this.selected.height) {
-          width = ((this.selected.height / 100) * (PIXELS_PER_METER * 100));
-        }
-        return `${width}px`;
-      },
-
-      getRocketImageHeight() {
-        let height = 40;
-        if (this.selected.span) {
-          height = ((this.selected.span / 100) * (PIXELS_PER_METER * 100));
-        } else if (this.selected.diameter) {
-          height = ((this.selected.diameter / 100) * (PIXELS_PER_METER * 100));
-        }
-        return `${height}px`;
-      },
-
-      getBottomHeight() {
-        let height = 0;
-        if (this.selected.span) {
-          height = ((this.selected.span / 100) * (PIXELS_PER_METER * 100));
-        } else if (this.selected.diameter) {
-          height = ((this.selected.diameter / 100) * (PIXELS_PER_METER * 100));
-        }
-        height += 163;
-        height += 75; // Icon image
-        height += 5; // Padding
-
-        if (height < 200) {
-          height = 200;
-        }
-        return `${height}px`;
-      },
-
-      getLaunchCount(rocket) {
-        return filter(this.$store.state.launches, { vehicle: rocket.name }).length;
-      },
-
-      metersToPixels(meters) {
-        return (PIXELS_PER_METER * meters);
-      },
-
-      saveRocket() {
-        if (this.$refs.rocketForm.validate()) {
-          this.$store.dispatch('saveRocket', {
-            family: this.selectedGroup.name,
-            rocket: this.selected,
-          });
-        }
-      },
-
-      select(group, item) {
-        this.selectedGroup = group;
-        this.selected = cloneDeep(item);
-      },
-
-      showAddFamily() {
-        this.familyFormValid = true;
-        this.$refs.familyForm.reset();
-        this.newFamilyName = '';
-        this.addFamilyDialog = true;
-      },
-
-      showAddRocketImage() {
-        this.rocketImageDialogMode = 0;
-        this.rocketImageDialogTitle = 'Select Rocket Image';
-        this.rocketImageFilename = '';
-        this.rocketImageDialog = true;
-      },
-
-      showAddRocketIcon() {
-        this.rocketImageDialogMode = 1;
-        this.rocketImageDialogTitle = 'Select Rocket Icon';
-        this.rocketImageFilename = '';
-        this.rocketImageDialog = true;
-      },
+        this.addFamilyDialog = false;
+      }
     },
-  };
+
+    doAddRocketImage() {
+      if (this.rocketImageFilename) {
+        const name = path.basename(this.rocketImageFilename);
+        if (this.rocketImageDialogMode === 0) {
+          copySync(this.rocketImageFilename, path.join(__dirname, '../../../../media/vehicles/', name));
+          this.selected.rocketImage = name;
+          this.$store.dispatch('addRocketImage', {
+            id: this.selected.id,
+            name,
+          });
+        } else {
+          copySync(this.rocketImageFilename, path.join(__dirname, '../../../../media/vehicles_icon/', name));
+          this.selected.rocketIcon = name;
+          this.$store.dispatch('addRocketIcon', {
+            id: this.selected.id,
+            name,
+          });
+        }
+      }
+
+      this.rocketImageDialog = false;
+    },
+
+    getRocketImageWidth() {
+      let width = 100;
+      if (this.selected.height) {
+        width = ((this.selected.height / 100) * (PIXELS_PER_METER * 100));
+      }
+      return `${width}px`;
+    },
+
+    getRocketImageHeight() {
+      let height = 40;
+      if (this.selected.span) {
+        height = ((this.selected.span / 100) * (PIXELS_PER_METER * 100));
+      } else if (this.selected.diameter) {
+        height = ((this.selected.diameter / 100) * (PIXELS_PER_METER * 100));
+      }
+      return `${height}px`;
+    },
+
+    getBottomHeight() {
+      let height = 0;
+      if (this.selected.span) {
+        height = ((this.selected.span / 100) * (PIXELS_PER_METER * 100));
+      } else if (this.selected.diameter) {
+        height = ((this.selected.diameter / 100) * (PIXELS_PER_METER * 100));
+      }
+      height += 163;
+      height += 75; // Icon image
+      height += 5; // Padding
+
+      if (height < 200) {
+        height = 200;
+      }
+      return `${height}px`;
+    },
+
+    getLaunchCount(rocket) {
+      return filter(this.$store.state.launches, { vehicle: rocket.name }).length;
+    },
+
+    metersToPixels(meters) {
+      return (PIXELS_PER_METER * meters);
+    },
+
+    saveRocket() {
+      if (this.$refs.rocketForm.validate()) {
+        this.$store.dispatch('saveRocket', {
+          family: this.selectedGroup.name,
+          rocket: this.selected,
+        });
+      }
+    },
+
+    select(group, item) {
+      this.selectedGroup = group;
+      this.selected = cloneDeep(item);
+    },
+
+    showAddFamily() {
+      this.familyFormValid = true;
+      this.$refs.familyForm.reset();
+      this.newFamilyName = '';
+      this.addFamilyDialog = true;
+    },
+
+    showAddRocketImage() {
+      this.rocketImageDialogMode = 0;
+      this.rocketImageDialogTitle = 'Select Rocket Image';
+      this.rocketImageFilename = '';
+      this.rocketImageDialog = true;
+    },
+
+    showAddRocketIcon() {
+      this.rocketImageDialogMode = 1;
+      this.rocketImageDialogTitle = 'Select Rocket Icon';
+      this.rocketImageFilename = '';
+      this.rocketImageDialog = true;
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -624,7 +624,7 @@
     height: calc(100% - 50px) !important;
     overflow-y: auto;
   }
-  
+
   .navigation-drawer .footer.footer--fixed {
     width: auto;
     right: 1px

@@ -4,7 +4,7 @@
       <v-card-text v-if="hasMedia" class="hero" @click="launchImagesDisplayed = true">
         <img v-lazy="defaultMedia" alt="Launch Image" />
       </v-card-text>
-      
+
       <v-toolbar flat dark color="teal">
         <v-toolbar-title class="white--text">
           {{ formatDate(launch.date) }}
@@ -139,10 +139,12 @@
 
 <script>
 import moment from 'moment';
-import { find, sortBy } from 'lodash';
+import { find, sortBy, map } from 'lodash';
 import { VueperSlides, VueperSlide } from 'vueperslides';
-import GoodshareFacebook from 'vue-goodshare/src/providers/Facebook.vue'
-import GoodshareReddit from 'vue-goodshare/src/providers/Reddit.vue'
+import GoodshareFacebook from 'vue-goodshare/src/providers/Facebook.vue';
+import GoodshareReddit from 'vue-goodshare/src/providers/Reddit.vue';
+
+const _ = { find, sortBy, map };
 
 export default {
   name: 'launch',
@@ -158,14 +160,14 @@ export default {
     GoodshareReddit,
   },
 
-  data: function () {
+  data() {
     return {
       isMounted: false,
       maxHeight: 0,
 
       ytOptions: {
         autoplay: 1,
-        width: '640'
+        width: '640',
       },
 
       launchImagesDisplayed: false,
@@ -179,32 +181,28 @@ export default {
     },
 
     sortedCrew() {
-      var crew = _.map(this.launch.crew, (c) => {
-        return _.find(this.$store.getters.astronauts, { id: c });
-      });
+      const crew = _.map(this.launch.crew, (c) => _.find(this.$store.getters.astronauts, { id: c }));
       return _.sortBy(crew, 'lastName');
     },
 
-    hasMedia () {
+    hasMedia() {
       return this.$store.getters.mediaByLaunch[this.launch.id] && this.$store.getters.mediaByLaunch[this.launch.id].length > 0;
     },
 
-    launchImages () {
+    launchImages() {
       if (!this.$store.getters.mediaByLaunch[this.launch.id]) {
         return [];
       }
 
-      return this.$store.getters.mediaByLaunch[this.launch.id].map((i) => {
-        return {
-          src: '/thumb/' + i.filename,
-          full: '/orig/' + i.filename,
-          description: i.description,
-          default: i.default,
-        };
-      });
+      return this.$store.getters.mediaByLaunch[this.launch.id].map((i) => ({
+        src: `/thumb/${i.filename}`,
+        full: `/orig/${i.filename}`,
+        description: i.description,
+        default: i.default,
+      }));
     },
 
-    defaultMedia () {
+    defaultMedia() {
       let img = find(this.launchImages, { default: true });
       if (!img) {
         img = this.launchImages[0];
@@ -212,25 +210,23 @@ export default {
       return `/media${img.src}`;
     },
 
-    family () {
+    family() {
       return _.find(this.$store.getters.families, { id: this.launch.vehicleFamily });
     },
 
-    rocket () {
+    rocket() {
       return _.find(this.family.rockets, { id: this.launch.vehicle });
     },
 
-    status () {
-      return this.launch.status.replace(/\w\S*/g, function(txt){
-        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-      });
+    status() {
+      return this.launch.status.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
     },
 
-    shareTitle () {
+    shareTitle() {
       return `${this.family.name} launch at ${this.launch.launchSite} on ${this.formatDate(this.launch.date)}`;
     },
 
-    shareURL () {
+    shareURL() {
       return `${location.origin}/#/#l-${this.launch.id}`;
     },
   },
@@ -313,16 +309,16 @@ half-line-width = line-width / 2
     top calc(0.5rem + 8px)
     z-index 2
     border-radius 100%
-  
+
   &.xs:before
     left "calc(%s - 1rem)" % left-padding-xs
 
   &.status_success:before
     background green
-  
+
   &.status_failure:before
     background #FF0000
-  
+
   &.status_partial_failure:before
     background #FFA500
 
@@ -344,7 +340,7 @@ half-line-width = line-width / 2
       padding 0
 
   .payload
-    list-style-type none   
+    list-style-type none
     column-width 8rem
     column-gap 0.2rem
     list-style-position inside
@@ -355,7 +351,7 @@ half-line-width = line-width / 2
       font-size 0.8rem
       white-space nowrap
       list-style: none;
-    
+
       &:before
         content ''
         display inline-block
@@ -365,10 +361,10 @@ half-line-width = line-width / 2
         background-repeat no-repeat
         background-size contain
         background-position center
-      
+
       &.Capsule:before
         background-image: url('../assets/noun_1671108_cc.svg')
-      
+
       &.Station:before
         background-image: url('../assets/noun_744249_cc.svg')
 </style>

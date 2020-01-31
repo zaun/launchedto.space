@@ -1,4 +1,5 @@
-import 'babel-polyfill';
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
 import Vue from 'vue';
 import Vuetify from 'vuetify';
 import VueAnalytics from 'vue-analytics';
@@ -6,7 +7,7 @@ import VueLazyload from 'vue-lazyload';
 import VueYoutube from 'vue-youtube';
 
 import 'material-design-icons-iconfont/dist/material-design-icons.css';
-import 'vueperslides/dist/vueperslides.min.css';
+import 'vueperslides/dist/vueperslides.css';
 
 import App from './App.vue';
 import router from './router';
@@ -31,5 +32,5 @@ Vue.use(VueYoutube);
 new Vue({
   router,
   store,
-  render: h => h(App),
+  render: (h) => h(App),
 }).$mount('#app');
