@@ -8,7 +8,7 @@
     "serve": "cd website && npm run serve",
     "build": "cd website && npm run build",
     "lint": "cd website && npm run lint",
-    "editor": "cd editor && npm run dev",
+    "editor": "cd editor && npm run electron:serve",
     "thumb": "bash ./scripts/createThumbnails.sh"
   },
   "devDependencies": {

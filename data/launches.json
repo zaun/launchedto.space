@@ -7,7 +7,7 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-34",
-    "orbital": "no",
+    "orbital": false,
     "payloads": [],
     "id": "d4c7ca6c-eaf5-4380-af29-c88cac0f3250",
     "crew": []
@@ -20,11 +20,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-34",
-    "orbital": "no",
+    "orbital": false,
     "payloads": [
       {
         "name": "Highwater 1",
-        "orbital": "no",
+        "orbital": false,
         "orbit": "Karmen",
         "mass": "",
         "type": "Satellite",
@@ -44,11 +44,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-34",
-    "orbital": "no",
+    "orbital": false,
     "payloads": [
       {
         "name": "Highwater 2",
-        "orbital": "no",
+        "orbital": false,
         "orbit": "Karmen",
         "mass": "",
         "type": "Satellite",
@@ -68,7 +68,7 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-34",
-    "orbital": "no",
+    "orbital": false,
     "payloads": [],
     "id": "d9485552-6957-4f42-a312-a6e5bdebf587",
     "crew": []
@@ -81,11 +81,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-37B",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Saturn-SA 5",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 16965,
         "type": "Satellite",
@@ -105,11 +105,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-37B",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Saturn-SA 6",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 16965,
         "type": "Satellite",
@@ -119,7 +119,7 @@
       },
       {
         "name": "Apollo 101 BP 13",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 4500,
         "type": "Satellite",
@@ -139,11 +139,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-37B",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Saturn-SA 7",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 16965,
         "type": "Satellite",
@@ -153,7 +153,7 @@
       },
       {
         "name": "Apollo 102 BP 15",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 4500,
         "type": "Satellite",
@@ -173,11 +173,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-37B",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Pegasus 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 10400,
         "type": "Satellite",
@@ -187,7 +187,7 @@
       },
       {
         "name": "Apollo 103 BP 16",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 4500,
         "type": "Satellite",
@@ -207,11 +207,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-37B",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Pegasus 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 10464,
         "type": "Satellite",
@@ -221,7 +221,7 @@
       },
       {
         "name": "Apollo 104 BP 26",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 4500,
         "type": "Capsule",
@@ -241,11 +241,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-37B",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Pegasus 3",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 10500,
         "type": "Satellite",
@@ -255,7 +255,7 @@
       },
       {
         "name": "Apollo 105 BP 9A",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 4500,
         "type": "Capsule",
@@ -275,11 +275,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-34",
-    "orbital": "no",
+    "orbital": false,
     "payloads": [
       {
         "name": "Apollo 201 / CSM 9",
-        "orbital": "no",
+        "orbital": false,
         "orbit": "Karmen",
         "mass": 28801,
         "type": "Capsule",
@@ -299,11 +299,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-37B",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Apollo 203",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 28801,
         "type": "Capsule",
@@ -323,11 +323,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-34",
-    "orbital": "no",
+    "orbital": false,
     "payloads": [
       {
         "name": "Apollo 202 / CSM 11",
-        "orbital": "no",
+        "orbital": false,
         "orbit": "Karmen",
         "mass": 28801,
         "type": "Capsule",
@@ -348,11 +348,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Apollo 4",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": 28801,
         "type": "Capsule",
@@ -362,7 +362,7 @@
       },
       {
         "name": "LTA 10R",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": 12000,
         "type": "Satellite",
@@ -381,11 +381,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-34",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Apollo 5 / LM 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 28801,
         "type": "Capsule",
@@ -406,11 +406,11 @@
     "status": "partial failure",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Apollo 6",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": 28801,
         "type": "Capsule",
@@ -420,7 +420,7 @@
       },
       {
         "name": "LTA 2R",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": 12000,
         "type": "Satellite",
@@ -439,11 +439,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-34",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Apollo 7 / LM 101",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 28801,
         "type": "Capsule",
@@ -464,11 +464,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Apollo 8",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": 28801,
         "type": "Capsule",
@@ -478,7 +478,7 @@
       },
       {
         "name": "LTA B",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": 12000,
         "type": "Satellite",
@@ -503,11 +503,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Apollo 9",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 28801,
         "type": "Capsule",
@@ -517,7 +517,7 @@
       },
       {
         "name": "LM 3 (Spider)",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 12000,
         "type": "Satellite",
@@ -542,11 +542,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Apollo 10",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": 28801,
         "type": "Capsule",
@@ -556,7 +556,7 @@
       },
       {
         "name": "LM 4 (Snoopy)",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": 12000,
         "type": "Satellite",
@@ -579,11 +579,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Apollo 11",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": 28801,
         "type": "Capsule",
@@ -593,7 +593,7 @@
       },
       {
         "name": "LM 5 (Eagle)",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": 12000,
         "type": "Satellite",
@@ -617,11 +617,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Apollo 12",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": 28801,
         "type": "Capsule",
@@ -631,7 +631,7 @@
       },
       {
         "name": "LM 6 (Intrepid)",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": 12000,
         "type": "Satellite",
@@ -655,11 +655,11 @@
     "status": "partial failure",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Apollo 13",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "status": "partial failure",
         "mass": 28801,
@@ -669,7 +669,7 @@
       },
       {
         "name": "LM 7 (Aquarius)",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "status": "partial failure",
         "mass": 12000,
@@ -693,11 +693,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Apollo 14",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": 28801,
         "type": "Capsule",
@@ -707,7 +707,7 @@
       },
       {
         "name": "LM 8 (Antares)",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": 12000,
         "type": "Satellite",
@@ -727,11 +727,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Apollo 15",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": 28801,
         "type": "Capsule",
@@ -741,7 +741,7 @@
       },
       {
         "name": "LM 10 (Falcon)",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": 12000,
         "type": "Satellite",
@@ -751,7 +751,7 @@
       },
       {
         "name": "PFS 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": 36,
         "type": "Satellite",
@@ -771,11 +771,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Apollo 16",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": 28801,
         "type": "Capsule",
@@ -785,7 +785,7 @@
       },
       {
         "name": "LM 11 (Orion)",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": 12000,
         "type": "Satellite",
@@ -795,7 +795,7 @@
       },
       {
         "name": "PFS 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": 36,
         "type": "Satellite",
@@ -815,11 +815,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Apollo 17",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": 28801,
         "type": "Capsule",
@@ -829,7 +829,7 @@
       },
       {
         "name": "LM 12 (Challenger)",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": 12000,
         "type": "Satellite",
@@ -849,11 +849,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Skylab 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 76295,
         "type": "Station",
@@ -873,11 +873,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39B",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Skylab 2 (Apollo / CSM 116)",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 28801,
         "type": "Capsule",
@@ -897,11 +897,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39B",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Skylab 3 (Apollo / CSM 117)",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 28801,
         "type": "Capsule",
@@ -911,7 +911,7 @@
       },
       {
         "name": "S150",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 13600,
         "type": "Satellite",
@@ -931,11 +931,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39B",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Skylab 4 (Apollo / CSM 118)",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 28801,
         "type": "Capsule",
@@ -955,11 +955,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39B",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "AST (Apollo-Soyuz)",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 28801,
         "type": "Capsule",
@@ -969,7 +969,7 @@
       },
       {
         "name": "ASTP-DM",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 2012,
         "type": "Satellite",
@@ -983,7 +983,7 @@
   },
   {
     "id": "e0544abb-33d3-43c8-ad35-188b04282620",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [],
     "vehicle": "fe494619-d36a-48df-a235-a98acbc3bcd0",
@@ -999,7 +999,7 @@
   },
   {
     "id": "8706f4e0-499d-4244-bb94-8754d3cad2c0",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [],
     "vehicle": "fe494619-d36a-48df-a235-a98acbc3bcd0",
@@ -1015,7 +1015,7 @@
   },
   {
     "id": "1457535b-294b-46c1-a604-85bdba848544",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [],
     "vehicle": "fe494619-d36a-48df-a235-a98acbc3bcd0",
@@ -1037,11 +1037,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Hot Bird 6",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 3905,
         "type": "Satellite",
@@ -1061,11 +1061,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Hellas-Sat 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 3250,
         "type": "Satellite",
@@ -1085,11 +1085,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "MRO",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "IP",
         "mass": 2180,
         "type": "Satellite",
@@ -1109,11 +1109,11 @@
     "status": "failure",
     "launchSite": "Omelek Island",
     "launchPad": "",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "FalconSat 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 19.5,
         "type": "Satellite",
@@ -1127,13 +1127,13 @@
   },
   {
     "id": "211195be-0f84-4f34-8107-c8de8f3675d9",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "0c1080a0-6494-405c-b5de-719e014f257d",
         "name": "Astra 1KR",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": "4332",
         "type": "Satellite",
@@ -1157,11 +1157,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "ASTRO",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 700,
         "type": "Satellite",
@@ -1171,7 +1171,7 @@
       },
       {
         "name": "NEXTSat",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 224,
         "type": "Satellite",
@@ -1181,7 +1181,7 @@
       },
       {
         "name": "STPSat 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 164,
         "type": "Satellite",
@@ -1191,7 +1191,7 @@
       },
       {
         "name": "CFESat",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 163,
         "type": "Satellite",
@@ -1201,7 +1201,7 @@
       },
       {
         "name": "MidSTAR 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "",
         "type": "Satellite",
@@ -1211,7 +1211,7 @@
       },
       {
         "name": "FalconSat 3",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 50,
         "type": "Satellite",
@@ -1231,11 +1231,11 @@
     "status": "failure",
     "launchSite": "Omelek Island",
     "launchPad": "",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Demosat",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "",
         "type": "Satellite",
@@ -1256,11 +1256,11 @@
     "status": "partial failure",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Intruder 8A",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 3250,
         "type": "Satellite",
@@ -1270,7 +1270,7 @@
       },
       {
         "name": "Intruder 8B",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 3250,
         "type": "Satellite",
@@ -1290,11 +1290,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Quasar 16",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "Molniya",
         "mass": "",
         "type": "Satellite",
@@ -1308,13 +1308,13 @@
   },
   {
     "id": "fce66d34-1044-4ad8-93b9-7b32fe25116c",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "2f560d18-e0b2-4ebc-8838-73b9d05fd26b",
         "name": "Trumpet-F/O-1 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4500",
         "type": "Satellite",
@@ -1338,11 +1338,11 @@
     "status": "failure",
     "launchSite": "Omelek Island",
     "launchPad": "",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Trailblazer",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 83.6,
         "type": "Satellite",
@@ -1352,7 +1352,7 @@
       },
       {
         "name": "PreSat",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 4,
         "type": "Satellite",
@@ -1362,7 +1362,7 @@
       },
       {
         "name": "Nanosail D",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 4,
         "type": "Satellite",
@@ -1372,7 +1372,7 @@
       },
       {
         "name": "Celestis 07",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "",
         "type": "Satellite",
@@ -1392,11 +1392,11 @@
     "status": "success",
     "launchSite": "Omelek Island",
     "launchPad": "",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Ratsat",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 165,
         "type": "Satellite",
@@ -1417,11 +1417,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "LRO",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "TLI",
         "mass": 1000,
         "type": "Satellite",
@@ -1431,7 +1431,7 @@
       },
       {
         "name": "LCROSS",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "TLI",
         "mass": 880,
         "type": "Satellite",
@@ -1451,11 +1451,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Nemesis 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": "",
         "type": "Satellite",
@@ -1475,11 +1475,11 @@
     "status": "success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-3E",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "DMSP-5D3 F18",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 1200,
         "type": "Satellite",
@@ -1499,11 +1499,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "SDO",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 3100,
         "type": "Satellite",
@@ -1523,11 +1523,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Dragon Qualification Unit",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "",
         "type": "Capsule",
@@ -1547,11 +1547,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Dragon C1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "",
         "type": "Capsule",
@@ -1561,7 +1561,7 @@
       },
       {
         "name": "SMDC-ONE 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 4,
         "type": "Satellite",
@@ -1571,7 +1571,7 @@
       },
       {
         "name": "QbX 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 5,
         "type": "Satellite",
@@ -1581,7 +1581,7 @@
       },
       {
         "name": "QbX 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 5,
         "type": "Satellite",
@@ -1591,7 +1591,7 @@
       },
       {
         "name": "Mayflower-Caerus",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 5,
         "type": "Satellite",
@@ -1601,7 +1601,7 @@
       },
       {
         "name": "Perseus 000",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 1.5,
         "type": "Satellite",
@@ -1611,7 +1611,7 @@
       },
       {
         "name": "Perseus 001",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 1.5,
         "type": "Satellite",
@@ -1621,7 +1621,7 @@
       },
       {
         "name": "Perseus 002",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 1.5,
         "type": "Satellite",
@@ -1631,7 +1631,7 @@
       },
       {
         "name": "Perseus 003",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 1.5,
         "type": "Satellite",
@@ -1645,13 +1645,13 @@
   },
   {
     "id": "d14ea965-1c61-400a-b4b3-b7541328f5e9",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "483cb4de-47c5-4365-9a31-1861de785617",
         "name": "Intruder 9A",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "6500",
         "type": "Satellite",
@@ -1661,7 +1661,7 @@
       {
         "id": "acee93fd-6be9-4b77-904e-34c1423228cd",
         "name": "Intruder 9B",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "6500",
         "type": "Satellite",
@@ -1685,11 +1685,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "SBIRS-GEO 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 4500,
         "type": "Satellite",
@@ -1709,11 +1709,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Dragon C2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 6650,
         "type": "Capsule",
@@ -1723,7 +1723,7 @@
       },
       {
         "name": "Celestis 11",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "",
         "type": "Satellite",
@@ -1744,11 +1744,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Quasar 18",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": "",
         "type": "Satellite",
@@ -1768,11 +1768,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "RBSP A",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 648,
         "type": "Satellite",
@@ -1782,7 +1782,7 @@
       },
       {
         "name": "RBSP B",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 667,
         "type": "Satellite",
@@ -1802,11 +1802,11 @@
     "status": "success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-3E",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Intruder 10A",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 3250,
         "type": "Satellite",
@@ -1816,7 +1816,7 @@
       },
       {
         "name": "Intruder 10B",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 3250,
         "type": "Satellite",
@@ -1826,7 +1826,7 @@
       },
       {
         "name": "Aeneas",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 4,
         "type": "Satellite",
@@ -1836,7 +1836,7 @@
       },
       {
         "name": "SMDC-ONE 2.1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 4,
         "type": "Satellite",
@@ -1846,7 +1846,7 @@
       },
       {
         "name": "SMDC-ONE 2.2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 4,
         "type": "Satellite",
@@ -1856,7 +1856,7 @@
       },
       {
         "name": "STARE A",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 4,
         "type": "Satellite",
@@ -1866,7 +1866,7 @@
       },
       {
         "name": "CINEMA 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 4,
         "type": "Satellite",
@@ -1876,7 +1876,7 @@
       },
       {
         "name": "CSSWE",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 4,
         "type": "Satellite",
@@ -1886,7 +1886,7 @@
       },
       {
         "name": "CXBN 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 2.6,
         "type": "Satellite",
@@ -1896,7 +1896,7 @@
       },
       {
         "name": "AeroCube 4A",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 1,
         "type": "Satellite",
@@ -1906,7 +1906,7 @@
       },
       {
         "name": "AeroCube 4B",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 1,
         "type": "Satellite",
@@ -1916,7 +1916,7 @@
       },
       {
         "name": "AeroCube 4C",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 1,
         "type": "Satellite",
@@ -1926,7 +1926,7 @@
       },
       {
         "name": "CP 5",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 1,
         "type": "Satellite",
@@ -1946,7 +1946,7 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "orbital": "no",
+    "orbital": false,
     "payloads": [],
     "id": "e4af82cd-af7e-482d-a220-d2f8798b7312",
     "crew": [],
@@ -1960,11 +1960,11 @@
     "status": "partial failure",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Dragon CRS-1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "",
         "type": "Capsule",
@@ -1974,7 +1974,7 @@
       },
       {
         "name": "Orbcomm FM101",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 172,
         "type": "Satellite",
@@ -1995,7 +1995,7 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "orbital": "no",
+    "orbital": false,
     "payloads": [],
     "id": "095c5c90-32fa-4313-9a16-a1625ccaf539",
     "crew": [],
@@ -2009,7 +2009,7 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "orbital": "no",
+    "orbital": false,
     "payloads": [],
     "id": "b7c8583b-bd5e-4f71-b2ba-009245e58813",
     "crew": [],
@@ -2023,11 +2023,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-41",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "TDRS 11",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 3454,
         "type": "Satellite",
@@ -2047,11 +2047,11 @@
     "status": "success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-3E",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Landsat 8",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 3085,
         "type": "Satellite",
@@ -2071,11 +2071,11 @@
     "status": "success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "CASSIOPE 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 500,
         "type": "Satellite",
@@ -2085,7 +2085,7 @@
       },
       {
         "name": "CUSat",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 25,
         "type": "Satellite",
@@ -2095,7 +2095,7 @@
       },
       {
         "name": "DANDE",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 50,
         "type": "Satellite",
@@ -2105,7 +2105,7 @@
       },
       {
         "name": "POPACS 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 1,
         "type": "Satellite",
@@ -2115,7 +2115,7 @@
       },
       {
         "name": "POPACS 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 1.5,
         "type": "Satellite",
@@ -2125,7 +2125,7 @@
       },
       {
         "name": "POPACS 3",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 2,
         "type": "Satellite",
@@ -2145,11 +2145,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Dragon SRS-2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "",
         "type": "Capsule",
@@ -2169,20 +2169,20 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "orbital": "no",
+    "orbital": false,
     "payloads": [],
     "id": "8ca6eaed-9a24-44e9-8f9b-f72ed6e4e0d0",
     "crew": []
   },
   {
     "id": "90b80fcd-4410-4d5b-909e-e90580a0766b",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "4b5fabbb-7f8a-4534-9f21-44a1a00c7df9",
         "name": "SBIRS-GEO 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": "4500",
         "type": "Satellite",
@@ -2206,20 +2206,20 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "orbital": "no",
+    "orbital": false,
     "payloads": [],
     "id": "5cb139f6-1754-4a97-aa2e-dbeb4fb7022a",
     "crew": []
   },
   {
     "id": "e10de016-bf4c-45f3-91db-c5a44734073b",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "9defbc74-09ea-4223-abcc-9a555d1554ca",
         "name": "GPS-2F 4",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": "1630",
         "type": "Satellite",
@@ -2243,7 +2243,7 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "orbital": "no",
+    "orbital": false,
     "payloads": [],
     "id": "ec7ac3c2-3abc-4851-ba4e-6ecce504e55f",
     "crew": []
@@ -2256,7 +2256,7 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "orbital": "no",
+    "orbital": false,
     "payloads": [],
     "id": "cfe51af4-dec4-4275-8ff4-f2441a7da1b4",
     "crew": []
@@ -2269,20 +2269,20 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "orbital": "no",
+    "orbital": false,
     "payloads": [],
     "id": "8b817237-c252-46b5-acf5-a3811fec7b32",
     "crew": []
   },
   {
     "id": "012c8128-77d4-49a5-b30d-0a3eb25f4456",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "ec3f940f-8634-4802-ada9-e33597823a8c",
         "name": "MAVEN",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "IP",
         "mass": "2454",
         "type": "Satellite",
@@ -2306,11 +2306,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "SES 8",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 3170,
         "type": "Satellite",
@@ -2330,11 +2330,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Thaicom 6",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 3016,
         "type": "Satellite",
@@ -2349,13 +2349,13 @@
   },
   {
     "id": "374c0569-2c04-45ac-a201-225928245a87",
-    "orbital": "no",
+    "orbital": false,
     "status": "success",
     "payloads": [
       {
         "id": "c26df081-d1b2-4a5d-b56c-8d1db86225a1",
         "name": "TDRS 12 (L)",
-        "orbital": "no",
+        "orbital": false,
         "orbit": "GEO",
         "mass": "3454",
         "type": "Satellite",
@@ -2373,13 +2373,13 @@
   },
   {
     "id": "d45bb35b-8ec6-4fe4-b93c-2611414c9cb2",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "a5ed87bb-d24e-48c1-be5f-8865f4f0b0a7",
         "name": "DMSP-5D3 F19",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "1200",
         "type": "Satellite",
@@ -2403,7 +2403,7 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "orbital": "no",
+    "orbital": false,
     "payloads": [],
     "id": "9f53e966-9dcc-4128-9854-fc240ef8cd1d",
     "crew": []
@@ -2416,11 +2416,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Dragon CRS-3",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 6650,
         "type": "Capsule",
@@ -2430,7 +2430,7 @@
       },
       {
         "name": "OPALS",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 159,
         "type": "Satellite",
@@ -2440,7 +2440,7 @@
       },
       {
         "name": "HDEV",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "",
         "type": "Satellite",
@@ -2450,7 +2450,7 @@
       },
       {
         "name": "ALL-STAR/THEIA",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 4,
         "type": "Satellite",
@@ -2460,7 +2460,7 @@
       },
       {
         "name": "KickSat 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 5.5,
         "type": "Satellite",
@@ -2470,7 +2470,7 @@
       },
       {
         "name": "SporeSat 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 5,
         "type": "Satellite",
@@ -2480,7 +2480,7 @@
       },
       {
         "name": "TSAT",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 2,
         "type": "Satellite",
@@ -2490,7 +2490,7 @@
       },
       {
         "name": "PhoneSat 2.5",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 1,
         "type": "Satellite",
@@ -2500,7 +2500,7 @@
       },
       {
         "name": "104 Sprites",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 0.52,
         "type": "Satellite",
@@ -2521,20 +2521,20 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "orbital": "no",
+    "orbital": false,
     "payloads": [],
     "id": "d5986f98-cc81-4415-a24a-b34988363bc3",
     "crew": []
   },
   {
     "id": "9107f3fc-dd6d-4cf7-848e-3cba6029a933",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "deaca832-e75a-457f-b438-48348eb55977",
         "name": "Quasar 19",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": -1,
         "type": "Satellite",
@@ -2558,7 +2558,7 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "orbital": "no",
+    "orbital": false,
     "payloads": [],
     "id": "770a0b04-8793-405f-a130-a243f7b591c9",
     "crew": []
@@ -2571,11 +2571,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Orbcomm FM103",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 172,
         "type": "Satellite",
@@ -2585,7 +2585,7 @@
       },
       {
         "name": "Orbcomm FM104",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 172,
         "type": "Satellite",
@@ -2595,7 +2595,7 @@
       },
       {
         "name": "Orbcomm FM106",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 172,
         "type": "Satellite",
@@ -2605,7 +2605,7 @@
       },
       {
         "name": "Orbcomm FM107",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 172,
         "type": "Satellite",
@@ -2615,7 +2615,7 @@
       },
       {
         "name": "Orbcomm FM109",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 172,
         "type": "Satellite",
@@ -2625,7 +2625,7 @@
       },
       {
         "name": "Orbcomm FM111",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 172,
         "type": "Satellite",
@@ -2635,7 +2635,7 @@
       },
       {
         "name": "Orbcomm-OG2 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 142,
         "type": "Satellite",
@@ -2656,20 +2656,20 @@
     "status": "success",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "orbital": "no",
+    "orbital": false,
     "payloads": [],
     "id": "7613233a-dcbf-4b64-82b3-759bebd318ef",
     "crew": []
   },
   {
     "id": "1f911eba-ec23-4dbf-8a73-35a7f498710a",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "078a8165-1ec1-401a-b824-ee1e94f58294",
         "name": "GPS-2F 7",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": "1630",
         "type": "Satellite",
@@ -2693,11 +2693,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "AsiaSat 8",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 4535,
         "type": "Satellite",
@@ -2712,13 +2712,13 @@
   },
   {
     "id": "f5948c6f-80c5-4bfd-9009-40055074bfbb",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "442c6edc-709d-4970-b051-cb8507639df2",
         "name": "WorldView 3",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2800",
         "type": "Satellite",
@@ -2742,7 +2742,7 @@
     "status": "failure",
     "launchSite": "SpaceX McGregor Test Site",
     "launchPad": "",
-    "orbital": "no",
+    "orbital": false,
     "payloads": [],
     "id": "e7f335fc-cd24-4535-905c-48d8e93ce45a",
     "crew": []
@@ -2755,11 +2755,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "AsiaSat 6",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 3700,
         "type": "Satellite",
@@ -2774,13 +2774,13 @@
   },
   {
     "id": "d9fe86bd-b582-437e-a995-f654b53415ea",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "93402a7d-a9c5-46e8-ab2b-15165949e863",
         "name": "Nemesis 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": -1,
         "type": "Satellite",
@@ -2804,11 +2804,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Dragon CRS-4",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 6650,
         "type": "Capsule",
@@ -2818,7 +2818,7 @@
       },
       {
         "name": "RapidScat",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "",
         "type": "Satellite",
@@ -2828,7 +2828,7 @@
       },
       {
         "name": "SpinSat",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 57,
         "type": "Satellite",
@@ -2843,13 +2843,13 @@
   },
   {
     "id": "2847ca03-46a2-4724-9e09-2c2edda90f1d",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "5b676597-3ee1-44fa-be48-3823528b11c1",
         "name": "GPS-2F 8",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": "1630",
         "type": "Satellite",
@@ -2873,11 +2873,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Dragon CRS-5",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 6650,
         "type": "Capsule",
@@ -2887,7 +2887,7 @@
       },
       {
         "name": "CATS",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 500,
         "type": "Satellite",
@@ -2897,7 +2897,7 @@
       },
       {
         "name": "Flock-1d' 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 10,
         "type": "Satellite",
@@ -2907,7 +2907,7 @@
       },
       {
         "name": "Flock-1d' 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "10",
         "type": "Satellite",
@@ -2918,7 +2918,7 @@
       {
         "id": "319ec55e-d81c-4319-a205-5ce168805ae4",
         "name": "AESP-14",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "1",
         "type": "Satellite",
@@ -2938,11 +2938,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "DSCOVR",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "L1",
         "mass": 570,
         "type": "Satellite",
@@ -2963,11 +2963,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "ABS 3A",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 1954,
         "type": "Satellite",
@@ -2977,7 +2977,7 @@
       },
       {
         "name": "Eutelsat 115 West B",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 2205,
         "type": "Satellite",
@@ -2998,11 +2998,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Dragon CRS-6",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 6650,
         "type": "Capsule",
@@ -3012,7 +3012,7 @@
       },
       {
         "name": "Flock-1e 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3022,7 +3022,7 @@
       },
       {
         "name": "Flock-1e 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3032,7 +3032,7 @@
       },
       {
         "name": "Flock-1e 3",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3043,7 +3043,7 @@
       {
         "id": "f5c2bb7f-67d0-4fe2-8f2b-82e01ec34a82",
         "name": "Flock-1e 4",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3053,7 +3053,7 @@
       {
         "id": "c2ce7025-ebae-4e08-ae74-62ab03f38419",
         "name": "Flock-1e 5",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3063,7 +3063,7 @@
       {
         "id": "714b1690-0b1f-42f1-8768-53e7a8305019",
         "name": "Flock-1e 6",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3073,7 +3073,7 @@
       {
         "id": "f91eb6fe-b852-478e-a208-6be04cbc60e1",
         "name": "Flock-1e 7",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3083,7 +3083,7 @@
       {
         "id": "e71570eb-8dee-47e9-9788-631dd8192d0d",
         "name": "Flock-1e 8",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3093,7 +3093,7 @@
       {
         "id": "50d01d06-1aad-41cb-b3c6-3acd0b5d9cbf",
         "name": "Flock-1e 9",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3103,7 +3103,7 @@
       {
         "id": "630be35e-8098-4723-adb1-baa6a228294a",
         "name": "Flock-1e 10",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3113,7 +3113,7 @@
       {
         "id": "566f301e-00b2-4282-aa4b-54981808d9d2",
         "name": "Flock-1e 11",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3123,7 +3123,7 @@
       {
         "id": "d6097f3e-d272-4463-88ed-48e7c2f4321d",
         "name": "Flock-1e 12",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3133,7 +3133,7 @@
       {
         "id": "0347e8f0-46f0-4283-9fd9-cdd512b9e217",
         "name": "Flock-1e 13",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3143,7 +3143,7 @@
       {
         "id": "23dce0ec-f1e1-4550-b694-21c3b2cb962b",
         "name": "Flock-1e 14",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3153,7 +3153,7 @@
       {
         "id": "0d0215a0-2634-4139-b683-1f669a0e1a64",
         "name": "Arkyd A3R",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4",
         "type": "Satellite",
@@ -3163,7 +3163,7 @@
       {
         "id": "77e440c5-cff8-4f34-a4ac-40525770333a",
         "name": "Centennial 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "1",
         "type": "Satellite",
@@ -3183,11 +3183,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "TürkmenÄlem 52E",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 4707,
         "type": "Satellite",
@@ -3208,11 +3208,11 @@
     "status": "failure",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Dragon CRS-7",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 6650,
         "type": "Capsule",
@@ -3222,7 +3222,7 @@
       },
       {
         "name": "IDA 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 526,
         "type": "Satellite",
@@ -3232,7 +3232,7 @@
       },
       {
         "name": "Flock-1f (1 - 8)",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 40,
         "type": "Satellite",
@@ -3246,13 +3246,13 @@
   },
   {
     "id": "1bdb8176-194d-467a-a9fa-3c5bb1bea1b0",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "9cbddbbb-8409-4c95-8a20-688d601e7394",
         "name": "GPS-2F 10",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": "1630",
         "type": "Satellite",
@@ -3270,13 +3270,13 @@
   },
   {
     "id": "0743c5ec-fa5a-40d4-be86-b02c86b5a526",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "79b8c59e-cc45-43c2-8375-0cc0627cb023",
         "name": "Intruder 11A",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "6500",
         "type": "Satellite",
@@ -3286,7 +3286,7 @@
       {
         "id": "fdde4386-88d3-4de3-acb1-6a61dfecd27f",
         "name": "Intruder 11B",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "6500",
         "type": "Satellite",
@@ -3296,7 +3296,7 @@
       {
         "id": "526b5467-1000-4c97-a7e9-b6383b18bee3",
         "name": "SNaP-3 ALICE",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3306,7 +3306,7 @@
       {
         "id": "91c81420-8915-4e1f-b78b-9ba6399b6c75",
         "name": "SNaP-3 EDDIE",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3316,7 +3316,7 @@
       {
         "id": "3777e545-50fc-4f00-a508-ed42d7001ae1",
         "name": "SNaP-3 JIMI",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3326,7 +3326,7 @@
       {
         "id": "c2ded7d4-c534-4d02-b977-f412b04b1fd1",
         "name": "LMRSTSat",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3336,7 +3336,7 @@
       {
         "id": "fe4a3ee6-ab42-4948-b32e-d9ce3d5424de",
         "name": "SINOD-D 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -3346,7 +3346,7 @@
       {
         "id": "ead35af7-2504-49e3-85a0-fee240fdb0c7",
         "name": "SINOD-D 3",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -3356,7 +3356,7 @@
       {
         "id": "686c86c4-269e-46de-877b-5dd5d3c18d77",
         "name": "AeroCube 5C",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -3366,7 +3366,7 @@
       {
         "id": "1b9bde0f-d629-4f96-a770-3db4ff6394db",
         "name": "OCSD A",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "3",
         "type": "Satellite",
@@ -3376,7 +3376,7 @@
       {
         "id": "ed759070-8422-4835-aaab-2ca4653f5cc7",
         "name": "ARC 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "1",
         "type": "Satellite",
@@ -3386,7 +3386,7 @@
       {
         "id": "5c2ce20a-37c7-4057-90ca-f1dafd647ca9",
         "name": "BisonSat",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "1",
         "type": "Satellite",
@@ -3396,7 +3396,7 @@
       {
         "id": "3822e7d8-dd59-4a19-b657-61d61e68b7d6",
         "name": "Fox 1A",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "1",
         "type": "Satellite",
@@ -3406,7 +3406,7 @@
       {
         "id": "d7cdda19-b014-487d-bc01-19872c8ea208",
         "name": "PropCube 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "1",
         "type": "Satellite",
@@ -3416,7 +3416,7 @@
       {
         "id": "dd4f5bd5-f62e-4e51-8a9b-44ae91956e6a",
         "name": "PropCube 3",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "1",
         "type": "Satellite",
@@ -3434,13 +3434,13 @@
   },
   {
     "id": "82cfcae2-e413-4631-ac50-b6551b3fc145",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "951b2fff-b5e8-41b6-9da3-7cfaad19edbd",
         "name": "GPS-2F 11",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": "1630",
         "type": "Satellite",
@@ -3458,13 +3458,13 @@
   },
   {
     "id": "da0f7c13-d58c-4a9b-bc79-88d5fea329bf",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "292bc418-6eb7-46e8-ad6a-6d09b316f212",
         "name": "Cygnus CSR-4",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "7492",
         "type": "Satellite",
@@ -3474,7 +3474,7 @@
       {
         "id": "dec06e34-1d50-435e-9cac-5ee43e991e66",
         "name": "SIMPL",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": -1,
         "type": "Satellite",
@@ -3484,7 +3484,7 @@
       {
         "id": "1aab0814-74d1-4f63-927c-a81719874321",
         "name": "AggieSat 4",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "50",
         "type": "Satellite",
@@ -3494,7 +3494,7 @@
       {
         "id": "fe41d422-0a96-44c8-a0a9-1abe68d3837c",
         "name": "Bevo 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3504,7 +3504,7 @@
       {
         "id": "1eae5704-3324-4f36-a27e-4df4f34ddf15",
         "name": "Flock 2e 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3514,7 +3514,7 @@
       {
         "id": "778ec20b-3bcd-4e23-ac9c-4e83fd97f3ba",
         "name": "Flock 2e 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3524,7 +3524,7 @@
       {
         "id": "51bd58e0-33bc-4a37-acd8-735e8ce8a280",
         "name": "Flock 2e 3",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3534,7 +3534,7 @@
       {
         "id": "50aa7217-f61c-4aa1-b904-b24236973756",
         "name": "Flock 2e 4",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3544,7 +3544,7 @@
       {
         "id": "c4436291-252f-4666-92d8-c3a27ddfe5cf",
         "name": "Flock 2e 5",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3554,7 +3554,7 @@
       {
         "id": "c388a22e-fdf9-46a3-b015-3c793f614922",
         "name": "Flock 2e 6",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3564,7 +3564,7 @@
       {
         "id": "f6a1db8b-732f-4c7f-9567-9d46a866bc3e",
         "name": "Flock 2e 7",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3574,7 +3574,7 @@
       {
         "id": "ddfcf12a-a1f4-456d-830e-3215a04fad37",
         "name": "Flock 2e 8",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3584,7 +3584,7 @@
       {
         "id": "cd9e6d38-eccd-47d4-a5b1-897c3a5b66c7",
         "name": "Flock 2e 9",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3594,7 +3594,7 @@
       {
         "id": "91de16ae-4ca2-4a70-8b72-212905534de2",
         "name": "Flock 2e 10",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3604,7 +3604,7 @@
       {
         "id": "1d4a66c4-b092-46a6-a8c1-07e5730cfb8e",
         "name": "Flock 2e 11",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3614,7 +3614,7 @@
       {
         "id": "8e0db7c1-6f41-44f9-9666-e27eecb27ade",
         "name": "Flock 2e 12",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3624,7 +3624,7 @@
       {
         "id": "fe1f8bb8-35c5-4262-af21-e7b2bc2a0a9b",
         "name": "MinXSS 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4",
         "type": "Satellite",
@@ -3634,7 +3634,7 @@
       {
         "id": "db27bb95-fa3b-48a5-a0a9-c3acb6b8a2c8",
         "name": "CADRE",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4",
         "type": "Satellite",
@@ -3644,7 +3644,7 @@
       {
         "id": "10e050c6-958b-4011-b24b-30f645804607",
         "name": "Nodes 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -3654,7 +3654,7 @@
       {
         "id": "99658bdc-47a5-443b-9fd6-d7b4150bca1f",
         "name": "Nodes 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -3664,7 +3664,7 @@
       {
         "id": "5b47360d-ee03-4cc9-a220-e56c9f29cb88",
         "name": "STMSat 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "1",
         "type": "Satellite",
@@ -3674,7 +3674,7 @@
       {
         "id": "ed9800f4-ec45-4e87-8f51-c96b7726b176",
         "name": " SNAPS",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "1",
         "type": "Satellite",
@@ -3698,11 +3698,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Orbcomm FM105",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 172,
         "type": "Satellite",
@@ -3712,7 +3712,7 @@
       },
       {
         "name": "Orbcomm FM108",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 172,
         "type": "Satellite",
@@ -3722,7 +3722,7 @@
       },
       {
         "name": "Orbcomm FM110",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 172,
         "type": "Satellite",
@@ -3732,7 +3732,7 @@
       },
       {
         "name": "Orbcomm FM112",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 172,
         "type": "Satellite",
@@ -3742,7 +3742,7 @@
       },
       {
         "name": "Orbcomm FM113",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 172,
         "type": "Satellite",
@@ -3752,7 +3752,7 @@
       },
       {
         "name": "Orbcomm FM114",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 172,
         "type": "Satellite",
@@ -3762,7 +3762,7 @@
       },
       {
         "name": "Orbcomm FM115",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 172,
         "type": "Satellite",
@@ -3772,7 +3772,7 @@
       },
       {
         "name": "Orbcomm FM116",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 172,
         "type": "Satellite",
@@ -3782,7 +3782,7 @@
       },
       {
         "name": "Orbcomm FM117",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 172,
         "type": "Satellite",
@@ -3792,7 +3792,7 @@
       },
       {
         "name": "Orbcomm FM118",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 172,
         "type": "Satellite",
@@ -3802,7 +3802,7 @@
       },
       {
         "name": "Orbcomm FM119",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 172,
         "type": "Satellite",
@@ -3812,7 +3812,7 @@
       },
       {
         "name": "Orbcomm-OG2 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 142,
         "type": "Satellite",
@@ -3833,11 +3833,11 @@
     "status": "success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Jason 3",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 553,
         "type": "Satellite",
@@ -3852,13 +3852,13 @@
   },
   {
     "id": "b63882e9-c151-4c93-b3af-de9ab93ccd68",
-    "orbital": "no",
+    "orbital": false,
     "status": "success",
     "payloads": [
       {
         "id": "35332cab-40b5-484a-a8a8-7e1fcaa5f77e",
         "name": "GPS-2F 12",
-        "orbital": "no",
+        "orbital": false,
         "orbit": "GEO",
         "mass": "1630",
         "type": "Satellite",
@@ -3882,11 +3882,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "SES 9",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 5330,
         "type": "Satellite",
@@ -3901,13 +3901,13 @@
   },
   {
     "id": "c1495f62-e3a7-4717-8830-1b16cecab616",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "795ce61a-e783-4e9a-b298-f44cea6182ed",
         "name": "Cygnus CSR-6",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "7492",
         "type": "Satellite",
@@ -3917,7 +3917,7 @@
       {
         "id": "06d91933-53c0-4bc1-9b2c-e11eb15fa16e",
         "name": "Diwata 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "50",
         "type": "Satellite",
@@ -3927,7 +3927,7 @@
       {
         "id": "0f386f4c-062f-4870-ba76-03dd26f83fe5",
         "name": "Flock-2e' 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3937,7 +3937,7 @@
       {
         "id": "dd7d3fcf-fb2b-4e70-a15f-40a916433fae",
         "name": "Flock-2e' 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3947,7 +3947,7 @@
       {
         "id": "226e69fb-f551-4516-9a71-db18aef419bd",
         "name": "Flock-2e' 3",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3957,7 +3957,7 @@
       {
         "id": "8f07aabb-3010-43a2-a758-3a82eeb1dbfd",
         "name": "Flock-2e' 4",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3967,7 +3967,7 @@
       {
         "id": "6c201302-0035-4c34-b855-2b344606e4b3",
         "name": "Flock-2e' 5",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3977,7 +3977,7 @@
       {
         "id": "945c480c-cfe0-4d70-a8f5-8acb2ac9b921",
         "name": "Flock-2e' 6",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3987,7 +3987,7 @@
       {
         "id": "8a3191a4-70d5-4540-a143-b8933dfa3217",
         "name": "Flock-2e' 7",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -3997,7 +3997,7 @@
       {
         "id": "7a56008d-fd26-41ae-a285-62ffc3ffd26f",
         "name": "Flock-2e' 8",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -4007,7 +4007,7 @@
       {
         "id": "facc6eef-5c16-437e-81ed-baeb68f1c210",
         "name": "Flock-2e' 9",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -4017,7 +4017,7 @@
       {
         "id": "012f92fd-7bb4-4a18-b39b-0bc252eacb5a",
         "name": "Flock-2e' 10",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -4027,7 +4027,7 @@
       {
         "id": "9613f39e-ac22-47fe-9a00-99d5963c31b4",
         "name": "Flock-2e' 11",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -4037,7 +4037,7 @@
       {
         "id": "86e64b75-d031-494b-983f-b46a55a95ea2",
         "name": "Flock-2e' 12",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -4047,7 +4047,7 @@
       {
         "id": "ede4b34d-8af3-4381-b3c5-f3463e13e87a",
         "name": "Flock-2e' 13",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -4057,7 +4057,7 @@
       {
         "id": "f89f975a-b65b-4657-9e8d-b7c43fde56ef",
         "name": "Flock-2e' 14",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -4067,7 +4067,7 @@
       {
         "id": "56ec218a-7e58-4749-b12c-5decbd645aab",
         "name": "Flock-2e' 15",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -4077,7 +4077,7 @@
       {
         "id": "4152d06b-84b3-427a-a756-a32f5fa0747b",
         "name": "Flock-2e' 16",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -4087,7 +4087,7 @@
       {
         "id": "3e5a12ef-8d5d-4138-a49d-e0979efc73fd",
         "name": "Flock-2e' 17",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -4097,7 +4097,7 @@
       {
         "id": "a4c57e39-67b1-4929-97db-d065834ed96b",
         "name": "Flock-2e' 18",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -4107,7 +4107,7 @@
       {
         "id": "c2345d7a-8bb8-4ead-952a-70480c854a04",
         "name": "Flock-2e' 19",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -4117,7 +4117,7 @@
       {
         "id": "1d37f722-ab13-46ab-81ee-934738281392",
         "name": "Flock-2e' 20",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -4127,7 +4127,7 @@
       {
         "id": "cda9822a-0aca-486c-9022-af7728522f3d",
         "name": "Lemur-2 5",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4",
         "type": "Satellite",
@@ -4137,7 +4137,7 @@
       {
         "id": "32d8b27c-e9ba-40f8-955d-9a3396454028",
         "name": "Lemur-2 6",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4",
         "type": "Satellite",
@@ -4147,7 +4147,7 @@
       {
         "id": "e806e721-f871-4e73-9023-602605193fb6",
         "name": "Lemur-2 7",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4",
         "type": "Satellite",
@@ -4157,7 +4157,7 @@
       {
         "id": "32b8f0af-26dd-46cf-9e50-0c6612d27ae4",
         "name": "Lemur-2 8",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4",
         "type": "Satellite",
@@ -4167,7 +4167,7 @@
       {
         "id": "b1733c64-bc2d-4d3b-9e14-b47a66c09dcb",
         "name": "Lemur-2 9",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4",
         "type": "Satellite",
@@ -4177,7 +4177,7 @@
       {
         "id": "4f36d528-748f-4572-9d2a-f00889aa1349",
         "name": "Lemur-2 10",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4",
         "type": "Satellite",
@@ -4187,7 +4187,7 @@
       {
         "id": "82262b66-30b6-4b5d-9789-477585bc9862",
         "name": "Lemur-2 11",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4",
         "type": "Satellite",
@@ -4197,7 +4197,7 @@
       {
         "id": "fc71df64-219e-415c-83b4-58d60ec6bc17",
         "name": "Lemur-2 12",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4",
         "type": "Satellite",
@@ -4207,7 +4207,7 @@
       {
         "id": "ce24acc8-416e-4e19-8291-86e36754a8e5",
         "name": "Lemur-2 13",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4",
         "type": "Satellite",
@@ -4231,11 +4231,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Dragon CRS-8",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 6650,
         "type": "Capsule",
@@ -4245,7 +4245,7 @@
       },
       {
         "name": "BEAM",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 1360,
         "type": "Station",
@@ -4266,11 +4266,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "JCSat 14",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 4696,
         "type": "Satellite",
@@ -4291,11 +4291,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Thaicom 8",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 3025,
         "type": "Satellite",
@@ -4316,11 +4316,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Eutelsat 117 West B",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 1963,
         "type": "Satellite",
@@ -4330,7 +4330,7 @@
       },
       {
         "name": "ABS 2A",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 2000,
         "type": "Satellite",
@@ -4351,11 +4351,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Dragon CRS-9",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 6650,
         "type": "Capsule",
@@ -4365,7 +4365,7 @@
       },
       {
         "name": "IDA 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 526,
         "type": "Satellite",
@@ -4386,11 +4386,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "JCSat 16",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 4600,
         "type": "Satellite",
@@ -4411,11 +4411,11 @@
     "status": "failure",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "AMOS 6",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 5250,
         "type": "Satellite",
@@ -4429,13 +4429,13 @@
   },
   {
     "id": "bd48f849-2cd0-4453-835d-23df7a083fdb",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "740528ba-b30c-41a3-9657-7b4b76cd109b",
         "name": "OSIRIS-REx",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "HEO",
         "mass": "1528",
         "type": "Satellite",
@@ -4453,13 +4453,13 @@
   },
   {
     "id": "12ddb0c9-a403-4508-a3e1-1ff046eeb7cd",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "5a3fd7d9-0a6b-461b-b78d-20666f121090",
         "name": "WorldView 4",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2600",
         "type": "Satellite",
@@ -4469,7 +4469,7 @@
       {
         "id": "b6249e9e-4c25-487c-93e1-5c181613df84",
         "name": "RAVAN",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "5",
         "type": "Satellite",
@@ -4479,7 +4479,7 @@
       {
         "id": "d66ad9f2-31bd-47ae-8480-cf4eebde3871",
         "name": "OptiCube 4",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": -1,
         "type": "Satellite",
@@ -4489,7 +4489,7 @@
       {
         "id": "dc6c84f7-8c28-4e87-852a-67b079dedc30",
         "name": "AeroCube 8C",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "3",
         "type": "Satellite",
@@ -4499,7 +4499,7 @@
       {
         "id": "23a80aaa-8c8c-4211-aa71-fcc33d1c2b85",
         "name": "AeroCube 8D",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "3",
         "type": "Satellite",
@@ -4509,7 +4509,7 @@
       {
         "id": "51807bc8-8089-4cc7-81f9-380ec363b7c0",
         "name": "Prometheus-2.1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -4519,7 +4519,7 @@
       {
         "id": "2268c946-e4b2-4344-882b-eb993707c1bf",
         "name": "Prometheus-2.3",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -4529,7 +4529,7 @@
       {
         "id": "149af4b3-4605-470c-abee-ff3941d91cce",
         "name": "CELTEE 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "1.44",
         "type": "Satellite",
@@ -4553,11 +4553,11 @@
     "status": "success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Iridium-NEXT 113",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -4567,7 +4567,7 @@
       },
       {
         "name": "Iridium-NEXT 115",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -4577,7 +4577,7 @@
       },
       {
         "name": "Iridium-NEXT 117",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -4587,7 +4587,7 @@
       },
       {
         "name": "Iridium-NEXT 118",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -4597,7 +4597,7 @@
       },
       {
         "name": "Iridium-NEXT 120",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -4607,7 +4607,7 @@
       },
       {
         "name": "Iridium-NEXT 121",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -4617,7 +4617,7 @@
       },
       {
         "name": "Iridium-NEXT 123",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -4627,7 +4627,7 @@
       },
       {
         "name": "Iridium-NEXT 124",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -4637,7 +4637,7 @@
       },
       {
         "name": "Iridium-NEXT 126",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -4647,7 +4647,7 @@
       },
       {
         "name": "Iridium-NEXT 128",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -4662,13 +4662,13 @@
   },
   {
     "id": "d0699f38-cb22-4d6e-bdb5-79d77907cf5d",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "69d636d3-cc4f-44f9-84a3-b8b60a12ed70",
         "name": "SBIRS-GEO 3",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": -1,
         "type": "Satellite",
@@ -4692,11 +4692,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Dragon CRS-10",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 6650,
         "type": "Capsule",
@@ -4706,7 +4706,7 @@
       },
       {
         "name": "SAGE 3",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "",
         "type": "Station",
@@ -4716,7 +4716,7 @@
       },
       {
         "name": "STP-H5",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "",
         "type": "Station",
@@ -4731,13 +4731,13 @@
   },
   {
     "id": "6aa88f76-b3cf-4794-a75a-761707694015",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "387d0de8-3bba-40a7-8c1b-fd9783e8febc",
         "name": "Intruder 12A",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "6500",
         "type": "Satellite",
@@ -4747,7 +4747,7 @@
       {
         "id": "f78e16a9-78ca-4c12-b01b-a5f428e38521",
         "name": "Intruder 12B",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "6500",
         "type": "Satellite",
@@ -4771,11 +4771,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "EchoStar 23",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 5600,
         "type": "Satellite",
@@ -4796,11 +4796,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "SES 10",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 5300,
         "type": "Satellite",
@@ -4815,13 +4815,13 @@
   },
   {
     "id": "f62ca213-fdbc-4c3d-b208-4c41e3c84750",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "54398e10-9bd0-4851-a0b8-049d83f587f3",
         "name": "Cygnus CRS-7",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "7492",
         "type": "Satellite",
@@ -4831,7 +4831,7 @@
       {
         "id": "aea45b65-e888-4e46-95ad-3d95a3638c81",
         "name": "Altair 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4",
         "type": "Satellite",
@@ -4841,7 +4841,7 @@
       {
         "id": "6dacf21c-2b3c-4351-b209-985a4043bf3c",
         "name": "SUSat",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -4851,7 +4851,7 @@
       {
         "id": "c7ed9714-04be-4a95-9aaf-7b1d317a656a",
         "name": "UNSW-EC0",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -4861,7 +4861,7 @@
       {
         "id": "e125af33-ba34-4e40-9008-f9147f5267c2",
         "name": "i-INSPIRE 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -4871,7 +4871,7 @@
       {
         "id": "8b1de20f-8451-4c2d-9de1-6b051f49d9f9",
         "name": "ZA-AeroSat",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -4881,7 +4881,7 @@
       {
         "id": "b8a4e5df-0289-4ae7-bdd9-0d27a11fcb2b",
         "name": "nSIGHT 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -4891,7 +4891,7 @@
       {
         "id": "43f8b7bd-ac55-41f7-ab39-7ea58239ed38",
         "name": "Ex-Alta 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4",
         "type": "Satellite",
@@ -4901,7 +4901,7 @@
       {
         "id": "b121f0a9-c5b7-4ef1-a368-04fd614126e0",
         "name": "LilacSat 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -4911,7 +4911,7 @@
       {
         "id": "0c83d138-8884-4be4-8002-d4b468765a29",
         "name": "NJUST 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -4921,7 +4921,7 @@
       {
         "id": "8a799152-b946-49aa-b1d5-920b91364d5a",
         "name": "Aoxiang 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -4931,7 +4931,7 @@
       {
         "id": "30b39773-6cd6-4b4c-aa09-24eb113e467f",
         "name": "SOMP 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -4941,7 +4941,7 @@
       {
         "id": "9bcb088f-5376-413d-89f5-b82e56260b10",
         "name": "QBITO",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -4951,7 +4951,7 @@
       {
         "id": "dcee959e-3e5b-4568-a2ce-adbdcfa27e0d",
         "name": "Aalto 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -4961,7 +4961,7 @@
       {
         "id": "4c5501ee-7bfd-4ab3-a76c-e28ab6ae5f15",
         "name": "X-CubeSat",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -4971,7 +4971,7 @@
       {
         "id": "6e15817d-4229-4b22-8c81-813e321cffb4",
         "name": "SpaceCube",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -4981,7 +4981,7 @@
       {
         "id": "3c64de69-d302-40ce-89b7-ca5272977682",
         "name": "DUTHSat",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -4991,7 +4991,7 @@
       {
         "id": "4376afd0-e918-4236-b2cd-b93352a52fd2",
         "name": "UPSat",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -5001,7 +5001,7 @@
       {
         "id": "696519d9-823e-4451-8a71-d55b016cb0ed",
         "name": "Hoopoe",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -5011,7 +5011,7 @@
       {
         "id": "ae4eb981-7aa6-4ca3-9a52-8eff4cfe6808",
         "name": "LINK",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -5021,7 +5021,7 @@
       {
         "id": "1fd1ffae-8f57-4aad-89eb-2b55a96276d1",
         "name": "SNUSAT 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -5031,7 +5031,7 @@
       {
         "id": "42525206-706e-494d-ad56-0e072c4d070b",
         "name": "SNUSAT 1b",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -5041,7 +5041,7 @@
       {
         "id": "70b4e133-baab-4dfd-8b90-a4c26546449c",
         "name": "qbee50-LTU-OC",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -5051,7 +5051,7 @@
       {
         "id": "ddc72f62-1022-416b-a633-04866fb67fcf",
         "name": "BeEagleSat",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -5061,7 +5061,7 @@
       {
         "id": "12766866-18cd-4668-8417-f17e295952f5",
         "name": "HAVELSAT",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -5071,7 +5071,7 @@
       {
         "id": "9934f6cb-c012-4346-a628-98d537000703",
         "name": "Phoenix",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -5081,7 +5081,7 @@
       {
         "id": "b325f4db-7678-4540-a2b1-92328c4ddd83",
         "name": "PolyITAN 2-SAU",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -5091,7 +5091,7 @@
       {
         "id": "01416a80-6e9e-4e7a-a23c-80648612dfc6",
         "name": "QBUS 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -5101,7 +5101,7 @@
       {
         "id": "9f6dcd6c-ac54-47c8-96c2-983a21f80e74",
         "name": "QBUS 2 ",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -5111,7 +5111,7 @@
       {
         "id": "7256ea94-3516-424e-8b4f-232c51fcc6a8",
         "name": "QBUS 4",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -5121,7 +5121,7 @@
       {
         "id": "48e4318d-97d9-4333-936d-43cd0936244e",
         "name": "IceCube",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4",
         "type": "Satellite",
@@ -5131,7 +5131,7 @@
       {
         "id": "81453ae6-85ae-4550-ac3e-7f9b22346f85",
         "name": "CSUNSat 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2",
         "type": "Satellite",
@@ -5141,7 +5141,7 @@
       {
         "id": "b46458e6-b823-412c-9875-5c4e23831df5",
         "name": "CXBN 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "2.65",
         "type": "Satellite",
@@ -5151,7 +5151,7 @@
       {
         "id": "ec7c1666-8487-4080-9991-b48852fe3dbd",
         "name": "KySat 3",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "1",
         "type": "Satellite",
@@ -5161,7 +5161,7 @@
       {
         "id": "7e1d8eca-5ca6-4158-8e44-8fcc42c3fa4d",
         "name": "SHARC",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "87",
         "type": "Satellite",
@@ -5171,7 +5171,7 @@
       {
         "id": "68914f65-2c6c-4026-8ab1-effd4534785b",
         "name": "Lemur-2 30",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4",
         "type": "Satellite",
@@ -5181,7 +5181,7 @@
       {
         "id": "aed93fa3-c95d-4541-a59d-cb0b5885b3f2",
         "name": "Lemur-2 31",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4",
         "type": "Satellite",
@@ -5191,7 +5191,7 @@
       {
         "id": "c21247bb-24f8-4f2a-8445-81c1311ccc80",
         "name": "Lemur-2 32",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4",
         "type": "Satellite",
@@ -5201,7 +5201,7 @@
       {
         "id": "02368ff2-fad1-4863-82d5-8988e32d1a9c",
         "name": "Lemur-2 33",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4",
         "type": "Satellite",
@@ -5225,11 +5225,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "NROL 76",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "",
         "type": "Satellite",
@@ -5250,11 +5250,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Inmarsat-5 F4",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 6070,
         "type": "Satellite",
@@ -5275,11 +5275,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Dragon CRS-11",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 6650,
         "type": "Capsule",
@@ -5289,7 +5289,7 @@
       },
       {
         "name": "NICER",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 372,
         "type": "Station",
@@ -5299,7 +5299,7 @@
       },
       {
         "name": "MUSES",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "",
         "type": "Satellite",
@@ -5309,7 +5309,7 @@
       },
       {
         "name": "ROSA",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 500,
         "type": "Station",
@@ -5319,7 +5319,7 @@
       },
       {
         "name": "Bird B",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 1,
         "type": "Satellite",
@@ -5329,7 +5329,7 @@
       },
       {
         "name": "Bird G",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 1,
         "type": "Satellite",
@@ -5339,7 +5339,7 @@
       },
       {
         "name": "Bird J",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 1,
         "type": "Satellite",
@@ -5349,7 +5349,7 @@
       },
       {
         "name": "Bird M",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 1,
         "type": "Satellite",
@@ -5359,7 +5359,7 @@
       },
       {
         "name": "Bird N",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 1,
         "type": "Satellite",
@@ -5380,11 +5380,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "BulgariaSat 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 3669,
         "type": "Satellite",
@@ -5405,11 +5405,11 @@
     "status": "success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Iridium-NEXT 113",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -5419,7 +5419,7 @@
       },
       {
         "name": "Iridium-NEXT 115",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -5429,7 +5429,7 @@
       },
       {
         "name": "Iridium-NEXT 117",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -5439,7 +5439,7 @@
       },
       {
         "name": "Iridium-NEXT 118",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -5449,7 +5449,7 @@
       },
       {
         "name": "Iridium-NEXT 120",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -5459,7 +5459,7 @@
       },
       {
         "name": "Iridium-NEXT 121",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -5469,7 +5469,7 @@
       },
       {
         "name": "Iridium-NEXT 123",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -5479,7 +5479,7 @@
       },
       {
         "name": "Iridium-NEXT 124",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -5489,7 +5489,7 @@
       },
       {
         "name": "Iridium-NEXT 126",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -5499,7 +5499,7 @@
       },
       {
         "name": "Iridium-NEXT 128",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -5519,11 +5519,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Intelsat 35e",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 6761,
         "type": "Satellite",
@@ -5544,11 +5544,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Dragon CRS-12",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 6650,
         "type": "Capsule",
@@ -5558,7 +5558,7 @@
       },
       {
         "name": "CREAM",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 1300,
         "type": "Station",
@@ -5568,7 +5568,7 @@
       },
       {
         "name": "Kestrel Eye 2M",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 50,
         "type": "Satellite",
@@ -5578,7 +5578,7 @@
       },
       {
         "name": "Dellingr",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "",
         "type": "Satellite",
@@ -5588,7 +5588,7 @@
       },
       {
         "name": "ASTERIA",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 12,
         "type": "Satellite",
@@ -5598,7 +5598,7 @@
       },
       {
         "name": "OSIRIS-3U",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "",
         "type": "Satellite",
@@ -5613,13 +5613,13 @@
   },
   {
     "id": "60f40579-e82b-4982-9606-cf32ae61da2b",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "9c67c382-8dcd-4401-b37e-292f6b48a700",
         "name": "TDRA 13 M",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "3454",
         "type": "Satellite",
@@ -5643,11 +5643,11 @@
     "status": "success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "FORMOSAT 5",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "SSO",
         "mass": 475,
         "type": "Satellite",
@@ -5668,11 +5668,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "X-37B OTV-5",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 5400,
         "type": "Satellite",
@@ -5682,7 +5682,7 @@
       },
       {
         "name": "CubeSats",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "",
         "type": "Satellite",
@@ -5697,13 +5697,13 @@
   },
   {
     "id": "84e69931-c2a7-4d29-b6d9-029c72e1fb2f",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "9cb7dd0a-d42c-4ae9-abfd-5beea385ff5e",
         "name": "Iridium-NEXT 107",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -5713,7 +5713,7 @@
       {
         "id": "34e55b2b-1b93-4d50-acc8-7156ffeb4662",
         "name": "Iridium-NEXT 119",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -5723,7 +5723,7 @@
       {
         "id": "4d779fbe-ab40-4816-81f6-2e430e142c61",
         "name": "Iridium-NEXT 122",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -5733,7 +5733,7 @@
       {
         "id": "50fa05ee-192a-4ee5-8adb-12ebaa7ecbb8",
         "name": "Iridium-NEXT 125",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -5743,7 +5743,7 @@
       {
         "id": "4936165c-8ea9-4dcf-a951-0fefe476c1e7",
         "name": "Iridium-NEXT 127",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -5753,7 +5753,7 @@
       {
         "id": "b3fcebab-8b04-4f3e-b094-a5903ece3663",
         "name": "Iridium-NEXT 129",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -5763,7 +5763,7 @@
       {
         "id": "52d0004e-4696-4825-ba0f-d3dbaed354e5",
         "name": "Iridium-NEXT 132",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -5773,7 +5773,7 @@
       {
         "id": "b4caae3b-5570-472b-87d9-54d099d00a65",
         "name": "Iridium-NEXT 133",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -5783,7 +5783,7 @@
       {
         "id": "8f71ce25-97bb-422a-a3ad-eb2d5eaf4c39",
         "name": "Iridium-NEXT 136",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -5793,7 +5793,7 @@
       {
         "id": "6d18a399-5f78-45f7-9fd2-f4b8cd22a8df",
         "name": "Iridium-NEXT 139",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -5818,11 +5818,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "EchoStar 105",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 5200,
         "type": "Satellite",
@@ -5843,11 +5843,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Koreasat 5A",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 3500,
         "type": "Satellite",
@@ -5868,11 +5868,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Dragon CRS-13",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 6650,
         "type": "Capsule",
@@ -5882,7 +5882,7 @@
       },
       {
         "name": "TSIS",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "",
         "type": "Station",
@@ -5892,7 +5892,7 @@
       },
       {
         "name": "SDS",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "",
         "type": "Station",
@@ -5913,11 +5913,11 @@
     "status": "success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Iridium-NEXT 116",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -5927,7 +5927,7 @@
       },
       {
         "name": "Iridium-NEXT 130",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -5937,7 +5937,7 @@
       },
       {
         "name": "Iridium-NEXT 131",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -5947,7 +5947,7 @@
       },
       {
         "name": "Iridium-NEXT 134",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -5957,7 +5957,7 @@
       },
       {
         "name": "Iridium-NEXT 135",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -5967,7 +5967,7 @@
       },
       {
         "name": "Iridium-NEXT 137",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -5977,7 +5977,7 @@
       },
       {
         "name": "Iridium-NEXT 138",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -5987,7 +5987,7 @@
       },
       {
         "name": "Iridium-NEXT 141",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -5997,7 +5997,7 @@
       },
       {
         "name": "Iridium-NEXT 151",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -6007,7 +6007,7 @@
       },
       {
         "name": "Iridium-NEXT 153",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -6028,11 +6028,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Zuma",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "status": "failure",
         "mass": "",
@@ -6047,13 +6047,13 @@
   },
   {
     "id": "81b8b362-52de-4ad0-8c8a-ab1f05cc04f2",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "b2dc3de8-075d-48ef-9bc3-9e243e3d3816",
         "name": "SBIRS-GEO 4",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": "4500",
         "type": "Satellite",
@@ -6077,11 +6077,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "GovSat 1 (SES 16)",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 3202,
         "type": "Satellite",
@@ -6102,11 +6102,11 @@
     "status": "success",
     "launchSite": "Kennedy Space Center",
     "launchPad": "LC-39A",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Tesla Roadster",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "IP",
         "mass": 1250,
         "type": "Satellite",
@@ -6127,11 +6127,11 @@
     "status": "success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Paz",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 1200,
         "type": "Satellite",
@@ -6141,7 +6141,7 @@
       },
       {
         "name": "MicroSat 2a",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 400,
         "type": "Satellite",
@@ -6151,7 +6151,7 @@
       },
       {
         "name": "MicroSat 2b",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 400,
         "type": "Satellite",
@@ -6172,11 +6172,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Hispasat 30W-6",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": 6092,
         "type": "Satellite",
@@ -6186,7 +6186,7 @@
       },
       {
         "name": "PODSAT 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 90,
         "type": "Satellite",
@@ -6207,11 +6207,11 @@
     "status": "success",
     "launchSite": "Vandenberg AFB",
     "launchPad": "SLC-4E",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Iridium-NEXT 140",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -6221,7 +6221,7 @@
       },
       {
         "name": "Iridium-NEXT 142",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -6231,7 +6231,7 @@
       },
       {
         "name": "Iridium-NEXT 143",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -6241,7 +6241,7 @@
       },
       {
         "name": "Iridium-NEXT 144",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -6251,7 +6251,7 @@
       },
       {
         "name": "Iridium-NEXT 145",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -6261,7 +6261,7 @@
       },
       {
         "name": "Iridium-NEXT 146",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -6271,7 +6271,7 @@
       },
       {
         "name": "Iridium-NEXT 148",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -6281,7 +6281,7 @@
       },
       {
         "name": "Iridium-NEXT 149",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -6291,7 +6291,7 @@
       },
       {
         "name": "Iridium-NEXT 150",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -6301,7 +6301,7 @@
       },
       {
         "name": "Iridium-NEXT 157",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 860,
         "type": "Satellite",
@@ -6322,11 +6322,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "Dragon CRS-14",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 6650,
         "type": "Capsule",
@@ -6336,7 +6336,7 @@
       },
       {
         "name": "MISSE-FF 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 435,
         "type": "Station",
@@ -6346,7 +6346,7 @@
       },
       {
         "name": "ASIM",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 330,
         "type": "Station",
@@ -6356,7 +6356,7 @@
       },
       {
         "name": "PFCS",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "",
         "type": "Station",
@@ -6366,7 +6366,7 @@
       },
       {
         "name": "RemoveDEBRIS",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 100,
         "type": "Satellite",
@@ -6376,7 +6376,7 @@
       },
       {
         "name": "DebrisSat 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 100,
         "type": "Satellite",
@@ -6386,7 +6386,7 @@
       },
       {
         "name": "DebrisSat 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 100,
         "type": "Satellite",
@@ -6396,7 +6396,7 @@
       },
       {
         "name": "UBAKUSAT",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 4,
         "type": "Satellite",
@@ -6406,7 +6406,7 @@
       },
       {
         "name": "1KUNS-PF",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 1,
         "type": "Satellite",
@@ -6416,7 +6416,7 @@
       },
       {
         "name": "Irazú",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 1,
         "type": "Satellite",
@@ -6437,11 +6437,11 @@
     "status": "success",
     "launchSite": "Cape Canaveral",
     "launchPad": "SLC-40",
-    "orbital": "yes",
+    "orbital": true,
     "payloads": [
       {
         "name": "TESS",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": 365,
         "type": "Satellite",
@@ -6456,13 +6456,13 @@
   },
   {
     "id": "ba298925-2954-43d2-8ab1-fa9c818d6e1e",
-    "orbital": "no",
+    "orbital": false,
     "status": "success",
     "payloads": [
       {
         "id": "eeea68be-44e1-4725-9035-4d5ca07709ac",
         "name": "InSight",
-        "orbital": "no",
+        "orbital": false,
         "orbit": "IP",
         "mass": -1,
         "type": "Satellite",
@@ -6472,7 +6472,7 @@
       {
         "id": "deb8b7c1-062d-43b5-aa7d-2f90318617a6",
         "name": "MarCO A",
-        "orbital": "no",
+        "orbital": false,
         "orbit": "IP",
         "mass": "13.5",
         "type": "Satellite",
@@ -6482,7 +6482,7 @@
       {
         "id": "f6efc4f3-59b1-4771-83db-6093595ebc42",
         "name": "MarCO B",
-        "orbital": "no",
+        "orbital": false,
         "orbit": "IP",
         "mass": "13.5",
         "type": "Satellite",
@@ -6500,13 +6500,13 @@
   },
   {
     "id": "1c8ae0f1-956f-4abf-80f7-687955a994dc",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "83255850-ace4-4bb4-92c7-aae53e3969c6",
         "name": "Bangabandu 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": "3700",
         "type": "Satellite",
@@ -6525,13 +6525,13 @@
   },
   {
     "id": "21adb8c5-44ab-42ee-9549-6f5fd481a710",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "3a9c9b6f-af9e-4481-9e03-26163d8cca8d",
         "name": "Iridium-NEXT 110",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -6541,7 +6541,7 @@
       {
         "id": "a86c3dd6-314b-449b-8cd4-9e304725bbc1",
         "name": "Iridium-NEXT 147",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -6551,7 +6551,7 @@
       {
         "id": "632b7354-c0eb-4a24-8eae-9ed1752d15eb",
         "name": "Iridium-NEXT 152",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -6561,7 +6561,7 @@
       {
         "id": "04da0f1c-6b93-4dbd-b0d4-68951df27865",
         "name": "Iridium-NEXT 161",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -6571,7 +6571,7 @@
       {
         "id": "915ae87d-1076-4001-a05e-a33a4fdab293",
         "name": "Iridium-NEXT 162",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -6581,7 +6581,7 @@
       {
         "id": "ce52953a-e0ba-4d19-bddb-39b883828c57",
         "name": "GRACE-FO 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "SSO",
         "mass": "580",
         "type": "Satellite",
@@ -6591,7 +6591,7 @@
       {
         "id": "81d8c439-ba1e-461b-9198-493c31fe294e",
         "name": "GRACE-FO 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "SSO",
         "mass": "580",
         "type": "Satellite",
@@ -6610,13 +6610,13 @@
   },
   {
     "id": "98c64a85-0fed-46a8-84c7-340f3bf9b592",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "47dec054-1e27-4bb8-97de-79e76ac71d42",
         "name": "SES 12",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": "5300",
         "type": "Satellite",
@@ -6635,13 +6635,13 @@
   },
   {
     "id": "1873ba3d-6b87-40c1-886e-05ad528224c7",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "a2f97edd-ae6c-4a8e-b05b-9c01edc024eb",
         "name": "Dragon CRS-15",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "6650",
         "type": "Capsule",
@@ -6651,7 +6651,7 @@
       {
         "id": "c21965e2-9d69-4de1-8876-768d108a048f",
         "name": "ECOSTRESS",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": -1,
         "type": "Satellite",
@@ -6661,7 +6661,7 @@
       {
         "id": "4e084b3d-6372-4f74-bc2c-e3a9e8e8c5e3",
         "name": "Biarri-Squad 1",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4",
         "type": "Satellite",
@@ -6671,7 +6671,7 @@
       {
         "id": "e6fb8a8c-6a9f-4d96-acea-0d5830a439cf",
         "name": "Biarri-Squad 2",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4",
         "type": "Satellite",
@@ -6681,7 +6681,7 @@
       {
         "id": "f5082c3c-ae38-452c-a005-133fac8b2069",
         "name": "Biarri-Squad 3",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "4",
         "type": "Satellite",
@@ -6691,7 +6691,7 @@
       {
         "id": "9d868697-40f3-4256-8205-f5b96d8858a2",
         "name": "Bird BTN",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "1",
         "type": "Satellite",
@@ -6701,7 +6701,7 @@
       {
         "id": "8bee7aca-87e4-47ce-a276-14a295c6df0d",
         "name": "Bird MYS",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "1",
         "type": "Satellite",
@@ -6711,7 +6711,7 @@
       {
         "id": "4e791f2f-ceb4-484a-8db1-7ba239e54ab2",
         "name": "Bird PHL",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "1",
         "type": "Satellite",
@@ -6730,13 +6730,13 @@
   },
   {
     "id": "36971d9f-4ece-444d-afc9-f1cfce5268ec",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "437f0e67-0993-404f-9c10-b48ff461a4a8",
         "name": "Telstar 19V",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "GEO",
         "mass": "7075",
         "type": "Satellite",
@@ -6755,13 +6755,13 @@
   },
   {
     "id": "9213877f-4739-4eb4-9214-0b3a711c8cff",
-    "orbital": "yes",
+    "orbital": true,
     "status": "success",
     "payloads": [
       {
         "id": "12b0f362-9bfb-4acc-81c1-f21e3ac97d13",
         "name": "Iridium-NEXT 154",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -6771,7 +6771,7 @@
       {
         "id": "1ff0a2bc-4290-451b-8c51-a06d3ec604cb",
         "name": "Iridium-NEXT 155",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -6781,7 +6781,7 @@
       {
         "id": "d290e382-1b1b-4414-9971-bff682a4f434",
         "name": "Iridium-NEXT 156",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -6791,7 +6791,7 @@
       {
         "id": "52bc51ce-8893-47b7-91ee-752a32febe48",
         "name": "Iridium-NEXT 158",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -6801,7 +6801,7 @@
       {
         "id": "94b56de2-ce7d-4913-a327-f07c6e984c32",
         "name": "Iridium-NEXT 159",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -6811,7 +6811,7 @@
       {
         "id": "47d4f78e-4b9c-4545-9c11-4400eab8d4b8",
         "name": "Iridium-NEXT 160",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -6821,7 +6821,7 @@
       {
         "id": "e0dd323d-f1bb-420a-826c-e57a7bbaa14e",
         "name": "Iridium-NEXT 163",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -6831,7 +6831,7 @@
       {
         "id": "37648b75-e9c5-4f85-84d4-c6805096d788",
         "name": "Iridium-NEXT 164",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -6841,7 +6841,7 @@
       {
         "id": "141a2542-e321-4d4e-8ee6-ee7d0cda0680",
         "name": "Iridium-NEXT 165",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",
@@ -6851,7 +6851,7 @@
       {
         "id": "4dd65ae2-2abf-4e0c-838d-2050134db9f4",
         "name": "Iridium-NEXT 166",
-        "orbital": "yes",
+        "orbital": true,
         "orbit": "LEO",
         "mass": "860",
         "type": "Satellite",

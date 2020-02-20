@@ -29,7 +29,8 @@
         "fieldOfStudy": "Geology"
       }
     ],
-    "gender": "Male"
+    "gender": "Male",
+    "missions": []
   },
   {
     "id": "bfaf8469-0c2d-4afc-b8d6-62e48079cc03",
@@ -44,7 +45,8 @@
     "birthReagon": "Montana",
     "birthCity": "Lewistown",
     "almamaters": [],
-    "gender": "Male"
+    "gender": "Male",
+    "missions": []
   },
   {
     "id": "a211948d-21b3-4ac3-b727-d58cd435e5d3",
@@ -70,7 +72,8 @@
         "fieldOfStudy": "Aeronautical Engineering"
       }
     ],
-    "gender": "Male"
+    "gender": "Male",
+    "missions": []
   },
   {
     "id": "d248a907-584b-4c05-b009-f94c703461ba",
@@ -99,7 +102,8 @@
         "fieldOfStudy": "Aerospace Engineering"
       }
     ],
-    "gender": "Male"
+    "gender": "Male",
+    "missions": []
   },
   {
     "id": "33772793-cafa-4f8c-bf6c-c42361fd4fdf",
@@ -128,7 +132,8 @@
         "fieldOfStudy": "Applied Mathematics"
       }
     ],
-    "gender": "Male"
+    "gender": "Male",
+    "missions": []
   },
   {
     "id": "cef5a876-efcf-4a08-8999-8ecaed77ec86",
@@ -160,7 +165,8 @@
     "evaTime": "7.8666",
     "military": "Air Force",
     "militaryRank": "Colonel",
-    "gender": "Male"
+    "gender": "Male",
+    "missions": []
   },
   {
     "id": "1fb739f1-a1f8-4867-ad21-cc0a12c1c8e1",
@@ -194,7 +200,8 @@
     "status": "Retired",
     "daysInSpace": "6.125",
     "military": "Air Force Reserve",
-    "militaryRank": "Major General"
+    "militaryRank": "Major General",
+    "missions": []
   },
   {
     "id": "86e171cb-5ec3-4080-8b88-4e20e7258864",
@@ -227,7 +234,8 @@
     "daysInSpace": "8.5916",
     "evaTime": "2.5166",
     "military": "Navy",
-    "militaryRank": "Lieutenant"
+    "militaryRank": "Lieutenant",
+    "missions": []
   },
   {
     "id": "a4caa27e-73b5-484e-af04-d278addb5025",
@@ -254,7 +262,8 @@
     "militaryRank": "Captain",
     "military": "Navy",
     "daysInSpace": "69.6562",
-    "evaTime": "10.4333"
+    "evaTime": "10.4333",
+    "missions": []
   },
   {
     "id": "22619841-0d46-425d-82ef-c80ac71d8104",
@@ -283,7 +292,8 @@
     "military": "Air Force",
     "militaryRank": "Colonel",
     "status": "Retired",
-    "daysInSpace": "19.8993"
+    "daysInSpace": "19.8993",
+    "missions": []
   },
   {
     "id": "a46cb42b-9149-4dd4-83b0-9a04bfd06144",
@@ -314,7 +324,8 @@
     "deathCity": "Houston",
     "deathReagon": "Texas",
     "military": "Navy",
-    "militaryRank": "Captain"
+    "militaryRank": "Captain",
+    "missions": []
   },
   {
     "id": "070c9599-f88d-41d7-b3c8-4cbbb79a7d61",
@@ -337,7 +348,8 @@
     "militaryRank": "Major General",
     "militaryYears": "18",
     "daysInSpace": "11.0861",
-    "evaTime": "1.4666"
+    "evaTime": "1.4666",
+    "missions": []
   },
   {
     "id": "fe895021-29e7-4036-9815-427f3708e136",
@@ -365,7 +377,8 @@
     "militaryRank": "Captain",
     "status": "Deceased",
     "daysInSpace": "49.1513",
-    "evaTime": "12.7666"
+    "evaTime": "12.7666",
+    "missions": []
   },
   {
     "id": "dfa662c8-c4af-42bd-916b-e88c172b79c5",
@@ -388,7 +401,8 @@
     "daysInSpace": "23.5736",
     "military": "Navy",
     "militaryRank": "Captain",
-    "gender": "Male"
+    "gender": "Male",
+    "missions": []
   },
   {
     "id": "5b6a9933-2758-4847-bf9e-ecc17b6e443d",
@@ -411,7 +425,8 @@
     "birthReagon": "Kansas",
     "military": "Air Force",
     "militaryRank": "Major General",
-    "daysInSpace": "9.3541"
+    "daysInSpace": "9.3541",
+    "missions": []
   },
   {
     "id": "ad7d04b2-1fc7-4481-8304-95068c142075",
@@ -442,7 +457,8 @@
     "deathReagon": "California",
     "military": "Air Force",
     "militaryRank": "Colonel",
-    "daysInSpace": "15.9513"
+    "daysInSpace": "15.9513",
+    "missions": []
   },
   {
     "id": "c9170505-fce4-4529-bad2-9f6e79d13721",
@@ -470,7 +486,8 @@
     "deathCity": "San Marcos",
     "deathReagon": "California",
     "daysInSpace": "13.1618",
-    "evaTime": "2.6833"
+    "evaTime": "2.6833",
+    "missions": []
   },
   {
     "id": "f8c2feb0-67d3-4f72-bc05-f23cc5976c10",
@@ -500,7 +517,8 @@
     "birthReagon": "Mississippi",
     "military": "Air Force",
     "militaryRank": "Captain",
-    "daysInSpace": "5.9541"
+    "daysInSpace": "5.9541",
+    "missions": []
   },
   {
     "id": "fdb3f682-7cbc-4926-8929-4831247f1e99",
@@ -529,7 +547,8 @@
     "military": "Marine Corps",
     "militaryRank": "Colonel",
     "status": "Retired",
-    "daysInSpace": "67.4673"
+    "daysInSpace": "67.4673",
+    "missions": []
   },
   {
     "id": "d666da8f-a8f2-4856-a83c-96a002cd5614",
@@ -552,7 +571,8 @@
     "status": "Retired",
     "military": "Navy",
     "militaryRank": "Captain",
-    "daysInSpace": "29.7937"
+    "daysInSpace": "29.7937",
+    "missions": []
   },
   {
     "id": "ebc04fcd-594e-4223-aeea-f294a360d5ef",
@@ -576,7 +596,8 @@
     "militaryRank": "Brigadier General",
     "birthDate": "1929-06-10",
     "birthCity": "Chicago",
-    "birthReagon": "Illinois"
+    "birthReagon": "Illinois",
+    "missions": []
   },
   {
     "id": "b295ff90-ce7b-4ac8-a8c4-dc351208f0f4",
@@ -605,7 +626,8 @@
     "birthCity": "Neptune",
     "birthReagon": "New Jersey",
     "daysInSpace": "10.0416",
-    "evaTime": "1.1166"
+    "evaTime": "1.1166",
+    "missions": []
   },
   {
     "id": "84c85133-ad4f-4532-ad50-686e54cf84c7",
@@ -640,7 +662,8 @@
     "birthReagon": "Texas",
     "daysInSpace": "22.7868",
     "military": "Air Force",
-    "militaryRank": "Colonel"
+    "militaryRank": "Colonel",
+    "missions": []
   },
   {
     "id": "224cdd05-62cf-46be-8076-856f6bb044c6",
@@ -662,7 +685,8 @@
     "birthReagon": "Oklahoma",
     "military": "Air Force",
     "militaryRank": "Lieutenant General",
-    "daysInSpace": "21.1263"
+    "daysInSpace": "21.1263",
+    "missions": []
   },
   {
     "id": "d525b289-d39a-4045-8063-0fd725e96596",
@@ -701,7 +725,8 @@
     "military": "Air Force",
     "militaryRank": "Captain",
     "daysInSpace": "5.9541",
-    "status": "Deceased"
+    "status": "Deceased",
+    "missions": []
   },
   {
     "id": "4cb777b7-ead6-4d83-924c-23b920393ff3",
@@ -723,7 +748,8 @@
     "birthReagon": "Mississippi",
     "status": "Retired",
     "military": "Navy",
-    "militaryRank": "Vice Admiral"
+    "militaryRank": "Vice Admiral",
+    "missions": []
   },
   {
     "id": "461cfa15-569a-48cd-8129-efc83787e4b0",
@@ -750,7 +776,8 @@
     "militaryRank": "Captain",
     "daysInSpace": "34.8187",
     "evaTime": "20.2333",
-    "gender": "Male"
+    "gender": "Male",
+    "missions": []
   },
   {
     "id": "4b3ed17e-e350-44ec-843a-9516105e1036",
@@ -766,7 +793,8 @@
     "military": "Air Force",
     "militaryRank": "Lieutenant Colonel",
     "daysInSpace": "9.8402",
-    "gender": "Male"
+    "gender": "Male",
+    "missions": []
   },
   {
     "id": "20ae7ce2-3e92-4ba6-86d7-6624a13ac68d",
@@ -781,7 +809,8 @@
     "birthDate": "1972-07-27",
     "birthReagon": "Kazakh SSR",
     "almamaters": [],
-    "gender": "Male"
+    "gender": "Male",
+    "missions": []
   },
   {
     "id": "87e98eb4-b440-4a53-9cd5-568686cf1cf6",
@@ -796,7 +825,8 @@
     "military": "Air Force",
     "militaryRank": "Colonel",
     "almamaters": [],
-    "gender": "Male"
+    "gender": "Male",
+    "missions": []
   },
   {
     "id": "f1e0c834-6537-44af-b1bc-eecad5894494",
@@ -810,7 +840,8 @@
     "birthCity": "Giblitsy",
     "birthReagon": "Kasimovsky District",
     "daysInSpace": "11.8409",
-    "gender": "Male"
+    "gender": "Male",
+    "missions": []
   },
   {
     "id": "b0ae65e9-a585-4482-91b8-ca2b21f6ed1c",
@@ -830,6 +861,7 @@
     "birthCity": "Moscow",
     "daysInSpace": "309.7513",
     "status": "Retired",
-    "gender": "Male"
+    "gender": "Male",
+    "missions": []
   }
 ]
