@@ -15,7 +15,7 @@
   "dependencies": {
     "@vue/composition-api": "^0.3.4",
     "core-js": "^3.4.4",
-    "electron": "^6.0.0",
+    "electron": "^9.1.0",
     "jimp": "^0.9.3",
     "lodash": "4.17.15",
     "uuid": "^3.4.0",
